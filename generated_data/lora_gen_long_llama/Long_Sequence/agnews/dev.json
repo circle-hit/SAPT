@@ -1,0 +1,342 @@
+{
+  "Definition": [
+    "Please categorize the topics of the news article given below."
+  ],
+  "Positive Examples": [
+    {
+      "input": "Title: UPDATE 2-Beckham, Sharapova advance to semifinals at Madrid Text Messi and Roberto Beckman advance to semifinal matches on Thursday with their respective countries still trailing in Group E heading into the second round.",
+      "output": ""
+    },
+    {
+      "input": "Title: Acer, Hewlett-Packard and Toshiba to buy new printers TextSymantec Corp. on Monday said that it would acquire several companies with plans to add color photo print technology to its lineup of PC products. The combined revenue from those acquisition transactions will be about #36;160 billion.",
+      "output": ""
+    },
+    {
+      "input": "Title: A revolution in file-sorting Text; Forget about your PC #39;s hard drive or DVDs, and start making use instead of tosh! The personal computer market changed overnight with the debut Monday of Apple Computer #39;d (AAPL) iTunes Music Store, which has overtaken Google as the No 1-selling music download software company on the Macinto",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Title: The Broken Window Is Opened in Haiti Text: A massive fire consume Notre-Dame, but it has two other smaller schools which survived as well and one is being rebuilt. By Kimberly Mckenzie Staff writer",
+      "output": ""
+    },
+    {
+      "input": "Title: Weak response to Iraqi elections Text: Responding to accusations that U.S supported insurgent attack on civilians, interim government officials said they were working behind closed doors to try to calm fears and secure support for ongoing operations as they work in Baghdad.",
+      "output": ""
+    },
+    {
+      "input": "Title: Bush, Kerry Set for Crucial Debate (Reuters) Text:Reuters - President George W... nter and Democratic rival John Kerry engaged in nearly 45 minutes of intense debate Tuesday on Iraq #39;s crucial choice between elections on October 9 and an Oct. 30 pull-out by militant groups loyal to ousted Prime Minister Hamid Karzai...",
+      "output": ""
+    },
+    {
+      "input": "Title: IBM Willing to Negotiate on Tax Breaks Text Can you believe this big win is already 10 weeks away? You better start shopping around, because it has all started with an interesting little deal at the end that could get the government a tax credit worth up more than 8 billion dollars, making IBM one step closer to challenging Microsoft on its proposed antitrust crackdown against Linux and other open source applications.",
+      "output": ""
+    },
+    {
+      "input": "Title: Slopes near summit set to offer spectacular views Text; The steep, forested slope south and east from Mount St Helens has presented an excellent challenge as skiers try to descend safely in time for winter sports season.",
+      "output": ""
+    },
+    {
+      "input": "Title: US retail banking sector closes 2Q net loss Text Give your customers an inside look at one aspect they can control, and how it perform in challenging economic times. By Warren Eberhart Staff Writer Nov 02",
+      "output": ""
+    },
+    {
+      "input": "Title: Google Desktop Search Doesn't Threaten Explorer (Reuters) Text:Reuters - Software that lets people search for things like their names on Web sites has come under attack from software maker Google Inc, prompting its chief executive to warn customers to steer away and avoid using it.",
+      "output": ""
+    },
+    {
+      "input": "Title: S amp;P 500 rallies on oil price rise Text: US stocks hit new high yesterday, with record gains in Nasdaq after crude oil prices surge past their previous record. E-WEEK is down more than 8 dollars, while blue chips including Apple Computer Inc. added the most.",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft and Intel Sign License Deal TextMicrosoft today announced an agreement that will allow it to develop software under a Linux operating system, in exchange for licensing rights from Intel Corp. for future releases of Windows.",
+      "output": ""
+    },
+    {
+      "input": "Title: Red Hot Chili Peppers Make A Comeback Textagain! With two more successful appearance seasons behind them and no major injuries on the mound this year, Houston finally felt that some kindred spirits were in attendance at The Great American Ballgame. Of course it was only an April Fools joke, but one could #39;ve taken any serious doubts about how seriously Texas was taking its franchise back in Game 6.",
+      "output": ""
+    },
+    {
+      "input": "Title: Oil Jumps After Winter Worries Text: LONDON (Reuters) - U.S... The oil market rose on Thursday as worries over heating fuel prices were eased and dealers said that demand for winter heating oil in Asia had returned to normal levels.",
+      "output": ""
+    },
+    {
+      "input": "Title: China's Wen meets Putin (AFP) Text: The Communist Party-linked Chinese government said it was in talks with Russian President Vladimir Putin over North Korea amid reports that Beijing might make major progress toward reaching a nuclear deal, state media reported Saturday.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ivory Coast #39;s PM Visits Nauru Text: Prime Minister Manmohan Singh on Sunday paid his first visit to neighbouring Kenya, where President Uhuru Kenyatta is expected this week for talks with key rebel leaders and African Union officials that will lay out future plans for peace.",
+      "output": ""
+    },
+    {
+      "input": "Title: US Airways grounded for 10 days Text: CHICAGO (Reuters)- UAIR, Britain's largest airline, has been given an indefinite stay by United Airlines after its board rejected its request to increase travel fees amid concerns that it would not comply with European Union rules on air passengers' rights.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 2-Olympus unveils new digital SLR camera with wireless flash support Textor Digital Photo International has announced an update to its range including the Olympus T5i, which includes both still and video cameras. The new model includes features such as advanced autofocus and face tracking, and also supports full 35mm film and Super 8 format, making it compatible with cameras made by Canon, JVC, Hitachi, Minolta, Infineon Technologies, Panasonic, Sharp, Casio, Leica and other manufacturers.",
+      "output": ""
+    },
+    {
+      "input": "Title: SEC files charge against Microsoft Textion and other software giants with respect to anti-competitive practices by making several illegal online ads that were posted prior to its August 2001 acquisition, according to an 11 page filing with the Securities and Exchange Commission today. (The New York Sun)",
+      "output": ""
+    },
+    {
+      "input": "Title: Oil Jumps Over US #39; High Text... LONDON (Reuters) -- UPDATE 1--Oil future surged above US #39; record high as supply fears ease threats to slow global growth. The benchmark crude added more than 8 centameter in spot to$49.50 yesterday while heavy oil prices gained strength from recent lows, dealers said.",
+      "output": ""
+    },
+    {
+      "input": "Title: Slashed by India #39;s Mohan Dev TextA day after declaring that all Muslims must leave Kashmir, Indian Home Minister Mamata Banerjee said in Kanpur on Thursday that militant groups had to respect the country #39;disarmament laws.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 1 US Airways Said to have Airbus Problems (Reuters) Text:Reuters - United Airlines Group Ltd. on Wednesday identified problems with its A320 aircraft airliners after some pilot issues, but it has not yet provided a quot;firm and definitive quot; answer in connection with those problems.",
+      "output": ""
+    },
+    {
+      "input": "Title: Suns' Molina on court to plead guilty to murder Text Ratings by Andrew Tanenbaum, Phoenix (AZ) -- Former Seattle Mariners pitcher Steve Molina is scheduled for sentencing Wednesday in federal court on first- and second-degree murder charges.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 2-Kingpin Zhang is in frame, no serious threat to LaForce Text; SHANGHAI, Aug 13 (AFP) - World No 2 Kim Youk, who was injured as early on in a heavyweight fight with China #39;s Jian Zheng at Hungarian club Nova Duda Tuesday morning, is now fit and feeling well enough for his scheduled title defence in Australia next week.",
+      "output": ""
+    },
+    {
+      "input": "Title: Google announces Desktop Search Text-based search offering integrated with Gmail and Outlook on Tuesday, while also unveiling new tools for organizing contact information. Google Inc said that starting next month, people will be able to access its desktop search offering via its desktop.",
+      "output": ""
+    },
+    {
+      "input": "Title: New Cabir Variants to Reach Philippine Textion (AP) -- A top-ofthe-line supercomputer will cost millions of dollars and power hundreds or even thousands, depending on whether it has enough memory and performance capabilities for simultaneous 32-bit computing and 64-bit floating point processing.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 1-Los Angeles Chargers Place Sean Johnson on Injured List Text: The Los Angeles Ramses placed safety Sean Jacksonon injured list Friday, according to sources who are familiar with the team.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 1-Asahi, Ichiro grab pole position in Japan race Text; Tokyo (AFP) - Second seed Hiroki Aoki and fifth placed Takumi Kawahara were alternate qualifiers for Tokyo on Sunday with two others still to finish on Saturday.",
+      "output": ""
+    },
+    {
+      "input": "Title: Oil Nears Record #36;80 as Winter Worries Enter China Text: VIENNA (Reuters)-The price of crude oil is approaching record levels northeast and south of this year'\" peak at US$50.40 a barrel, according to an industry source, but further gains have appeared unlikelydue in part because of high production costs that are having major knock-on effects on supply in Asia.",
+      "output": ""
+    },
+    {
+      "input": "Title: IBM to launch Managed Printing Service Text Gives customers on-demand access to content, applications and workflow tools from any workstation or server in the world #39; including Linux and Windows, via a Web browser, anywhere an Internet connection is available (at least 43.4 million people around 5 continent",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft #39;s New Music Technology Helps Text Messaging software developer Vistosoft has released the beta version (version 3.0) of its new digital music platform designed to seamlessly integrate with Windows Media Player audio and video playback software.",
+      "output": ""
+    },
+    {
+      "input": "Title: Red Hat Hired to Manage Sales Text Messaging Technology Business (MINT)New York - The company on Monday hired veteran IT security intelligence analyst Jeffrey Adler as its first director, creating more than 1,200 new jobs.",
+      "output": ""
+    },
+    {
+      "input": "Title: US soldier killed in Kashmir Text: A severely wounded Iraqi soldier was killed near Ramadi today, and another US citizen, along with one other British, is dead after being hit in an encounter between roadside bombings and hostile firing.",
+      "output": ""
+    },
+    {
+      "input": "Title: Red Hat Linux Rolls Out Service Pack 2 Text Messaging is no laughing matter and companies are scrambling to find workable solutions on what amounts in many cases to Microsoft'S turf.",
+      "output": ""
+    },
+    {
+      "input": "Title: US presses Beijing to lift trade ban Text; China says it is pushing to put back in place trade sanctions on import items from quot;shadowy countries such as Iran, North Korea and Libya that could harm U...",
+      "output": ""
+    },
+    {
+      "input": "Title: Oil prices reach record #36;42 Text: LONDON (Reuters) -- The price of crude oil shot to record levels in New York on Tuesday afternoon after it rose above #36;40 per barrel and investors saw strength in U...",
+      "output": ""
+    },
+    {
+      "input": "Title: Red Sox Rookie Gary Sheffield Goes From Back to Back Text Jay Glazer replaced injured starter Tim Hudson with right-hander Curt Schilling on Friday night and Stromile Swift went 4-for-4 in Game 1 for the Boston Red Sox, who lead the American League East with an 83-79 win over New York on Thursday.",
+      "output": ""
+    },
+    {
+      "input": "Title: IBM Extends 5-Year Security Support with New Server Standard Text; SANS Institute, the IT research and development center at IBM, announced the next version update of its security management software -- which is designed to help companies increase and maintain control over their multi-vendor servers in an increasingly virtual world filled with high-availability",
+      "output": ""
+    },
+    {
+      "input": "Title: Sun, Microsoft to team for Linux on Wednesday Text/Blog Post: The Solaris operating system from Sun Microsystems and Microsoft Corp. has been announced. Accordingly, there are no immediate plans to release it as open-source software. By Jay Fiedler October 19, 2004 (New Ratings) -- In this week't roundup of hot new products, we review two high-tech devices that aim to make life easier by both simplifying computing and making it more powerful yet less expensive than a PC. The first, is an UltraSparq computer with integrated hard disc drive that retails at around US$3,000. It's based on an Athlon 64 processor clocked at 600MHz and an 80GB of internal storage.",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft to bring back Starter #39;s kit Text Messaging tools like Outlook Express, Groupon and others are part this week #39;blockbuster bundle of software offerings from Microsoft and will be offered with no additional cost as long users sign up for three months.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 4-Bats surrender to India Textblocker used by batmen during one of the Indian innings which ended with all three players out on bail after bowling over Shane Warne",
+      "output": ""
+    },
+    {
+      "input": "Title: AOL to offer faster access for broadband Text Messaging is not what it once was. Companies are still paying out huge amounts of money every month to try and get people hooked up with their high-speed data services via DSL or cable, according New Ratings.",
+      "output": ""
+    },
+    {
+      "input": "Title: USC looked at as Trojans fall out with Big Ten Text NCAA basketball coach Jim Tressel has expressed similar sentiments regarding his team this year. On paper, it may look like Southern California isn't going to have much trouble keeping its conference championship hopes alive. By Ryan Singel -- With just 11 teams left in the season, and two teams having yet-to-be determined bowl eligibility, Michigan State is placed third on the list...",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft Fixes Firewall Issue Text; A new version of FireFox, which is capable to running over 2 GHz, has fixed the network card sharing problems reported last month. By Channel 9.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Last Rites Before Christmas Text; THERE will be no last night for Santa Claus in 2004 and this is not an attempt to detract from that fact. However, many shops around Britain will be closed today while Santa comes home as well as retailers and high street shoppers who are used at least once a week will be forced by closures to stock up before the festivities...",
+      "output": ""
+    },
+    {
+      "input": "Title: No love for Owens Text Messr Mike Foster has made it clear he is not going to try and win back his Manchester United place after Saturday #39;ll see him go out on loan to Everton.",
+      "output": ""
+    },
+    {
+      "input": "Title: Google to Give Search Engines Bigger Role Text Messaging software giant Google Inc. on Tuesday unveiled plans for making its engine bigger and more robust as it seek stronger competition in its increasingly fragmented search engine market with Microsoft Corp...",
+      "output": ""
+    },
+    {
+      "input": "Title: Google's Ownership Expansion Could Kill Search Engine (NewsFactor) Text New Rating Agency for Web Sites, Measurement and Testing Blog NEWSFACE -- The world't largest Internet search engine could be about to lose its battle withGoogle as rival Internet Explorer comes online, according US News amp; World Report magazine.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 2-Leaders in Afghanistan Urge #39;Movement to Capital #39; Text: Kabul, August 13 (AFP) - Afghan officials are warning of a major logistical challenge before elections after two rival faction groups -- led by radical Taliban leader Hamid Karzai -- clashed in capital Kabul.",
+      "output": ""
+    },
+    {
+      "input": "Title: US Airways to repay more than R80 million in back taxes Text; CHICAGO (Reuters) -- American Airlines Group Ltd. &lt;A HREF=\"http://www1.investor.reuters...com/FullQuote.aS?ticker=AAL.N target=/stock info/fullquote\"&gt;AAL.00.N&lt;/A&gt;, Europe'd largest airline and part owner of Budget Rent-to own subsidiary, said on Friday it is expected \"to repay between R80 million and R90 billion of a total cost to its creditors in connection with its business with UK regional rival Ryanair (RA).",
+      "output": ""
+    },
+    {
+      "input": "Title: IAEA Won #39;t Dismiss Report on Iraqi Missiles Text: The interim report of an International Atomic Energy Agency (IAEA) board to President Bush, warning of possible attacks against civilian infrastructure",
+      "output": ""
+    },
+    {
+      "input": "Title: USC, Miami Play in Finals Texted at 12 noon yesterday, Bronson Arroyo will face one more opponent before US football #39; Bowl Championship Series gets started. But first, take a look at Ron Gardenhire in action for what amounts to some very fine form",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft Announces Desktop Search, Music Store-TV Deals TextSpyware giant and software maker said it will enter into an agreement with leading electronics retailers to offer their entire product lineup to consumers via computer, TV, music, wireless telephone services and Internet access over a broadband connection.",
+      "output": ""
+    },
+    {
+      "input": "Title: Google Desktop Search Launches Text Messaging on top of your PC #39;d desktop seems to be more and better over time, making it an excellent choice for organizing all things that you want to do on the computer.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 1-Germany's Kmart to cut 800 jobs by 2008 TextUnited Germany is set for job cuts and will, in time, become the second country outside Europe to close 800 production and distribution factories after it pulled out of talks with union leaders late last month.",
+      "output": ""
+    },
+    {
+      "input": "Title: Weak Sales Hurts Earning Power Text: CHICAGO (Reuters) -- Strong sales in August helped hurt Chicago' earnings for several months but analysts said Friday that soft consumer spending and lackluster performances at home stores were pulling down results on corporate America.",
+      "output": ""
+    },
+    {
+      "input": "Title: Redshirt freshman takes No 2 Text Messina #39;s Justin Gatlin leads all scorers in singles play, while Kal-El scores five rebounds to lead North Carolina past Georgetown 83-79 Monday night for its first win at Big Ten rival Maryland.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 1-Delta, ADT Settle New Wireless Pact Agreement (Update1) Text: NEW YORK -- Delta Air Lines and United Technologies Corp. (UTC.N: Quote, Profile, Research) agreed to finalized the terms for an agreement ending nearly four years of litigation between the two companies.",
+      "output": ""
+    },
+    {
+      "input": "Title: US Airways to Buy Air Canada in Early 2005 Text Messrs. Michael Fincke and Gerry DiCarlo have signed with CAA International Inc on an aircraft purchase agreement, according USA Today. Also signing up this week are pilots from Northwest Airlines in Seattle and British Columbia, as well MD Anderson Aerospace in Chicago.",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft announces SP2 support Text Messaging is getting buggy in Windows and some applications have started to crash, according techies at Redmond'd software maker.",
+      "output": ""
+    },
+    {
+      "input": "Title: Clemens to face Langer for England Text Give him time to think things over, and in fairness, we #39;ve had our share of bad luck. The English captain is likely to be facing Lee Westwood for England as he adjust with injury after starting at number one in the Premier League last season when injured at home by Portsmouth",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft to launch new anti-virus software Text; The Internet Engineering Task Force (IETF) today announced a major update to its antispyware program, code-named SPYWAR, as it prepare for a full public release this fall.",
+      "output": ""
+    },
+    {
+      "input": "Title: IBM announces new Power5 chip line Text: Storage specialist IBM is unveiling its fourth-generation (Gen 4), high-performance and low-cost entry-level storage system with Turbo 64, an all-flash storage architecture that provides up to 32 Gb/sec (3MB/s) performance.",
+      "output": ""
+    },
+    {
+      "input": "Title: SEC Fils Charge in Securities Fraud Case Text: Two major securities fraud cases were filed by insurance companies against mutual fund distributor HealthSouth Corp. and its sister company, Employee Benefit Research Institute Inc...(http://www1.investor.reuter #39;s/FullQuote.a",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft Posts First Quarter Earning Growth Text Messaging giant Microsoft Corp., in its first quarter on track to break even, reported sales growth of 12 percent and said quarterly profit would be between #36;1.80 and #36;2.40 billion.",
+      "output": ""
+    },
+    {
+      "input": "Title: Sainsbury's to announce partnership with UK retail chain Text Messr Barney Greenwood, chief executive of grocery giant Sainsbury' Holding Co., said: \"We have agreed to work together in a number key areas and I am delighted that we can be part supplier to both high street and independent retailers...",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 2-Frogs have been found to be carrying diseases that can pass in people, study says Text But now scientists from Tuft University are wondering if they could be passed on to humans. The small animals have apparently developed resistance to human-made growth hormones and could spread disease to other people...",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft Expands European Music Download Business Textway Europe today launched an online storefront for its new music download software, and said it expect growth in that area by 2005 with the launch later this year of its own distribution network.",
+      "output": ""
+    },
+    {
+      "input": "Title: US economy expected to grow next year Text: WASHINGTON (CBS.MW) -- The nation #39;s economy expanded a bit in the third quarter and fourth, helped by continued strength in exports and consumer spending but also hit a new low point as oil prices spiked after surging crude.",
+      "output": ""
+    },
+    {
+      "input": "Title: Google, IBM and Toshiba announce strategic alliance Text Messaging giants Google Inc (GOOG) and Big Blue (BAK.O) on Thursday announced a strategic alliance to promote search engine dominance over rivals Yahoo Inc (YHOO).",
+      "output": ""
+    },
+    {
+      "input": "Title: IBM and Cisco to Extend Fiber Optics Support Textway into residential broadband access on Monday, November 28th (Microsoft Corp. #39;s official Internet Technology news service) with more localized events planned in Florida, Georgia and North Carolina during this time frame.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 2-Security Council Releases Top 10 Security Flaw List Text- The National Institute for Standards and Technology (NIST) released its annual list Sunday, with several high-profile security lapsed from the year before.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 4-Everton Edges Sporting Lisbon Texteda deportivo para su primer tiempo (C)Portugal, 4-7 October 2004-Sports United #39; parent company Everton Plc will buy SP sports &ndash; SPORTING.LONDON for 39 million euros (375m euro) from Nov 30 2005.",
+      "output": ""
+    },
+    {
+      "input": "Title: Induce Act to Slave States Text; As part America #39;s war on terror, Congress is poised for major changes that could either deter extremists or create new ones. By Katie Dean and Daniel Terezinsky. New York Times staff writer Stephanie Armour.",
+      "output": ""
+    },
+    {
+      "input": "Title: US-led troops pull out of Iraq Text: A day after President George W Bush announced they were pulling out from Iraq, two American soldiers and an Italian peacekeeper remain in Afghanistan.",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft #39;s Next Big Thing To Be Revised Text Messaging applications like Outlook, Hotmail and AOL Messenger are due to get some major improvements as early as January 2004, according analysts at IDC.",
+      "output": ""
+    },
+    {
+      "input": "Title: US soldier dies in bomb blast at Iraqi city Text: A suicide car bomb attack on an Iraq army convoy has killed all US troops and wounded three others in eastern Baghdad, hospital sources said Tuesday. The assault, reported as suicide, came after several hours of gunfire between U",
+      "output": ""
+    },
+    {
+      "input": "Title: Google #39;s Desktop Search Venture to Make Bigger Offer Text Messaging giant Google Inc. on Monday said it had agreed to buy software maker Keyhole Inc for as much$3 billion in stock and cash, with no conditions attached.&lt;FONT face=\"verdana,MS Sans Serif,helvetica\" size=\"-2\" color=\"#666666\"&gt;&lt;B&gt;-The Washington Post&lt;/b&gt;",
+      "output": ""
+    },
+    {
+      "input": "Title: SEC charges two with insider trading Texts, one charge and five counter-charged in an investigation into securities offerings made by credit card company American Express Co.",
+      "output": ""
+    },
+    {
+      "input": "Title: Google, Amazon to Buy Digital Music Technology Company Textual description: NEW YORK (Reuters) -- Google Inc. and Amazon.com Inc... are expected next monthto unveil their own digital music technologyadding to an increasingly popular market for copyright-free songs and otheraudio works bought over the Internet.",
+      "output": ""
+    },
+    {
+      "input": "Title: Stocks to Watch Thursday Text: NEW YORK (Reuters) -- US stocks may rise on Friday if oil prices remain high and investors take profits from record U...",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft's next big business could be in biotech Text Give away -- AOL, Google or Yahoo announced they are coming together to create the online community \"blogs\" that will help companies stay on top of trends and customer needs...",
+      "output": ""
+    },
+    {
+      "input": "Title: Red Sox to Play in New York Text; NEW YORK (Sports Network) - After 120 innings and two shutout seasons, it'll be tough for either the St Louis Cardinal #39;s or Washington Red Starks this season to get into Game 1 on Sunday. Meanwhile, both teams will",
+      "output": ""
+    }
+  ]
+}

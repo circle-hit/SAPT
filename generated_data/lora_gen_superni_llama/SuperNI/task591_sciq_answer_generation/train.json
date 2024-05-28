@@ -1,0 +1,133 @@
+{
+  "Contributors": [
+    "Kuntal Kumar Pal"
+  ],
+  "Source": [
+    "sciq"
+  ],
+  "URL": [
+    "https://ai2-public-datasets.s3.amazonaws.com/sciq/SciQ.zip"
+  ],
+  "Categories": [
+    "Question Answering"
+  ],
+  "Reasoning": [
+    "Commonsense Reasoning",
+    "Scientific Reasoning"
+  ],
+  "Definition": [
+    "Given a scientific question, generate a correct answer to it."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Natural Science -> School Science Textbooks"
+  ],
+  "Positive Examples": [
+    {
+      "input": "What is the layer of ground below the surface that is always frozen, even in summer?",
+      "output": ""
+    },
+    {
+      "input": "What type of energy from warm cola results in melting when it is transferred to the much colder liquid?",
+      "output": ""
+    },
+    {
+      "input": "Fungi absorb nutrients from the environment through what?",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "What are chemical bonds between the covalent bonds of nonmetals that share electrons called?",
+      "output": ""
+    },
+    {
+      "input": "What is the name for substances with two or more carbons attached?",
+      "output": ""
+    },
+    {
+      "input": "What occurs when water interacts with minerals in rocks?",
+      "output": ""
+    },
+    {
+      "input": "The most important characteristic of extant amphibians is the ability to detect what?",
+      "output": ""
+    },
+    {
+      "input": "The most important characteristic of extant amphibians is a moist, permeable skin used for this?",
+      "output": ""
+    },
+    {
+      "input": "A circuit that consists of two loops is called what?",
+      "output": ""
+    },
+    {
+      "input": "What is the largest class of elements?",
+      "output": ""
+    },
+    {
+      "input": "Fungi absorb nutrients from the environment through what?",
+      "output": ""
+    },
+    {
+      "input": "What type of starch is used for long-term energy storage in animal cells?",
+      "output": ""
+    },
+    {
+      "input": "The number of waves that pass regulated by the sound wave in a given amount of time is called what?",
+      "output": ""
+    },
+    {
+      "input": "What is the term for evolution over geologic time above the level of the species?",
+      "output": ""
+    },
+    {
+      "input": "The major salivary enzyme is called?",
+      "output": ""
+    },
+    {
+      "input": "How is oxygen transferred into the bloodstream?",
+      "output": ""
+    },
+    {
+      "input": "What does the megaspore mother cell produce after meiosis division?",
+      "output": ""
+    },
+    {
+      "input": "What causes monotremes to have flattened wings?",
+      "output": ""
+    },
+    {
+      "input": "What is the name of muscular blood vessels that carry oxygen and blood away from the heart?",
+      "output": ""
+    },
+    {
+      "input": "The most important characteristic of extant amphibians is the ability to detect what?",
+      "output": ""
+    },
+    {
+      "input": "What is the difference in voltage across electrical lines called?",
+      "output": ""
+    },
+    {
+      "input": "What is the term for species evolving together?",
+      "output": ""
+    },
+    {
+      "input": "A mutation is a random change in an organism's what?",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "CC BY-NC 3.0"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "Contributors": [
+    "Shailaja Keyur Sampat"
+  ],
+  "Source": [
+    "reddit_tifu_dataset"
+  ],
+  "URL": [
+    "https://aclanthology.org/N19-1260.pdf"
+  ],
+  "Categories": [
+    "Summarization"
+  ],
+  "Reasoning": [
+    "Reasoning on Social Interactions",
+    "Reasoning on Actions"
+  ],
+  "Definition": [
+    "In this task, you are given a Reddit post as - for which you are given a short summary. The summary must include a situation which caused humor. The summary should be one or two sentences long."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Social Media -> Reddit"
+  ],
+  "Positive Examples": [
+    {
+      "input": "Text: so this happened about 10 years ago but now it's still a thing that pop ups occasionally on my mind... i was just talking with this one friend of mine about how we got back from seattle and how we were having troubles. she said something along the lines \"hey if you check in, they told me you can go home early.\" being an extremely self-conscious person at the time, i really didnt give much thought to what she was saying. so we finally arrived at our gate, went inside, and were just going through the normal \"you can just leave\" motions like walking around the block, etc.... and then suddenly, without thinking, we heard some loud grunting. yup, it was a *",
+      "output": ""
+    },
+    {
+      "input": "Text: my room was in disrepair after we got our new kitten cat. the little guy was pretty skitish so we let him out on small leads until he was confident he could jump. after jumping he finally manages his escape... but it had taken me two days and he's still not out of the woodwork.",
+      "output": ""
+    },
+    {
+      "input": "Text: it has been a while since my last story, so i decided that it's time have tifu and be me. now, my girlfriend (yes, we both have names) and i live together in a townhouse. we have pretty nice neighborly things going on here including the occasional beer night. but this past weekend, it all came out for something else... i bought myself the cutest little purse from macy'? it was a clear plastic thing with some fabric stuff on either side. it had a snap closure so it was easy when accessing the inside, and a magnetic ribbon for hanging it on a purse/bag/whatever your ff wants to put it on. fast forward -",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Text: obligatory this didn't happen today, but last night. so i bought tickets to the big game on sunday that my buddy won. we left the house (he's 6'4' and in his late 50-60' range) and arrived at an amusement park called disneyland world. now disnewland is an incredible amusement park. it' was like something straight out of an early comic book. so much fun. after getting our tickets we went into the rides, it being disney, we got picked up by this traveling salesman, who told us that we'd get special treatment. \"first come first serve\" i think. whaddayat? we were supposed let in the front gate, then",
+      "output": ""
+    },
+    {
+      "input": "Text: so this happened earlier today. today was my significant others birthday, and my mother asked me about plans for the weekend with her family. her sister has been single since she was 14 (almost 18), but her dad still makes her feel like her mom is by her side every day. we texted last night and got together in a few hours before she left home. everything was going good until 6am when we went to go over her old phone. my step-sibling was trying very hard to talk me out of it saying that he wanted to hang out and get drunk with me. luckily i walked out with some friends of mine instead... my father ended up staying at our house. my brother and friend stayed over while my father had",
+      "output": ""
+    },
+    {
+      "input": "Text: so last night was martinis at our favorite pub, we decided after some drinks that we would head out for the london club at 7pm. so after being there around a quarter of an hour late and still in a good mood we head towards 5o'clock. we make it to 5 before having to leave because of another event (we have been told \"go early\" so not to worry about). i sit next on the outside wing whilse my other 2 other friends wait for me inside with their drink in hand. we order drinks, take ages talking and generally get into chatting. when the main course arrives i am left waiting for the table when we finally start talking. \"oh god, it was",
+      "output": ""
+    },
+    {
+      "input": "Text: so i decided to make cheese sauce in the slow cooker. it is quite easy to do and just throw in tins of water with salt and pepper. once they are done, then you can just pour into the microwave and everything will be ready to go! okay here comes the big twist... before we cook anything, we need butter! like magic. after processing everything, the food gets ready to go into our little plastic bags and onto the stove to finish. now we have some important kitchen items to grab; flour, eggs, milk, etc.... we have to put the lid back on the microwave for about 45 seconds to get the steam to escape/cook the egg mixture. well here comes my moment of relief. no more dishes to wash up! no",
+      "output": ""
+    },
+    {
+      "input": "Text: okay so i've been trying not talking about myself too much since last week. my sister was on vacation in new york earlier that week and had just bought tickets back home from the airport with her mother of her friends after she returned work (she works in an emergency room). when her family left she was furious because she never told them anything. as they were leaving, my dad got angry saying \"if you get fired you're screweg\", \"i don tell my daughter, they will find out soon enough.\" naive to think things like those would ever actually have happened but it'll be bad in tifu fashion for me to say such things. ended up digging a big gash near my right eye. went to",
+      "output": ""
+    },
+    {
+      "input": "Text: so this was about 2 months ago but anyways i recently got the new macbook pro as gift and i played around with it, noticed the fan wasn't working right away after half oof a day of work and decided to see how it was on a second monitor. as i was running down he street in front me while looking over my shoulder i couldn' get the \"full screen\" to get back to the application. since i didn’m tired already i started scrolling down to the bottom of the window where i saw application withdrawn from queue and no further action. so as it turns out they were only accepting resume’s at one location (which luckily turned into multiple desk). even more annoying",
+      "output": ""
+    },
+    {
+      "input": "Text: so this happened about 2 weeks ago and took place at an offsite location(march of life college) during the first weekday classes we held (i'm currently teaching the summer session) if anyone is still here, that information will be posted here. anyways back before the story begins, my sister had recently acquired her own room in her apartment complex with her father... and the basement of our old building. this meant that our floor would no longer have a normal \"no-frill living room\", but rather be \"the only thing you see here\". well, i hadnt been in a \"death-row\" in quite loooong time when i moved into my new apartment on march 1 along with other",
+      "output": ""
+    },
+    {
+      "input": "Text: it's just so hard getting through this i have a feeling it wont be my last one in a while. last year when i was leaving college and i started working at the gas station i kept hearing about all of these stories being made on the radio. well i was working my last day before moving back home and fucked up big time by not washing my car regularly. when it got down to my turn to get my oil (and like most people didn' trust me with this stuff so i always put it in my driveway) it became such ingrained part that i would do what i could to try to make it clean. unfortunately my mistake backfired. after checking that my work load had met its",
+      "output": ""
+    },
+    {
+      "input": "Text: so my girlfriend and i were on vacation in northern ca for 10 days last summer. she had flown into las hermanitan from salt lake city and they had rented / bought rv'e out of it while in town but was not using the vehicle because she said she had \"financial problems.\" after spending most time browsing reddits we come across the thread about some guy that's apparently trying an all-organic weed pipe... and we get really excited seeing him do something! it turns six months later and he're getting married! as i'm writing this, she'll probably never see him due his paranoia and whatnot.",
+      "output": ""
+    },
+    {
+      "input": "Text: okay, so this didn't happen today but a few months back. my best friend and i have been friends since freshman year of high school (she was 11), and she'll be graduating soon after that too. in our senior year of highschool we decided to try a new thing; sign up for gym classes. i hadn’l tried spin before because i thought it was silly enough from my teenage years, but once we got going they became more fun! and it has worked every time... until now. on my way home from class one day, my bus arrives full of students and parents waiting at the door. a total stranger. his face was similar to most kids’ but very different from me. he didn stare",
+      "output": ""
+    },
+    {
+      "input": "Text: okay so this happened last week, but it was the weekend and my family had just went to another city so we were leaving the apartment to go grocery shopping when our oven broke in half. well i decided to take matters into myself instead of waiting for the oven to cool down. after hunting around on google, i saw that there would be ashtray pans for rent at some nearby apartment complexe along with other kitchen items like pots, cutlery, etc... but they weren're all out of reach since they are all pretty far from us right now. i figured no problem, i can always ask people around us to see what pans they have and we'll take turns seeing them. we typically use what we already own,",
+      "output": ""
+    },
+    {
+      "input": "Text: sorry this took so long...i was just about to get off the phone when my dad walked in from shopping with his new girlfriend. when he returned our conversation went back and forth on how they needed to talk more like friends. i finally got him talking by saying \"hey mom it's me, what's up\" (which, as i'm sure you already know, he never actually used in real life). then, all at once, my father said \"you're very calm\" which in itself caused an episode of concerned parents yelling and screaming out at each other.",
+      "output": ""
+    },
+    {
+      "input": "Text: i work at the head office of an organization that helps rehabilitate and serve the needs/requirements of mentally ill children in their home settings through direct care. for almost ten years, we've met many different people with many different problems who are unable so selflessly give back to society without asking for help from outside. nancy has been a good friend-she always knows what to say and she never lets us down. last tueday, her coworker ran into her old schoolmate' \"the greatest uncle\"(we have three kids, all living close to each other). frank, who seemed very nice (and like if we had any issues with him...) was actually talking with",
+      "output": ""
+    },
+    {
+      "input": "Text: obligatory \"this didn't happen today\" but it did happened many years ago during my freshman year of high school (specifically 9th grade). at the time, it was pretty normal to walk with me on saturday. i generally walk normally, but this particular day, someone on the path with us made an incredibly loud and clear, very unapologetic \"hey dude, how’re doing?\" call. the guy that called seemed distressed by our unusual visit so proceede quickly to tell me about his friend who happened across a particularly good piece we played earlier that day. let me start off by saying my first memory clearly recalled this incident. the next morning my mom, sister-in law, and one of their friends",
+      "output": ""
+    },
+    {
+      "input": "Text: throwaway because it's not funny in any way. first of all, the fu itself happened about 20 minutes ago. so there was me and my brother who had broken off after almost 10 years together; we live in the same town now (about a 5 minute drive), and we decided to go exploring around for the day. since we live relatively close to each other anyway, we walked along looking for hidden treasures within the town. after a bit of walking, we came across an old-fashioned gas station complete with revolving wheel type ride. we decided that we might try out the rides. what we didn’t know at just how bad they were was that some of them would actually work, turning off and on in the event of an",
+      "output": ""
+    },
+    {
+      "input": "Text: so unlike most posts here, this didn't actually happen today but rather 3 months ago (i was in my mid-20s) and it still gives me nightmare of the worst idea that came into mind. if you think about the average american family you know that grandparents take their kids everywhere from time-totime until they can get on the internet via the phone or a computer somewhere out side your house. now imagine being a 21 year old black male in an all white community with maybe 5 black people totaling maybe 2 per household? nah. at least we have cable tv. well if your mom and dad didn’re among those then they would also own the typical landline telephone while you are gone. not many of us were dumb enough",
+      "output": ""
+    },
+    {
+      "input": "Text: like most of the stories on here...this did not actually happen today but was actually 7 years ago. background:i work on my own and do stuff that i can't pay someone else with so i get paid when someone does something. now i work in an old shit hole of an old house, one floor down from my mother' along with the basement. the landlord is usually shady, sneaky, unpredictable and will take anything and everything to make sure no money is lost during an emergency. well yesterday, when i got home he decided it would be nefarious to break into our apartment because his dad refused give us access to his renter id (which he did for free when he",
+      "output": ""
+    },
+    {
+      "input": "Text: well this happened back in the beginning of august, but i think it's still too raw and emotional so here we go! in religion studies we take an online class called muay thue (duh) about how some people in other places swallow penis and make themselves sick from their blood being used in rituals against them during fasting. in our intro we learned that pigs actually have tails like dogs do...so basically the first lesson was \"get a little drunk.\" then we went on through the rest where we would walk around aimlessly with no particular destination at all. then we hit up an old friend'll call derek who is also into drugs and has apparently made several trips to guanaco",
+      "output": ""
+    },
+    {
+      "input": "Text: so i've been doing debate club for 4 years and recently we started having outside speakers. i've always found my best friends interesting but now that i finally managed it... we had some big problems at the end of 6th grade and our teacher finally called us out in front an whole large class. my group was then split into 5 groups. it was this small liberal arts high school where 25% of students are girls who come all by themselves with little social interaction except the main coordinators. anyways, during debate week i was introduced (in very good terms) three new debater alongside me; she was 16 yr old girl from india and her father used butter knives to cut back trees. as the year progressed",
+      "output": ""
+    },
+    {
+      "input": "Text: it's finally my weekend! time off work (thanksgiving day!) and a date night with some friends at some of the best pubs in town arrive. now, im normally single so it was pretty awkward having to wait for ages before anyone else showed up but tonight was different; i went straight on in. we had chatting about all things geeky/nerd related then it hit me; wtf not to come earlier?",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "MIT"
+  ]
+}

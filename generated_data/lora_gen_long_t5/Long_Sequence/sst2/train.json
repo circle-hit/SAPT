@@ -1,0 +1,182 @@
+{
+  "Definition": [
+    "Make a judgement on the sentiment of the given text."
+  ],
+  "Positive Examples": [
+    {
+      "input": "Text: as one of best films in years",
+      "output": ""
+    },
+    {
+      "input": "Text: with a flick this big",
+      "output": ""
+    },
+    {
+      "input": "Text: this bizarre and funny look",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Text: is so unabashedly human",
+      "output": ""
+    },
+    {
+      "input": "Text: to watch with kids and use as an educational tool to help people see what they really want to see",
+      "output": ""
+    },
+    {
+      "input": "Text: as far in the future",
+      "output": ""
+    },
+    {
+      "input": "Text: is so convinced of its own brilliance",
+      "output": ""
+    },
+    {
+      "input": "Text: are so convinced by its own brilliance that it could be good for something",
+      "output": ""
+    },
+    {
+      "input": "Text: is more about how people react to things than opinions",
+      "output": ""
+    },
+    {
+      "input": "Text: this picture is beautiful and heartwarming",
+      "output": ""
+    },
+    {
+      "input": "Text: a good time",
+      "output": ""
+    },
+    {
+      "input": "Text: aren't many memorable moments in this movie",
+      "output": ""
+    },
+    {
+      "input": "Text: as an emotionally complex and highly sensitive study of her parents",
+      "output": ""
+    },
+    {
+      "input": "Text: this odd but enjoyable film",
+      "output": ""
+    },
+    {
+      "input": "Text: this is an adventure story and a thriller",
+      "output": ""
+    },
+    {
+      "input": "Text: is 't all that special",
+      "output": ""
+    },
+    {
+      "input": "Text: an oddly sweet and sinister ending",
+      "output": ""
+    },
+    {
+      "input": "Text: to an exceptionally hardened audience",
+      "output": ""
+    },
+    {
+      "input": "Text: has plenty to impress about its characters",
+      "output": ""
+    },
+    {
+      "input": "Text: its fine performances",
+      "output": ""
+    },
+    {
+      "input": "Text: be very sweet",
+      "output": ""
+    },
+    {
+      "input": "Text: are more like a bunch fowls than anything else",
+      "output": ""
+    },
+    {
+      "input": "Text: is unabashedly cathartic",
+      "output": ""
+    },
+    {
+      "input": "Text: there's some laugh-in-hand here, but more importantly it is how you behave when your camera roll to an empty screen at night",
+      "output": ""
+    },
+    {
+      "input": "Text: an unsympathetic hero",
+      "output": ""
+    },
+    {
+      "input": "Text: to that rare family movie which you must admit is, truly and always loving",
+      "output": ""
+    },
+    {
+      "input": "Text: are too many characters saying too many clever things and getting into too many pointless situations",
+      "output": ""
+    },
+    {
+      "input": "Text: has created remarkably lush set pieces",
+      "output": ""
+    },
+    {
+      "input": "Text: is so flat",
+      "output": ""
+    },
+    {
+      "input": "Text: goodfellas",
+      "output": ""
+    },
+    {
+      "input": "Text: is really strong",
+      "output": ""
+    },
+    {
+      "input": "Text: its lurid literature",
+      "output": ""
+    },
+    {
+      "input": "Text: sloppily",
+      "output": ""
+    },
+    {
+      "input": "Text: a fine effort",
+      "output": ""
+    },
+    {
+      "input": "Text: has an air of exuberance that fits perfectly with the lush greenery and trees of this richly photographed film",
+      "output": ""
+    },
+    {
+      "input": "Text: a great shame that such savvy actors would have to surrender their self-sufficiency for dramatic reasons",
+      "output": ""
+    },
+    {
+      "input": "Text: this is definitely one to watch",
+      "output": ""
+    },
+    {
+      "input": "Text: is truly funny",
+      "output": ""
+    },
+    {
+      "input": "Text:'s an insult to those who already have suffered through bad leg syndrome",
+      "output": ""
+    },
+    {
+      "input": "Text: it's hard to resist his pleas to spare wildlife and respect their environs",
+      "output": ""
+    },
+    {
+      "input": "Text: an inventive feature",
+      "output": ""
+    },
+    {
+      "input": "Text: is 't so much an excuse to leave this theater",
+      "output": ""
+    },
+    {
+      "input": "Text: is unfilmable",
+      "output": ""
+    }
+  ]
+}

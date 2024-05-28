@@ -1,0 +1,115 @@
+{
+  "Contributors": [
+    "Amirreza Mirzaei"
+  ],
+  "Source": [
+    "commonsenseqa"
+  ],
+  "URL": [
+    "https://www.tau-nlp.org/commonsenseqa"
+  ],
+  "Categories": [
+    "Question Answering"
+  ],
+  "Reasoning": [
+    "Commonsense Reasoning"
+  ],
+  "Definition": [
+    "You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based upon associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', E' and only give one answer for each question."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Commonsense -> Concepts and Relations"
+  ],
+  "Positive Examples": [],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "What do people need to know about sports? (A)supersporting event(B)funny (C), sport (D2)exciting (E& healthy",
+      "output": ""
+    },
+    {
+      "input": "Where would you go if you wanted to buy some clothes? (A)grocery store (B)retail store (C)supermarket (D)shop (E-store",
+      "output": ""
+    },
+    {
+      "input": "What could you be buying an expensive jewelry store? (A)price tag (B)detailed package (C),own home (D3)laundromat (E)shop",
+      "output": ""
+    },
+    {
+      "input": "What do trees do when an area is cold? (A)melt blanket or teen years old (B)lower prices (C), but it doesn'ned up in line (D)freezer (E-fall down",
+      "output": ""
+    },
+    {
+      "input": "What does he do when his temper flares out? (A)drape around (B)wear garments over (C),learn new tricks (D)burn (Earthritis",
+      "output": ""
+    },
+    {
+      "input": "They were kissing each other good bye, they had no worries because their relationship was what? (A)partner (B)trust (C), alliance (D3)honesty",
+      "output": ""
+    },
+    {
+      "input": "If you have gotten my ticket and you were planning on going to go somewhere? (A)stay at hotel (B)baseball stadium (C), what do I want to see in person (D)train station (E)event",
+      "output": ""
+    },
+    {
+      "input": "The boy was politely waiting for dessert, it seemed like they were bothered to what? (A)waiting (B)making friends (C),medium (D)stay home (E&amp;tually wait",
+      "output": ""
+    },
+    {
+      "input": "In general, what do people do when they feel dirty? (A)feel relieved (B)write letter in crayon (C)watch television (D)wash dishes (E), look busy",
+      "output": ""
+    },
+    {
+      "input": "Where might I need to bring something home? (A)neighborhood (B)office building (C)cabinet (D)bus depot (E&apos;town",
+      "output": ""
+    },
+    {
+      "input": "Where would you get some maps that you own? (A)bookstore (B)stationery drawers (C)own home (D)backpack (E),table",
+      "output": ""
+    },
+    {
+      "input": "What does playing soccer can do that causes him or her to become depressed? (A)learn to walk (B)play basketball (C)jogging (D)become distracted (Eng dance",
+      "output": ""
+    },
+    {
+      "input": "What is something that plays drum when you do as well as many other forms can be found? (A)jambogging (B)music store (C),basket (D)violin band (E)choral ensemble",
+      "output": ""
+    },
+    {
+      "input": "The man got escorted out of the room, where was that person going? (A)bedroom (B)bathroom (C), sleeping (D)house (E-dress shop",
+      "output": ""
+    },
+    {
+      "input": "What could happen to you if your car is not in good shape? (A)satisfied (B)sound tired (C),buttons of dust (D)unhined (E-filled",
+      "output": ""
+    },
+    {
+      "input": "What does he feel like doing? (A)pleautious (B)being unhappy(C)losing control over (D),dying (E&apos;reaching",
+      "output": ""
+    },
+    {
+      "input": "What do you keep in your house when traveling? (A)going too fast (B)night travel (C),stay busy (20)hotels (D)traveling (E-go somewhere",
+      "output": ""
+    },
+    {
+      "input": "Where can you buy an upright piano? (A)music class (B)music store (C)music room (D)music studio (E),music room",
+      "output": ""
+    },
+    {
+      "input": "The company sent off many purchases, they used recycled cardboard as their what? (A)packaging materials (B)box factory (C)paper bag (D)disneyland (E)plastic bags",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "Unknown"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "Contributors": [
+    "Pegah Alipoormolabashi"
+  ],
+  "Source": [
+    "pico"
+  ],
+  "URL": [
+    "https://github.com/Markus-Zlabinger/pico-annotation"
+  ],
+  "Categories": [
+    "Information Extraction"
+  ],
+  "Reasoning": [],
+  "Definition": [
+    "In medical studies, treatments are tested within a group of study participants. To determine if he is a good candidate for the treatment of a disease in the people who take part in the study. You will be given ten sentences of a study report in which your task is to list the phrases that give information about the outcomes of the study. You should list the phrases in the same order that they appear in the text, separated by commas. If no information about the outcome is mentioned, just answer with: \"not found\". Outcomes regarding the intervention: like blood sugar, outcomes regarding the intervention: like effectiveness, costs the score on a medical test or questionnaire, positive or negative events in the patient groups: like quitting smoking, or adverse reactions. Do not mention numbers or results, interpretations of outcomes, outcome mentions without relevant information."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Medicine"
+  ],
+  "Positive Examples": [
+    {
+      "input": "The findings indicate that this method of reporting symptoms and functioning status to primary care physicians did NOT significantly change patient outcomes.",
+      "output": "['not found']"
+    },
+    {
+      "input": "The response rate was 18 %, including one complete response.",
+      "output": "['responses']"
+    },
+    {
+      "input": "Serum creatine aminotransferase activity decreased significantly in the methotrexate group.",
+      "output": "['not"
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "The purpose of this study was to examine the effect of chronic cigarette smoking, acute nicotine administration, and OC use on cardiovascular health care",
+      "output": ""
+    },
+    {
+      "input": "We investigated whether 6 to 12 months of weight training exercises enhanced the effectiveness and exercise performance status of children at baseline and after endopyelotomy.",
+      "output": ""
+    },
+    {
+      "input": "Patients could not have visceral crisis.",
+      "output": "['not found']"
+    },
+    {
+      "input": "This study reports results of a randomized controlled trial aimed at joint attention ( JA ) and symbolic play ( SP ) in",
+      "output": ""
+    },
+    {
+      "input": "However, we must conclude that cortisol and glucose levels were significantly high in 700 and 500 but not 3,000 mg l1 group compared to",
+      "output": ""
+    },
+    {
+      "input": "We have compared the efficacy of granisetron with perphenazine for the prevention of vomiting after tonsillectomy with or without adenoidectomy in children.",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "Unknown"
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "Definition": [
+    "What is the logical relationship (contradiction, entailment or neutral) between the \"sentence 1\" and the \"sentence 2\"? Choose one from the option."
+  ],
+  "Positive Examples": [
+    {
+      "input": "sentence 1: well i would love to get down here at some point sentence 2: I plan to come visit you there often",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The same week, she took to the road along the coast of the town with her young friend Jo. sentence 2: Jo took him down alongside the coast on board the boat.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The man who had come out at the end of the road was impudent. but his body did not move so much as when he started running down the path that led to the driveway where a trucker stopped by for help. sentence 2: His body moved slowly over the track in front on the highway",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "sentence 1: The old man was alive...and now he was dead! sentence 2: He died in his bed yesterday.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I have to say that we are still waiting for him in the airport. sentence 2: We're really happy to see him in the airport today.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: He said it was an enormous privilege to represent these children in America. sentence 2: It was their privilege not to be represented by other Americans.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The house was not exactly that size but it seemed like there had been an explosion of activity within days. sentence 2: The house looked as though it was filled with activity.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: A few other firms have also sought this information; see LSC's Online News Story for more details. sentence 2: The LSC reported that No. 3 had no information about the company.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: It was built as an agricultural workshop for farmers who wanted to harvest some timber in order that they could provide their income with food so they would not have been forced to pick up rubbish by hand instead of by hand; then it became part this new city centre where workers did all the work themselves but also spent much time taking care of their animals during the animals there until they were actually ready when they got into farming again like that they took over them and then finally gave away everything they had to do without any people out of wood. sentence 2: Farmers can use pests because they came on top soil.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: They were very well constructed and all you need to do it will be obvious--you'll find some statues in the park; then there are more than enough shops for souvenir shopping, so make sure not everyone visits! sentence 2: Some of the attractions at the park are museum sites where you can see animals eating food.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I saw it again today with a fresh gust of wind. sentence 2: The wind was so strong that it did not travel well in the mornings.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: You can take your watch out for the next 15 minutes or so at some of these charming small shops on the waterfront. sentence 2: There are many little sailing boats on the waterfront.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: Then I moved on to other business in the area, where I found more of my books about the city than any of them could offer. sentence 2: My book was selling at an average rate for less than two cents per day.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: They were both very serious and deliberate in their actions. sentence 2: The actions of the two were very detailed and insightful.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: In order to provide that assurance in time, GAO performed a series of site inspections along with their annual reporting on CFO matters. sentence 2: The site visit consisted solely out for a few minutes.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: And while I don't think this is particularly useful, it could be a useful tool in planning our next attack. sentence 2: It is not practical to plan an attack against us.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: well it you know when things go bad there's two other things that we had to do in general so um they were going to have to replace those people with someone who was way more capable of working for them sentence 2: There are many people not equipped to work for anybody else.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: This is also where we find the most important collections of Jewish artifacts on display in galleries across Barcelona. sentence 2: Jews were once seen at the galleries throughout Lisbon.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: You will encounter some interesting objects that demonstrate how to make art with children in mind; they are called ai-dolne, masonry, and whirling swords. sentence 2: There are beautiful objects which you can see here at the museum.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: And it's all in the city itself--the theater, the cinema, the art museum, the botanical gardens, the museums store, the art galleries, the historical society halls, the music halls, etcetera. sentence 2: It'd be easy to find everything that can be seen at the city!",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I think it was in the basement that our father died; my other brother passed away suddenly this year at about three years old. sentence 2: My mother died after two months of being alone on the floor of the basement.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I do not wish him to be mistaken when Mr. Collins said on the night of the operation that his son had died with cholera in his hand. sentence 2: Mr.\"cles died at age 16.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The city of Kyoto would remain relatively intact during the nineteenth century when Japanese rulers controlled much more than half Japan'adobe; but it was inevitably doomed to fail because of its many mistakes in control over time by both Japanese and Chinese government authorities. sentence 2: The Korean regime had few successes as far east as well before.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The latter had no problem dealing with him at all; after all, it was his business that fed her life. sentence 2: The latter dealt quietly with him.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: If you don't know your name, what else does it say in the newspaper?\" sentence 2: Do you know your name?",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: She had no visions for her own time nor would she ever have dreams to pursue with her life-long dream of a career as if she were someone else. sentence 2: She wanted nothing more than surviving loveable days like her mother did.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: It was an enormous, huge stone-built castle built in 1922 that still serves as homes to many of today's international pilgrim children. sentence 2: The castle has been rebuilt since 1921.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: In addition, many of the best practices employed by the government have helped bring these numbers within reach because they are so simple to use. sentence 2: Most of them used their skills in order for figures to be seen.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: And when all that passes, you can look at them for three minutes in total to learn how they work; there are signs of activity around each corner. sentence 2: All that happens when you glance at them during their visits.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The only exception is the military service component, which includes all combat activities that have led to the recent loss of some key military assets. sentence 2: The military support was not as big as it should have been.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I've been to this place several times before in my life. sentence 2: I am going to stay here many more than once.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I have always believed that every individual deserves dignity and respect.\" He sighed and walked away in joy. sentence 2: He was proud to call himself noble.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: We are in the middle of a hurricane season so we can catch it before it hits. sentence 2: It's snowing here now so we have to stay home.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The first question in your head was what would you do with this information? sentence 2: The answer was simple; it was obvious to me.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: A quick glance at the man's head suggested that his hand may have been in someone'lle force him to speak. sentence 2: There was no sight of him trying to speak.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I had been talking with my father about his health in men, but he was not really engaged until afterward; we decided that it wouldn't be prudent for him to talk on the issue of whether drug use would improve when doctors can assess the evidence. sentence 2: He didn’ know what happened to them at all before being diagnosed.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The man's hands fell onto his shoulder. sentence 2: The man pulled on his neck.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The original church was built by Benedictine Christians in the year 329 CE. sentence 2: The original church opened in 349 CE",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I had him back in arm's reach so that no one could see any of the action but she was confident enough to move on. sentence 2: They didn’t realize how strong the attack would be before they got him back.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: In the early afternoons there are numerous bus departures for Lucca, Rome, Florence, and Milan that will take you to the city'd-express train station of St. James. sentence 2: It takes two hours to reach Venice with its ferry service.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: well we have had that same rain here for some weeks now it's kind of annoying to watch you guys work while you're busy doing something else so then i guess I should take this break briefly anyway because otherwise all our children will be out watching television right away without any notice whatsoever sentence 2: The rain has kept us quiet since last few days.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: If that was all your attention moved on to the first battle of Leyden, then you were probably dead in the process.\" sentence 2: You should not bother worrying about being dead while they were fighting for the battle.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: Then we went to the town where there was another festival of art with jazz musicians playing Latin music in the courtyard; and after that it began at the magnificently small Basilica di San Michele do Ponte-Tibetano called El Convento del Lucciolo. sentence 2: At the festival of music they played some folk musician by classical music.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: They were more efficient at dealing with these issues when they had access to information such as credit cards, checks out of debts, and sending text messages through the system. sentence 2: These activities were not as efficient as some people assumed it would be.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I thought we might be exempted to use that power once again.\" sentence 2: We could have used that power once again but were exemptely left alone.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: That's why I am here! sentence 2: I am here because people enjoy good food too much.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The latter were made famous by the English novel The Sword of Scotland, about which we talk today. sentence 2: The book was written in an effort to impress British readers with its literary qualities.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: In addition to the above listed services, we also serve more foreign residents as well as British residents. sentence 2: We also have other foreigners in our community.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: If you are going to have some sort of private time with your lover then get ready for the French Riviera at Le Croisette! sentence 2: The French Riviera is very relaxed when you go to visit your family.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: And there were other signs of life that never appeared in her plans—a museum dedicated to the poets who carried the message of peace and freedom. sentence 2: There was trepidation among the artists as they tried to carry the message across their walls.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: It was here that I first learned of the existence--of the public library --of the sylvan retreat to Oculus Park, on the shores below the town square. sentence 2: The city had an ancient history as well as spiritual influence.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: And I'll tell you what about this place... You see it here in our little town of San Giorgio Maggiore! sentence 2: There are many places that we can visit.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: And so there was a moment of great sadness. sentence 2: The sadness was followed by an empty space on top of the house.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The same old men on the other hand were standing there with guns that fired in untoward angles as I tried to run away. sentence 2: The men who had guns shot at me were standing here waiting to kill another man.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: He has no idea what's wrong with Clinton in that regard.\" sentence 2: Clinton said nothing about Clinton in that regard.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: In addition, there were an estimated 1,250 new cases annually for Louisiana as part of the FY16 fiscal year 2008. sentence 2: Many people in Louisiana may never see the fiscal year 2007.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The same man did it to him. sentence 2: That man tried to help his friend that day but then became inept about handling situations like that.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: But you'll be in the heart of something special as our son-inlaw Dr. Alfred Hoskin told me today about his first time on this planet. sentence 2: Your son did not know about our sister’m being born!",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The other half of the castle was filled with murals that depict scenes from the King'd life; these were later added to along with paintings by John D. Eisenhower in the 1890s. sentence 2: John D’Elegan wrote an original work for his painting studio.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I was not there,\" said Poirot with disapproval. sentence 2: Poijirat had no objection to what happened next.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: And what did you expect to find in my little corner of the world?\" He stepped back suddenly and looked again as me smiled. sentence 2: He was really scared when I asked him why he had turned on his side.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I was out on the open air in the morning but no one had anything to do with women--none of them could get off me.\" sentence 2: No one could get off me.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: He was in front of it,\" said Tuppence peacefully. sentence 2: Tuppence smiled at Tuppence when he saw him.",
+      "output": ""
+    }
+  ]
+}

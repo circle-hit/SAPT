@@ -1,0 +1,182 @@
+{
+  "Definition": [
+    "Given a word and two sentences, whether the language is used with the same sense in both sentence?"
+  ],
+  "Positive Examples": [
+    {
+      "input": "word: catch Catch one's breath. The flame caught.",
+      "output": ""
+    },
+    {
+      "input": "word: head He dropped his head. They were given free heads for their children.",
+      "output": ""
+    },
+    {
+      "input": "word: make Make hay. I'm making this dish for my family.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "word: call He heard the phone ringing but didn't want to take any calls. I received several calls today.",
+      "output": ""
+    },
+    {
+      "input": "word: cut The employee won't cut that hole. \"Hit her face.\"",
+      "output": ""
+    },
+    {
+      "input": "word: face Dew dripped from the face of the leaf. Put emeraldas on each face of the building that can be seen from the road.",
+      "output": ""
+    },
+    {
+      "input": "word: get I'll have to get out of town. She got me into trouble.",
+      "output": ""
+    },
+    {
+      "input": "word: play He likes to play on the weekends. Play tennis.",
+      "output": ""
+    },
+    {
+      "input": "word: strike Strike fire from the flintstone. Strike gold.",
+      "output": ""
+    },
+    {
+      "input": "word: make Make supper. Be happy to make yourself clear.",
+      "output": ""
+    },
+    {
+      "input": "word: see You should go to see the museum. They saw that man at an art show.",
+      "output": ""
+    },
+    {
+      "input": "word: head He stuck his head out the window. To say that we didn't give you enough head for dinner was just plain stupidity!",
+      "output": ""
+    },
+    {
+      "input": "word: break Break an apple pie. The machine broke.",
+      "output": ""
+    },
+    {
+      "input": "word: carry Can you carry her around on your own? She carried the suitcase.",
+      "output": ""
+    },
+    {
+      "input": "word: take What do you take for lunch? I took ten minutes to finish my homework.",
+      "output": ""
+    },
+    {
+      "input": "word: make When will the meeting be? What makes this sewing machine so special?",
+      "output": ""
+    },
+    {
+      "input": "word: face They climbed the north face of the mountain. Put ten points on each end of the sign.",
+      "output": ""
+    },
+    {
+      "input": "word: make How much do you make if we buy a new car? This makes me think of a dinner.",
+      "output": ""
+    },
+    {
+      "input": "word: hold Hold these truths to be self-evident. She'll hold her position at trial.",
+      "output": ""
+    },
+    {
+      "input": "word: break If the vase falls to the floor, it might break. He broke his leg.",
+      "output": ""
+    },
+    {
+      "input": "word: cut He saw the long black cut from his face. Cut off the excesses.",
+      "output": ""
+    },
+    {
+      "input": "word: get When will the meeting be? She didn't get his name when they met.",
+      "output": ""
+    },
+    {
+      "input": "word: play Play games. Play on the omens.",
+      "output": ""
+    },
+    {
+      "input": "word: come Our horses will come to a home on June 23. The water came to bare.",
+      "output": ""
+    },
+    {
+      "input": "word: work I will work hard to improve my grades. He finally worked out how all his problems could work against him.",
+      "output": ""
+    },
+    {
+      "input": "word: break I didn't break my promise. The light broke.",
+      "output": ""
+    },
+    {
+      "input": "word: beg I begged my pardon. I didn't mean to cause offence. He begged her to go to the prom with him.",
+      "output": ""
+    },
+    {
+      "input": "word: strike Strike fire from the flintstone. I struck him dead.",
+      "output": ""
+    },
+    {
+      "input": "word: carry I carry these thoughts in the back of my head. To carry well, ie. to hold your breath.",
+      "output": ""
+    },
+    {
+      "input": "word: take Take an exam. The child was taken to school by its mother.",
+      "output": ""
+    },
+    {
+      "input": "word: cover Cover your grave with flowers. The insurance won't cover that.",
+      "output": ""
+    },
+    {
+      "input": "word: go The washing machine won't go unless it's plugged in. These ugly billboards have to go!",
+      "output": ""
+    },
+    {
+      "input": "word: fall Fall into regress. The hills around here fall towards the ocean.",
+      "output": ""
+    },
+    {
+      "input": "word: strike Strike coins. They were struck by fear.",
+      "output": ""
+    },
+    {
+      "input": "word: break Break rust. The newsman wanted to be breaking an important story, something that would make him famous.",
+      "output": ""
+    },
+    {
+      "input": "word: fall Fall into sand. She fell to pieces after she lost her work.",
+      "output": ""
+    },
+    {
+      "input": "word: make This invention will make you ten times more popular. Make yourself clear.",
+      "output": ""
+    },
+    {
+      "input": "word: call His voice stopped when he turned on the radio. He placed ten dollars on the sale.",
+      "output": ""
+    },
+    {
+      "input": "word: fall The hills around here fall towards the ocean. His face fell to the floor.",
+      "output": ""
+    },
+    {
+      "input": "word: run He will run the sample. The dogs ran freely all night.",
+      "output": ""
+    },
+    {
+      "input": "word: work He could not work the math problem. His patience worked as well as his will.",
+      "output": ""
+    },
+    {
+      "input": "word: cut Cut lunch. Cut through that hole!",
+      "output": ""
+    },
+    {
+      "input": "word: fall Fall by one's knees. Falls asleep.",
+      "output": ""
+    }
+  ]
+}

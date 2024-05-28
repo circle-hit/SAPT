@@ -1,0 +1,116 @@
+{
+  "URL": [
+    "https://huggingface.co/datasets/emotion"
+  ],
+  "Categories": "Basic Sentiment Analysis",
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": "Narrative",
+  "Positive Examples": [
+    {
+      "input": "it feels like they are more boring to paint than life itself",
+      "output": ""
+    },
+    {
+      "input": "im sorry that your last years pictures havent been too fantastic but i cant help but feel that your going to be even more amazing next year",
+      "output": ""
+    },
+    {
+      "input": "im in so much pain and no where to fle from it is so heartbroken",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "im feeling rebellious ampive and out there",
+      "output": ""
+    },
+    {
+      "input": "im feeling less impressed with speech this morning than i was last night",
+      "output": ""
+    },
+    {
+      "input": "im also feeling cranky about it because someone is trying to hold me down and stuff ill push away or not throw temper and shout at them",
+      "output": ""
+    },
+    {
+      "input": "im feeling especially cranky because my last post was about getting laid",
+      "output": ""
+    },
+    {
+      "input": "im really praying and it feels amazing",
+      "output": ""
+    },
+    {
+      "input": "im feeling especially festive since we all know that after being in a very nasty car crash our bodies have had some time to really bounce back and so does my spirit",
+      "output": ""
+    },
+    {
+      "input": "im feeling particularly dangerous when it comes to driving",
+      "output": ""
+    },
+    {
+      "input": "i feel so dumb photographing myself okay even though i was trying to smile for justin",
+      "output": ""
+    },
+    {
+      "input": "im in so much pain and feel like i am giving up",
+      "output": ""
+    },
+    {
+      "input": "when my socks bunch up under my feet it makes me cranky and feel like there is something wrong with me",
+      "output": ""
+    },
+    {
+      "input": "i feel like nobody is giving me shit",
+      "output": ""
+    },
+    {
+      "input": "im feeling quite lonely here now and its only monday of half term",
+      "output": ""
+    },
+    {
+      "input": "im feeling so weird right now",
+      "output": ""
+    },
+    {
+      "input": "im feeling wimpy and whining and generally tired",
+      "output": ""
+    },
+    {
+      "input": "i feel so overwhelmed im feeling like ive never done more than a few simple blog posts in my life",
+      "output": ""
+    },
+    {
+      "input": "im feeling really weird",
+      "output": ""
+    },
+    {
+      "input": "i think maybe it is just how we are and how we have always been that makes me feel so much more comfortable",
+      "output": ""
+    },
+    {
+      "input": "im also feeling weird about being near david",
+      "output": ""
+    },
+    {
+      "input": "im feeling relaxed",
+      "output": ""
+    },
+    {
+      "input": "when you feel like the helpless duckie target for the commies and feds while at other times he feels the need to be petty and in control",
+      "output": ""
+    }
+  ],
+  "Definition": [
+    "In this task, you are given a sentence containing some particular emotion. You must classify the sentence into one of these six emotions: 'joy', 'love', 'anger', 'fear', or'surprise'."
+  ]
+}

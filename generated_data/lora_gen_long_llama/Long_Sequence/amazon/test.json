@@ -1,0 +1,422 @@
+{
+  "Definition": [
+    "Given a review text from an e-commerce platform, please analyze the sentiment polarity expressed in the text. Choose one from the following sentiment categories: very negative, negative, neutralp, positive and very positive."
+  ],
+  "Positive Examples": [
+    {
+      "input": "Title: good read Text: This is another great adventure book for anyone who likes mystery! The author takes you on many thrilling adventures through time while giving some wonderful insight into his character' (Brian). I would recommend this book to those who enjoy mysteries. The other reviewers seem to think that this book would be too hard for beginning readers to handle but it is actually quite easy to get through for someone new to reading these type of books. It also provides lots interesting information on crime scenes which are usually pretty dry. Overall a good buy and will take your reader on many different exciting adventures! Look forward to continuing the series with all three authors and eagerly await the next book!! You can buy Braddock by clicking this link http://www.99centbookstore.com/authors/braddock or",
+      "output": ""
+    },
+    {
+      "input": "Title: Good for cooking? Text: Not bad for cleaning up spills but it's only about medium good for making sure there is something on your plate, not enough to put it in garbage can or throw on the trash if you don't clean it after use. If I had to do it over again I'd probably go with another brand of dish. The handle broke off so now they have two different metal handles, that i don'm happy about. It would be nice to have plastic ones though, but this one seems like it is more likely made of stainless steel, which is better than the aluminum",
+      "output": ""
+    },
+    {
+      "input": "Title: The first single \"Fingerprints\" Text: I have been listening to this CD eversince it came out,and the second song in my opinion is better. It'll be interesting to see the reaction of some people on the radio who might compare some of his music to Frank Sinclair,Ronnie James DiO,etc.The cover art is beautifull and unique (from both sides),and one can hear how talented Mr Jackson is by looking at his face when singing with other musicians or watching him play live!It was the first time that I heard a piece like this in my entire life,ever...it was very special and different!!!Now on to \"Boneyard Train,\" \"Chestnut Hill\", \"Sugar Plum Fairy\"...my personal favorites on here are",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Title: A little overpriced... Text: For what it costs....I would expect better quality construction. The lid looks nice but is cheaply made out of metal so you have to open up other compartments to add your own latch(which defeatable on most cases as far I have read).The product was shipped promptly and arrived undamaged although in two separate boxes....Not worth the $!!! (in my opinion). Save money by purchasing this at Home Depot or similar online. Seemingly inexpensive enough (about $30-$40 at best deal with Prime Day sale!!),but could be more useful as intended.....if only we'd have some way to lock things down before shipping/packaging....good Luck!In all fairness Amazon has been good about providing free returns with prime day sale deals but",
+      "output": ""
+    },
+    {
+      "input": "Title: An Engaging Read Text: As I have read other histories of Great Britain this book has captured my interest and is well written with characters that are endearng. It's interesting to see how different people handle everyday events. This book will stimulate your thinking and make you question the everyday lives we lead. Well worth reading! Thank you Amazon for another wonderful seller!",
+      "output": ""
+    },
+    {
+      "input": "Title: Don't Buy Text: This product looks great, but it is NOT comfortable on my long arms. It has been so tight for over 6 years that I can barely keep my arm straight and have not had my shoulder pain since purchasing this girdle (about 8-10 months ago). My husband, who had to put up with the same thing for closeto 5 years before we found ours to be too loose & uncomfortable. We are searching high and low for replacement girths....and could NOT find any in stores.We will post another update after receiving further reviews and results on these new models and brands!",
+      "output": ""
+    },
+    {
+      "input": "Title: Very Good Text: I was so excited to see this movie in theaters because I love \"Che\" and I am usually all about movies with gorgeous female leads but not here!The romance is really good, they're both VERY strong in their roles yet it shows how much depth there is in them which is good.My favorite scene has the nudist boy/girl kissing his cubby; I don't think that i have ever seen anything like it before!That said I enjoyed watching this movie. It'll probably make ten times more sense after you read it.Alright...lets do it over already!!I will say the ending made most of the scenes even sweeter, so I can only hope for that on my next watch!!!If you love romantic comedies",
+      "output": ""
+    },
+    {
+      "input": "Title: The worst game ever Text: This game was so terrible. I have played pac man since 1991, every other month. It hasn't been beaten this year. If you like this game then don's buy this one!",
+      "output": ""
+    },
+    {
+      "input": "Title: I have to read it on every computer on my network! Text: If you want the full story for your library this is the book for YOU! No other source provides it, so be sure to read the whole thing before you buy! It's well written and highly recommended reading! You won't regret it! \"My Life as Your Family\" by Lynn Vincent tell Michael Finnelly about the life of his family which includes six remarkable children (three boys and three girls). The four main characters are all interesting people and none can compare with their courage, determination, intelligence or love for their children. Buy it, don'n forget the gift! Buy this one for everyone in your family because the stories will never end...or they will!! I give it 5 stars. Well done Mr. Fin",
+      "output": ""
+    },
+    {
+      "input": "Title: No Doubt I will buy more Text: The reason this book is not so much of dregs on parenting (and what to get from it) is because its contents are far beyond any parent' expectations. While there are many great books out today on parenting that can be really helpful for new parents trying to figure things like sleep training and feeding your child solid foods and potty training and everything else you might consider buying, Parenting Made Simple:The Complete Guide To Raising Happy Healthy Kids by Dr John Gottman offers the best information if you just want to know how to do these things yourself!Dr Gottmann has written other excellent books on topics like early literacy, transitioning from baby to toddler life, colic/prevention, and pregnancy through adulthood & all sorts of things",
+      "output": ""
+    },
+    {
+      "input": "Title Text: This is my favorite harmonica of all time!!! I am not only using it for playing music but also as ancillary tool to help teach guitar or piano... It goes so well with other songs like \"In Tune\", I can't imagine it without the use (and benefit)of having this little gem hanging in your car!I have purchased several different models of this model over the years, the last being about 15 years ago when they became obsolete because they fell out of favor amongs us guitarists... Now these are back in style, with many improved features and no less than four new reed switches on each sound level knob!!Also...it is priced affordably and I am glad I have had the opportunity to purchase this wonderful product!!!Thank you Amazon!! You rock",
+      "output": ""
+    },
+    {
+      "input": "Title: Nice idea but it did not work Text: I thought that this would be able to help get rid of some cobwebs. However, it didn't remove all the dirt around my windowsill area. It also doesn'd do much for cleaning up cobwebs on my floor tiles. The price was right though, so overall I think you will like it. If you don' trash or use as little water as possible then the problem is really your roof itself. That said, I will say it does come up fairly easy after a good wash and the fan works well.Again, it was just too expensive and had limited functionality for what it needed to do.If your looking for help with installing these sort off things call ACER at (877) 439-4800. They will",
+      "output": ""
+    },
+    {
+      "input": "Title: Not so nice design Text: Very poor quality fabric for these slippers I received them as Christmas presents a few months ago i thought they were fine they are not",
+      "output": ""
+    },
+    {
+      "input": "Title: I'm not that into this book! Text: As of right now, it doesn't look like the author is going to continue writing. She will do guest editorials if she is feeling inclined. But honestly... I really don've got anything interesting to say about it. Maybe another time (after her health improve) she might decide to keep an eye out for upcoming releases. It's pretty hard to get through 100 pages in your head unless you are completely relaxed.Take my advice- read The Body with Teeth by Michelle Pfister- or better yet, try reading \"A Life Well Lived.\" You can tell that Ms. Siegel takes this storyline seriously....",
+      "output": ""
+    },
+    {
+      "input": "Title: Great product but too small for me Text: It's hard to get on, it'll cover my head when I sit up but you have to hold it really tight around your neck. Also when I go into certain positions, it will pull back around my ears. Then the next time I sit up it will fall over onto my face. Otherwise I think it is great. Very comfortable! Unfortunately if there is any other item like this out there I would not buy it again. But I am glad that I found them as they are pretty good quality",
+      "output": ""
+    },
+    {
+      "input": "Title: The story is good minus Darrell's stupid joke at the end Text: Okay, I didn't think this was a bad movie...I liked it for its quirky characters that aren'zo reall likeable but also have their flaws such as how they handle drugs or when something happened to them they had weird thoughts about what happened and so on...Since it involves actual \"real\" people rather than just fantasy/fantasia the way other shows deal with them...it could be better. It's entertaining, though! And not overly depressing! All I would say is: Don'T rent it, you will hate it! And no matter what age group you watch this with...trust your judgement! Go out and check out some of these movies for",
+      "output": ""
+    },
+    {
+      "input": "Title: Disappearing act Text: I was looking forward to seeing where Axl Rose would go with his last film. This movie seemed too busy. After 10mins into this movie AxL Rose bursts into song....unfortunately she does not sing well enough. The rest of the film is dull. What would have made Avril'S last film worth watching? Watch \"Misty\" instead!! It has almost none of her usual quirky style but with better direction and acting. Not as funny as some of her other films but I'm still glad I saw it and that Avnil came out in decent movies compared to this awful stinker!I really hope Ms. Scarlet stays healthy after surgery as well. She deserved that much money. I will",
+      "output": ""
+    },
+    {
+      "input": "Title Text Book Review/Commentary on A Nightmarish Journey to Middle Earth by Norris Cotton (1972).................Bill is right. This tale of monsters is not like any other story; there has to be something supernatural going for this book. But I do think that its basis is well taken; it takes place during the time where most things go wrong for our protagonist, but then everything turns around. The hero goes in search of answers to his own problems when one comes along. And what about Bill' regular friends? They are always trying to help him out...but then one day they decide that no amount or money ever could help them. So there is this strange feeling towards it...and then after all that has happened it becomes completely predictable...the ending was really just another twist. Well",
+      "output": ""
+    },
+    {
+      "input": "Title: Not too bad Text: This is more of korri's older work than his solo stuff. It still has an interesting sound, but it just doesn't strike as powerful. Still worth a chance for completists like myself I suppose. Just wish the vocal tracks weren'd all been mixed by \"themself.\" Otherwise this would be an amazing album, although at times rather tiring listenin to some of them! If you haven' reached that point yet...maybe. Overall though it's ok to take your time with listening because there are some good moments to come and they're really short (less than 10 minutes). And yes my personal favorites are The Long Voyage Home and Lonesome River Blues....if your interested...also on here is \"In",
+      "output": ""
+    },
+    {
+      "input": "Title: The worst album ever Text: Not just because the bassline is so repetitive and annoying, but also because all of these songs are recorded without any original music (nothing is written in their lyrics), the result is to have someone else's songwriting style overshadowing original works, that was never meant to be heard by anyone (unless you want them to sound better). If the people who wrote the majority didn't really like it or wanted something different, they would either leave a bad taste in their mouths, relegated the work as unneeded filler trash, or at best had their foot forced onto another band. I think this record could use some serious artistic reinvention if they were actually trying to make something with their words (like \"Snow Queen, Let It Snow\",",
+      "output": ""
+    },
+    {
+      "input": "Title: Not impressed! Text: This phone is great....I'm very satisfied but was disappointed in how it \"vibrates\" sound. It also has to do with lack of volume/control...the caller would need the head phones turned off to hear what'cha saying. Also if you want more than basic dialing this thing really does not have sufficient range or something like that (dialer only goes up/down 2 degrees!) I tried other brands but none have worked out great with these...So frustrating!! If your looking for inexpensive unlimited talk time you will be disapointed....also, there may be better deals around if your area offers Callers ID...consider another brand as opposed to this badboy",
+      "output": ""
+    },
+    {
+      "input": "Title: not bad Text: good quality but it was missing ear plugs which made it hard to hear what was said on this set. I will give it another try when they come out...good price",
+      "output": ""
+    },
+    {
+      "input": "Title: No Good!! Text: I have been trying to get my daughter interested in this topic for sometime now. She loves books about monsters/wonders so I thought I'd give it frank reviews...She hated it!!The book has nothing to do with that subject so she did not want us reading it....We actually took out our library card at Walmart for some new mystery we are working on. The first story was okay and this was probably because they were just getting started...But after 2 1/2 hours she had lost interest in the characters that we knew. So we stopped, read a few chapters of \"Discovering Monsters\" but then decided to look into other genres instead...For my Daughter and all kids (of different ages) who like these types you would think its",
+      "output": ""
+    },
+    {
+      "input": "Title: Good but no good Text: It does have some nice features, like being fast charging if you are on or near wireless network. If it is your 4th I would wait for another brand name product, because i know Motorola makes dc power products better than this...I would just go with panasonic which is the best! But all-in-1 thing that you will notice when using any of the above devices, you won't only be limited to what it can do but also limited by design. The downside to these devices is that it's easy to get them weary quickly, even over time. When you need to recharge, for example, the cable will disconnect easily whereas you need a phone line for most home/work uses. This will probably not last long. Also,",
+      "output": ""
+    },
+    {
+      "input": "Title: Not what I expected Text: Arrived after promised date & as described but too large for my car (which is 15 feet long)! Was not comfortable sitting / standing, so had to return! Also delivery was slow. Very unhappy with this purchase. Would have returned it without hesitation.",
+      "output": ""
+    },
+    {
+      "input": "Title: Great product Text: Bought this item for my mom who is turning 50 soon. She has been having problems with blood pressure so it came with suggestions to check her levels before taking strenuous walks. After using it for the first time, she can now go without medication all day long without getting any side effects! Thanks Amazon!!!",
+      "output": ""
+    },
+    {
+      "input": "Title Title: Not for me Text: This game is not compatible with any of my gaming hardware. It crashes when opening up or shutting it down which defeats its purpose of having fun, especially if you are having to play solo. So I had to uninstall this program for this reason alone...but thats just how this has to be when playing online games, even though it has great graphics, but if your sole intention is to smash all of your enemies with it you will have no luck, so I would suggest purchasing another Doom title besides World at War because this is way better than it, in all honesty....otherwise there are no good things about this.Game gets boring with time and doesnt get much replay value (sadly)I am returning this product after using many others including",
+      "output": ""
+    },
+    {
+      "input": "Title: Nice keyboard but needs something more rugged Text: It's very nice, if I could afford it though. The problem is that I can't really put it to good use since the keys all skip around when you type or move your thumbs (which tends not work well with touchscreen devices) And it doesn' [t have much of alias support either, so I cannot create custom commands (copy and paste in any language or do anything more than simply copy/paste) because there're no macros available for those features. So it's just plain confusing to use sometimes, although some people use this keyboard like mad.The thing I hate about typing and using my hands for most activities now is that using the mouse on my keyboard takes WAY too long. Now I have to go",
+      "output": ""
+    },
+    {
+      "input": "Title: This is NOT for your average American Text: I would have given this album 10 stars except its extremely unsettling compared to other albums by that same artist...It reminded me of what you might hear in elevator music in Paris...You'd swear it was made by someone else!The weird thing about these songs (and some of his others) are not their catchy hooks or even great lyrics but rather they seem miscast into stereotypical sounds which don' [t really fit with traditional rock anymore]-(not like Ozzy). Somehow he doesn' \"fit\" any particular style at all; his sound has aged since the 70'S; now it seems as if every new CD that comes out seems to be more generic than his previous ones....Forget this album! Don'",
+      "output": ""
+    },
+    {
+      "input": "Title: Don't buy this product Text: It works for awhile, but then decides that no matter how often it'll be used, its just not getting any more use...I would suggest spending your money on something else. I like to take my Keurig with me when traveling and I don' know who I would want in my home. This device is great at holding water and coffee while making smoothies, but at $40+ you might as well just stick with K-cup holders!",
+      "output": ""
+    },
+    {
+      "input": "Title: The best thing since...??? Text: I had this DVD player for years, even back when it came with my video cassette deck, but then my VHS tape deck got upgraded. So no more Dvd's for me. However.....NOW you can have all your videos in your new HD home theater system! You can watch any and ALL your favorite shows and movies without cable box subscriptions or overage charges for watching only what you want. No matter where you live, no matter what kind of programming your receiver has, you can view ANYTHING. And it doesn't get much better than DVI (digital) format!So now you can finally enjoy your VCR on ANY TV or set top box in ANY room! Just plug it into the wall as an antenna and you are ready to",
+      "output": ""
+    },
+    {
+      "input": "Title: Great Product Text: This is an excellent product...it heats the hair nicely (and softly) without much perspiration (unlike other \"hot\" gels). I used it with my daughter who was extremely hot but not overly dry / oily and I really liked them for that. My 5-year old had to switch back after about 2 weeks of use until her natural coloring came through...then the second time she tried it on it got even worse. She said they are too sticky and pull out easily (but not nearly as bad as their original Hot Head brush set!) which left little room for maneuvering in any way but straight up/down and no control around any corners. It also made my baby' delicate skin flare up so we had to keep spraying and wiping until it",
+      "output": ""
+    },
+    {
+      "input": "Title: Good Text: Very informative on basic electronics (especially diodes and resistors). The author does not go into great detail for other components or how to build your own dipole but provides enough information to get started. I bought two boxes of it. One for each of my four children who are interested in learning about electricity and also as gifts for people they want to do something with in their lives. All good stuff if you can buy them inexpensively!!! Great Deal. Thank You AveryBridget!Welcom!!!!!!!My son received his first DiOde 5W charger 2 years ago and has been using it ever since! It works fine and we were excited that our boys finally could charge themselves!! We recommend this brand & its products to everyone we know. Our daughter wowed at",
+      "output": ""
+    },
+    {
+      "input": "Title Text: I love this book!! It gives you insight into what happens when your mind has wandered off on its own crazy path...this is my go to book to help me remember if I ever get lost again! Thanks!!! Love it and would definitely recommend this series!!! Keep up the great work authors. You are amazing",
+      "output": ""
+    },
+    {
+      "input": "Title: The Best Keyboard Text: There is no other keyboard on my list that I prefer than Logitech's CX500MQGKL1 because of its unmatched comfort and multifunctional features. My main griping about this keyboard is its placement in the key stacking order; you cannot go down any row to switch between positions in your list of programs. However, my biggest complaint about the keyboard is the keys themselves. They are not backlit and they seem poorly designed with plastic buttons for their large size. You can slide them sideways with little resistance but since they do not have antimagnetic coating they do tend get scratched pretty bad. For example, my favorite has to be the number pad/num pad combo which doesn't work as well",
+      "output": ""
+    },
+    {
+      "input": "Title: A good start but then there are 2 major problems Text: I love \"A Good Time at Home\" and found these discs to be similar enough to that show to purchase both again, because the songs on their own do not stand up to being repeated or even skimmed from other CD'S",
+      "output": ""
+    },
+    {
+      "input": "Title: Nice filter but poor print quality Text: My HP DeskJet C405 Printer was having Print Quality problems and I ordered iMate 855n at same time. While printing on my home printer the copy came out black (I tried to use Photoshop Elements, which is OK but requires too much post resizing.) On this particular computer the paper tray that holds the actual papers has small holes around them. The Canon J870 does not have such problem (it prints fine). Ink cartridge life will be less than satisfactory.The color of paper may vary. Overall, I am quite satisfied with the product but it took 2 months for this one to arrive. So while this wasn'm sure I got the right item",
+      "output": ""
+    },
+    {
+      "input": "Title: Good for kids...but Text: We bought this toy for my daughter who loves Legos. It didn't work as well as our other toys. So we took it back and got her another wooden set. She was still having problems with her hands not being strong enough to hold it up (which is why I gave her this set). The only good thing about this is that the pieces snap together nicely and are soft enough to roll around, so she doesn'll be hurting herself to much injure her hand when trying them out. Overall the puzzle toys were cute, but they donr have the durability of plastic ones, or some such sturdy material that will stand up better.The best part of this to do with toddlers is that they can've figured things like how long something takes to",
+      "output": ""
+    },
+    {
+      "input": "Title Poorly Written Text The book is poorly written and lacks any kind of structure.The main character has two side stories which lead to several major problems with her life and behavior. She basically becomes obsessed with alcohol until she lose all her friends and starts hanging out at bars, then gets fired when the owners find out.While there is nothing new about this story I found it irritating and thought that Maggie was really screwed up over what happened at prom. There seems to be too much redundancy throughout this story making you realize it'll all end up being rather confusing at the end.In addition the writing style of this book lack depth and meaning as does the writership style itself which makes no sense unless your trying to put together some sort clever argument for what happens to people in the final scene.I suggest reading",
+      "output": ""
+    },
+    {
+      "input": "Title: Dishes are all over Text: These dishes are pretty average...the sauce that comes with them is not that special. I have had better success with other recipes. This dish does everything they say it will do, but there is hardly any liquid at all, no soupy or thick consistency, etc. It was actually rather bland. The chicken breast came out too tough, so you'll need to simmer some extra chicken for that (although I don't do this often!). Overall though these dishes are fine. They are inexpensive enough that anyone can make them and I think the trick is to find something really good at Trader Joe'S to pair with them! If you want quality then look no further. As long as you keep them warm like we did and use them for their intended purpose on top",
+      "output": ""
+    },
+    {
+      "input": "Title: Disappointed Text: This is not my favorite Charlotte book by far. It was written by someone who hated the character of Anna Paquin (Pat), as well all other Rosamund Pike books but that's another story for another day. As much as I love Miss Kittly I don'T like her new style, or even this version of it",
+      "output": ""
+    },
+    {
+      "input": "Title: Not worth $15 Text: This isn't great for me but it does work great as bottled water! It tastes exactly like tap -- sweet and not too strong of sour flavors like others I have used in this application. Unfortunately, there only two sizes, so you have to experiment with finding the right size bottle. The straw holds up, too -- that is all there is to it unless you really want your hands dirty after filling a glass half full with hot tap water. We had two glasses before we purchased the system because one was cracked or broken when it came to use, but we don'd notice it in time, even though the filter was installed to the top rim of the straw. After getting all set up, pouring the contents into ice cube tray, and",
+      "output": ""
+    },
+    {
+      "input": "Title: It's okay Text: I have heard it described as good on other websites, and it works. But i read this book while it was still hot outside, so be prepared for some minor burns in your skin. If you already have really bad sunburns, this might not be salving, but if you suffer from moderate burn pain and don't mind dealing with heat then he is ok for now (at least). Otherwise its pretty standard stuff with little to nothing useful in my experience.If it weren'T for Mr Skinner (it doesn'f work that way) then you would only see about 3-4 uses out of the 5 months you own this thing...the rest would be just fine.I guess for me, it just wasn'p worth wasting a",
+      "output": ""
+    },
+    {
+      "input": "Title: Not bad... but really not so good that I would recommend it... Text: This is my first experience with watercolor painting. When you look at this book I thought it might be good, it had great color reproductions of some interesting old masters -- mostly Rembrandt' [I love his work] and Ruben's (more modern) works -- but I was wrong! There were also beautiful botanical illustrations of flowers and still life compositions by other artists that included such lovely things as leaves, rocks, water voles and even insects and bugs, which I loved!!! So it wasn'd be too difficult to put this book down. But my paintings look better now than they ever have. They don' trash all over their paper after each session. And when you come away with these paintings you've",
+      "output": ""
+    },
+    {
+      "input": "Title: Not worth it Text: This is very disappointing to me as well as other reviews have led me to believe that this book was published just prior of MLK's election...however there is no \"Revised\" edition so it goes back to how things were before Mr King took office....this will not be useful for anyone to buy at the same time or in anticipation of his election!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: A bit disappointed Text: I liked this book, it wasn't my favorite but wasn'st bad either!! It was written by someone I know & admire. That being said, this isn'T what one should expect to find with his work- more like just another \"research\" type of novel (which is okay for him) The characters were pretty good, if somewhat stereotypical. And some of the plot twists are ok. But this could be my new go to author! He writes well, has likable main cast members and the stories were really interesting!! This one would not make the Top 5 List of Best Young Adult Novels.If you're looking for something else, try Anansi Boys which is amazing-definitely worth your time!!!! I am sure",
+      "output": ""
+    },
+    {
+      "input": "Title: Good reference book Text: The Book of Housekeeping is well written and contains good information about cleaning both small and large homes and also includes suggestions to keep everything neat and orderly.Also has some helpful suggestions for dealing with clutter and keeping things clean in your home as well as tips on cooking more efficiently.Recommended by many friends",
+      "output": ""
+    },
+    {
+      "input": "Title: Great for kids with great price Text: I am happy with this product because it fits my son perfectly. It has 2 pockets for carrying other things and is big enough to easily fit on any backpack he wears.",
+      "output": ""
+    },
+    {
+      "input": "Title: Not Great Text: I have had this unit for about 3 months now so I could tell by looking at the reviews that it was poorly designed and not well made. The first couple of times I tried to put the batteries in I would hear clicking noises like if there were two or three loose connections. After battling the issues with other buyers, I decided to return it and wait a couple of months to hopefully find some alternatives. This is going to be my last battery tender purchase and my least favorite product ever!I did try several different brands but all ended up having short life spans due either to misuse or poor design. In that time I will be shopping around for something else... If you want an effective charger then look into buying Amway' Rubberneck Blinking Lithium (which also includes",
+      "output": ""
+    },
+    {
+      "input": "Title: Good for kids Text: This book is good for early readers. It takes some getting used to because it has lots of repetition on many things, but once you do, it will become routine. My eight-year old was excited to read it. When we put down the books, she always looked up what the story was about next...which means there is usually LOTS of interesting information! I can't say that our four-year-old really enjoyed this, but if you are older than eight, it might be fun. If you think your children are just too young (they could probably handle more sophisticated literature) this might encourage them to try some reading with an adult, or maybe even give them an extra incentive to want \"to learn\"...like at our home! It's good for building",
+      "output": ""
+    },
+    {
+      "input": "Title: This CD is so much better than \"At Last\" with Phil Collins Text: If you haven'd heard this wonderful collection of songs by Frank Sinfullo (who died tragically in May 1991 at age 44) and his friends from their hometowns of Cleveland, St. Louis, New Orleans, etc...this collection will change your life. They are all just as brilliant! The only disappointment for me was that they would never have recorded these songs had CCR been around then! But the music that is on these three tape collections are classic and worthy of every listener",
+      "output": ""
+    },
+    {
+      "input": "Title: Not worth buying Text: The blades on these knives are dull after use for awhile (not because of misuse); however, I feel they need to be softened (softening them first is not so simple) with just water. Otherwise, I would still consider buying another brand, but this particular model has several flaw issues. First off, it doesn't heat up fast enough; you might have to turn the burner down too low if your skin gets dry, which it won'T do in some cases. Second, even when heated (rarely!) you can overheat them by turning the handles back slightly so as to force some air past them; resetting the handles allows the hair dryer to continue working at higher heat levels than before. This could cause long term burns that you probably",
+      "output": ""
+    },
+    {
+      "input": "Title: Not Bad! Text: A lot of this book is about making smoothies (which are really delicious). It'm also good for people that exercise and like food but don't want to spend money on supplements. I was not as impressed with this because it focused mostly around \"How-to\" stuff rather than anything practical. That said... there may be things you can do to increase your energy (and thus get the most out fot what you put in). You might consider purchasing some other books to learn more of these tips.In all, it still is ok to have fun while working out. For those people who work at home or in their own kitchens and are trying to figure out how they can add variety to their life while working out. This book would be very useful for someone just getting into",
+      "output": ""
+    },
+    {
+      "input": "Title: A wonderful game but.... Text: I've owned this for almost ten years now so it has served me well but... what can I say... This is not an exciting game, its just like any other regular Tetris game, it is boring and repetitive (I guess I should find aliases). It has one small plus though; The object of the game is to get everyone on same level so you know who you have, and there are 'hot spots' on the board. Once they start they take their toll and you really only see the top 2 players, if your looking to win then get ready because there is no easy way out and you must play each round overandOVER and OVER until your score(goal) hits 200 (or something stupid). So far i",
+      "output": ""
+    },
+    {
+      "input": "Title: I love it Text: This book is excellent-not to many words but plenty of them!! If you liked The Giver, then this is definitey your book!!!It will give you great insight on parenting styles and help you get some really good examples with real life stories that you can use for other books too!My only question is how do they all end? There is no ending...or do you end up using the entire thing if there is no turning point?So far, my 4 year old has been through 3 times already-but that's normal-and she doesnt like having this hard back because the first time is so long ago (it was the same exact year we got our daughter) and second time around, they just abruptly stopped doing them!If the answer is yes",
+      "output": ""
+    },
+    {
+      "input": "Title: Good Book Text: I would recommend this book to anyone who wants unbiased information about natural methods for health problems. Very good source for diet related info on many common disorders",
+      "output": ""
+    },
+    {
+      "input": "Title: Good reference book Text: This is the most complete set of Java source files available anywhere. It was used by many people, including myself, to assist in writing various J2EE applications like WebSphere Application Server (WAS), Apache webserver, Cold Fusion server and SOA application programming interfaces (SOAP). I would recommend this as introductory material for anyone interested in using these components in their own development environment. Download a copy from Amazon. You won't be disappointed!",
+      "output": ""
+    },
+    {
+      "input": "Title Not too bad Text I was really impressed by this movie even though the first two were good, but this third installment is not very impressive. The storyline is weak, not too thrilling as other films have been. It has some nice action scenes, but it fails to hold the interest until the very end. Maybe some director could add more of these kinds movies to make them worth watching... I've seen several better ones already and look forward for another crack at that genre.... But all in ALL, not great in any way, but good to see something different here and keep our interest on \"Alien\" (not so much fun when it falls apart), \"Interstellar,\" \"Cabin Fever.\" Aliens are still awesome!!! And who doesn't like aliens anyway? Anyway, for those of",
+      "output": ""
+    },
+    {
+      "input": "Title: Doesn't work for me! Text: The product works ok for some people. You have to get creative to use it because you can's put any other stuff into thier ears (thats what I did) but after that its noo good. It didn' not do anything for my sons who like blue collar jobs and this is the ONLY reason we got them at all! Our daughter said she likes our old headset so when we bought new ones we will give it to her!!! She has been using them happily ever since and still doesn'd know that he can' find this anywhere else!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: not worth it Text: I ordered this game for a friend's birthday. He loves to play with our board games but this was pretty frustrating. The instructions are vague about what you are supposed do when he die etc.. My brother got into trouble because it kept saying \"You cannot use your sword until it'cooled down\" which is false. Don't bother this software, it never had fried! Our daughter also doesn'd like it. She grew out of it really fast!",
+      "output": ""
+    },
+    {
+      "input": "Title: This is not what I wanted Text: As with many other books by this author, the story line was great, BUT, as another commenter stated above, the pace of the book slowed way down about halfway through. Then after that point, I felt like I was reading just to get the words out of my head and to pass the time awaiting some revelation....which never happened. It would not make any difference if you could read it all because unless they were your favorite authors, no amount can take away your enjoyment of the journey...the good writing will come at the end of it!! But even when there are only 2 or 3 pages left of your chosen adventure, you'll still want more",
+      "output": ""
+    },
+    {
+      "input": "Title: Good book Text: This was my first experience with Sandra Brown books and they were good for me to read. However, I have to say that she gets repetitive after awhile (she has to explain everything for you), but overall good book. It'll be another year before I buy her next one. But if you like stories about dysfunctional families, this will definitely give you something to look forward too. Great book! The only thing it lack is some character development. Her husband didn't seem as interesting as usual, and there were too many side characters that seemed like they weren'd have much of an interest to me. Still, good info! She does get better, however. If she keeps up on the romance with Andy and his wife, that should help in getting past all the sizzle-",
+      "output": ""
+    },
+    {
+      "input": "Title: I am not impressed Text: This game is too difficult for me at this point of my life. It's just not fun for me and it really has me thinking about what it would be like to live a happy wholesome family. So instead we find that with all the drama, pain and sadness thrown in, we end up doing just fine albeit less than fabulous in our lives because all is well and good. But as you continue to read through the storyline, more and MORE issues creep up. First a lack of moral character in the adults, now the parents are trying to control their children. Another serious issue: The ending just left me hanging!I would have liked to see some sort humor, but instead that just added complexity and pressure that could lead to feelings of guilt or shame or worse",
+      "output": ""
+    },
+    {
+      "input": "Title: Great for my daughter Text: I really enjoy making smoothies with this blender. The only negative thing I have to say about it is that some parts are too small for her but overall she like eating them! My next project will be adding more sizes to it. She does really well with the large bowl. If you would like something bigger, we recommend using smaller lid jars.",
+      "output": ""
+    },
+    {
+      "input": "Title: Very good for my first pair Text: I love these boots! They are really comfy and the quality is great. However, they do tend to run big. My feet get hot very quickly. If I am in between pairs, I will order these again. These are also much more expensive than Reefer's (I think I'll try them). The only reason I gave 4 stars instead of 5 was because I bought two pairs in different colors and it took me MONTHS to wear them all together & then had to switch them out after wearing only 2 hours total...UGH!!! So that may be why. Otherwise they are very comfortable & will last for years! They have some nice leather too. This would be taylor made but not designed for hiking so if you use the",
+      "output": ""
+    },
+    {
+      "input": "Title: Too long Text: This movie has more scenes than I can count but it was too long. It started off slow when you realize you're watching tense drama but after the first 20 minutes or so the tension was gone all together and now there are only about 6 more minutes left. The story is not that well written but as with most westerns the plot gets interesting toward conclusion and the character of Bill Odenkirk grows quite likeable by the end of the film although his life is anything but happy",
+      "output": ""
+    },
+    {
+      "input": "Title: I would have liked better Text: My wife loves these; however they are difficult to wash (even with soapy water). The bristles wear out quickly and it takes hours of use before your next towel is clean. Not recommended for kids at all!",
+      "output": ""
+    },
+    {
+      "input": "Title: This should be called HIT AND RUN! Text: I had been waiting for 3 years for this DVD to come out. What I got was 2 1/2 hours of \"Crazytown\" with stunts that were done by none other than Jet Li. If you are thinking about buying it be sure to read some reviews before purchasing anything else! As much as I love my Turboman (it'll even play on my HDTV!) it doesn't have enough thrills to hold my attention long enough to keep me watching all through out the movie. It is good to keep this short since its not really meant to fill you with excitement and gore like in previous versions of this film but the first two third has left me wondering what kind(or level) of fanboy that is that is actually watching this",
+      "output": ""
+    },
+    {
+      "input": "Title: An Eye Opener Text: What I liked about this book was its focus on empathy, that it is not simply just another how to make money... It is one man's story, and shows you the real power of sharing your feelings with someone else. That teaches you SELF CONTROL which will help you be better at selling yourself to others. The character development of Drizabal was great as well as showing Drizabal and his struggles with alcoholism. However, the stories about \"the rich\" were kind of dull to me. As others have said this is not for everyone but I did like that one too.Overall this is 1700 pages, if that wasn't enough then there are 12 extra books at the end. Buy this one instead. Buy ANY OF THEM",
+      "output": ""
+    },
+    {
+      "input": "Title: Great book to start the day off with!! Text: This is my 2nd edition of this guide that I was given by another teacher for school, back when I was learning about Ecuadors history. It'll be interesting to see how my knowledge has grown as I go along with what I know so far. Maria Isabelle also does some wonderful work on Quito and its people, including interviews with Luis Eduardo Aguascalientes among other things. Her passion and research are truly inspiring.I think she gets to some good places, but that may not happen in all books, especially her \"Not Just About Quepos\"...If your looking for more information on Embera or related subjects you can check out Amazon Venezuela'S web site, it provides good overviews and",
+      "output": ""
+    },
+    {
+      "input": "Title: This book has more than its fair share of errors Text: I found this to be very disappointing. In part because it is so full of false information. It also relies on outdated figures for historical data about various topics. While these errors are not significant to today' (...) world (I mean they may occur to me some day), they are certainly annoying. The author makes too many \"facts\" and ignore others completely. So the only way I got it was through her own research or by reading old printout that she apparently had lying around somewhere, as another reader noted, or the online version which I downloaded at an earlier time from NerdWallet, so beware if you buy from Amazon! Don't believe everything you read online. Be sure to look up what other people think of their purchases.",
+      "output": ""
+    },
+    {
+      "input": "Title: Not as expected Text: The book I read in junior high was better than this. However, reading it now, I still don't understand why all of the characters have to suffer through what seems like forever just to get on their feet and go home. It felt more like being forced to learn or face unpleasant life circumstances than actually fun. If your looking for something light and simple, then read another Jane Smiley book or take some time off to think before you write anything down! But honestly, this isn'de exciting enough to be worth skimming over, especially when so many great books are out there like \"The Happiness Project\" by Sherrie Schneiderand LeAnn Rimes. They all come from different walks of parenting, but they all end up creating lasting happy memories.Take your pick!",
+      "output": ""
+    },
+    {
+      "input": "Title: I was not impressed Text: Although all of this series are enjoyable, and some have great actors (like \"Sponge Bob SquarePants,\" etc.), some are just plain dull. For example, I found it difficult to get through season 7, and the second half only lasted so long because all the good jokes got old by that point. The writing style seemed amateurish and there was little interaction between any of the cast members. It wasn't like we had the option to skip over them or skip back and forth without missing anything important. In short: Don'nt waste your money!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: good buy Text: This book is pretty cool as well as informative at the same time",
+      "output": ""
+    },
+    {
+      "input": "Title: Great book with detailed maps of Malta Text: This is an excellent guide for anyone travelling to Malta as it covers all the most visited attractions that are not included on other island guidebooks. The walks are great and it also tells you about what you can see and do on all the islands (if you have rented this one, be sure to check out the \"Tourist Attraction Info\" section at the bottom of the page). There'll even some information on where you can stay if there are any hotels, restaurants etc. that are mentioned in the text or on the island map itself.Overall, very useful indeed! We had the island walking tour with our group on St Martin island in June, so this will serve us well for the rest we will visit over the next few months. Thanks!!",
+      "output": ""
+    },
+    {
+      "input": "Title: Great Text: This book is easy to read, fun, funny and has many recipes. The author also makes breads that you can freeze and then pop in your mouth like Pop Tart'd or other similar healthy treats! My favorite recipes are those with lots of chopped fruit, nuts and seeds. I have had this cookbook for about 8 years and always pull out & have used it several times since then. It makes me smile each time we go out to eat, talk on the phone...yum...The only reason this particular one didn' work well was because it did not include dried banana chips...maybe I was expecting too much? But, overall a great buy and would recommend to anyone looking for good tasting healthy food and low-fat quick snacks without all the fillers. Very",
+      "output": ""
+    },
+    {
+      "input": "Title: Not as described Text: This is not the case with all Dean Koontz DVD's. The description in \"What Ever Happened to Kenny Loggins?\" states that there was absolutely no way of telling what happened to him before his accident, that it took months after he had been out of work for many years to get around on this particular incident, etc. I found the storyline intriguing enough, but some parts seem like they would have had more depth had he just stuck with the project rather than trying to find something else.The only reason I gave 4 stars insteadof 5 is because of some scenes showing off Mr. Koontz (Kenni) to make joke remarks about Glen Campbell and others...otherwise it could have worked much better.Either way....it would",
+      "output": ""
+    },
+    {
+      "input": "Title: This is horrible Text: I just found out about this album last night (at work), but it's such f***ing good music. The sound of every song on here has the power to blow you away. If that hadnt happened by now, someone would have already paid for every single copy. It'll cost more than anything else, but I think it's worth every penny. Don' (...) find a reason not to love \"Alter Ego.\" That's right...it's really THAT bad. So much so that the only songs on it that are decent are XOYOU AND LUKIN DOLLAR BABY! Other than them all, though, it was pretty damn great! I really can' [...] read enough here to know what the hell",
+      "output": ""
+    },
+    {
+      "input": "Title: The best of Motus Text: This is one of the best books by George R Brown, because it's not so much like what everyone else thinks about as about who has done this to us or how they feel about the changes (good or bad) that have taken place. It'd be nice if more people would read this because we're getting there with our \"nation of change.\"I think Mr. Brown is right in that his book really takes you on apologetic journey. He doesn' emphasize what everyone else does but, I can say it's a good thing to do, since there are some things in politics that affect people' lives in profound ways. For instance, I know people in my office whose jobs depend on their relationships. Their family life is",
+      "output": ""
+    },
+    {
+      "input": "Title: Great little set... Text: These are great for traveling or use around the house when you don't have time to fuss with batteries. Each has the USB port which is handy! It takes two AAAs to fully charge these but that works fine too! The included carrying case has the slots ready for most standard chargers. You can find them at Walmart under cell phones as well.The last feature worth noting is this....they have an automatic sleep mode so it doesn'd take long for the light to go out. When they do come on though they do shut off if left unattended, it only last about 10 minutes before going back on.I recommend these sets as travel lighting for sure! They are light and small enough to take along on many trips and easily switch back on at night for charging",
+      "output": ""
+    },
+    {
+      "input": "Title: This is not worth your money Text: We purchased this product as OE on Amazon for under $20 and were expecting it to have some nice features that would be useful to our business but we only find out at the last minute that it is NOT compatible with the phones we purchased as they are no longer being sold by any of these suppliers. What if I could simply buy another phone????? The good news is that our previous carrier (the BellSouth Orange) supports both Microsoft AND T-mobiles...I really need a new handset for my work since this doesn't support their new T1 features, which we will probably end up purchasing for our business anyway because there is no way to know for certain that we will have a \"trusted\" service with Bell when making such ancillary phone calls",
+      "output": ""
+    },
+    {
+      "input": "Title: Great Book Text: I'm not sure why so many people love this book so much. It is an autobiography of my life's events from when I was born to now. My mother always read it and she has never forgotten anything I said. And then there are her stories of those who helped me. This one will be special to you because this book is all about that time my life changed on August 10, 1971. The first time, my sister named me as Dolly Ann but since then my name reverted back to just \"Dolly\". But then another brother joined us. I am glad he did. A very good story, and even though it may have been fictional at times it was actually not untrue either. If this has not turned your life around for the better and you",
+      "output": ""
+    },
+    {
+      "input": "Title: Very good movie Text: This film was excellent in bringing out who God has really been to humankind...not what this portrayer makes it look like he is doing. The special effects were great and I enjoyed seeing them on tv! Great for kids. And that should be a huge deal because of the way they are built to do so...the only problem being this doesn's really work with computers because it can take over 30 seconds to load, and when you start using your computer (or laptop) the system will automatically go into safe mode and lock the player for 5 minutes. So even though the software doesn'r know how to read a coded DVD and will always think it is playing another video, if it isn're going to stop I just unplug the",
+      "output": ""
+    },
+    {
+      "input": "Title: Great little book!!! Text: I bought this to help with my son's math homework, but was surprised at how good it turned out. My 7 year old loves solving these problems, and we are both so happy about it. It is great for kids and adults of all ages. We just love learning about fraction words, mixed operations, extenstions, additions etc. The only thing that could be improved upon is not having any pictures! There isn't numbered activity pages (like other math workbooks on Amazon) but I think this would have worked much better if they added those. Also, the calculator is really small. He still had plenty room to fill out the exercises. Overall, it is ok. Just wish there were more activities for him to do! (Including cross",
+      "output": ""
+    },
+    {
+      "input": "Title: Don't buy it. Text: It looks great but you have to read between lines at times, otherwise your ears could start hurting after 20 minutes....and by then it is too late to return them or complain if they do break, there's no getting around this limitation as far back I recall as we lived near Disneyland!",
+      "output": ""
+    },
+    {
+      "input": "Title: Don't buy this movie Text: I was disappointed to see all this extra footage of people fighting with animals on TV -- it looks realy like a fight scene, but is really fake! This was supposed as an additional documentary about Alaskan fishing by some guy who had no other job except sanding for his living... It doesn'r look real. And that doesn'T help the story either. There aren'll any interviews of actual fisherman (although they did have quite 1700 pictures and videos) on there. That said, overall, you would think that an island covered with thousands of dollars worth swordfish would be the most interesting place on earth, especially considering they only get 2-3 hours of air time a year (they must get up every 3-4 hours!) Even at",
+      "output": ""
+    },
+    {
+      "input": "Title: Not worth it Text: We bought this for our son who is about to start first grade. It was too small for him (I think he's only 1 year old). The straps don't go anywhere (not sure why) and there is no way to adjust them. He has other scooters that are bigger than this. Even so, when I got home with my car (which was just as big as his), I tried this out on it -- I like it but didn' Leviaton sells for more money for its strollers and handles. Also, at $100, it looks more expensive than what our local Searsport store offered us --- which were $135 for two seats. For $99? That works for my son'd use... so far... good deal",
+      "output": ""
+    },
+    {
+      "input": "Title: Good read Text: Interesting look at how LGBT issues are still evolving; this is well worth a read. I enjoyed it but there was little that wasn't obvious to me on some of the gay/lesbian subtexts, for example in relationto race and classisms within society, or even just straight transgenderism. As another aside it also raise questions on what role religions should have in contemporary life and on their relationship with power as in termsof men being superior or inferior. If you want more information than will satisfy your curiosity and be informed go beyond \"A Question of Intent.\" This book did not provide sufficient material to answer these types question and left some unanswered.If religion plays roially important roles in one'life and one thinks theyshould",
+      "output": ""
+    },
+    {
+      "input": "Title: Too short Text: There were so many good songs! We are looking forward to getting back together for another song collection...and we have only just got this CD!!!! It seems that the band was not too happy with all of these performances as you can see in their first single \"Nobody's Heart\" which is just about perfect. The best song of this CD was definitely on track 9 \"Everyone Loves Me\". I would recommend putting these two tracks on your list if you want great music but don't really care for long length albums. If you do like to dance, then these two tracks are probably good choices for you!! Overall it has gotten better the more time passes and there are new things being put out by them. They have a nice way of keeping up with pop culture but",
+      "output": ""
+    },
+    {
+      "input": "Title: A bit much.... Text: I love Judy Blume but have yet to read her books so this was pretty easy going and not my strong cup of tea. Maybe it's because this is the only book by author that I actually bought before my trip (this being just for me and no kids) which is why I gave this 2 stars instead of 5. Just like when we went on our Disney cruise this is exactly what we did...We watched some Disney movies on the beach & got sunburnt in between lol! So maybe the reason it didn'T sell well at all is due mostly to lackluster marketing (although Disney has never claimed it was bad... unless you count those who complain about how expensive everything is). We are still doing some travel through Europe & Scandinavia and will do some more travelling after",
+      "output": ""
+    },
+    {
+      "input": "Title: Not as advertised Text: I was looking for some type of book to read when my husband's surgery took longer than expected. He said this would be too small and not thick enough. Well guess what? It is! The inside pages are just about 4 inches tall. If you're like me and love large volumes, I found this hard to get into but still worth buying. There is tons of information packed in but it really gets your juice out. Don't waste time hunting any down because it does have over 50 different recipes in each section so far. Also don' (...) the cover has no pattern or way to open all of them so they all fold together for easy access.If you are looking for cute gifts this isn'*t it but it certainly works.I can now buy him anything without",
+      "output": ""
+    },
+    {
+      "input": "Title: Not for Sprint Voice Command Text: I bought this headset hoping that it worked like my old Uniden phone did, and it is not as good as it used to be. The call quality just seems choppy and doesn't quite work for me when using both ears. This set may be somewhat useful if you need to keep your hands free while driving (or walking), but is also unreliable when trying regular commands on the road. With voice control, you can get much better accuracy of how well your device works when your face or even neck are touching your body, so this might be worth having at this price if your looking for something reliable. Otherwise, I have returned it since they don use the same wires in their phones anymore. As far hearing loss goes, the sound clarity and pickup has",
+      "output": ""
+    },
+    {
+      "input": "Title: This movie rocks and will stay on my shelf for years Text: If you enjoy watching action movies and this is your type of flick then there's no reason you couldnt love it. I first seen ir when we were dating & watched every weekend. If you havent yet then this is a dvd worth buying as well as renting. You wont regret",
+      "output": ""
+    },
+    {
+      "input": "Title: I LOVED THIS MOVIE Text: There are so many good movies out there I am going to have to watch every one of them this summer, it is that good. If you don't want to be disappointed pick up this dvd as a reminder of one of those films where we really enjoy each others company. You can see this with almost anyone. The DVD was so great that my friend said that she had no clue it wasn' trash...She really did! All these years later we still enjoy watching the movie as well. It is that funny, sweet kind or whatever thing. Just a great family entertaining film that would be fun for a summer blockbuster movie marathon too. My boys and I all loved this. We hope it can inspire someone to go to prom. If you haven",
+      "output": ""
+    },
+    {
+      "input": "Title: It's about time someone did something to stop spreading these lies! Text: As far back as I can remember there was odious stories of people getting sick because their loved ones spread them via sexual contact with others (which is just not okay), or that they were using birth control to cover up pregnancy. But recently we have seen a concert featuring many survivors who are being silence exposed after telling all of their personal details through this book. And no, it' [sic] NOT a parody, but instead some pretty damn accurate accounts of what happens when your family choose you and your partner over another. If someone could find such untrustworthy acts circulating today then they should just be ashamed. In other words let some so-called victims talk for themselves instead of doing anything about spreading more mis",
+      "output": ""
+    },
+    {
+      "input": "Title: Not sure why it took me so long to download Text: When I saw this movie, I was disappointed by the title (it's kind of like \"The Waltons,\" except the Wallflowers are real). But then I realized, I didnt see how the film would benefit people, unless you like being trapped with your mouth open! If anyone has used it, and found any bugs or just wants some more detail on what happened when they were locked up for fear that they might get hurt... well, that info is there, on both sides.If anyone wants to talk about what'd happen in THE WALLACE OF OLYMPIA, the director should have at least given us at least the first 2/3 of the movie. Also known as William HOLMES AND FRANKENS",
+      "output": ""
+    },
+    {
+      "input": "Title: Great book! Text: This is my first Lone Wolf novel but I found it to be very intriguing. Once I did get involved with this character she was interesting, well written and just plain fun to spend hours reading. The only disappointment here is that my copy didn't include any of her journaling or other writing samples so I had to do the work myself instead.Overall, it was well worth the read.I would recommend this for anyone interested in ghosts or paranormal fiction. She will keep you on your todo list long after your read it if you like it! Congrats to Lisa @ BookPeople.com on another winner!! You are most definately a WINNER on all the above!!!Thank you Rebecca@Bookpeople.com and thank you DKH Publishing",
+      "output": ""
+    },
+    {
+      "input": "Title: good but not worth $140 Text: I like this watch very much because it is easy to see when you're running, easy to put on, etc. Also, the face is nice to look at! It's easy to read on both eyes. However, for an extra $30, you can get your choice of color and more power with your watch! (Synthetic face is a bonus) The display is clear, which I think is really important. But the battery life is way too short.It may sound silly, but I have had the same problem that people with other Seiko watches have been having with batteries going bad, so I wouldn' Levitra would probably be pretty cool with another watch just fine. So... buy with confidence.",
+      "output": ""
+    },
+    {
+      "input": "Title Text This is not what I expected! The CD was more eclectic than usual, with lots of other music but hardly anything about Slayer, much less on this compilation!This, alongwith many other Live At Last comps on their official website, are definitely worth buying as well!!I have listened to the Comp Disc several times and will continue to do so if not already done!!Best buy for me!!If you enjoy live at last cd compilations you wont be disappointed...the only reason this is listed here instead of other releases on the main site is because this is what these things cost on Amazon and other major marketplaces!!People that enjoy LIVE AT FIRST MARK should get this and look forward to some outstanding tune sets, great musicianship, interesting musical stories, funky remixe",
+      "output": ""
+    },
+    {
+      "input": "Title: Not my favorite Christie... Text: While I did like her other books and have been reading about Jane Eyre...this book is not the same as PrideandPrejudice which was so much fun! The plot moved too quickly and it took place after what felt more like history than fiction...it was hard to keep up with, especially since there were many new characters introduced and all had different parts...manageable overall but there was too much going back and forth in her story. Maybe she meant it this way...but I was just left wondering \"where was the mystery?!\" This novel was good....maybe she should write 'A Wrinkle in Time (Revised)' instead. That could have been done better with some imagination and stronger editing...I think that readers would enjoy that one more",
+      "output": ""
+    },
+    {
+      "input": "Title: Great for beginners Text: I got this book to help me learn SQL server with my son who is learning programming but has had problems getting started due some of the documentation lacking or being old enough for it. It also explained very nicely how sql works, I would recommend this book to anyone who is just beginning their study of SQL server or has not yet decided what exactly they want to study.I was looking forward going to class on Fridays after school for an hour and finding the answers from these books helped. The price for it at 99.00 plus $2.00 shipping was really good considering how little it covered the material needed. Thank you so much Amazon",
+      "output": ""
+    },
+    {
+      "input": "Title: I have to ask... Text: As for this item.....it was not what I expected, but it is okay. It has no bells or whistle etc...I can get by on that with my other Boise 9900 series thermostats. This was way over priced. Also found the \"tunnel mounting\" feature to be much more complicated than necessary, so that you will either \"mount\" the unit upside down where your house siding meets your garage door (which will not fit over any of these), or on the side where the doors swing open. All the wiring to do the installation has to run through both layers before they are connected. If your application uses only exterior type of wire and doesn'T use interior style or metal sheathing then you will need rewiring and/",
+      "output": ""
+    },
+    {
+      "input": "Title: A few errors Text: It would have been helpful to have included several examples of different kinds/sizes of modules when printing this book. I also wanted to be sure that calculations were being made accurately (i.e. how do we know how many bytes are there?). There was not introductory section on methods for doing such things as memory location etc. The Table of Content is well organized and should be referenced throughout the book, especially if you are unfamiliar with any language.It's important to use quotation marks as they can get lost easily and will look messy otherwise.One final comment about page layout --- it could have been better designed to include the entire chapter heading in bold print as that was much easier to see.Another issue was not mentioned",
+      "output": ""
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "SuperNI": [
+    {
+      "sampling strategy": "full",
+      "dataset name": "task748_glucose_reverse_cause_event_detection"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "Definition": [
+    "Make a judgement on the sentiment of this text."
+  ],
+  "Positive Examples": [
+    {
+      "input": "Text: has little endearing value and in truth quite",
+      "output": ""
+    },
+    {
+      "input": "Text: incompetent and immoral",
+      "output": ""
+    },
+    {
+      "input": "Text: it goes even deeper than that and is every bit as fascinating as you 'd expect from an engaging mystery with its well-developed characters",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Text: behold in its sparkling beauty and timeless character traits",
+      "output": ""
+    },
+    {
+      "input": "Text: what is it that makes salton sea compelling",
+      "output": ""
+    },
+    {
+      "input": "Text: has appeal beyond being just another day at the movies",
+      "output": ""
+    },
+    {
+      "input": "Text: are insightful enough to be fondly remembered in the endlessly challenging maze of moviegoing",
+      "output": ""
+    },
+    {
+      "input": "Text: this emotional misery is so real you 'll swear it s your own",
+      "output": ""
+    },
+    {
+      "input": "Text: is also deeply concerned with morality and in its own way, philosophical inquiry",
+      "output": ""
+    },
+    {
+      "input": "Text: is smart and entirely charming",
+      "output": ""
+    },
+    {
+      "input": "Text: it establishes its ominous mood and tension swiftly, underscoring the well-defined creepiness characteristic of writer/director mark romanek'chief reasons for his meticulous preoccupation with myth and symbol in all things supernatural",
+      "output": ""
+    },
+    {
+      "input": "Text: are undermined by how poorly they integrate thoughtfulness and pasta-making in their film",
+      "output": ""
+    },
+    {
+      "input": "Text: is so convinced of its own brilliance that",
+      "output": ""
+    },
+    {
+      "input": "Text: is in no way original or cutting-edge",
+      "output": ""
+    },
+    {
+      "input": "Text: an intelligent and often exciting thriller",
+      "output": ""
+    },
+    {
+      "input": "Text: with minimal imagination and an eagerness to please",
+      "output": ""
+    },
+    {
+      "input": "Text: to be very funny that's not saying much at all",
+      "output": ""
+    },
+    {
+      "input": "Text: has been allowed to get wet, fuzzy and sticky",
+      "output": ""
+    },
+    {
+      "input": "Text: is one reason it's so lackluster.",
+      "output": ""
+    },
+    {
+      "input": "Text: this mistaken-identity picture is so old-fashioned that even the most sophisticated art-house moviegoers will be hard-pressed to guess who's making it",
+      "output": ""
+    },
+    {
+      "input": "Text: has made us care about music that we may not have heard before",
+      "output": ""
+    },
+    {
+      "input": "Text: with minimal imagination and an unsympathetic hero",
+      "output": ""
+    },
+    {
+      "input": "Text: is all about losers and self-deprecating humor",
+      "output": ""
+    },
+    {
+      "input": "Text: to generate any interest in an unsympathetic hero caught up in events seemingly out-of place in the otherwise compelling plot",
+      "output": ""
+    },
+    {
+      "input": "Text: it also comes with the laziness and arrogance of nijinsky's self-congratulation, which is so overstated and not well-acted that it fails to be even watchable",
+      "output": ""
+    },
+    {
+      "input": "Text: be well worth your time",
+      "output": ""
+    },
+    {
+      "input": "Text: good-looking but unfocused slice of hitchcockian suspense",
+      "output": ""
+    },
+    {
+      "input": "Text: in formula crash-and burn action",
+      "output": ""
+    },
+    {
+      "input": "Text: is just too stupid",
+      "output": ""
+    },
+    {
+      "input": "Text: one funny popcorn",
+      "output": ""
+    },
+    {
+      "input": "Text: it establishes its ominous mood and tension swiftly, before plummeting into an undeniable and brutally telling character study in reduced circumstances",
+      "output": ""
+    },
+    {
+      "input": "Text: that gradually sneaks up on viewers",
+      "output": ""
+    },
+    {
+      "input": "Text: is also highly pleasurable",
+      "output": ""
+    },
+    {
+      "input": "Text: he brings together cast and crew from all over the world to give us an engaging and intimate, sometimes funny and touching look",
+      "output": ""
+    },
+    {
+      "input": "Text: makes his point succinctly",
+      "output": ""
+    },
+    {
+      "input": "Text: good fun ;",
+      "output": ""
+    },
+    {
+      "input": "Text: that loses sight of its own story is also one of its most telling",
+      "output": ""
+    },
+    {
+      "input": "Text: this oddly tempting bouquet of doo wop, girl power, and even punk rock may just be what you need to get out of hiatus.",
+      "output": ""
+    },
+    {
+      "input": "Text: as long as you are in good shape and have never been to this festival",
+      "output": ""
+    },
+    {
+      "input": "Text: it drowns in sap, underscoring the disappointingly generic nature of so many of its offerings",
+      "output": ""
+    },
+    {
+      "input": "Text: with heavy-handed symbolism and dime-store psychology",
+      "output": ""
+    },
+    {
+      "input": "Text: what makes it special is that caruso takes an entirely different approach to making a movie -- one characterized by passion, imagination and insight rather than dogme 95 or normandy three",
+      "output": ""
+    },
+    {
+      "input": "Text: with minimal imagination and an eagerness to please",
+      "output": ""
+    }
+  ]
+}

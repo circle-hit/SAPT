@@ -1,0 +1,62 @@
+{
+  "Contributors": [
+    "Roseleen Kaur"
+  ],
+  "Source": [
+    "diplomacy_detection"
+  ],
+  "URL": [
+    "https://huggingface.co/datasets/diplomacy_detection"
+  ],
+  "Categories": [
+    "Dialogue Generation"
+  ],
+  "Reasoning": [
+    "Reasoning on Social Interactions",
+    "Commonsense Reasoning -> Social Situations"
+  ],
+  "Definition": [
+    "You are given first 5 messages from a series of message exchanges between 2 persons playing the game of Diplomacy which is an American strategic board game. You need to generate the next message. The message should be generated such that it fits the context seen so far. Avoid the text that is (i) tangent to the context, (14) repeats the context."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Game",
+    "Dialogue"
+  ],
+  "Positive Examples": [
+    {
+      "input": "['Hey Russia! How are things in the east?', \"Things are good down here, we should watch each others backs being from the same stock and all. We have to be careful being in the middle of someone else't helping me out against England.\", 'Yes yes, i agree', 'I think any conflict between us will only result in one of us losing followed quickly by the other losing. So should we have some sort of non-aggression pact?', 'Yes, that would be bad for both of us']",
+      "output": "['how are you feeling"
+    },
+    {
+      "input": "['Hey Russia - how’d it going? Excited for this game!', nMorning, England! Looking forwards to making your acquaintance. I think Austria has made its way too much of a point in the past and focused on France. What are you thinking?', 'Hbu? Are you planning on throwing Schwarz?', \"I'm hoping to get along well with you and turkey at least some point\", 'I’m looking forwards to working with you in the black']",
+      "output": "['I’m just trying to bounce them over here but haven"
+    },
+    {
+      "input": "['Hello friend. I’m assuming you’re going to bounce in Bur this turn?', 'Yes! Absolutely. How about yourself? Would you like to split up Mun and Britannia?', \"That sounds like me right now. Where do you stand with France?\", 'Sure thing I would take Bur for example, but not sure whether or Russia will open south.']",
+      "output": "['I was planning on taking Germany and attacking Austria quickly, although there might be some other options available.']"
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "[\"Hello Russia! I'm highly interested in working with you. As Austria I strongly believe in the necessity of acquiring a strong early alliance, and who better than a partner who can help me keep down Turkey :). Also, I'd be very interested in hearing your opinion on allegiances. nnI'm curious about what you think about Italy, as Germany, and especially if we could discuss it at any time in the north or the south, have you heard anything from Germany? Any thoughts on your other neighbors? Not sure yet but I would be interested in doing a fight",
+      "output": ""
+    },
+    {
+      "input": "['Hello Russia! I chose you as the first country to message to try to figure out the truth/lie setup', \"All right I see how it works now :).nAnyways, I'm sure we both know how Italy can be at the start of the game, having trouble expanding quickly, but right on the border with Trieste making Austria a tempting target\", 'I firmly believe that Italy/Austria is one of the most fruitful alliances possible in the game. If we work together early, we can be dominant against Turkey, giving you complete naval supramacy over the Mediterranean and",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "CC BY 4.0"
+  ]
+}

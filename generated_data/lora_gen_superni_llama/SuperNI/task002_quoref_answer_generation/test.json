@@ -1,0 +1,131 @@
+{
+  "Contributors": [
+    "Swaroop Mishra",
+    "Daniel Khashabi"
+  ],
+  "Source": [
+    "quoref"
+  ],
+  "URL": [
+    "https://allenai.org/data/quoref"
+  ],
+  "Categories": [
+    "Question Answering"
+  ],
+  "Reasoning": [],
+  "Definition": [
+    "In this task, you're expected to write answers to questions involving multiple references to the same entity. The answer to the question should be unambiguous and not ambiguous. Most questions can have only one correct answer."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Wikipedia"
+  ],
+  "Positive Examples": [
+    {
+      "input": "Passage: It is implied that the painting has been hugely influential for Western art, if not the world itself. Given that it is painted almost two millennia after the start of the First World War, as well by its highly publicized exhibitions such worldwide distribution, this was probably inevitable; also its extremely wide range in size combined with very few works to rival it at the time meant that interpretation of these paintings would remain fragmentary. Art historian Albert Boime described it as \"the most important work yet attempted by an artist\". There were many critic excited for Paris in 1889, but the journalist Samuel Langford overstated the critical value of what the painting achieved in his lifetime. This unrealistic view had long since lost all interest when reflecting on how much history it represented and",
+      "output": ""
+    },
+    {
+      "input": "Passage: A landscape is seen through one of the two miniature windows at the entrance to St Paul's Cathedral. Because the window does not allow for full view from all sides, it has been suggested that the artist intended his composition to provide some visual interest to the space. This idea was advanced by Charles Lock Eastlake during idyll sessions and discussions with John Ireland, who had previously discussed incorporating such an approach in future work. Although initially skeptical about the practicality of opening up large areas of the church to a project like this, after considerable deliberation, Eileen Kelly convinced him that by including it in her painting she could make reflected illumination very useful. When Lord Tennyson agreed to use the picture, Sackville-West recorded \"an expression",
+      "output": ""
+    },
+    {
+      "input": "Passage: By 1754 the population had increased to 850,000–950,000, of which 75% were European-born, 35% other nationalities (mostly British), and 18% from Asian backgrounds. Although Britain did not officially adopt an empire until 1918, Germany, Italy, and Russia were already trading colonies; by 1912 they each controlled four outposts on German soil and six others on French soil.After the First World War (1756–63) between Imperial Germany and its neighbouring states (Austrie, Prussia, Bohemia, Rumania, Bulgaria, Czechoslovakiya, Hungary, Romania, Bulgarian Slavic countries), there was essentially remained only the Ottoman Empire and some loose connections along the Silk Road.The large",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Passage: Philip Arnold Heseltine (30 October 1894–29 December 1930), known by the pseudonym Peter Warlock, was a British composer and music critic. He is best known as a member of the London Symphony Orchestra, and as such, his recordings from that period are frequently considered amongst the most influential. As he later stated \"[I]f I had not met him, I should never have been so free to set out on my career, for no other reason than his having made me feel like a complete fraud\". On 1 March 1912 at St Paul's Cathedral, Holborn, West London, an English policeman named Constable W. Whittaker shot dead while trying with an air gun to disperse some 50 people who",
+      "output": ""
+    },
+    {
+      "input": "Passage: With over 20 years music experience, Tom Morello combines genre-defying pop genres such as electropop, hard rock, R&B, dance, soul, funk, hip hop, R&B, soul, disco, indie, dream pop, RnB, trip hop, two-step and much more with his signature California sound and style. He'll take you on an journey from city to city – all while showing off his killer chop joint skills. When it comes time for him \"to go big or go home\", it's up early in the morning. Go to his dorm room. Don't even know that' is where the party will be. Just want to go out to clubs, not at",
+      "output": ""
+    },
+    {
+      "input": "Passage: A group of men and women (mostly African-American) arrive on an aircraft carrier from South America for what they believe will be an annual mission to collect some artifacts and deliver them to European Museums and private individuals living in Europe. As they are being picked up by ship and the local custom officers inspect their goods for potential Japanese trading partners or other such consideration there is the distinct possibility that there may also still another passenger aboard ship. Although not as rich as North Africa' reported top exporters or middlemen in general, they quickly become established to such prominence that when a female member is killed in combat while taking part in defending the United States in World War II with her sister and brother-in law, suspicion falls on those close enough—including two children,",
+      "output": ""
+    },
+    {
+      "input": "Passage: By June 1917 Heseltine had produced several works on his own; in October Harrison joined Roberts, Strahan and others at Sackville-West for three days of intense rehearsals. It was while on these days that Bloxham organised and conducted ten public reading sessions and sent five short pieces to Exchange Buildings by waylaid train passengers in case they were not released in time because it would affect the work' suitability as an art exhibition.In February 1918 Britannia recorded \"Sunday Afternoon\", its last performance, after which she died giving birth to her son Frederick IV.At the end came news of seven new paintings arriving in Sackville each week, including four by Hepworth (Edmund), another of whom",
+      "output": ""
+    },
+    {
+      "input": "Passage: In 1987, Toronto bank employee John Laurins is fired from his job as an assistant branch manager after being caught with drugs on public property. His boss tell him immediately that the drug has caused a fatal heart attack, and that his criminal record needs to be expunged. As he begins the process of getting himself out of trouble, newlywed Jennifer (Ubach) becomes concerned when she receive calls from two individuals who claim they both work at Canadian Tires. On the third attempt to get money to pay off their debt to Lender, she's told he refuse cash by telling her that the store is closed early in order for her to apply for credit. She reluctantly agree since he needs it to make an important purchase, then goes to",
+      "output": ""
+    },
+    {
+      "input": "Passage: On March 19, 2011, at Bridgestone Arena in Chicago, Dylan joined his bandmate Eddie Vedder for sleeveless rock. After three shows in which they performed \"Don't Speak\", Swift declared, \"I can'f care less about getting this song on the radio. I'm just as excited to see this group back together.\" That night, after another show with Vince Vaughan of Alice Cooper at New York City' Kool & the Gang, it was announced that Dylan would not be parting ways with Vik because they were still recording a new album.In February 2012, Jackson released the lead single from Fearless—the first of several songs the pair had written since high school—to much fanfare. It was",
+      "output": ""
+    },
+    {
+      "input": "Passage: When Tom O'Flaherty is called into an emergency room after suffering sprains on both kneecapeal regions, Dr Kozel says he cannot save him. His wife denies these charges but claims that his doctor gave him \"the best possible care\" when he underwent surgery to remove a perforated tendon. A physical examination by John Kelly revealed an average of 6-8 stitches around each forearm, although it could have been more had there not existed such large tension between the players. With time elapsed since his recovery, Otto has returned to work and resumes jogging, going through the motion-picture and line up process without apparent loss of form. He finds himself increasingly frustrated by what",
+      "output": ""
+    },
+    {
+      "input": "Passage: The band convened at Bucks' Kauai vacation home in Honolulu after recording sessions for their second album of original material. Just three days before Paul McCartney stepped on stage, Berry told his assistant that the new songs would not be released because Epstein had already written them; however they were recorded later that day. As with other recent albums on which Mason has collaborated, there was uncertainty as whether or when lyrics would be completed. \"For now, we'll see if it works,\" said Morello, who initially planned the release with five \"chapters\" or shorter than 11 songs.The first two of the four segments — an instrumental and lyric-based song each lasting about 30 minutes — included titles such",
+      "output": ""
+    },
+    {
+      "input": "Passage: With Galleria becoming established as MIT's campus for graduate studies, students from diverse backgrounds were drawn to collaborate on collaborative research projects. Dr. Daniel Rosenblum chaired one of the study groups led by Mark McGovern, while University of Cambridge professor Sean Connaughton led another group. All but three are faculty-led and all work with Golisano.On May 29, 2011, Redding was named dean of College of William and Mary' Dickinson School of Art, an honour that broadly recognize women as leaders, not just within their field of study—the first in its kind in the United States. At the Yale Center for Emotional Intelligence (CEI), which is part Tuftman Library' run, two",
+      "output": ""
+    },
+    {
+      "input": "Passage: On 5 March 2015 at St Paul's Cathedral Climbing Wall, Mount Everest was once again at the centre of controversy on social issues. A number were detained in an attempted police raid, while others went as far as abducting Churchill on 7 March 2015. Some press accounts suggested that Edward Snowden had organised \"the biggest coup of all time\" against his former Prime Minister by staging armed revolts in London'd East End in 1969. At least eight people were jailed for refusing arrest.In 2011 reports surfaced purport[ing] evidence of systematic anti-Semitism in Britain by John Harris. It is thought that HMRC may have been behind a series reported in The Sunday Times newspaper claiming it was part orchestrated",
+      "output": ""
+    },
+    {
+      "input": "Passage: Philip Arnold Heseltine (30 October 1894 17 December 1930), known by his pseudonym Peter Warlock, was a British composer and music critic. A prolific figure in the early 20th century, Heseltine is best known as a novelist and poet. As he became more widely recognised in his lifetime, he has been described by various writers as \"an engaging and controversial individual who made powerful impressions on a wide range of readers\". He is also best known for his unconventional and often scandalous lifestyle; during his youth, Heseltine lived in an isolated house with five other people, all of whom were male. His first serious compositions date from around 1915. Following his most popular works of the 1920s, such films as Night Mail",
+      "output": ""
+    },
+    {
+      "input": "Passage: Isn't it funny? Wrong lyrics can turn into serious ones, as is the case with \"A Well Respected Man\". Humor writer Lewis Sparrow has been amusing himself by defaming President John F Kennedy on his Twitter account. At some point, though most people see this post from satire' served up for political gain (i.g Trump impeachment speech) the real message in this post was about how important life is. And that we all need to stop taking ourselves so seriously and just let our guard down... if you're not careful, just give everyone else lashes while pretend[ing] to be someone we aren’-t. It takes gutted self-deprec",
+      "output": ""
+    },
+    {
+      "input": "Passage: When Paul McCartney died in 2008, his widow Barbara donated his castle to Goodwill Industries, a not-for–profit charitable organisation that seeks \"to give children and young people... Hope and inspiration\". Other than a few minor works for film and television, the Donor'd House was sold in 1987 to Antonin Besse; it is now on display at the Guggenheim Museum in New York. It tells the story of Anne Frank and her family from their beginnings in 1640 until 1918. She also recounted how she had been helped by an elderly woman who gave her solace.In 1990, British Prime Minister Margaret Thatcher awarded McManus with an honorary degree in honourable mention. Accordingly, during X",
+      "output": ""
+    },
+    {
+      "input": "Passage: As the latter stage progressed, Fauré gradually lost his standing among the influential French composers; he was even described as \"outside the mainstream\" by some critic-witticism writers. By December 1889 the portrait has become something more universally embarrassing than just an old favourite. According writer Miklós Fenimore de Vinci (1890–1966), who wrote that in painting Ravel was still struggling with the form and meaning of what had been called Fauré' songs and other works at the time, it is regrettable that the influence is so often downplayled. After studying art history under Lafolle from 1906 until 1912, when she died in November 1887, her father began looking for new inspiration.",
+      "output": ""
+    },
+    {
+      "input": "Passage: After her sister Jenny Olson died of natural causes, Katja Petrokovich is left with two sons and an elderly mother. Her father has been working as an elevator operator for many years but his wife Sofia finds it difficult due their chronic insomnia. When Stefan meets up with another woman from St Petersburg named Anna Maria (Liv), she agreeed immediately to give him custody of both children. She names herself after Valentina Stravinsky, one time Kholodovskayna turned into ballet dancer with acrobatics. His first name is Latka according Russian legend, while her last name is Solina as a noun, possibly representing \"the nights spent dancing\".Katja also notes that during these times she also became",
+      "output": ""
+    },
+    {
+      "input": "Passage: When Scranton agreed on letting Steamtown become its name, U.S Army veteran Harry \"Doc\" Evans saw the opportunity to reinvent himself as both an artist and scout. He persuaded several of his friends that he was more deserving than others for the job; they included former World War I flying-ace Eddie Peachey, who turned down an offer from Ford to join them as co-pilot after being rejected by U. S Air Force intelligence officers. After interview[ing] with Bruce Hodge at Adventureland Amusement Park, the four suited up and began working at creating their own steamtown. They immersed themselves in local culture before meeting fellow worker Tom Anderson, and taking part firsthand in \"the",
+      "output": ""
+    },
+    {
+      "input": "Passage: In 1982 Toronto-based band member Drake embarked on his first solo tour of Canada, with no fanfare or major production companies to help him. He instead went out into the night to record songs at random gas stations, and bus stops. This experience gave him countless hours of recording time as well an \"early bird special\" that allowed him to go to gigs without overselling. His live shows were also critical hits for Blessing, who had already released two albums of original material in support of it; both \"Hold Me\" and \"Risin\". However, while playing drums and singing lead vocal melodietically with another artist in 1981, David Syd was killed by robbery. As he sang at these concerts,",
+      "output": ""
+    },
+    {
+      "input": "Passage: Axel Nordstrom (born Gustav Fredrik Hendriksen; 21 April 1943) is an English composer of songs, best known for his orchestral suite Oedipus Rex (1937); also for two instrumental albums and other vocal work. In addition to the opera Borrowed Angels (both released in 1953) and Orb (1998), Norstrom composed three children' films, all of which were produced in or around South Wales, England between 1952 and 1961—on the theme of \"Attractive Strangers\". His first film, written in 1957, portraying nine-year-old Helen Gough as part portrait of her father was not successful at a British Film Festival, but had a wider impact on the younger generation.",
+      "output": ""
+    },
+    {
+      "input": "Passage: The film is set during era change in France. At the beginning of World War II, Nazi Germany attempts an assassination on Franz von Sturmer (Luther), their mastermind. This turns out not just because he was German, but also because Sturmder himself had been killed just months previously at \"the very least\" by his own agents. As time goes on, it becomes clear that both people and animals are involved with what the government calls Operation Barricades. Many politicians call attention to it and some European countries such United Kingdom and Italy place more emphasis on its significance than others; even though most agree on how little damage the Fallen Angels caused, they still fail completely when compared against other recent examples of military might which",
+      "output": ""
+    },
+    {
+      "input": "Passage: At Hole-ins, Waterman encounter Peter Jackson while taking posed photographs for his album cover. He tell[s] him that he is from Moerano (Also called Muni), and suggests he try it out as if it was going to be an \"out-there\" rock genre like Camel, which is very popular with younger listeners. When asked if psychedelic music is something suited to experimental pop rock rather than hardcore death metal, Waterman says he would enjoy any chance to have his own creative input into the music.Joining together are guitarist Eric Clapton, bassist Dave Marr, drum technician Mark Rivera, visionary Steve Hillman, sound engineer Andy",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "CC BY 4.0"
+  ]
+}

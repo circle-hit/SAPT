@@ -1,0 +1,2561 @@
+{
+  "Definition": [
+    "Given a word and two sentences, whether the word is used with the same sense in both sentence?\n"
+  ],
+  "Positive Examples": [],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "word: class\nAn emerging professional class.\nApologizing for losing your temper, even though you were badly provoked, showed real class.",
+      "output": "False"
+    },
+    {
+      "input": "word: stripe\nBusinessmen of every stripe joined in opposition to the proposal.\nThey earned their stripes in Kuwait.",
+      "output": "False"
+    },
+    {
+      "input": "word: check\nAs he called the role he put a check mark by each student's name.\nA check on its dependability under stress.",
+      "output": "False"
+    },
+    {
+      "input": "word: brush\nShe gave her hair a quick brush.\nThe dentist recommended two brushes a day.",
+      "output": "True"
+    },
+    {
+      "input": "word: acquisition\nThe child's acquisition of language.\nThat graphite tennis racquet is quite an acquisition.",
+      "output": "False"
+    },
+    {
+      "input": "word: thing\nA thing of the spirit.\nThings of the heart.",
+      "output": "True"
+    },
+    {
+      "input": "word: minister\nThe minister said a prayer on behalf of the entire congregation.\nClergymen are usually called ministers in Protestant churches.",
+      "output": "True"
+    },
+    {
+      "input": "word: easiness\nThe very easiness of the deed held her back.\nThere was an easiness between them.",
+      "output": "False"
+    },
+    {
+      "input": "word: contradistinction\nSculpture in contradistinction to painting.\nWe used hamburgers and soda in contradistinction to healthy food.",
+      "output": "True"
+    },
+    {
+      "input": "word: home\nCanadian tariffs enabled United States lumber companies to raise prices at home.\nHis home is New Jersey.",
+      "output": "True"
+    },
+    {
+      "input": "word: inclination\nThe alkaline inclination of the local waters.\nAn inclination of his head indicated his agreement.",
+      "output": "False"
+    },
+    {
+      "input": "word: assurance\nAn assurance of help when needed.\nHis assurance in his superiority did not make him popular.",
+      "output": "False"
+    },
+    {
+      "input": "word: save\nThe relief pitcher got credit for a save.\nThe goalie made a brilliant save.",
+      "output": "True"
+    },
+    {
+      "input": "word: bang\nHe got a bang on the head.\nThey got a great bang out of it.",
+      "output": "False"
+    },
+    {
+      "input": "word: tremor\nShe felt a tremor in her stomach before going on stage.\nDid you feel the tremor this morning?",
+      "output": "False"
+    },
+    {
+      "input": "word: response\nThis situation developed in response to events in Africa.\nHis responses have slowed with age.",
+      "output": "False"
+    },
+    {
+      "input": "word: touch\nHe could not touch the meaning of the poem.\nHelen Keller felt the physical world by touching people and objects around her.",
+      "output": "False"
+    },
+    {
+      "input": "word: hail\nHail a cab.\nHe was hailed as a hero.",
+      "output": "True"
+    },
+    {
+      "input": "word: rail\nHe was concerned with rail safety.\nHe traveled by rail.",
+      "output": "True"
+    },
+    {
+      "input": "word: obstacle\nLack of imagination is an obstacle to one's advancement.\nThe poverty of a district is an obstacle to good education.",
+      "output": "True"
+    },
+    {
+      "input": "word: socialization\nForce socialization rarely creates strong friendships, but there are exceptions.\nThere was too much socialization with the enlisted men.",
+      "output": "True"
+    },
+    {
+      "input": "word: rank\nThe strike was supported by the union rank and file.\nHe rose from the ranks to become a colonel.",
+      "output": "True"
+    },
+    {
+      "input": "word: bend\nThe stick does not bend.\nBend your knees.",
+      "output": "False"
+    },
+    {
+      "input": "word: buy\n$50 won't even buy a dress.\nFMC has bought 565.",
+      "output": "True"
+    },
+    {
+      "input": "word: youth\nYouth everywhere rises in revolt.\nHer youth and beauty is what attracted him to her.",
+      "output": "False"
+    },
+    {
+      "input": "word: lay\nTo lay a tax on land.\nLay a responsibility on someone.",
+      "output": "True"
+    },
+    {
+      "input": "word: leave\nLeave lots of time for the trip.\nThis leaves no room for improvement.",
+      "output": "True"
+    },
+    {
+      "input": "word: aliyah\nStudents making aliyah.\nHe was called on for an aliyah.",
+      "output": "False"
+    },
+    {
+      "input": "word: violate\nViolate the sanctity of the church.\nThis sentence violates the rules of syntax.",
+      "output": "False"
+    },
+    {
+      "input": "word: pencil\nAn eyebrow pencil.\nThis artist's favorite medium is pencil.",
+      "output": "False"
+    },
+    {
+      "input": "word: invasion\nAn invasion of locusts.\nAn invasion of tourists.",
+      "output": "True"
+    },
+    {
+      "input": "word: answer\nAnswer the question.\nShe didn't want to answer.",
+      "output": "True"
+    },
+    {
+      "input": "word: smoothness\nThe weather system of the Pacific is determined by the uninterrupted smoothness of the ocean.\nHis oily smoothness concealed his guilt from the police.",
+      "output": "False"
+    },
+    {
+      "input": "word: adhocracy\nThe need for informational flexibility can lead to adhocracy.\nThe choice between bureaucracy and adhocracy represents a common dilemma.",
+      "output": "True"
+    },
+    {
+      "input": "word: allowance\nThe captain was obliged to allowance his crew.\nOur provisions were allowanced.",
+      "output": "True"
+    },
+    {
+      "input": "word: lie\nLie down on the bed until you feel better.\nShe lied when she told me she was only 29.",
+      "output": "False"
+    },
+    {
+      "input": "word: shtik\nHe's a shtik crazy.\nHow did you ever fall for a shtik like that?",
+      "output": "False"
+    },
+    {
+      "input": "word: squeaker\nWhich hinge is the squeaker?\nThose sneakers are squeakers.",
+      "output": "True"
+    },
+    {
+      "input": "word: touch\nHe has a touch of rheumatism.\nHe longed for the touch of her hand.",
+      "output": "False"
+    },
+    {
+      "input": "word: walk\nAfter the blizzard he shoveled the front walk.\nWalking is a healthy form of exercise.",
+      "output": "False"
+    },
+    {
+      "input": "word: average\nIf you average 10, 20 and 24, you get 18.\nThe number of hours I work per work averages out to 40.",
+      "output": "False"
+    },
+    {
+      "input": "word: get\nThe operator couldn't get Kobe because of the earthquake.\nI'll get this finished by lunchtime.",
+      "output": "False"
+    },
+    {
+      "input": "word: part\nThe government must do its part.\nReligions in all parts of the world.",
+      "output": "False"
+    },
+    {
+      "input": "word: earshot\nI'll row out on the lake but stay within earshot.\nThe children were told to stay within earshot.",
+      "output": "True"
+    },
+    {
+      "input": "word: strike\nStrike an arc.\nThe clock struck midnight.",
+      "output": "False"
+    },
+    {
+      "input": "word: department\nHis work established a new department of literature.\nBaking is not my department.",
+      "output": "True"
+    },
+    {
+      "input": "word: border\nThe rug had a wide blue border.\nThe borders of the garden.",
+      "output": "True"
+    },
+    {
+      "input": "word: maneuver\nHe made a great maneuver.\nParallel parking can be a difficult maneuver.",
+      "output": "True"
+    },
+    {
+      "input": "word: look\nA look of triumph.\nHis look was fixed on her eyes.",
+      "output": "False"
+    },
+    {
+      "input": "word: excite\nExcite the neurons.\nThe fireworks which opened the festivities excited anyone present.",
+      "output": "False"
+    },
+    {
+      "input": "word: landing\nThe plane made a smooth landing.\nHis landing on his feet was catlike.",
+      "output": "True"
+    },
+    {
+      "input": "word: strand\nA strand of pearls.\nHe tried to pick up the strands of his former life.",
+      "output": "False"
+    },
+    {
+      "input": "word: shot\nHe trained at putting the shot.\nThe shot flew twenty metres, and nearly landed on the judge's foot.",
+      "output": "True"
+    },
+    {
+      "input": "word: spread\nThe invaders spread their language all over the country.\nA big oil spot spread across the water.",
+      "output": "False"
+    },
+    {
+      "input": "word: custody\nHe was mistreated while in police custody.\nHe is in the custody of police.",
+      "output": "True"
+    },
+    {
+      "input": "word: clime\nPlants from a cold clime travel best in winter.\nAfter working hard all of his life, Max retired to warmer climes in Florida.",
+      "output": "True"
+    },
+    {
+      "input": "word: clap\nThe children began to clap in time with the music.\nThe big bird clapped its wings.",
+      "output": "False"
+    },
+    {
+      "input": "word: deliberation\nIt was the deliberation of his act that was insulting.\nThe deliberations of the jury.",
+      "output": "False"
+    },
+    {
+      "input": "word: corner\nHe tripled to the rightfield corner.\nThe southeastern corner of the Mediterranean.",
+      "output": "True"
+    },
+    {
+      "input": "word: misdirect\nMisdirect the letter.\nThe pedestrian misdirected the out-of-town driver.",
+      "output": "False"
+    },
+    {
+      "input": "word: say\nWhat does the law say?\nThe clock says noon.",
+      "output": "False"
+    },
+    {
+      "input": "word: configure\nConfigure a plane for a combat mission.\nConfigure my new computer.",
+      "output": "True"
+    },
+    {
+      "input": "word: pay\nHe wasted his pay on drink.\nMany employers have rules designed to keep employees from comparing their pays.",
+      "output": "True"
+    },
+    {
+      "input": "word: tap\nTap a keg of beer.\nTap a maple tree for its syrup.",
+      "output": "True"
+    },
+    {
+      "input": "word: sexualize\nSome languages sexualize all nouns and do not have a neuter gender.\nThe god was sexualized and married to another god.",
+      "output": "True"
+    },
+    {
+      "input": "word: board\nThe board has seven members.\nHe got out the board and set up the pieces.",
+      "output": "False"
+    },
+    {
+      "input": "word: update\nI need to update my records to take account of the most recent transaction.\nWe updated the kitchen in the old house.",
+      "output": "True"
+    },
+    {
+      "input": "word: reinstatement\nHer reinstatement to her former office followed quickly.\nMany people are unhappy with the sacking of the chief constable and demand his immediate reinstatement.",
+      "output": "False"
+    },
+    {
+      "input": "word: falsity\nThe belief that the world is flat is a falsity.\nArgument could not determine its truth or falsity.",
+      "output": "True"
+    },
+    {
+      "input": "word: escalation\nHigher wages caused an escalation of prices.\nThere was a gradual escalation of hostilities.",
+      "output": "True"
+    },
+    {
+      "input": "word: sophistication\nHe practiced the art of sophistication upon reason.\nUnderstanding affine transformations requires considerable mathematical sophistication.",
+      "output": "False"
+    },
+    {
+      "input": "word: bridge\nHer glasses left marks on the bridge of her nose.\nRugby players often break the bridge of their noses.",
+      "output": "True"
+    },
+    {
+      "input": "word: watch\nPut a little baking soda in some vinegar and watch what happens.\nThe world is watching Sarajevo.",
+      "output": "False"
+    },
+    {
+      "input": "word: grind\nGrind lenses for glasses and cameras.\nGrind an axe.",
+      "output": "True"
+    },
+    {
+      "input": "word: avail\nIt will avail them to dispose of their booty.\nHe availed himself of the available resources.",
+      "output": "False"
+    },
+    {
+      "input": "word: excuse\nThat thing is a poor excuse for a gingerbread man. Hasn't anyone taught you how to bake?\nHe's a sorry excuse of a doctor.",
+      "output": "True"
+    },
+    {
+      "input": "word: denizen\nThe bald eagle is a denizen of the northern part of the state.\nThe giant squid is one of many denizens of the deep.",
+      "output": "False"
+    },
+    {
+      "input": "word: need\nI need him to be nice.\nI needed him to go.",
+      "output": "True"
+    },
+    {
+      "input": "word: wine\nShe ordered some wine for the meal.\nWine is stronger than beer.",
+      "output": "True"
+    },
+    {
+      "input": "word: plan\nPlan an attack.\nHe plans to be in graduate school next year.",
+      "output": "False"
+    },
+    {
+      "input": "word: bite\nGunny invariably tried to bite her.\nAs soon as you bite that sandwich, you'll know how good it is.",
+      "output": "True"
+    },
+    {
+      "input": "word: sense\nParticle detectors sense ionization.\nShe immediately sensed her disdain.",
+      "output": "False"
+    },
+    {
+      "input": "word: explanation\nThe explanation was very simple.\nThe explanation was long and drawn-out.",
+      "output": "True"
+    },
+    {
+      "input": "word: slip\nSlip into something comfortable.\nMy grades are slipping.",
+      "output": "False"
+    },
+    {
+      "input": "word: relief\nHe has been on relief for many years.\nWas the relief supposed to be protection from future harm or compensation for past injury?",
+      "output": "False"
+    },
+    {
+      "input": "word: authority\nShe lost all her respect and authority after turning up drunk to the meeting.\nThis book is the final authority on the life of Milton.",
+      "output": "False"
+    },
+    {
+      "input": "word: forge\nWe decided to forge ahead with our plans even though our biggest underwriter backed out.\nHe forged ahead.",
+      "output": "True"
+    },
+    {
+      "input": "word: cross\nA mule is a cross between a horse and a donkey.\nThat is his cross to bear.",
+      "output": "False"
+    },
+    {
+      "input": "word: shower\nThe game was interrupted by a brief shower.\nA little shower of rose petals.",
+      "output": "False"
+    },
+    {
+      "input": "word: crisis\nThey went bankrupt during the economic crisis.\nAfter the crisis the patient either dies or gets better.",
+      "output": "False"
+    },
+    {
+      "input": "word: diet\nThe diet of the Giant Panda consists mainly of bamboo.\nHe's been reading a steady diet of nonfiction for the last several years.",
+      "output": "False"
+    },
+    {
+      "input": "word: recrudescence\nA recrudescence of racism.\nA recrudescence of the symptoms.",
+      "output": "True"
+    },
+    {
+      "input": "word: leave\nLeave your child the nurse's care.\nHe left the decision to his deputy.",
+      "output": "True"
+    },
+    {
+      "input": "word: incorporate\nIncorporate this document with those pertaining to the same case.\nThe company was incorporated in 1980.",
+      "output": "False"
+    },
+    {
+      "input": "word: promulgation\nThe promulgation was written in English.\nHis promulgation of the policy proved to be premature.",
+      "output": "False"
+    },
+    {
+      "input": "word: hostility\nHe could not conceal his hostility.\nHe could no longer contain his hostility.",
+      "output": "False"
+    },
+    {
+      "input": "word: bottom\nThey started at the bottom of the hill.\nThey did much of their overseas trade in foreign bottoms.",
+      "output": "False"
+    },
+    {
+      "input": "word: mate\nHe's my best mate.\nI'm going to the pub with a few mates.",
+      "output": "True"
+    },
+    {
+      "input": "word: distribute\nThe publisher wants to distribute the book in Asia.\nThe function distributes the values evenly.",
+      "output": "False"
+    },
+    {
+      "input": "word: remover\nRust remover.\nPaint remover.",
+      "output": "True"
+    },
+    {
+      "input": "word: forwarding\nThe forwarding of resumes to the personnel department.\nThe forwarding of mail to a new address is done automatically.",
+      "output": "True"
+    },
+    {
+      "input": "word: worship\nThey worship in the traditional manner.\nMany Hindus worship Shiva.",
+      "output": "False"
+    },
+    {
+      "input": "word: play\nThey gave full play to the artist's talent.\nIt was all done in play.",
+      "output": "False"
+    },
+    {
+      "input": "word: flush\nFlush the meadows.\nThe sky flushed with rosy splendor.",
+      "output": "False"
+    },
+    {
+      "input": "word: probation\nProbation is part of the sentencing process.\nYou'll be on probation for first six months. After that, if you work out, they'll hire you permanently.",
+      "output": "False"
+    },
+    {
+      "input": "word: military\nTheir military is the largest in the region.\nHe spent six years in the military.",
+      "output": "True"
+    },
+    {
+      "input": "word: consult\nThey had to consult before arriving at a decision.\nConsult your local broker.",
+      "output": "True"
+    },
+    {
+      "input": "word: education\nA girl's education was less important than a boy's.\nEducation is a preparation for life.",
+      "output": "True"
+    },
+    {
+      "input": "word: liberty\nAt liberty to choose whatever occupation one wishes.\nLiberty to think or feel or do just as one pleases.",
+      "output": "True"
+    },
+    {
+      "input": "word: date\nScientists often can not date precisely archeological or prehistorical findings.\nTo date the building of the pyramids.",
+      "output": "True"
+    },
+    {
+      "input": "word: vary\nPrices vary.\nHis moods vary depending on the weather.",
+      "output": "True"
+    },
+    {
+      "input": "word: breeze\nThe breeze rustled the papers on her desk.\nThe breeze was cooled by the lake.",
+      "output": "True"
+    },
+    {
+      "input": "word: subsidy\nA subsidy for research in artificial intelligence.\nManufacturing firms are supported by government subsidies in some countries.",
+      "output": "True"
+    },
+    {
+      "input": "word: wrong\nInjustice is a heinous wrong.\nHe feels that you are in the wrong.",
+      "output": "True"
+    },
+    {
+      "input": "word: literature\nOne aspect of Waterloo has not yet been treated in the literature.\nThe technical literature.",
+      "output": "True"
+    },
+    {
+      "input": "word: banish\nBanish bad thoughts.\nBanish gloom.",
+      "output": "True"
+    },
+    {
+      "input": "word: carve\nCarve one's name into the bark.\nThat chisel carved the statue.",
+      "output": "True"
+    },
+    {
+      "input": "word: caller\n-- Who's the caller?\nThere were so many callers that he finally disconnected the telephone.",
+      "output": "True"
+    },
+    {
+      "input": "word: drag\nTime seems to drag when you're waiting for a bus.\nThe speech dragged on for two hours.",
+      "output": "False"
+    },
+    {
+      "input": "word: breakdown\nAfter so much stress, he suffered a breakdown and simply gave up.\nHis warning came after the breakdown of talks in London.",
+      "output": "False"
+    },
+    {
+      "input": "word: lecture\nDid you ever lecture at Harvard?\nShe lectured to the class about her travels.",
+      "output": "True"
+    },
+    {
+      "input": "word: circumference\nA danger to all races over the whole circumference of the globe.\nHe had walked the full circumference of his land.",
+      "output": "True"
+    },
+    {
+      "input": "word: choke\nChoke a carburetor.\nThis neckband is choking the cat.",
+      "output": "False"
+    },
+    {
+      "input": "word: calibrate\nCalibrate a gun.\nHe calibrated the thermometer for the Celsius scale.",
+      "output": "False"
+    },
+    {
+      "input": "word: fail\nDid I fail the test?\nShe studied hard but failed nevertheless.",
+      "output": "True"
+    },
+    {
+      "input": "word: push\nYou need to push quite hard to get this door open.\nNora pushed through the crowd.",
+      "output": "True"
+    },
+    {
+      "input": "word: drop\nIt was a miracle that he survived the drop from that height.\nThat was a long drop, but fortunately I didn't break any bones.",
+      "output": "False"
+    },
+    {
+      "input": "word: char\n\"Among other native delicacies, they give you fresh char.\".\n\"I had to scrub the kitchen today, because the char couldn't come\".",
+      "output": "False"
+    },
+    {
+      "input": "word: connection\nThe bus was late so he missed his connection at Penn Station and had to wait six hours for the next train.\nThe plane was late and he missed his connection in Atlanta.",
+      "output": "True"
+    },
+    {
+      "input": "word: urgency\nThey departed hurriedly because of some great urgency in their affairs.\nI'll be there, barring any urgencies.",
+      "output": "True"
+    },
+    {
+      "input": "word: contact\nI am trying to contact my sister.\nHe never contacted his children after he emigrated to Australia.",
+      "output": "True"
+    },
+    {
+      "input": "word: experience\nA surprising experience.\nExperience is the best teacher.",
+      "output": "False"
+    },
+    {
+      "input": "word: segment\nSegment a compound word.\nSegment an orange.",
+      "output": "True"
+    },
+    {
+      "input": "word: parade\nThe floats and horses in the parade were impressive, but the marching bands were really amazing.\nShe made a parade of her sorrows.",
+      "output": "False"
+    },
+    {
+      "input": "word: power\nHe needed a lot of power to hit the ball out of the stadium.\nThe mysterious presence of an evil power.",
+      "output": "False"
+    },
+    {
+      "input": "word: affiliation\nA valuable financial affiliation.\nWelcomed the affiliation of the research center with the university.",
+      "output": "False"
+    },
+    {
+      "input": "word: allowance\nMy weekly allowance of two eggs.\nTravel allowance.",
+      "output": "True"
+    },
+    {
+      "input": "word: branch\nWe opened a new branch in London.\nOur main branch is downtown.",
+      "output": "True"
+    },
+    {
+      "input": "word: delay\nInstant replay caused too long a delay.\nThe delay before the echo of a sound.",
+      "output": "False"
+    },
+    {
+      "input": "word: addition\nThe addition of a leap day every four years.\nThe addition of a bathroom was a major improvement.",
+      "output": "False"
+    },
+    {
+      "input": "word: liberate\nTo liberate the mind from prejudice.\nTo liberate gases.",
+      "output": "True"
+    },
+    {
+      "input": "word: bell\nBell cows.\nWho will bell the cat?",
+      "output": "True"
+    },
+    {
+      "input": "word: disable\nDisable this command on your computer.\nHe was disabled in a car accident.",
+      "output": "False"
+    },
+    {
+      "input": "word: listen\nPlease listen carefully as I explain.\nI like to listen to music.",
+      "output": "True"
+    },
+    {
+      "input": "word: stop\nStop a car.\nStop the thief.",
+      "output": "True"
+    },
+    {
+      "input": "word: figure\nElections figure prominently in every government program.\nHow do the elections figure in the current pattern of internal politics?",
+      "output": "True"
+    },
+    {
+      "input": "word: marriage\nA marriage of ideas.\nThe marriage of music and dance.",
+      "output": "True"
+    },
+    {
+      "input": "word: dimple\nThe accident created a dimple in the hood of the car.\nThere are approximately 336 dimples on a golf ball.",
+      "output": "True"
+    },
+    {
+      "input": "word: trailer\nThe trailer for that movie makes it seem like it would be fun.\nAt the end of the day, we put the snowmobiles back on the trailer.",
+      "output": "False"
+    },
+    {
+      "input": "word: intention\nThe intention of this legislation is to boost the economy.\nGood intentions are not enough.",
+      "output": "True"
+    },
+    {
+      "input": "word: mandate\nMandate a colony.\nThe new director of the school board mandated regular tests.",
+      "output": "False"
+    },
+    {
+      "input": "word: pull\nIt was a long pull but we made it.\nHe was sidelined with a hamstring pull.",
+      "output": "False"
+    },
+    {
+      "input": "word: glaze\nGlaze the bread with eggwhite.\nThe potter glazed the dishes.",
+      "output": "True"
+    },
+    {
+      "input": "word: sight\nHe was a familiar sight on the television.\nThey went to Paris to see the sights.",
+      "output": "True"
+    },
+    {
+      "input": "word: keep\nCan I keep my old stuffed animals?\nShe kept her maiden name after she married.",
+      "output": "True"
+    },
+    {
+      "input": "word: plenty\nThere was plenty of food for everyone.\nIt must have cost plenty.",
+      "output": "False"
+    },
+    {
+      "input": "word: oppression\nThe tyrant's oppression of the people.\nThe oppression of the poor by the aristocracy was one cause of the French Revolution.",
+      "output": "True"
+    },
+    {
+      "input": "word: strain\nDon't strain your mind too much.\nThe rope strained when the weight was attached.",
+      "output": "False"
+    },
+    {
+      "input": "word: sensation\nThe news caused a sensation.\nA sensation of touch.",
+      "output": "False"
+    },
+    {
+      "input": "word: step\nAlways a step behind.\nKeep in step with the fashions.",
+      "output": "True"
+    },
+    {
+      "input": "word: shoot\nShoot cloth.\nShoot a star.",
+      "output": "False"
+    },
+    {
+      "input": "word: hook\nHook a fish.\nHe hooked a snake accidentally, and was so scared he dropped his rod into the water.",
+      "output": "True"
+    },
+    {
+      "input": "word: homogenization\nThe homogenization of cream.\nThe network's homogenization of political news.",
+      "output": "True"
+    },
+    {
+      "input": "word: building\nThe entire building complained about the noise.\nThe building of the bridge will be completed in a couple of weeks.",
+      "output": "False"
+    },
+    {
+      "input": "word: gown\nThe relations between town and gown are always sensitive.\nIn the perennial town versus gown battles, townies win some violent battles, but the collegians are winning the war.",
+      "output": "True"
+    },
+    {
+      "input": "word: delight\nThe new car is a delight.\nHis delight to see her was obvious to all.",
+      "output": "False"
+    },
+    {
+      "input": "word: solemnize\nThe couple chose to solemnize their relationship in a secular ceremony, instead of having a wedding.\nThe King solemnized this day of morning.",
+      "output": "False"
+    },
+    {
+      "input": "word: scallop\nScallop the hem of the dress.\nScallop the meat.",
+      "output": "False"
+    },
+    {
+      "input": "word: success\nHis success in the marathon was unexpected.\nThe election was a remarkable success for the Whigs.",
+      "output": "False"
+    },
+    {
+      "input": "word: refresher\nThe nap was a welcome refresher.\nHe stopped at the bar for a quick refresher.",
+      "output": "True"
+    },
+    {
+      "input": "word: block\nBlock the signals emitted by this station.\nThe thick curtain blocked the action on the stage.",
+      "output": "False"
+    },
+    {
+      "input": "word: writing\nWriting was a form of therapy for him.\nThe idea occurs with increasing frequency in Hemingway's writings.",
+      "output": "False"
+    },
+    {
+      "input": "word: studio\nHis studio was cramped when he began as an artist.\nYou don't need a studio to make a passport photograph.",
+      "output": "True"
+    },
+    {
+      "input": "word: harass\nHarass the enemy.\nThis man harasses his female co-workers.",
+      "output": "False"
+    },
+    {
+      "input": "word: cost\nThe average cost of a new house is twice as much as t was 20 years ago.\nThe total cost of the new complex was an estimated $1.5 million.",
+      "output": "True"
+    },
+    {
+      "input": "word: dip\nDip the brush into the paint.\nShe dipped her knee.",
+      "output": "False"
+    },
+    {
+      "input": "word: fuel\nFuel aircraft, ships, and cars.\nFuel the debate on creationism.",
+      "output": "False"
+    },
+    {
+      "input": "word: frame\nA lace frame.\nHis starved flesh hung loosely on his once imposing frame.",
+      "output": "False"
+    },
+    {
+      "input": "word: segregate\nExperiments show clearly that genes segregate.\nMany towns segregated into new counties.",
+      "output": "True"
+    },
+    {
+      "input": "word: sound\nThe main body of the sound ran parallel to the coast.\nHe strained to hear the faint sounds.",
+      "output": "False"
+    },
+    {
+      "input": "word: pronunciation\nThat is the correct pronunciation.\nThe pronunciation of Chinese is difficult for foreigners.",
+      "output": "True"
+    },
+    {
+      "input": "word: utter\nUtter counterfeit currency.\nHe uttered strange sounds that nobody could understand.",
+      "output": "False"
+    },
+    {
+      "input": "word: joy\nA joy to behold.\nThe joys and demands of parenthood.",
+      "output": "False"
+    },
+    {
+      "input": "word: dinner\nGuests should never be late to a dinner party.\nOn Sundays they had a large dinner when they returned from church.",
+      "output": "False"
+    },
+    {
+      "input": "word: mess\nI mess with the wardroom officers.\nThe afternoon breeze messed up my hair.",
+      "output": "False"
+    },
+    {
+      "input": "word: reverence\nThe French treat food with gentle reverence.\nThe Chinese reverence for the dead.",
+      "output": "True"
+    },
+    {
+      "input": "word: load\nLoad a car.\nLoad the truck with hay.",
+      "output": "True"
+    },
+    {
+      "input": "word: floss\nShe flossed her teeth.\nThe hygienist flossed my teeth.",
+      "output": "True"
+    },
+    {
+      "input": "word: resolution\nPrinting at higher resolution will cause a reduction in performance.\nThey never did achieve a final resolution of their differences.",
+      "output": "False"
+    },
+    {
+      "input": "word: gauntlet\nThrew down the gauntlet.\nTook up the gauntlet.",
+      "output": "True"
+    },
+    {
+      "input": "word: board\nRoom and board.\nHe nailed boards across the windows.",
+      "output": "False"
+    },
+    {
+      "input": "word: eliminate\nLet's eliminate the course on Akkadian hieroglyphics.\nThis possibility can be eliminated from our consideration.",
+      "output": "False"
+    },
+    {
+      "input": "word: stab\nHe took a stab at forecasting.\nShe felt a stab of excitement.",
+      "output": "False"
+    },
+    {
+      "input": "word: kick\nThe kick must be synchronized with the arm movements.\nA sidecar is a smooth drink but it has a powerful kick.",
+      "output": "False"
+    },
+    {
+      "input": "word: professionalization\nThe professionalization of warfare.\nThe professionalization of American sports.",
+      "output": "True"
+    },
+    {
+      "input": "word: rush\nThe linebackers were ready to stop a rush.\nCome back after the rush.",
+      "output": "False"
+    },
+    {
+      "input": "word: tipper\nA generous tipper.\nThe Americans are among the most generous tippers in the world.",
+      "output": "True"
+    },
+    {
+      "input": "word: seem\nI seem to be misunderstood by everyone.\nThere seems no reason to go ahead with the project now.",
+      "output": "False"
+    },
+    {
+      "input": "word: bull\nTo bull railroad bonds.\nHe bulled his way in.",
+      "output": "False"
+    },
+    {
+      "input": "word: horse\nA clothes horse.\n500 horse led the attack.",
+      "output": "False"
+    },
+    {
+      "input": "word: section\nThe history of this work is discussed in the next section.\nA graduate student taught sections for the professor's lecture course.",
+      "output": "False"
+    },
+    {
+      "input": "word: shake\nShake the salt out of the salt shaker.\nHis hands shook.",
+      "output": "False"
+    },
+    {
+      "input": "word: button\nThe politician wore a bright yellow button with the slogan \"Vote Smart\" emblazoned on it.\nThey passed out campaign buttons for their candidate.",
+      "output": "True"
+    },
+    {
+      "input": "word: arousal\nTo influence the arousal of brain and behavior.\nThe purpose of art is the arousal of emotions.",
+      "output": "True"
+    },
+    {
+      "input": "word: pick\nTo pick rags.\nDon't always pick on your little brother.",
+      "output": "False"
+    },
+    {
+      "input": "word: reline\nReline the paper.\nThe old fur coat must be relined.",
+      "output": "False"
+    },
+    {
+      "input": "word: vote\nI vote that we all go home.\nShe voted for going to the Chinese restaurant.",
+      "output": "True"
+    },
+    {
+      "input": "word: burn\nBurn a CD.\nMy eyes are burning.",
+      "output": "False"
+    },
+    {
+      "input": "word: agency\nThe superintendence and agency of Providence in the natural world. -- Woodward.\nThe Central Intelligence Agency.",
+      "output": "False"
+    },
+    {
+      "input": "word: nude\nThey swam in the nude.\nThe marketing rule 'nude sells' spread from verbal to visual mainstream media in the 20th century.",
+      "output": "False"
+    },
+    {
+      "input": "word: cup\nHe put the cup back in the saucer.\nThe handle of the cup was missing.",
+      "output": "True"
+    },
+    {
+      "input": "word: largeness\nThe might have repercussions of unimaginable largeness.\nA man distinguished by the largeness and scope of his views.",
+      "output": "False"
+    },
+    {
+      "input": "word: capacity\nLimited runway capacity.\nHe should be retained in his present capacity at a higher salary.",
+      "output": "False"
+    },
+    {
+      "input": "word: inject\nInject heroin.\nHe injected new life into the performance.",
+      "output": "False"
+    },
+    {
+      "input": "word: advantage\nThe enemy had the advantage of a more elevated position.\nThe experience gave him the advantage over me.",
+      "output": "True"
+    },
+    {
+      "input": "word: story\nThe book tells the story of two roommates.\nDisney's stories entertain adults as well as children.",
+      "output": "True"
+    },
+    {
+      "input": "word: reappearance\nThe reappearance of Halley's comet.\nHis reappearance as Hamlet has been long awaited.",
+      "output": "False"
+    },
+    {
+      "input": "word: characterize\nYou can characterize his behavior as that of an egotist.\nThis poem can be characterized as a lament for a dead lover.",
+      "output": "True"
+    },
+    {
+      "input": "word: club\nEach club played six home games with teams in its own division.\nHe played the drums at a jazz club.",
+      "output": "False"
+    },
+    {
+      "input": "word: square\nThe carpenter who built this room must have lost his square.\n64 is the square of 8.",
+      "output": "False"
+    },
+    {
+      "input": "word: dig\nThey set up camp next to the dig.\nShe takes a dig at me every chance she gets.",
+      "output": "False"
+    },
+    {
+      "input": "word: association\nConditioning is a form of learning by association.\nMany close associations with England.",
+      "output": "False"
+    },
+    {
+      "input": "word: chemistry\nThe chemistry of indigo.\nThe chemistry of iron.",
+      "output": "True"
+    },
+    {
+      "input": "word: sequence\nHe played the trumps in sequence.\nThe doctor saw a sequence of patients.",
+      "output": "False"
+    },
+    {
+      "input": "word: impregnation\nThe impregnation of wood with preservative.\nThe impregnation, whatever it was, had turned the rock blue.",
+      "output": "False"
+    },
+    {
+      "input": "word: act\nShe wants to act Lady Macbeth, but she is too young for the role.\nI started acting at the age of eleven in my local theatre.",
+      "output": "True"
+    },
+    {
+      "input": "word: recruit\nRecruit new soldiers.\nThe lab director recruited an able crew of assistants.",
+      "output": "False"
+    },
+    {
+      "input": "word: acquaintance\nI know of the man; but have no acquaintance with him.\nI have trouble remembering the names of all my acquaintances.",
+      "output": "False"
+    },
+    {
+      "input": "word: bag\nBag a few pheasants.\nWe bagged three deer yesterday.",
+      "output": "True"
+    },
+    {
+      "input": "word: last\nSummer seems to last longer each year.\nThe bad weather lasted for three days.",
+      "output": "True"
+    },
+    {
+      "input": "word: finalize\nLet's finalize the proposal.\nAs soon as we get the plane tickets, we'll finalize our reservations with the hotel.",
+      "output": "True"
+    },
+    {
+      "input": "word: admit\nAdmit someone to the profession.\nShe was admitted to the New Jersey Bar.",
+      "output": "True"
+    },
+    {
+      "input": "word: office\nAn executive or judical office.\nDuring his first year in office.",
+      "output": "False"
+    },
+    {
+      "input": "word: view\nThey look the same in outward view.\nThe most desirable feature of the park are the beautiful views.",
+      "output": "False"
+    },
+    {
+      "input": "word: tool\nHe was a tool, no more than a pawn to her.\nI don't have the right tools to start fiddling around with the engine.",
+      "output": "False"
+    },
+    {
+      "input": "word: heartbeat\nThe policeman waited for a heartbeat in vain.\nHe alone gives me such heartbeats.",
+      "output": "True"
+    },
+    {
+      "input": "word: renovate\nThis will renovate my spirits.\nThey renovated the ceiling of the Sistine Chapel.",
+      "output": "False"
+    },
+    {
+      "input": "word: branch\nA branch of Congress.\nWe have branches in all major suburbs.",
+      "output": "True"
+    },
+    {
+      "input": "word: tree\nHer dog likes to tree squirrels.\nThis lot should be treed so that the house will be shaded in summer.",
+      "output": "False"
+    },
+    {
+      "input": "word: curd\nBean curd.\nLemon curd.",
+      "output": "True"
+    },
+    {
+      "input": "word: hell\nWar is hell.\nThe hell of battle.",
+      "output": "False"
+    },
+    {
+      "input": "word: tradecraft\nThe CIA chief of station accepted responsibility for his agents' failures of tradecraft.\nInstructional designers are trained in something that might be called tradecraft.",
+      "output": "True"
+    },
+    {
+      "input": "word: believe\nWe didn't believe his stories from the War.\nI believed his report.",
+      "output": "True"
+    },
+    {
+      "input": "word: crop\nThe annual crop of students brings many new ideas.\nThe latest crop of fashions is about to hit the stores.",
+      "output": "False"
+    },
+    {
+      "input": "word: glow\nA glow of regret.\nThe glow of new love.",
+      "output": "True"
+    },
+    {
+      "input": "word: wrangle\nWrangle horses.\nThe bar keeper threw them out, but they continued to wrangle on down the street.",
+      "output": "False"
+    },
+    {
+      "input": "word: foundation\nHe lacks the foundation necessary for advanced study.\nThe Wikimedia Foundation, Inc. is the parent organization of the Wiktionary collaborative project.",
+      "output": "False"
+    },
+    {
+      "input": "word: render\nRender the brick walls in the den.\nThe face of the child is rendered with much tenderness in this painting.",
+      "output": "False"
+    },
+    {
+      "input": "word: date\nHis date never stopped talking.\nThe date for pleading.",
+      "output": "False"
+    },
+    {
+      "input": "word: occurrence\nA disease of frequent occurrence.\nThe occurrence (or presence) of life on other planets.",
+      "output": "True"
+    },
+    {
+      "input": "word: indent\nIndent the documents.\nIndent the paragraphs of a letter.",
+      "output": "False"
+    },
+    {
+      "input": "word: wake\nThere's no weeping at an Irish wake.\nThe motorboat's wake capsized the canoe.",
+      "output": "False"
+    },
+    {
+      "input": "word: ash\nThe woods planted in ash will see a different mix of species.\nThe ash trees are dying off.",
+      "output": "True"
+    },
+    {
+      "input": "word: preponderance\nThe preponderance of good over evil.\nThe preponderance of wealth and power.",
+      "output": "True"
+    },
+    {
+      "input": "word: gig\nThey played a gig in New Jersey.\nOur guitar player had another gig so we had to get a sub.",
+      "output": "True"
+    },
+    {
+      "input": "word: forbid\nI forbid you to call me late at night.\nThe rules forbid it.",
+      "output": "True"
+    },
+    {
+      "input": "word: cognate\nEnglish is a cognate of Greek, German, Russian and Persian.\nEnglish and, Russian, Icelandic and Irish are all cognates.",
+      "output": "True"
+    },
+    {
+      "input": "word: house\nHe counted the house.\nThe house applauded.",
+      "output": "True"
+    },
+    {
+      "input": "word: elapse\nHe allowed a month to elapse before beginning the work.\nSeveral days elapsed before they met again.",
+      "output": "True"
+    },
+    {
+      "input": "word: license\nThe intolerable license with which the newspapers break ... the rules of decorum -- Edmund Burke.\nWhen liberty becomes license dictatorship is near -- Will Durant.",
+      "output": "True"
+    },
+    {
+      "input": "word: harbour\nThe city has an excellent natural harbour.\nThe neighbourhood is a well-known harbour for petty thieves.",
+      "output": "False"
+    },
+    {
+      "input": "word: abuse\nAll abuse, whether physical, verbal, psychological or sexual, is bad.\nThe child showed signs of physical abuse.",
+      "output": "True"
+    },
+    {
+      "input": "word: extension\nThe dancer was praised for her uncanny extension.\nGood extension comes from a combination of training and native ability.",
+      "output": "True"
+    },
+    {
+      "input": "word: domesticity\nMaking a hobby of domesticity.\nA royal family living in unpretentious domesticity.",
+      "output": "False"
+    },
+    {
+      "input": "word: strangle\nThe imperialist nation wanted to strangle the free trade between the two small countries.\nA man in Boston has been strangling several dozen prostitutes.",
+      "output": "False"
+    },
+    {
+      "input": "word: bye\nHe had a bye in the first round.\nCraig's Crew plays the bye next week.",
+      "output": "True"
+    },
+    {
+      "input": "word: round\nThe round of the seasons.\nThe postman's rounds.",
+      "output": "False"
+    },
+    {
+      "input": "word: distance\nI could see it in the distance.\nThe distance from New York to Chicago.",
+      "output": "False"
+    },
+    {
+      "input": "word: load\nThat's a load off my mind.\nI'm worried that the load on that transformer will be too high.",
+      "output": "False"
+    },
+    {
+      "input": "word: repair\nOne can never fully repair the suffering and losses of the Jews in the Third Reich.\nShe repaired her TV set.",
+      "output": "False"
+    },
+    {
+      "input": "word: streak\nA streak of wildness.\nHe has a stubborn streak.",
+      "output": "True"
+    },
+    {
+      "input": "word: revenge\nIndifference is the sweetest revenge.\nWhen I left my wife, she tried to set fire to the house in revenge.",
+      "output": "True"
+    },
+    {
+      "input": "word: dad\nHe hadn't seen his dad in years.\nDad, happy Father's Day!",
+      "output": "True"
+    },
+    {
+      "input": "word: fuel\nMore fuel is needed during the winter months.\nThey developed alternative fuels for aircraft.",
+      "output": "True"
+    },
+    {
+      "input": "word: fondler\nThe woman charged that her jailer was a fondler.\nNot all fondlers are sexual perverts.",
+      "output": "True"
+    },
+    {
+      "input": "word: flip\nI'd flip if anyone broke my phone.\nHe flipped when he heard that he was accepted into Princeton University.",
+      "output": "False"
+    },
+    {
+      "input": "word: draw\nThe luck of the draw.\nThey anticipated a tough draw.",
+      "output": "True"
+    },
+    {
+      "input": "word: poster\nI saw a poster for it on the side of a bus.\nA poster advertised the coming attractions.",
+      "output": "True"
+    },
+    {
+      "input": "word: cuisine\nThe restaurant is noted for its excellent cuisine.\nFrench cuisine is considered to be one of the world's most refined and elegant styles of cooking.",
+      "output": "True"
+    },
+    {
+      "input": "word: tap\nTap a cask of wine.\nHe tapped a new barrel of beer.",
+      "output": "True"
+    },
+    {
+      "input": "word: catch\nI would love to have dinner but I have to catch a plane.\nWe caught something of his theory in the lecture.",
+      "output": "False"
+    },
+    {
+      "input": "word: ticket\nThis car could be just the ticket for a small family.\nJoe will be running on an anti-crime ticket.",
+      "output": "False"
+    },
+    {
+      "input": "word: way\nThey didn't have much in the way of clothing.\nWe went our separate ways.",
+      "output": "False"
+    },
+    {
+      "input": "word: triangulate\nTriangulate the piece of cardboard.\nThe land surveyor worked by triangulating the plot.",
+      "output": "False"
+    },
+    {
+      "input": "word: invite\nCan I invite you for dinner on Sunday night?\nThe organizers invite submissions of papers for the conference.",
+      "output": "False"
+    },
+    {
+      "input": "word: gesture\nA political gesture.\nA gesture of defiance.",
+      "output": "True"
+    },
+    {
+      "input": "word: average\nHe is about average in height.\nThe snowfall this month is below average.",
+      "output": "True"
+    },
+    {
+      "input": "word: exalt\nThese paintings exalt the imagination.\nThe man was exalted from a humble carpenter to a minister.",
+      "output": "False"
+    },
+    {
+      "input": "word: comb\nComb the wool.\nComb your hair before dinner.",
+      "output": "True"
+    },
+    {
+      "input": "word: upset\nTruman upset Dewey in the 1948 US presidential election.\nThe foreign team upset the local team.",
+      "output": "True"
+    },
+    {
+      "input": "word: convey\nTo convey information.\nShe conveyed the message to me.",
+      "output": "True"
+    },
+    {
+      "input": "word: send\nSend me your latest results.\nNora sent the book from Paris.",
+      "output": "True"
+    },
+    {
+      "input": "word: death\nThe animal died a painful death.\nHe seemed more content in death than he had ever been in life.",
+      "output": "False"
+    },
+    {
+      "input": "word: preparation\nHe left the preparation of meals to his wife.\nThe resolution of one dissonance is often the preparation for another dissonance.",
+      "output": "False"
+    },
+    {
+      "input": "word: absorb\nAbsorb the costs for something.\nHe absorbed the knowledge or beliefs of his tribe.",
+      "output": "False"
+    },
+    {
+      "input": "word: donate\nSome of the members may donate privately.\nShe donates to her favorite charity every month.",
+      "output": "True"
+    },
+    {
+      "input": "word: eccentricity\nFor an ellipse, the eccentricity is the ratio of the distance from the center to a focus divided by the length of the semi-major axis.\nA circle is an ellipse with zero eccentricity.",
+      "output": "True"
+    },
+    {
+      "input": "word: fiddle\nDon't fiddle with the screws.\nShe always fiddles with her van on the weekend.",
+      "output": "False"
+    },
+    {
+      "input": "word: taste\nTo ask at that particular time was the ultimate in bad taste.\nHe got a taste of life on the wild side.",
+      "output": "False"
+    },
+    {
+      "input": "word: point\nPoint a gun.\nIt's rude to point at other people.",
+      "output": "False"
+    },
+    {
+      "input": "word: nightlife\nIn the summer the nightlife shifts to the dance clubs.\nA futile search for intelligent nightlife.",
+      "output": "True"
+    },
+    {
+      "input": "word: stress\nSome people put the stress on the first syllable of \"controversy\"; others put it on the second.\nThe intensity of stress is expressed in units of force divided by units of area.",
+      "output": "False"
+    },
+    {
+      "input": "word: piggyback\nAn amendment to piggyback the current law.\nHe piggybacked her child so she could see the show.",
+      "output": "False"
+    },
+    {
+      "input": "word: induction\nHe was ordered to report for induction into the army.\nThe induction of an anesthetic state.",
+      "output": "False"
+    },
+    {
+      "input": "word: modify\nPlease modify this letter to make it more polite.\nHe modified his views on same-gender marriage.",
+      "output": "True"
+    },
+    {
+      "input": "word: form\nBy adding \"-ness\", you can form a noun from an adjective.\nForm cylinders from the dough.",
+      "output": "False"
+    },
+    {
+      "input": "word: cost\nThese shoes cost $100.\nThe bill will cost them 500 million dollars.",
+      "output": "True"
+    },
+    {
+      "input": "word: button\nPat pushed the button marked \"shred\" on the blender.\nThe elevator was operated by push buttons.",
+      "output": "True"
+    },
+    {
+      "input": "word: confusion\nThe army retreated in confusion.\nA confusion of impressions.",
+      "output": "False"
+    },
+    {
+      "input": "word: mess\nThe house was a mess.\nMy boss dumped a whole mess of projects on my desk today.",
+      "output": "False"
+    },
+    {
+      "input": "word: blockage\nThere was a blockage in the sewer, so we called out the plumber.\nWe had to call a plumber to clear out the blockage in the drainpipe.",
+      "output": "False"
+    },
+    {
+      "input": "word: partnership\nThe action teams worked in partnership with the government.\nEffective language learning is a partnership between school, teacher and student.",
+      "output": "True"
+    },
+    {
+      "input": "word: gap\nGap between income and outgo.\nThe exploring party went through the high gap in the mountains.",
+      "output": "False"
+    },
+    {
+      "input": "word: touch\nPlease can I have a look, if I promise not to touch?\nCarrie touched his shoulder with the stick.",
+      "output": "True"
+    },
+    {
+      "input": "word: delta\nThe Nile delta.\nThe Mississippi River delta.",
+      "output": "True"
+    },
+    {
+      "input": "word: foot\nWe went there by foot because we could not afford a taxi.\nThere is a lot of foot traffic on this street.",
+      "output": "True"
+    },
+    {
+      "input": "word: accumulate\nHe wishes to accumulate a sum of money.\nJournals are accumulating in my office.",
+      "output": "True"
+    },
+    {
+      "input": "word: metadata\nMost websites contain metadata to tell the computer how to lay the words out on the screen.\nA library catalog is metadata because it describes publications.",
+      "output": "True"
+    },
+    {
+      "input": "word: ruin\nThis behavior will ruin your chances of winning the election.\nThe country lay ruined after the war.",
+      "output": "False"
+    },
+    {
+      "input": "word: daughter\nI already have a son, so I would like to have a daughter.\nHer daughter cared for her in her old age.",
+      "output": "True"
+    },
+    {
+      "input": "word: accession\nAccession to such demands would set a dangerous precedent.\nThe librarian shelved the new accessions.",
+      "output": "False"
+    },
+    {
+      "input": "word: loose\nLet loose mines.\nLoose terrible plagues upon humanity.",
+      "output": "True"
+    },
+    {
+      "input": "word: wash\nThis silly excuse won't wash in traffic court.\nThe cat washes several times a day.",
+      "output": "False"
+    },
+    {
+      "input": "word: mark\nHe left an indelible mark on the American theater.\nIt was in London that he made his mark.",
+      "output": "True"
+    },
+    {
+      "input": "word: analyze\nAnalyze your real motives.\nThe inspector analyzed the building's soundness.",
+      "output": "True"
+    },
+    {
+      "input": "word: chew\nThe steak was tough to chew as it had been cooked too long.\nChew your food and don't swallow it!",
+      "output": "True"
+    },
+    {
+      "input": "word: pocket\nLydia put the change in her left pocket.\nLydia pocketed the change.",
+      "output": "True"
+    },
+    {
+      "input": "word: section\nThere are three synagogues in the Jewish section.\nSections from the left ventricle showed diseased tissue.",
+      "output": "False"
+    },
+    {
+      "input": "word: group\nThere is a group of houses behind the hill.\nA group of people gathered in front of the Parliament to demonstrate against the Prime Minister's proposals.",
+      "output": "True"
+    },
+    {
+      "input": "word: process\nProcess iron.\nThey processed into the dining room.",
+      "output": "False"
+    },
+    {
+      "input": "word: inject\nInject hydrogen into the balloon.\nNow lie back while we inject you with the anesthetic.",
+      "output": "False"
+    },
+    {
+      "input": "word: sultriness\nThe sultriness of her look was unmistakable.\nThe sultriness of lust was in the air.",
+      "output": "True"
+    },
+    {
+      "input": "word: percolate\nPercolate coffee.\nI'll percolate some coffee.",
+      "output": "True"
+    },
+    {
+      "input": "word: clutch\nTo clutch power.\nShe clutched her purse.",
+      "output": "True"
+    },
+    {
+      "input": "word: mire\nTo mire a horse or wagon.\nOur people should not be mired in the past.",
+      "output": "False"
+    },
+    {
+      "input": "word: instruction\nStudents receive instruction in the arts and sciences.\nInstruction will be provided on how to handle difficult customers.",
+      "output": "True"
+    },
+    {
+      "input": "word: afflict\nAfflict with the plague.\nShe was afflicted by the death of her parents.",
+      "output": "False"
+    },
+    {
+      "input": "word: dish\nThey served me a dish of rice.\nWe gave them a set of dishes for a wedding present.",
+      "output": "False"
+    },
+    {
+      "input": "word: opinion\nIn my opinion, white chocolate is better than milk chocolate.\nI would like to know your opinions on the new systems.",
+      "output": "True"
+    },
+    {
+      "input": "word: peak\nThe peak of perfection.\nThe view from the peak was magnificent.",
+      "output": "False"
+    },
+    {
+      "input": "word: kinship\nAnthropology's kinship with the humanities.\nFelt a deep kinship with the other students.",
+      "output": "True"
+    },
+    {
+      "input": "word: defense\nThey died in the defense of Stalingrad.\nThey were developed for the defense program.",
+      "output": "True"
+    },
+    {
+      "input": "word: middle\nIn the middle of the marathon, David collapsed from fatigue.\nRain during the middle of April.",
+      "output": "False"
+    },
+    {
+      "input": "word: moderate\nTo moderate a synod.\nJohn moderated the discussion.",
+      "output": "True"
+    },
+    {
+      "input": "word: flick\nFlick a piece of paper across the table.\nHe flicked his Bic.",
+      "output": "False"
+    },
+    {
+      "input": "word: nowhere\nHe came out of nowhere.\nThey went on a cruise to nowhere.",
+      "output": "True"
+    },
+    {
+      "input": "word: buzz\nThe buzz of excitement was so great that a formal denial was issued.\nThe buzz of a bumble bee.",
+      "output": "False"
+    },
+    {
+      "input": "word: adoxography\nElizabethan schoolboys were taught adoxography, the art of eruditely praising worthless things.\nAdoxography is particularly useful to lawyers.",
+      "output": "True"
+    },
+    {
+      "input": "word: excite\nThere are drugs designed to excite certain nerves in our body.\nExcite the audience.",
+      "output": "True"
+    },
+    {
+      "input": "word: preempt\nDiscussion of the emergency situation will preempt the lecture by the professor.\nLive broadcast of the presidential debate preempts the regular news hour.",
+      "output": "True"
+    },
+    {
+      "input": "word: winterize\nWinterize cars.\nWinterize your houses.",
+      "output": "True"
+    },
+    {
+      "input": "word: conceive\nShe can not conceive.\nAssisted procreation can help those trying to conceive.",
+      "output": "True"
+    },
+    {
+      "input": "word: militia\nTheir troops were untrained militia.\nCongress shall have power to provide for calling forth the militia -- United States Constitution.",
+      "output": "True"
+    },
+    {
+      "input": "word: stream\nHe felt a stream of air.\nThe hose ejected a stream of water.",
+      "output": "True"
+    },
+    {
+      "input": "word: amuse\nI watch these movies because they amuse me.\nThe clown amused the children.",
+      "output": "True"
+    },
+    {
+      "input": "word: militarize\nMilitarize the Civil Service.\nMilitarize Germany again after the war.",
+      "output": "False"
+    },
+    {
+      "input": "word: tear\nHe took the manuscript in both hands and gave it a mighty tear.\nThere were big tears rolling down Lisa's cheeks.",
+      "output": "False"
+    },
+    {
+      "input": "word: snatch\nMartin's snatch at the bridle failed and the horse raced away.\nOverheard snatches of their conversation.",
+      "output": "False"
+    },
+    {
+      "input": "word: activity\nCatalytic activity.\nThey avoided all recreational activity.",
+      "output": "False"
+    },
+    {
+      "input": "word: aptness\nThe aptness of men to follow example.\nThe aptness of iron to rust.",
+      "output": "True"
+    },
+    {
+      "input": "word: toast\nThat toaster can make wonderful toasts.\nI ate a piece of toast for breakfast.",
+      "output": "True"
+    },
+    {
+      "input": "word: construction\nThe engineer marvelled at his construction.\nConstruction is underway on the new bridge.",
+      "output": "False"
+    },
+    {
+      "input": "word: exchange\nThey had a bitter exchange.\nAn exchange of cattle for grain.",
+      "output": "False"
+    },
+    {
+      "input": "word: safety\nHe ran to safety.\nThe reciprocal of safety is risk.",
+      "output": "False"
+    },
+    {
+      "input": "word: hold\nPlease hold a table at Maxim's.\nHold a table for us at 7:00.",
+      "output": "True"
+    },
+    {
+      "input": "word: criticize\nThose who criticize others often are not perfect, either.\nThe paper criticized the new movie.",
+      "output": "False"
+    },
+    {
+      "input": "word: fiefdom\nThe duke's fiefdom had been greatly expanded as a reward for his dutiful military service on behalf of the king.\nMost of our company's computers are standardized, but the IT director allows the employees in his own little fiefdom to specify their own machines.",
+      "output": "False"
+    },
+    {
+      "input": "word: whimsy\nWhimsy can be humorous to someone with time to enjoy it.\nHe had a whimsy about flying to the moon.",
+      "output": "True"
+    },
+    {
+      "input": "word: shadiness\nThere's too much shadiness to take good photographs.\nThe shadiness of their transactions.",
+      "output": "False"
+    },
+    {
+      "input": "word: hitter\nA hard hitter.\nBlacksmiths are good hitters.",
+      "output": "True"
+    },
+    {
+      "input": "word: toss\nI'll toss you for it.\nSteve tossed John the ball.",
+      "output": "True"
+    },
+    {
+      "input": "word: build\nBuild up confidence.\nThey had to build up their fortress to protect against attack.",
+      "output": "True"
+    },
+    {
+      "input": "word: fold\nFold up the newspaper.\nTony folded the flaps open.",
+      "output": "True"
+    },
+    {
+      "input": "word: system\nThat language has a complex system for indicating gender.\nThey have to operate under a system they oppose.",
+      "output": "True"
+    },
+    {
+      "input": "word: finish\nMy horse was several lengths behind at the finish.\nThe winner is the team with the most points at the finish.",
+      "output": "True"
+    },
+    {
+      "input": "word: shuffle\nYou shuffle, I'll deal.\nShuffle the cards.",
+      "output": "True"
+    },
+    {
+      "input": "word: operation\nThe plane's operation in high winds.\nThe power of its engine determines its operation.",
+      "output": "True"
+    },
+    {
+      "input": "word: abridge\nThe new law might abridge our freedom of expression.\nHe had his rights abridged by the crooked sheriff.",
+      "output": "True"
+    },
+    {
+      "input": "word: wish\nHe got his wish.\nMy best wishes.",
+      "output": "False"
+    },
+    {
+      "input": "word: attack\nHe published an unexpected attack on my work.\nAn attack of diarrhea.",
+      "output": "False"
+    },
+    {
+      "input": "word: month\nHe was given a month to pay the bill.\nWe went on holiday for two months.",
+      "output": "True"
+    },
+    {
+      "input": "word: gnash\nTo gnash the air in fury.\nTo gnash a carpet.",
+      "output": "True"
+    },
+    {
+      "input": "word: combust\nWe combust coal and other fossil fuels.\nThe professor combusted when the student didn't know the answer to a very elementary question.",
+      "output": "False"
+    },
+    {
+      "input": "word: cooperation\nEconomic cooperation.\nThey agreed on a policy of cooperation.",
+      "output": "True"
+    },
+    {
+      "input": "word: portmanteau\n'Brunch' is a well-known portmanteau.\n'Motel' is a portmanteau word made by combining 'motor' and 'hotel'.",
+      "output": "True"
+    },
+    {
+      "input": "word: brush\nBrush aside the objections.\nBrush the dust from the jacket.",
+      "output": "True"
+    },
+    {
+      "input": "word: association\nYou can not be convicted of criminal guilt by association.\nHe joined the Modern Language Association.",
+      "output": "False"
+    },
+    {
+      "input": "word: identity\nA right identity, x * I = x for any x in the structure.\nYou can lose your identity when you join the army.",
+      "output": "False"
+    },
+    {
+      "input": "word: barrage\nA barrage of questions.\nThey laid down a barrage in front of the advancing troops.",
+      "output": "False"
+    },
+    {
+      "input": "word: attend\nI rarely attend services at my church.\nShe attends class regularly.",
+      "output": "True"
+    },
+    {
+      "input": "word: log\nThey kept a log of all transmission by the radio station.\nAn email log.",
+      "output": "True"
+    },
+    {
+      "input": "word: afford\nWe can't afford to send our children to college.\nCan you afford this car?",
+      "output": "True"
+    },
+    {
+      "input": "word: erase\nThe files will erase quickly.\nThe chalkboard erased easily.",
+      "output": "True"
+    },
+    {
+      "input": "word: agency\nShe has free agency.\nCentral Intelligence Agency.",
+      "output": "False"
+    },
+    {
+      "input": "word: cocoon\nShe loves to stay at home and cocoon.\nFamilies cocoon around the T.V. set most evenings.",
+      "output": "True"
+    },
+    {
+      "input": "word: rehearsal\nA rehearsal will be held the day before the wedding.\nHe missed too many rehearsals.",
+      "output": "True"
+    },
+    {
+      "input": "word: affect\nWill the new rules affect me?\nThe medicine affects my heart rate.",
+      "output": "False"
+    },
+    {
+      "input": "word: sign\nPlease sign on the dotted line.\nPlease sign here.",
+      "output": "True"
+    },
+    {
+      "input": "word: string\nA string of islands.\nThe strings played superlatively well.",
+      "output": "False"
+    },
+    {
+      "input": "word: upstage\nShe only wore that dress to upstage everyone.\nWhen the dog entered the stage, he upstaged the actress.",
+      "output": "True"
+    },
+    {
+      "input": "word: wateriness\nThe wateriness of his blood.\nThe haziness and wateriness of his disquisitions.",
+      "output": "True"
+    },
+    {
+      "input": "word: drawing\nThe drawing of water from the well.\nHe did complicated pen-and-ink drawings like medieval miniatures.",
+      "output": "False"
+    },
+    {
+      "input": "word: mixture\nHe drank a mixture of beer and lemonade.\nThe mixture of sulphuric acid and water produces heat.",
+      "output": "False"
+    },
+    {
+      "input": "word: detention\nHis detention was politically motivated.\nThe detention of tardy pupils.",
+      "output": "False"
+    },
+    {
+      "input": "word: collapse\nThe collapse of the old star under its own gravity.\nThe roof is in danger of collapse.",
+      "output": "True"
+    },
+    {
+      "input": "word: handle\nDon't handle the merchandise.\nAbout his altar, handling holy things -- John Milton.",
+      "output": "True"
+    },
+    {
+      "input": "word: state\nState your name.\nState your opinion.",
+      "output": "True"
+    },
+    {
+      "input": "word: ease\nEase the pain in your legs.\nThe pain eased overnight.",
+      "output": "False"
+    },
+    {
+      "input": "word: influence\nHe was a bad influence on the children.\nUsed her parents' influence to get the job.",
+      "output": "False"
+    },
+    {
+      "input": "word: compress\nThe force required to compress a spring varies linearly with the displacement.\nShe compressed her lips.",
+      "output": "True"
+    },
+    {
+      "input": "word: herald\nRouge Dragon is a herald at the College of Arms.\nThe chieftain had a herald who announced his arrival with a trumpet.",
+      "output": "True"
+    },
+    {
+      "input": "word: appreciate\nI appreciate your efforts.\nThe yen appreciated again!",
+      "output": "False"
+    },
+    {
+      "input": "word: return\nReturn her love.\nReturn a compliment.",
+      "output": "True"
+    },
+    {
+      "input": "word: prepare\nPrepare for war.\nWe prepared a fish for dinner.",
+      "output": "False"
+    },
+    {
+      "input": "word: hit\nHit the bottle.\nHe tries to hit on women in bars.",
+      "output": "False"
+    },
+    {
+      "input": "word: want\nWant the strength to go on living.\nFlood victims wanting food and shelter.",
+      "output": "True"
+    },
+    {
+      "input": "word: holiday\nToday is a Wiccan holiday!\nNo mail is delivered on federal holidays.",
+      "output": "True"
+    },
+    {
+      "input": "word: ball\nThe ball at the base of the thumb.\nHe stood on the balls of his feet.",
+      "output": "True"
+    },
+    {
+      "input": "word: portfolio\nHe remembered her because she was carrying a large portfolio.\nHe holds the portfolio for foreign affairs.",
+      "output": "False"
+    },
+    {
+      "input": "word: chore\nWashing dishes is a chore, but we can not just stop eating.\nThe farmer's morning chores.",
+      "output": "True"
+    },
+    {
+      "input": "word: collapse\nCollapse the music stand.\nThe school system is collapsing.",
+      "output": "False"
+    },
+    {
+      "input": "word: middle\nI woke up in the middle of the night.\nA whole is that which has beginning, middle, and end -- Aristotle.",
+      "output": "True"
+    },
+    {
+      "input": "word: activity\nThe level of activity declines with age.\nHis sphere of activity.",
+      "output": "False"
+    },
+    {
+      "input": "word: street\nBe careful crossing the street.\nThe whole street protested the absence of lights.",
+      "output": "False"
+    },
+    {
+      "input": "word: footprint\nThe computer had a desktop footprint of 10 by 16 inches.\nThe footprints of an earlier civilization.",
+      "output": "False"
+    },
+    {
+      "input": "word: seize\nBirds of prey often seize small mammals.\nThe invaders seized the land and property of the inhabitants.",
+      "output": "False"
+    },
+    {
+      "input": "word: profession\nA profession of disagreement.\nMy father was a barrister by profession.",
+      "output": "False"
+    },
+    {
+      "input": "word: growth\nA growth of hair.\nThe growth of culture.",
+      "output": "False"
+    },
+    {
+      "input": "word: transplant\nThese delicate plants do not transplant easily.\nTransplant the young rice plants.",
+      "output": "False"
+    },
+    {
+      "input": "word: demon\nShe's a demon at math.\nHe worked like a demon to finish the job on time.",
+      "output": "True"
+    },
+    {
+      "input": "word: mainstream\nHis thinking was in the American mainstream.\nHis ideas were well outside the mainstream, but he presented them intelligently, and we were impressed if not convinced.",
+      "output": "True"
+    },
+    {
+      "input": "word: precaution\nHe put an ice pack on the injury as a precaution.\nTo take precautions against risks of accident.",
+      "output": "True"
+    },
+    {
+      "input": "word: meeting\nThere was no meeting of minds.\nThe meeting elected a chairperson.",
+      "output": "False"
+    },
+    {
+      "input": "word: right\nTake a right at the corner.\nFilm rights.",
+      "output": "False"
+    },
+    {
+      "input": "word: reflect\nPeople do that sort of thing every day, without ever stopping to reflect on the consequences.\nThe teacher's ability reflects well on the school.",
+      "output": "False"
+    },
+    {
+      "input": "word: submerge\nSubmerge your head completely.\nThe submarine submerged in the water.",
+      "output": "False"
+    },
+    {
+      "input": "word: scrub\nSurgeons must scrub prior to an operation.\nShe scrubbed his back.",
+      "output": "False"
+    },
+    {
+      "input": "word: promise\nI promise you my best effort.\nI promised somebody my time.",
+      "output": "True"
+    },
+    {
+      "input": "word: mechanism\nA mechanism of social control.\nMechanisms of communication.",
+      "output": "True"
+    },
+    {
+      "input": "word: undo\nUndo the shoelace.\nA single mistake undid the President and he had to resign.",
+      "output": "False"
+    },
+    {
+      "input": "word: spade\nShe led a low spade.\nSpades were trumps.",
+      "output": "True"
+    },
+    {
+      "input": "word: fuzz\nHe tried to clear his head of the whisky fuzz.\nPeach fuzz.",
+      "output": "False"
+    },
+    {
+      "input": "word: probity\nIn a world where financial probity may not be widespread.\nHe enjoys an exaggerated reputation for probity.",
+      "output": "True"
+    },
+    {
+      "input": "word: protest\nThe senator rose to register his protest.\nThey finished the game under protest to the league president.",
+      "output": "True"
+    },
+    {
+      "input": "word: shock\nTo shock rye.\nShock grain.",
+      "output": "True"
+    },
+    {
+      "input": "word: sign\nSign an intersection.\nThis road has been signed.",
+      "output": "True"
+    },
+    {
+      "input": "word: embodiment\nThe embodiment of hope.\nA circle was the embodiment of his concept of life.",
+      "output": "False"
+    },
+    {
+      "input": "word: exile\nHe lived in exile.\nShe lived as an exile.",
+      "output": "False"
+    },
+    {
+      "input": "word: glimpse\nFrom the window he could catch a glimpse of the lake.\nHe caught only a glimpse of the professor's meaning.",
+      "output": "False"
+    },
+    {
+      "input": "word: abatement\nThe abatement of a nuisance is the suppression thereof.\nLaws enforcing noise abatement.",
+      "output": "True"
+    },
+    {
+      "input": "word: near\nThey are nearing the coast.\nThe ship nears the land.",
+      "output": "True"
+    },
+    {
+      "input": "word: aim\nShe wanted to aim a pun.\nHe aimed his fists towards his opponent's face.",
+      "output": "False"
+    },
+    {
+      "input": "word: surface\nIt was not what it appeared to be on the surface.\nThe cloth had a pattern of red dots on a white surface.",
+      "output": "False"
+    },
+    {
+      "input": "word: boot\nBoot your computer.\nWhen arriving at the office, first thing I do is booting my machine.",
+      "output": "True"
+    },
+    {
+      "input": "word: gem\nHe had the gem set in a ring for his wife.\nShe's an absolute gem.",
+      "output": "False"
+    },
+    {
+      "input": "word: help\nThere's no help for it.\nI need some help with my homework.",
+      "output": "False"
+    },
+    {
+      "input": "word: toilet\nHe made his morning toilet and went to breakfast.\nPensions are in the toilet.",
+      "output": "False"
+    },
+    {
+      "input": "word: kill\nKill the engine.\nHe killed the ball.",
+      "output": "False"
+    },
+    {
+      "input": "word: longevity\nHad unusual longevity in the company.\nHer longevity as a star.",
+      "output": "True"
+    },
+    {
+      "input": "word: remove\nRemove a wrapper.\nThe President removed many postmasters.",
+      "output": "False"
+    },
+    {
+      "input": "word: strip\nHe welded together some pieces of strip.\nShe did a strip right in front of everyone.",
+      "output": "False"
+    },
+    {
+      "input": "word: force\nA force out was recorded on the scorecard.\nA public force is necessary to give security to the rights of citizens.",
+      "output": "False"
+    },
+    {
+      "input": "word: manipulation\nHis manipulation of his friends was scandalous.\nHe found that the new manager was known for his Machiavellian manipulations in his last two positions.",
+      "output": "True"
+    },
+    {
+      "input": "word: piano\nMost of the works by Frédéric Chopin are for the piano.\nHe can play \"Happy Birthday\" on the piano.",
+      "output": "True"
+    },
+    {
+      "input": "word: operation\nThey organized a rescue operation.\nConsolidate the companies various operations.",
+      "output": "True"
+    },
+    {
+      "input": "word: preserve\nPreserve the peace in the family.\nTo preserve silence.",
+      "output": "True"
+    },
+    {
+      "input": "word: peradventure\nThis proves beyond peradventure that he is innocent.\nProved beyond peradventure. -- South.",
+      "output": "True"
+    },
+    {
+      "input": "word: patronage\nThe restaurant had an upper class patronage.\nEven before noon there was a considerable patronage.",
+      "output": "False"
+    },
+    {
+      "input": "word: circulate\nCirculate a rumor.\nThis letter is being circulated among the faculty.",
+      "output": "False"
+    },
+    {
+      "input": "word: muscle\nThe senators used their muscle to get the party leader to resign.\nMuscle consists largely of actin and myosin filaments.",
+      "output": "False"
+    },
+    {
+      "input": "word: direct\nDirect your anger towards others, not towards yourself.\nHe directed all his energies into his dissertation.",
+      "output": "False"
+    },
+    {
+      "input": "word: plant\nPlant bugs in the dissident's apartment.\nPlant a spy in Moscow.",
+      "output": "True"
+    },
+    {
+      "input": "word: conclusion\nThe conclusion of the peace treaty.\nThe conclusion of a business deal.",
+      "output": "True"
+    },
+    {
+      "input": "word: snap\nThe infielder's snap and throw was a single motion.\nChildren can manage snaps better than buttons.",
+      "output": "False"
+    },
+    {
+      "input": "word: terror\nHe used terror to make them confess.\nHe was the terror of the neighborhood.",
+      "output": "False"
+    },
+    {
+      "input": "word: continent\nPioneers had to cross the continent on foot.\nThere are seven continents.",
+      "output": "True"
+    },
+    {
+      "input": "word: motivation\nWe did not understand his motivation.\nHis motivation was at a high level.",
+      "output": "False"
+    },
+    {
+      "input": "word: beat\nIn the old days a policeman walked a beat and knew all his people by name.\nA beat of the heart.",
+      "output": "False"
+    },
+    {
+      "input": "word: catch\nThe catch was only 10 fish.\nHe shared his catch with the others.",
+      "output": "False"
+    },
+    {
+      "input": "word: post\nPost a warning at the dump.\nThe newspaper posted him in Timbuktu.",
+      "output": "False"
+    },
+    {
+      "input": "word: dollar\nHe worships the almighty dollar.\nThe dollar coin has never been popular in the United States.",
+      "output": "False"
+    },
+    {
+      "input": "word: breast\nHe beat his breast in anger.\nThe robin has a red breast.",
+      "output": "True"
+    },
+    {
+      "input": "word: relieve\nThis shall not relieve either Party of any obligations.\nThe thief relieved me of $100.",
+      "output": "False"
+    },
+    {
+      "input": "word: conserve\nConserve your energy for the ascent to the summit.\nMom always conserved the strawberries we grew in the backyard.",
+      "output": "False"
+    },
+    {
+      "input": "word: closure\nThey regretted the closure of the day care center.\nHe needed to grieve before he could achieve a sense of closure.",
+      "output": "False"
+    },
+    {
+      "input": "word: engrave\nEngrave a letter.\nEngrave a pen.",
+      "output": "False"
+    },
+    {
+      "input": "word: vision\nThe runners emerged from the trees into his clear vision.\nHe had a vision of the Virgin Mary.",
+      "output": "False"
+    },
+    {
+      "input": "word: scraping\nAll that bowing and scraping did not impress him.\nThey collected blood scrapings for analysis.",
+      "output": "False"
+    },
+    {
+      "input": "word: brother\nI would like to thank the brother who just spoke.\nNone of his brothers would betray him.",
+      "output": "True"
+    },
+    {
+      "input": "word: whitewash\nLet's not whitewash the crimes of Stalin.\nIn his sermon, the minister didn't try to whitewash over the sins of his church.",
+      "output": "False"
+    },
+    {
+      "input": "word: deal\nA deal of trouble.\nHe made a deal with the devil.",
+      "output": "False"
+    },
+    {
+      "input": "word: develop\nChildren must develop a sense of right and wrong.\nWe have developed a new theory of evolution.",
+      "output": "False"
+    },
+    {
+      "input": "word: dexterity\nShe twirled the knife through her fingers with impressive dexterity.\nPlaying computer games can improve your manual dexterity.",
+      "output": "True"
+    },
+    {
+      "input": "word: potluck\nHere's a good potluck of beans and stew.\nHaving arrived unannounced we had to take potluck.",
+      "output": "True"
+    },
+    {
+      "input": "word: apology\nIt was an apology for a meal.\nThe Apology of Socrates.",
+      "output": "False"
+    },
+    {
+      "input": "word: straggle\nA straggle of followers.\nA straggle of outbuildings.",
+      "output": "True"
+    },
+    {
+      "input": "word: shot\nThe nurse gave him a flu shot.\nHe tried to get unposed shots of his friends.",
+      "output": "False"
+    },
+    {
+      "input": "word: command\nTo command an army or a ship.\nCommand the military forces.",
+      "output": "True"
+    },
+    {
+      "input": "word: refrigerate\nPlease refrigerate your uncooked meats at or below 40 Fahrenheit.\nRefrigerate this medicine.",
+      "output": "True"
+    },
+    {
+      "input": "word: care\nHe handled the vase with care.\nCare should be taken when holding babies.",
+      "output": "False"
+    },
+    {
+      "input": "word: twist\nDon't twist my words.\nTwist the dough into a braid.",
+      "output": "False"
+    },
+    {
+      "input": "word: setting\nA place setting of sterling flatware.\nHe changed the setting on the thermostat.",
+      "output": "False"
+    },
+    {
+      "input": "word: spread\nThe infection spread.\nOptimism spread among the population.",
+      "output": "True"
+    },
+    {
+      "input": "word: sleep\nWe sleep five people in each room.\nThis tent sleeps six people.",
+      "output": "True"
+    },
+    {
+      "input": "word: prohibition\nThey were restrained by a prohibition in their charter.\nIn 1920 the 18th amendment to the Constitution established prohibition in the US.",
+      "output": "False"
+    },
+    {
+      "input": "word: stay\nWear gloves so your hands stay warm.\nStay with me, please.",
+      "output": "True"
+    },
+    {
+      "input": "word: treatment\nHis treatment of the race question is badly biased.\nHis treatment of space borrows from Italian architecture.",
+      "output": "False"
+    },
+    {
+      "input": "word: break\nMake a break for it.\nHe finally got his big break.",
+      "output": "False"
+    },
+    {
+      "input": "word: life\nReal life.\nIt was a heavy play and the actors tried in vain to give life to it.",
+      "output": "False"
+    },
+    {
+      "input": "word: minute\nWait a minute, I'm not ready yet!\nIt only takes a minute.",
+      "output": "True"
+    },
+    {
+      "input": "word: exhibition\nThere was an art exhibition on in the town hall.\nA boat exhibition.",
+      "output": "True"
+    },
+    {
+      "input": "word: scrap\nThe unhappy couple got into a terrible scrap.\nThat car isn't good for anything but scrap.",
+      "output": "False"
+    },
+    {
+      "input": "word: destroy\nHooligans destroy unprovoked.\nThe fire destroyed the house.",
+      "output": "True"
+    },
+    {
+      "input": "word: cleat\nCleat running shoes for better traction.\nCleat a line.",
+      "output": "False"
+    },
+    {
+      "input": "word: pinnacle\nPinnacle a pediment.\nHe did not want to be pinnacled.",
+      "output": "False"
+    },
+    {
+      "input": "word: heritage\nThe world's heritage of knowledge.\nA heritage of freedom.",
+      "output": "False"
+    },
+    {
+      "input": "word: wail\nWail in self-pity.\nShe wailed with pain.",
+      "output": "False"
+    },
+    {
+      "input": "word: knuckleball\nEven the pitcher doesn't know where his knuckleball is going.\nBoston Red Sox pitcher Tim Wakefield is best known for his use of the knuckleball.",
+      "output": "True"
+    },
+    {
+      "input": "word: book\nI am reading a good book on economics.\nHe was frustrated because he couldn't find anything about dinosaurs in the book.",
+      "output": "True"
+    },
+    {
+      "input": "word: roll\nThe roll of a ball.\nLook at the roll of the waves.",
+      "output": "True"
+    },
+    {
+      "input": "word: piece\nThe children acted out a comic piece to amuse the guests.\nHe sacrificed a piece to get a strategic advantage.",
+      "output": "False"
+    },
+    {
+      "input": "word: share\nOur children share a love of music.\nThe two countries share a long border.",
+      "output": "True"
+    },
+    {
+      "input": "word: bondage\nHe sought release from his bondage to Satan.\nA self freed from the bondage of time.",
+      "output": "True"
+    },
+    {
+      "input": "word: pierce\nTo pierce a mystery.\nThe path pierced the jungle.",
+      "output": "False"
+    },
+    {
+      "input": "word: grip\nIn Britain they call a bobby pin a grip.\nThey kept a firm grip on the two top priorities.",
+      "output": "False"
+    },
+    {
+      "input": "word: shape\nGeometry is the mathematical science of shape.\nHe could barely make out their shapes.",
+      "output": "False"
+    },
+    {
+      "input": "word: twilight\nI could just make out her face in the twilight.\nHe loved the twilight.",
+      "output": "False"
+    },
+    {
+      "input": "word: sugar\nSugar your tea.\nJohn heavily sugars his coffee.",
+      "output": "True"
+    },
+    {
+      "input": "word: role\nMy neighbor was the lead role in last year's village play.\nPlay its role.",
+      "output": "False"
+    },
+    {
+      "input": "word: proliferate\nWe must not proliferate nuclear arms.\nThe flowers proliferated rapidly all spring.",
+      "output": "True"
+    },
+    {
+      "input": "word: trip\nA pedestrian was able to trip the burglar as he was running away.\nThe questions on the test tripped him up.",
+      "output": "True"
+    },
+    {
+      "input": "word: cloister\nCloister the garden.\nShe cloistered herself in the office.",
+      "output": "False"
+    },
+    {
+      "input": "word: expect\nI expect to receive wages.\nWe were expecting a visit from our relatives.",
+      "output": "True"
+    },
+    {
+      "input": "word: flowage\nRock fracture and rock flowage are different types of geological deformation.\nMany campsites were located near the flowage.",
+      "output": "False"
+    },
+    {
+      "input": "word: follow\nWe must follow closely the economic development is Cuba.\nIt follows that your assertion is false.",
+      "output": "False"
+    },
+    {
+      "input": "word: property\nHe is a man of property.\nThat hat is my property.",
+      "output": "True"
+    },
+    {
+      "input": "word: noise\nHe knew that it was trash day, when the garbage collectors made all the noise.\nThey heard indistinct noises of people talking.",
+      "output": "False"
+    },
+    {
+      "input": "word: policy\nYou should have read the small print on your policy.\nIt was a policy of retribution.",
+      "output": "False"
+    },
+    {
+      "input": "word: pull\nA zipper pull.\nHe grabbed the pull and opened the drawer.",
+      "output": "True"
+    },
+    {
+      "input": "word: affair\nIt is none of your affair.\nHe used a hook-shaped affair with a long handle to unlock the car.",
+      "output": "True"
+    },
+    {
+      "input": "word: pressure\nHe used pressure to stop the bleeding.\nThe sensitivity of his skin to pressure and temperature was normal.",
+      "output": "False"
+    },
+    {
+      "input": "word: reality\nThe reality of his situation slowly dawned on him.\nThe reality of the crash scene on TV dawned upon him only when he saw the victim was no actor but his friend.",
+      "output": "True"
+    },
+    {
+      "input": "word: party\nThe party of the first part.\nHe planned a party to celebrate Bastille Day.",
+      "output": "False"
+    },
+    {
+      "input": "word: result\nResult in tragedy.\nThis measure will result in good or in evil.",
+      "output": "True"
+    },
+    {
+      "input": "word: peg\nLet's peg the rug to the floor.\nPeg a tent.",
+      "output": "True"
+    },
+    {
+      "input": "word: assumption\nThe Nazi assumption of power in 1934.\nHe acquired all the company's assets for ten million dollars and the assumption of the company's debts.",
+      "output": "True"
+    },
+    {
+      "input": "word: fight\nA fight broke out at the hockey game.\nThere were fights in the streets.",
+      "output": "True"
+    },
+    {
+      "input": "word: hook\nHook the ball.\nHis opponent hooked him badly.",
+      "output": "False"
+    },
+    {
+      "input": "word: flood\nFlood the market with tennis shoes.\nThe swollen river flooded the village.",
+      "output": "False"
+    },
+    {
+      "input": "word: intellect\nHe has a keen intellect.\nSome of the world's leading intellects were meeting there.",
+      "output": "False"
+    },
+    {
+      "input": "word: word\nWe had a word or two about it.\nThere was then a long discussion of whether to capitalize words like \"east\".",
+      "output": "True"
+    },
+    {
+      "input": "word: restraint\nThe room was simply decorated with great restraint.\nThe car did not have proper restraints fitted.",
+      "output": "False"
+    },
+    {
+      "input": "word: go\nIt's my go.\nI'll give it a go.",
+      "output": "False"
+    },
+    {
+      "input": "word: crush\nTo crush grapes.\nThe car crushed the toy.",
+      "output": "False"
+    },
+    {
+      "input": "word: cushion\nTo cushion a blow.\nCushion the blow.",
+      "output": "True"
+    },
+    {
+      "input": "word: scavenge\nHyenas scavenge.\nShe scavenged the garbage cans for food.",
+      "output": "False"
+    },
+    {
+      "input": "word: recreation\nFor recreation he wrote poetry and solved crossword puzzles.\nDrug abuse is often regarded as a form of recreation.",
+      "output": "True"
+    },
+    {
+      "input": "word: question\nHis claim to the property has come under question.\nHe obeyed without question.",
+      "output": "True"
+    },
+    {
+      "input": "word: swear\nI swear by my grandmother's recipes.\nBefore God I swear I am innocent.",
+      "output": "False"
+    },
+    {
+      "input": "word: gargle\nGargle with this liquid.\nEvery morning he gargled a little cheap Scotch.",
+      "output": "True"
+    },
+    {
+      "input": "word: heel\nHeel a golf ball.\nHeel that dance.",
+      "output": "False"
+    },
+    {
+      "input": "word: fuss\nDon't fuss too much over the grandchildren -- they are quite big now.\nShe fusses over her husband.",
+      "output": "False"
+    },
+    {
+      "input": "word: nut\nHe was driving his car like a nut.\nI kicked him in the nuts.",
+      "output": "False"
+    },
+    {
+      "input": "word: work\nHe was indebted to the pioneering work of John Dewey.\nThe work of an active imagination.",
+      "output": "True"
+    },
+    {
+      "input": "word: sense\nA keen musical sense.\nA good sense of timing.",
+      "output": "True"
+    },
+    {
+      "input": "word: wish\nIt was his last wish.\nThey should respect the wishes of the people.",
+      "output": "True"
+    },
+    {
+      "input": "word: attitude\nThe airliner had to land with a nose-up attitude after the incident.\nThe actor struck just the right attitude.",
+      "output": "False"
+    },
+    {
+      "input": "word: steam\nJust steam the vegetables.\nHer indifference to his amorous advances really steamed the young man.",
+      "output": "False"
+    },
+    {
+      "input": "word: dissipation\nThe dissipation of the mist.\nMindless dissipation of natural resources.",
+      "output": "False"
+    },
+    {
+      "input": "word: path\nThe path of virtue.\nOur paths in life led us apart.",
+      "output": "True"
+    },
+    {
+      "input": "word: drought\nWhen England defeated Pakistan it ended a ten-year drought.\nFarmers most affected by the drought hope that there may yet be sufficient rain early in the growing season.",
+      "output": "False"
+    },
+    {
+      "input": "word: move\nIt's your move! Roll the dice!\nIf you roll a six, you can make two moves.",
+      "output": "True"
+    },
+    {
+      "input": "word: officer\nHe is an officer of the court.\nThe club elected its officers for the coming year.",
+      "output": "True"
+    },
+    {
+      "input": "word: deed\nHe signed the deed.\nI inherited the deed to the house.",
+      "output": "True"
+    },
+    {
+      "input": "word: transfer\nThe transfer of the music from record to tape suppressed much of the background noise.\nThe best student was a transfer from LSU.",
+      "output": "False"
+    },
+    {
+      "input": "word: fatigue\nGrowing fatigue was apparent from the decline in the execution of their athletic skills.\nHe was hospitalized for extreme fatigue.",
+      "output": "True"
+    },
+    {
+      "input": "word: belabor\nBelabor the obvious.\nShe was belabored by her fellow students.",
+      "output": "False"
+    },
+    {
+      "input": "word: torrent\nThe houses were swept away in the torrent.\nThey endured a torrent of inquiries.",
+      "output": "True"
+    },
+    {
+      "input": "word: work\nThe symphony was hailed as an ingenious work.\nErosion is the work of wind or water over time.",
+      "output": "True"
+    },
+    {
+      "input": "word: member\nCanada is a member of the United Nations.\nThe library was a member of the interlibrary loan association.",
+      "output": "True"
+    },
+    {
+      "input": "word: rise\nThey asked for a 10% rise in rates.\nThe rising of the Holy Ghost.",
+      "output": "False"
+    },
+    {
+      "input": "word: recognition\nTerritorial disputes were resolved in Guatemala's recognition of Belize in 1991.\nThe partners were delighted with the recognition of their work.",
+      "output": "False"
+    },
+    {
+      "input": "word: decussate\nThe fibers decussate.\nThis nerve decussates the other.",
+      "output": "True"
+    },
+    {
+      "input": "word: succession\nA succession of failures.\nA succession of stalls offering soft drinks.",
+      "output": "True"
+    },
+    {
+      "input": "word: go\nHow did your interview go?\nShe was going that way anyway, so she offered to show him where it was.",
+      "output": "True"
+    },
+    {
+      "input": "word: spin\nThe campaign put a favorable spin on the story.\nThe skaters demonstrated their spins.",
+      "output": "False"
+    },
+    {
+      "input": "word: body\nThe body of the car was badly rusted.\nAdministrative body.",
+      "output": "False"
+    },
+    {
+      "input": "word: sort\nShe served a creamy sort of dessert thing.\nShe wore a sort of magenta dress.",
+      "output": "True"
+    },
+    {
+      "input": "word: love\nI love French food.\nI loved to write.",
+      "output": "True"
+    },
+    {
+      "input": "word: grunt\nHe went from grunt to chairman in six years.\nInfantrymen in Vietnam were called grunts.",
+      "output": "True"
+    },
+    {
+      "input": "word: crash\nYou can crash here, though it's not very comfortable.\nThe terrorists crashed the plane into the palace.",
+      "output": "False"
+    },
+    {
+      "input": "word: create\nCreate a poem.\nCreate one a peer.",
+      "output": "False"
+    },
+    {
+      "input": "word: distribution\nWorldwide in distribution.\nThe distribution of nerve fibers.",
+      "output": "True"
+    },
+    {
+      "input": "word: canon\nThe neoclassical canon.\nCanons of polite society.",
+      "output": "True"
+    },
+    {
+      "input": "word: wait\nShe used to wait down at the Dew Drop Inn.\nWait here until your car arrives.",
+      "output": "False"
+    },
+    {
+      "input": "word: switch\nSwitch to a different brand of beer.\nI want to switch this red dress for a green one.",
+      "output": "False"
+    },
+    {
+      "input": "word: mince\nA mince of mushrooms.\nMince tastes really good fried in a pan with some chopped onion and tomato.",
+      "output": "True"
+    },
+    {
+      "input": "word: replicate\nOn entering a host cell, a virus will start to replicate.\nReplicate the cell.",
+      "output": "True"
+    },
+    {
+      "input": "word: show\nA show of impatience.\nA good show of looking interested.",
+      "output": "True"
+    },
+    {
+      "input": "word: map\nMap the genes.\nMap the surface of Venus.",
+      "output": "False"
+    },
+    {
+      "input": "word: bracket\nPlease bracket this remark.\nBracket bookshelves.",
+      "output": "False"
+    },
+    {
+      "input": "word: applaud\nI applaud your efforts.\nAlthough we don't like your methods, we applaud your motives.",
+      "output": "True"
+    },
+    {
+      "input": "word: plume\nA plume of smoke.\nGrass with large plumes.",
+      "output": "True"
+    },
+    {
+      "input": "word: blend\n'Smog' is a blend of 'smoke' and 'fog'.\nTheir music has been described as a blend of jazz and heavy metal.",
+      "output": "True"
+    },
+    {
+      "input": "word: bull\nHe was a bull of a man.\nHe made a bad bull of the assignment.",
+      "output": "False"
+    },
+    {
+      "input": "word: spend\nSpend money.\nHe spends far more on gambling than he does on living proper.",
+      "output": "True"
+    },
+    {
+      "input": "word: usage\nEnglish usage.\nA usage borrowed from French.",
+      "output": "True"
+    },
+    {
+      "input": "word: installation\nHe gave a speech as part of his installation into the hall of fame.\nThe telephone installation took only a few minutes.",
+      "output": "False"
+    },
+    {
+      "input": "word: pound\nThe locks pound the water of the canal.\nPound the roots with a heavy flat stone.",
+      "output": "False"
+    },
+    {
+      "input": "word: donate\nDonate money to the orphanage.\nI donated blood to the Red Cross for the victims of the earthquake.",
+      "output": "True"
+    },
+    {
+      "input": "word: hew\nHew out a path in the rock.\nOne of the most widely used typefaces in the world was hewn by the English printer and typographer John Baskerville.",
+      "output": "True"
+    },
+    {
+      "input": "word: breed\nGoogle represents a new breed of entrepreneurs.\nA breed of tulip.",
+      "output": "False"
+    },
+    {
+      "input": "word: risk\nI can not risk smoking.\nWhy risk your life?",
+      "output": "True"
+    },
+    {
+      "input": "word: sit\nWhen does the court of law sit?\nIn what city is the circuit court sitting for this session.",
+      "output": "True"
+    },
+    {
+      "input": "word: review\nLet's review your situation.\nBefore I tackle the question directly, I must briefly review historical approaches to the problem.",
+      "output": "True"
+    },
+    {
+      "input": "word: jockey\nHe's a truck jockey.\nA disc jockey.",
+      "output": "True"
+    },
+    {
+      "input": "word: body\nThe whole body filed out of the auditorium.\nThe student body.",
+      "output": "True"
+    },
+    {
+      "input": "word: stabilize\nThe country will stabilize after the next election ends.\nThe economy stabilized.",
+      "output": "True"
+    },
+    {
+      "input": "word: lead\nA good lead for a job.\nJoe is a great addition to our sales team, he has numerous leads in the paper industry.",
+      "output": "True"
+    },
+    {
+      "input": "word: base\nHe told the painter that he wanted a yellow base with just a hint of green.\nBases include oxides and hydroxides of metals and ammonia.",
+      "output": "False"
+    },
+    {
+      "input": "word: inadequacy\nJuvenile offenses often reflect an inadequacy in the parents.\nThe inadequacy of unemployment benefits.",
+      "output": "False"
+    },
+    {
+      "input": "word: upgrade\nThe power plant received a new upgrade.\nWith my phone company, I get a free upgrade every twelve months if I keep topping up 10 pounds a month.",
+      "output": "True"
+    },
+    {
+      "input": "word: criticism\nThe senator received severe criticism from his opponent.\nThe politician received a lot of public criticism for his controversial stance on the issue.",
+      "output": "False"
+    },
+    {
+      "input": "word: bastion\nThe last bastion of communism.\nA bastion against corruption.",
+      "output": "True"
+    },
+    {
+      "input": "word: pity\nIt's a pity he couldn't do it.\nThe blind are too often objects of pity.",
+      "output": "False"
+    },
+    {
+      "input": "word: embellish\nTo embellish a story, the truth.\nThe old book cover was embellished with golden letters.",
+      "output": "True"
+    },
+    {
+      "input": "word: tilt\nThe court's tilt toward conservative rulings.\nThe tower had a pronounced tilt.",
+      "output": "False"
+    },
+    {
+      "input": "word: facility\nThe assembly plant is an enormous facility.\nEducational facilities.",
+      "output": "False"
+    },
+    {
+      "input": "word: hour\nWe live an hour from the airport.\nIt was their finest hour.",
+      "output": "False"
+    },
+    {
+      "input": "word: capital\nThe drug capital of Columbia.\nThe crime capital of Italy.",
+      "output": "True"
+    },
+    {
+      "input": "word: fire\nClinton directed his fire at the Republican Party.\nThere was a fire at the school last night and the whole place burned down.",
+      "output": "False"
+    },
+    {
+      "input": "word: torture\nIn every war there are acts of torture that cause the world to shudder.\nUsing large dogs to attack bound, hand-cuffed prisoners is clearly torture.",
+      "output": "True"
+    },
+    {
+      "input": "word: passage\nThe outward passage took 10 days.\nShe struggled to play the difficult passages.",
+      "output": "False"
+    },
+    {
+      "input": "word: rise\nRise to the occasion.\nHer spirits rose when she heard the good news.",
+      "output": "False"
+    },
+    {
+      "input": "word: chisel\nChisel the marble.\nWho's chiseling on the side?",
+      "output": "False"
+    },
+    {
+      "input": "word: bane\nThe bane of my existence.\nThe bane of my life.",
+      "output": "True"
+    },
+    {
+      "input": "word: hang\nLet's hang this cute animal in the nursery.\nHang wallpaper.",
+      "output": "True"
+    },
+    {
+      "input": "word: breed\nHe experimented on a particular breed of white rats.\nA breed of animal.",
+      "output": "True"
+    }
+  ]
+}

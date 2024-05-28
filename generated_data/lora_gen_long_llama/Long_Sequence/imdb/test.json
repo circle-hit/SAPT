@@ -1,0 +1,182 @@
+{
+  "Definition": [
+    "Classify the sentiment polarity expressed in our following movie reviews."
+  ],
+  "Positive Examples": [
+    {
+      "input": "The first noticeable thing about this film is that it lacks credence as actual art and relied heavily on its director' narrative to tell a story of paralysis, agony, betrayal at the hands-of-another (the main character') experience of losing his wife and child. When confrontemed by her husband' images of having murdered his brother, she retreat from him, returns to his home and becomes obsessed with finding out what truly happened to his wife, before ultimately being led to an equally tragic suicide.br/>br/10() Perhaps coincidentally, \"Sister\" was actually released on DVD in 1972 (when David Lynch'infamous THE GANG WATER PROJECT came out), yet here we get only snippet for context, which does not add to our understanding of what really drove such emotions, particularly when these demons were eventually revealed and laid to rest by their",
+      "output": ""
+    },
+    {
+      "input": "I thought it was a cute, kids-type, cartoonish film. But it just felt like it droned on endlessly. And what's not to love about 80s films?",
+      "output": ""
+    },
+    {
+      "input": "This is really one of the worst movies I've ever seen. The script was terrible and it really didnt take off like I thought it would with some good direction and acting. It was also pretty stupid and predictable. If you haven'r been to this film, don;&#x27; need to see anything else.br-/>br-/>My main worry about this movie had something more to do than just low production values. Was there something so bad someone should be embarrassed and ashamed for seeing this? What did they think? Did other people feel compelled by Hollywood's contract to make this movie? Who decided that making kids happy should be entertainment? They certainly didn'*t think that \"Jaws\" could win an Oscar for Best Song for five minutes. How about \"Clueless\" or another lame musical film?",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Its not fair that Hollywood turned down all of its favorite horror movies this year, because what it lacked in creativity they made up for with outrageous special effects, or even worse, making sure we don't have to live through them as well. So many films these days just have CGI goofball-ness and lame scares (in fact most horror flick are actually more boring than good) ruining their overall Horror film quality.br/>br()br(iannbruck.com/wp-login.html#_postcount 86; 23 Dec 2005 10:22 The impending Christmas holidays were over, so Santa had his family on Christmas Eve instead of trying out some new tricks at the old Drive-In Theater with friends. Instead Santa goes to an actual drive where you insert your own personal video game in which you can enter your own town and enter contest rules. Guess what",
+      "output": ""
+    },
+    {
+      "input": "\"The Gingerbread Man\", written and directed by Jack Goldthwait, is one of two adaptations of Rudyard Kipling' novel about Nora Ephron. The first adaptation was published as an adult picture book (with music and lyrics by Paul Hewitt) in 1973, while this version has a completely different approach to story and character development; it tell narratives primarily from fictitious characters. This film is also set 150 years later, around the time the original Jane Austen novel was published. It does not feature any animals in the story but there are windmill-like scenes where children are engaged in small handicraft work that takes place during family meals at the home of Mr. Jarvis.br/>br/10() In all three novels, \"Kindergarn\" shows the struggle of women with men who take an active role rather than simply being subordinate to them when the needs or",
+      "output": ""
+    },
+    {
+      "input": "It has been said that Stephen King is one of the most overrated novelists and this film certainly does not back up that statement. A study of what it would take to write and effectively adapt the works, themes and literary devices of his work, we are introduced to Clive Barker, and soon after discover his writing style, lack of logic and depth, the use images from media that would seem comical and whimsical at first, the way characters were treated as stereotyped characters in order to create an interesting storyline, to show how racism can be overcome. All depictions of people are stereotypical or clichéd, and the book fails to show anything new or unusual about our society' relationships with others.",
+      "output": ""
+    },
+    {
+      "input": "This is one of the worst movies I've ever seen. Rating: 10/10 from 11 votes",
+      "output": ""
+    },
+    {
+      "input": "The best version of this film would be \"The Lady From Shanghai\"br;>br:>I watched it again to compare notes with my first impression of it back when I was 12 years old. In both films, love for your country is at the very heart and it becomes increasingly difficult to accept. However (as it turns out), you cannot escape reality any longer because the past will always present - eventually.br/>br&gt;For instance, Dokungfu Temple (which in turn is devoid dating history)has more than 1000+ singles on its registry! People want to know where their ancestor went, what happened during their stay and if they left the mark on their social network. It'd be hard to find someone in Hong Kong who doesn’ll tell even the most basic details of how you lived in China and in those days. You have to ask",
+      "output": ""
+    },
+    {
+      "input": "I've seen this film, twice, and every time, it comes as an unintentional eye-opener that there are other aspects of our lives left unexplained or not well understood by those who have never experienced the trauma of experiencing mental health issues themselves.br The first movie is about my own family, who was living with me for five years. There are times when my father had no desire to extend any more my stay; he moved in with his mother. At the time, my mother did not want to live on her own and we shared her home with my three siblings (two boys and a girl) and my grandfather. It breaks my heart to think that this might impact negatively on our family as they were all going through a similar struggle. This documentary is the rare look into real-life experiences from mental health professional Michelle Wolff (who works at UWMC). What most of us do not realize while",
+      "output": ""
+    },
+    {
+      "input": "I love this show, so I have always wanted to see it as well but never got around because of time constraints and now the wait is over!br/>br()br_source = \"Barnyard Classic\" It just seems to be too much for the average person or family, even though the premise itself is interesting and entertaining. What gets me about the show are things like: 1) the cast are real people and everyone does what they say on every episode; 2)the story is actually good (I liked it) and it has climbed my TBR pile since becoming available on DVD only recently; and 3) it makes a great movie when you can sit down and watch it repeatedly instead hitting fast forward or skipping forward without missing the jokes; not a bad way to waste an evening. If you'd like something more adult",
+      "output": ""
+    },
+    {
+      "input": "I thought it was a cute, kids-type, cartoonish film. But it just felt like it droned on endlessly. And what's not to love about 80s films?",
+      "output": ""
+    },
+    {
+      "input": "This is quite possibly one of my favorite Twilight Zone episodes, and I've seen it more or less all of them. It always made me happy that they did this special episode in \"Pilot\", though, because of how much of an Underworld atmosphere was created therein...br/>brsp;But, when these episodes were actually released, not one in them looked nearly as good as this one does. Of course, since it'd been 5 years since the show aire dating back to 1959, it obviously took time for it look a lot better. And of couse, that makes this episode even cheesier. If there are vampires on-screen (and believe me, you want to know them), make sure they're at least fairly well trained (with proper equipment) by now! That said....it's kind of lame, anyway...I think someone should have put",
+      "output": ""
+    },
+    {
+      "input": "I really need to find out more about this film, and I do not want my money used in any way for it. How much time can go by before they run another one? Well I guess I could ask someone else!",
+      "output": ""
+    },
+    {
+      "input": "This was an excellent film and one which entertained all. I found my father watching it with me and that he liked it as well, it brought back happy childhood memories of when we used to play hide-and seek. Having recently become redundant, I found myself wishing there were more films like this, so as not have to feel guilty about missing out on fun memories.br>br/>My only advice for those who wish they hadn't seen this is that you will thank me when its over. 9/10",
+      "output": ""
+    },
+    {
+      "input": "I just came back from watching this on TV. A nice relaxing and very enjoyable evening based around some great comedians, including Burning the Roses & Mel Brooke, who both wrote this piece. This was the perfect show to watch over Christmas (although that is probably what it would have been if Santa had made an extra run). It is very clever, not too smart, very funny, and not in any way has any deep meaning to anyone involved with football or sports whatsoeverbr>br/>It features loads of clips of past games as well as lots more clips about present day matches featuring figures like Michael Pharoah, Timon of Athensaurus, Gary Coleman, Ben Wright, Andy Garcia, Jimmy Durante etc. As for humour, it'd be rude not even using Ed Getty. But all in good fun",
+      "output": ""
+    },
+    {
+      "input": "This is one of my very favorite animated shorts and it'll stay with you for a long time. There are few, if any, better cartoons out there and this one comes close to them. I have never been more amazed by how well these short films can be made and the way they can tell engroing stories and little known facts. Though based on an actual story, \"What If?\" has been given so many clever twisty turns that you just don?t know what is going to happen next; but you will love every minute watching it.br-/>br-/>I think I can safely say this film is definitely worth your while. It will have you laughing and crying all the same. A classic film.",
+      "output": ""
+    },
+    {
+      "input": "I saw this film with my wife and we were both thoroughly disappointed. The acting was horrible, mainly because there was no dimension to any of characters.br/>br/>The plot outline is decent, and I liked the \"plot twist\", which is basically that after an attack by zombies in New York City (we live near by and have been attacked before), we must go out to kill them. But after we are done there is another part where the actors are given some dialogue to tell us what is going on. We get two different points of view (either positive or negative) about each character, and both point in the same direction. Unfortunately it'll remain as such until someone else brings it back into focus. In total my rating for it: 2/10",
+      "output": ""
+    },
+    {
+      "input": "If this were your cup of tea you must have seen one too many horror films before seeing it, even as you may be dying to see more and more of them. I have no words that can express how awful it is, not only does it suck but the acting and storyline is ridiculous as well. The plot has been attempted before (with better results) by some good actors but none has been made better than Suwa Kato (My Name I'm Not Shining) who plays an attractive housewife with two young son; Corey Coull, played by actor Stephen Dorff and very convincingly portrays her. A horrid ending which saw both die within moments of each other. Too bad there really wasn't much left to talk about after all the action scenes and special effects, but I would say for people like me or anyone else suffering from insomnia it is the absolute WORST experience ever.",
+      "output": ""
+    },
+    {
+      "input": "I saw it when I was 6 and I loved it from the minute you see the title till the very last shot. This film had some good acting from all of its stars. The acting is so unbelievable, that at times you think you are watching some kinda biography of someone whom you don't really know.br/>br: There were two main reasons why I stopped watching this film, which are: (a) It seemed like they had lost their edge, (iie tone; humorous lines inserted into serious situations) or (IIIn the case of \"Breathtaking\", the dialogue got old after only one line). That made me sad to watch it because, I wanted to laugh so bad, to cry. But, to my surprise, this movie actually worked really well. It reminded everyone that we have grown older and have the comfort of \"senior moments\". At the same time, it brought some",
+      "output": ""
+    },
+    {
+      "input": "I was really impressed with Hidden Frontier: Spike Lee's extraordinary first film, and now the second. It'll be interesting to see what Lee does with this film. He's an excellent director of action/adventure films but his last effort made me very angry.brg>brnbrm>It doesn;-e take much for me to watch Hidden Frontier: Mission to End Terror as enjoyable as watching any other FX movie, much less such as James Cameron' Academy Award-winning Avatar. However my biggest beef with it is its two hour running time. In one scene, at a bookstore, Lee tell us that we will never find another copy on our planet, and then he proceeds to show different copies each day until they are all out. I don'&#8217;t think that the DVD will ever have 20,000 free download so it could well be used",
+      "output": ""
+    },
+    {
+      "input": "I have only recently seen this film on DVD, and I can say that I was impressed with it. It's not the kind of horror movie you'd find any self-respecting teenager watching: you know what they mean about making up stories as they go along or how to deal (eventually) with them, but it'll be well worth your time.",
+      "output": ""
+    },
+    {
+      "input": "I have not watched this show, but I am familiar with many of its characters since watching \"Lizards Of Madison County.\" The first season had several episodes I thought were great, so it was no surprise that when it went to series three I expected a lot more. It turned out to be disappointing.br>br/>After about two episodes I decided against it. From what I could tell, each installment was worse than either one before (except \"Supergirl\" which has nothing to do on this episode). This last season just seems like another bad attempt at trying again. Even the commercials aren't as terrible! If you enjoy old-fashioned TV detective dramas, then you will like this. However, if your idea is to watch an action series based on true serial killers (who may have murdered women, children and even celebrities) you will likely dislike this. None of the characters fit into any",
+      "output": ""
+    },
+    {
+      "input": "I saw this film when I was 12 years old. A lot like \"Alias\". It'd been on my mind all these days (even though it has not really been that long), but somehow neglected to see it when the video first came out. Now that I am older, I havent watched it since. Probably not just because I didn'm particularly interested or had seen it, mostly because its memory seemed so very far away from real life. But, oh boy, was it so bad. And, more important than the terrible acting, disturbing visuals and general awfulness of production was that - when something is made purely for shock value e.g an acid trip for example -30 minutes long (I mean come on...) you would expect at least some enjoyment in it. Well.... we were so disappointed that even after watching it for a few hours straight we couldn'r find anything redeeming",
+      "output": ""
+    },
+    {
+      "input": "I found this documentary fascinating from start to finish, especially for its accounts of how the lives of ordinary people are changing. While skeptical as to what is happening to our world (it's all very new news), it also brought to life some of humanity' greatest stories and triumphed over tragic events. For me, the main strength or value behind the film was to show the different lives touched by natural disasters. That is particularly apparent with the story of Joseph Gould, who lived with his family during the devastating 1939 Great East Africa Cyclone. And although his life impacted that of many children of families in need, many others did not.br/>br-de>It'll be interesting seeing how this story continues to resonate in years to come.",
+      "output": ""
+    },
+    {
+      "input": "This film was awful, terrible and completely pointless to say the least. It started off very well as an excuse for some really good comedians and ended up being one of those films that were so bad it made you want never watch another comedy again. However I think what'll make me a better filmmaker is if I actually took some of my own work seriously and gave it another crack! Some excellent comedic writing would have put all this behind me and given me something worthwhile to take on to. That would have been \"The League Of Gentlemen\". Then again there'd probably be far more classic British horror movies out there now than even John Carradine!",
+      "output": ""
+    },
+    {
+      "input": "I thought it was funny, and then it started to stink because of its unoriginal ending- which would have been fine if they'd just left out a few crucial minutes, or had switched around and made us care about what happens after that point. But instead, we were taken aback by some things about this film, particularly the lack narrative structure and character development. The story doesnt move forward from there. What's good here is it doesn'apos;n really change much in the first act, so you can get used into the characters pretty quickly. (Even though it does change up later on.) Overall, a good watch for fans expecting something new. Just make sure at some point to turn off your brain (or heart!).",
+      "output": ""
+    },
+    {
+      "input": "When was this made? It is about 15 years from now. I've recently seen it again and I love it! Not only because it tells many stories not told many times before, but also because it offers new ways of telling familiar stories. Many thanks to my dear friend David who helped me find it after an internet search. He sent me the DVD cover. You have to see it to believe what I just wrote: \"Oh my God. This movie should win. I loved it. It really is amazing.\"",
+      "output": ""
+    },
+    {
+      "input": "A study of paralysis from birth to adulthood, concluding with some observations on what to do if the baby can't talk.br/>br()>This was my first exposure and I must say, this film is brilliant. There are no rapid-fire flashbacks like \"Au Pair\", or amusing one-liners such as \"I wish I had a better pen!\" That essentially means you leave this movie thinking about nothing except death, which of course it will, but that doesn'll do you any favor either. This movie, though far from perfect does not deserve the praise it gets. But at least it does present us with the possibility of understanding how truly tragic life really is. It will make you appreciate real loss. In fact, you might actually be saving yourself some tears, because, quite frankly... there won'f be many tears there!",
+      "output": ""
+    },
+    {
+      "input": "This film was made after reading about it on-line (via my friend). I was expecting much less of the \"actors\" than I did. Even though they weren't bad (the two main ones I think are average actors) but considering how badly written the first was, perhaps that'll be enough to soften any blow.br/>br A young woman with amnesiosis is found floating around. She has an ex boyfriend who she loves, and when she gets into bed, her mind races with ideas of revenge against her lover. Her ex then proceeds killing and eating everyone in sight while driving away in his car. Oh yeah, also includes one very unpleasant episode where all hell breaks loose from inside...lots of blood.br The plot, although well-written, suffereth terribly because the character development takes place so slowly. It seems there is no growth at either karate",
+      "output": ""
+    },
+    {
+      "input": "What an awful film this is. I'm glad I went to see it, because after seeing it, I think about how unfairly some of these people were treated before my time was up. There are so many examples where the \"poor\" people have suffered and have suffered more in this horrible film than the wealthy people (or at least they tried...it didnt really go that far).brs>br/>This injustice is not only blatant, but also very personal. If anyone does the research on what these poor families went through, please donate to those unfortunate soul being victims. They should be ashamed of themselves, for having done this terrible thing. This is the kind images made from their lives that we should avoid if we do want to have decent relationships.",
+      "output": ""
+    },
+    {
+      "input": "I watched this for the first time on Christmas Eve, it was so much better than I thought it would be at the time. There was no fighting and plenty of laughs throughout an interesting film. Not so much about how some people try to control our feelings through our actions as that of God.br/>br-de>It is difficult to see why some might think this film should have won any awards, it'll probably get top 10, but it could very easily have been number 1 and perhaps got more publicity. It also seemed like no-one at work wanted to make it a Christmas Special after Christmas, so I am surprised there was not rioting and maybe even blood shed, although the violence was pretty minimal compared with what we've seen in recent years. As it was such mediocre in all areas, and quite possibly overlooked because of other films, I can recommend it for anyone who enjoy watching bad movies",
+      "output": ""
+    },
+    {
+      "input": "I have watched this for many years, and I love it! The only down side has to be that there is no audio available. A woman who speaks perfect English (likes it because of how she learned it!) would need to do research into the language to find exactly what she was talking about. That'd take forever- maybe someone with more training could make one? Or maybe not. But there is always something... better to just listen.br>br/>I can imagine it being made as a series on DVD, so it may not be so bad. Although it is definitely shorter than two hours, I found this one much less time-consuming. If you want to see an interesting look at how people learn other languages, you will enjoy watching these animated short episodes as well. In comparison to what I've seen thus far, which have been done by computer artists and animator groups (with some assistance from real human actors",
+      "output": ""
+    },
+    {
+      "input": "If you are looking for an excellent comedy, this one is for YOU. It has that \"sparkle\" and makes us all laugh out loud with its cleverness but at times it gets old fast. That it took nearly 30 years to get this laugh-out-loud laugh line may be due not only of being tired as many other great comedian' joke lines get (The Lord Of The Ring series spoof on Jim Carrey is still hilarious),but also because he didnt know how to react when they hit a funny line.br/>br />A true gem from Comedy Central!",
+      "output": ""
+    },
+    {
+      "input": "I saw it at least twice, perhaps three times as a child, and never forgot how much it affected me.br The film was directed by Douglas Sirk (who is more famous for his role playing Harry Callahan in Star Trek Voyager than anyone else), who has made some great and timeless films, such \"As A Love Song To My Darling,\" \"The Man From Snowy River\" (\"Peter Pan\"). His best work seems to have been with Princess Mononoki, although his other works are just as wonderful.) In fact, my favorite scene, almost without dialogue, shows him showering her father after he kissd her in bed, and later having to console himself. It'an amazing sequence of emotions all depictED on one giant screen, so subtle you can miss the words being spoken, or hear bits of conversations happening before your eyes.",
+      "output": ""
+    },
+    {
+      "input": "This is one of my favorite films. The first time I saw it, it was on Turner Classic Movies in 1970. It had great locations and actors, and sounded very interesting. My memory matches the dialogue with what seems to be an actual interview of Judy Garland.br/>br-de>The second viewing I saw was in 1980, at a film festival, with some old friends from high school. We hadn't met in person (I don;?t remember), but from the comments I heard about it, we decided to go see it again. It turns out that our local library was showing this film at various times, on cable TV as well -- so I thought we had come full circle. Of course, none can take credit for the work of all these people involved: MGM, Fox, HBO, etc. But it is still very good, particularly after many years of searching. If you enjoy 1950",
+      "output": ""
+    },
+    {
+      "input": "I think this is a very good film. The storyline deals with what feels like real issues. It doesn't have much twists or surprises, but is compelling enough to keep you guessing. A nice change from your normal fare on Hulu.",
+      "output": ""
+    },
+    {
+      "input": "If I were to distill one thing about Zombie: A Love Story, it would be that, in my humble opinion this is the single greatest (and only) true story ever told, and possibly THE most compelling of all time. It really should have been made into something else. Somehow, Hollywood just didn't get the memo.br/>br =sunny sidebr();br minbarbr />The script was written by none other than Terry Gilliam himself who is best remembered as \"the Gorilla\" in Grosse Point Blank, and has since become perhaps his best-selling novel. When we think of TGWW, however simplistic and derivative it actually becomes, there is little left of any complexity whatsoever. There is no hint of suspens excitement, or danger at all. In fact, you get neither at some points. Which means you are either completely lost",
+      "output": ""
+    },
+    {
+      "input": "I was very enthusiastic before seeing \"Alive\" even though I'm not a fan of Branagh and his books, but when I watched this film it really disappointed me. This was a made-for TV version (I mean I've seen many) and frankly, no way could I find out what kind/styles of songs they sing...it just didnt fit at all.br;>br == The story started innocently on Christmas Eve. When someone die during the course to Christmas, there is going pay a lot of money to a family of four in Florida or something. It turns into terribly confused as they try to piece together the clue that points to who the person may be and how they might have died. Also, the music for the whole thing just wasn' Toned down so well. If you like your Christmas soundtrack traditional, then watch Alive instead. That will probably put an",
+      "output": ""
+    },
+    {
+      "input": "One of the most popular animated series on television, Beat the system is an extremely fun game that helps you learn all the basic skills needed to be an awesome computer program. The characters are highly innovative and cute. Once you've mastered the level of skill, you can move up in difficulty as your mastery grows. This series was originally released as a full-length feature but the movie never received much attention. Accordingly, it has long been unavailable on home video and has been recently brought back into production. To see if it still has some strong appeal after being over thirty years since its original release would definitely prove helpful (I wouldn't be surprised).",
+      "output": ""
+    },
+    {
+      "input": "I had wanted to see this movie for some time but when it came on I was expecting a really boring and slow film, like \"Cannibals\", etc.br>br/>At first I thought that maybe the director or producer would do medley of films (like Pirate John) without much creativity, so that the story is predictable even by today standards which can be very frustrating. However, I must say that this movie did not fail to impress me. It is an original film with many humorous scenes. One of my favorite parts was: How old were they who wrote this movie?! And of course they are still alive!!",
+      "output": ""
+    },
+    {
+      "input": "When I ordered this DVD off of imdb, I expected it to contain my usual selection of camp classics-Prince Of Egypt, TNG, Star Wars and Indiana Jones, with perhaps a few new ones such as \"The Last Crutch\" and some other stuff that the people of Enfield would enjoy. And sure enough, there were numerous mention for \"Daniel Boone\", the only character on the DVD, at least one that was never mentioned much on the DVD at all.br/>br Brian Laughton' (\"Lorenzo\") is always very enthusiastic about taking down evil doers (in \"Cannibal Holocaust,\" which the young boy played quite an important role in), but his main interest is to try and defeat those who have taken over the world in their names! He certainly does that well by creating memorable characters, each with unique strengths and weaknesses. Each time something goes wrong,",
+      "output": ""
+    },
+    {
+      "input": "this movie is not for me, but it's great when you watch a show about people who don't have enough stuff to be happy about, or at least the parts that are about that. I think if people had listened to people like myself and Anne Archer on the show they would have gotten over it, or they would have cried themselves silly because life has some crazy moments.br/>br/10() This is an amazing comedy about wacky situations that are funny. People are really digging the fact these guys took from each other and ran around with different ideas. And it isn've been done before, so many times. Its definitely worth seeing!",
+      "output": ""
+    },
+    {
+      "input": "I am not usually that big of a fan for Stephen King movies, but this one was very good, even better than his first \"Peter Pan\" trilogy which had some problems with excessive gore and violence. This film is much more down to earth, and you quickly realize that this is a true story about people who lived in poverty, but managed to overcome these unfortunate predicaments. Anyone who has been through it knows what I mean; I am sure that most don't. Its about these characters and what they went on later in life. There are no redeeming factors in it. Just an old-fashioned love story told by an immature man to his sick little girl.",
+      "output": ""
+    }
+  ]
+}

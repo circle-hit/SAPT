@@ -1,0 +1,130 @@
+{
+  "Contributors": [
+    "Atharva Naik"
+  ],
+  "Source": [
+    "evalution"
+  ],
+  "URL": [
+    "https://aclanthology.org/W15-4208"
+  ],
+  "Categories": [
+    "Information Extraction"
+  ],
+  "Reasoning": [],
+  "Definition": [
+    "Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Global Facts"
+  ],
+  "Positive Examples": [
+    {
+      "input": "book is part of library",
+      "output": ""
+    },
+    {
+      "input": "bed can be used as the opposite of bath",
+      "output": ""
+    },
+    {
+      "input": "body can have or can contain bone",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "bed is part of human",
+      "output": ""
+    },
+    {
+      "input": "book can have or can contain author",
+      "output": ""
+    },
+    {
+      "input": "bed can be used as the opposite of chair",
+      "output": ""
+    },
+    {
+      "input": "air can be used as the opposite of water",
+      "output": ""
+    },
+    {
+      "input": "bowl can have or can contain liquid",
+      "output": ""
+    },
+    {
+      "input": "bone is part of foot",
+      "output": ""
+    },
+    {
+      "input": "bird can have or can contain baby",
+      "output": ""
+    },
+    {
+      "input": "action is part of fight",
+      "output": ""
+    },
+    {
+      "input": "bird can have or can contain tail",
+      "output": ""
+    },
+    {
+      "input": "bowl is made of plastic",
+      "output": ""
+    },
+    {
+      "input": "animal can be used as the opposite of bug",
+      "output": ""
+    },
+    {
+      "input": "break can be used as the opposite of fix",
+      "output": ""
+    },
+    {
+      "input": "baby can be used as the opposite of adult",
+      "output": ""
+    },
+    {
+      "input": "box can be used with the same meaning of trunk",
+      "output": ""
+    },
+    {
+      "input": "bed can be used as the opposite of bath",
+      "output": ""
+    },
+    {
+      "input": "blow is part of fight",
+      "output": ""
+    },
+    {
+      "input": "bird can be used as the opposite of mammal",
+      "output": ""
+    },
+    {
+      "input": "bird can have or can contain body",
+      "output": ""
+    },
+    {
+      "input": "build can be used with the same meaning of improve",
+      "output": ""
+    },
+    {
+      "input": "bird can have or can contain tail",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "Unknown"
+  ]
+}

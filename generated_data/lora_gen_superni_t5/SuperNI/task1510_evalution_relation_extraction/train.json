@@ -1,0 +1,130 @@
+{
+  "Contributors": [
+    "Atharva Naik"
+  ],
+  "Source": [
+    "evalution"
+  ],
+  "URL": [
+    "https://aclanthology.org/W15-4208"
+  ],
+  "Categories": [
+    "Information Extraction"
+  ],
+  "Reasoning": [],
+  "Definition": [
+    "Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', \"MadeOf', SYnonym', 'Entails' or 'HasA'. The output should have the format: word2: word1: word2. The output should have the format: word1:word2. Understand the relationship between them. The output should have the format: word3: word1 relation word2."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Global Facts"
+  ],
+  "Positive Examples": [
+    {
+      "input": "book is made of paper",
+      "output": "['book MadeOf paper']"
+    },
+    {
+      "input": "blow can be used with the same meaning of strike",
+      "output": "['blow Synonym strike']"
+    },
+    {
+      "input": "air can be used with the same meaning of atmosphere",
+      "output": "['air Synonym atmosphere']"
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "build is able with the same meaning of construction",
+      "output": "['build Synonym construction']"
+    },
+    {
+      "input": "book can have or can contain picture",
+      "output": "['book HasA picture']"
+    },
+    {
+      "input": "action can be used with the same meaning of performance",
+      "output": "['action Synonym performance']"
+    },
+    {
+      "input": "apple can have or can contain seed",
+      "output": "['apple HasA seed']"
+    },
+    {
+      "input": "bolt can be characterized by tight",
+      "output": "['bolt HasProperty tight']"
+    },
+    {
+      "input": "action can be used with the same meaning of prosecution",
+      "output": "['action Synonym prosecution']"
+    },
+    {
+      "input": "baby can be used as the opposite of adult",
+      "output": "['babies Antonym adult']"
+    },
+    {
+      "input": "apple can be characterized by green",
+      "output": "['apple HasPropertory green']"
+    },
+    {
+      "input": "break can be used with the same meaning of split",
+      "output": "['break Synonym split']"
+    },
+    {
+      "input": "book can be used with the same meaning of record",
+      "output": "['book Synonym record']"
+    },
+    {
+      "input": "box can be used with the same meaning of case",
+      "output": "['box Synonym case']"
+    },
+    {
+      "input": "bowl is made of aluminium",
+      "output": "['bowl MadeOf aluminum']"
+    },
+    {
+      "input": "action can be used with the same meaning of score",
+      "output": "['action Synonym score']"
+    },
+    {
+      "input": "body can be characterized by beautiful",
+      "output": "['body HasProperty beautiful']"
+    },
+    {
+      "input": "animal can be used as the opposite of human",
+      "output": "['animal Antonym human']"
+    },
+    {
+      "input": "bird is partoil is a kindof pet",
+      "output": "['bird PartOf pet']"
+    },
+    {
+      "input": "black can be used as partof darkness",
+      "output": "['black PartOf darkness']"
+    },
+    {
+      "input": "air can be characterized by clear",
+      "output": "['air HasProperty clear']"
+    },
+    {
+      "input": "animal can be used as the opposite of vegetable",
+      "output": "['animal Antonym vegetable']"
+    },
+    {
+      "input": "body_part is partof organism",
+      "output": "['body_part PartOf organism']"
+    }
+  ],
+  "Instance License": [
+    "Unknown"
+  ]
+}

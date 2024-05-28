@@ -1,0 +1,8 @@
+{
+  "SuperNI": [
+    {
+      "sampling strategy": "full",
+      "dataset name": "task639_multi_woz_user_utterance_generation"
+    }
+  ]
+}

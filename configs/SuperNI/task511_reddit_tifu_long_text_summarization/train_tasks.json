@@ -1,0 +1,8 @@
+{
+  "SuperNI": [
+    {
+      "sampling strategy": "full",
+      "dataset name": "task511_reddit_tifu_long_text_summarization"
+    }
+  ]
+}

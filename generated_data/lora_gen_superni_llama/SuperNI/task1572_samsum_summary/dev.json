@@ -1,0 +1,66 @@
+{
+  "Contributors": [
+    "Amrit Bhaskar"
+  ],
+  "Source": [
+    "samsum"
+  ],
+  "URL": [
+    "https://huggingface.co/datasets/samsum"
+  ],
+  "Categories": [
+    "Summarization"
+  ],
+  "Reasoning": [
+    "Commonsense Reasoning -> Social Situations",
+    "Reasoning on Social Interactions"
+  ],
+  "Definition": [
+    "In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It must cover the complete context of the conversation."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Dialogue",
+    "Commonsense -> Concepts and Relations -> Social Commonsense"
+  ],
+  "Positive Examples": [
+    {
+      "input": "Rob: So how's the cat?, June: fine I guess, June: file_photo>, Mark: the vet said she's gonna have to wear that for 10 days, Rob: 10 days? yikes? what ca I do to help?, June: I don't think there's anything, Jack: well thanks man! was really nice meeting your brother last night!, June: yeah, bye",
+      "output": ""
+    },
+    {
+      "input": "Liam: We really need Jimmy Johnston on the show! Can you reserve a spot? I can book a few tickets for you, but we need to know as soon as possible. Thanks!!",
+      "output": ""
+    },
+    {
+      "input": "Dorothy: mom's birthday party yesterday!, Ellie: I know what you want me to make... food?, Dorothy: potato soup with blue cheese, Linda: so good!! thank you for thinking about my needs 3",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Liam: We really need some new material for the website!, Jamie: Agreed., Jude: yeah, well..., Jude: Leon?, Leon: i know i've been working on it recently, but havent had time to finish it, Liam: give me 5 mins, Damian: Oh cool I can get them done then, tomorrow, Claire: no problem at all",
+      "output": ""
+    },
+    {
+      "input": "Eli: hi! Wanna join me for a party tonight?, Katelyn: what party?, Eli: a birthday party at my parents' house right?, Katelyn: yeah, I know, but it's not really possible to go out of town, so we can perhaps gather in my place beforehand. That would be nice, of course!, Eli: great, Kately",
+      "output": ""
+    },
+    {
+      "input": "Ashton: queues at the airport were horrible, so stressful, Arabella: but you managed?, Ashthon: Luckily I did, Arabella: good, on the plane already, Ashthan: Yes, queuing again I guess, Arabella: Write me after you've landed, Ashthing: Thanks!",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "CC BY-NC-ND 4.0"
+  ]
+}

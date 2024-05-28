@@ -1,0 +1,8 @@
+{
+  "SuperNI": [
+    {
+      "sampling strategy": "full",
+      "dataset name": "task181_outcome_extraction"
+    }
+  ]
+}

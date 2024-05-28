@@ -1,0 +1,118 @@
+{
+  "Contributors": [
+    "Swaroop Mishra",
+    "Daniel Khashabi"
+  ],
+  "Source": [
+    "quoref"
+  ],
+  "URL": [
+    "https://allenai.org/data/quoref"
+  ],
+  "Categories": [
+    "Question Answering"
+  ],
+  "Reasoning": [],
+  "Definition": [
+    "In this task, you're expected to write answers for questions involving multiple references to the same entity. The answer to the question should be unambiguous and a phrase in the paragraph. Most questions can have only one correct answer."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Wikipedia"
+  ],
+  "Positive Examples": [],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Passage: In 1899 British President Johnston (now known as John Marshall) is charged with running riots against officers of the Royal Navy. After two days of debriefing, Admiral Sir William Rogers Jr. becomes interested in Robert \"Rob\" Johnson, another officer on staff, who finds out that Johnson was not present at the rehearsals for the film; however, his father also claims that he has been fired from the navy because Mr Williams had been shot before him. He then went off to see an officer looking after the military. He later admitted himself guilty—for failing which he became involved in the crime? Although no arrest was made during his service they served less than 40 days. He does remain behind but never gets away or die first. He takes control over",
+      "output": ""
+    },
+    {
+      "input": "Passage: By January 1899 Hendrickson had joined the U.S Army as enlisted men under Captain William H. Payne on an overseas assignment (for General Robert B. Burbank) at Fort Worth Air Force Base after having taken over the entire military establishment. As the regiment was being prepared for deployment soon, they met with four Navy officers from the Royal Engineers of the Royal Navy where they served until April 1801. They were given several special orders—including a short-ranged light tank that could be used during service but which would not work without proper documentation. An army officer instructed the Canadian National Guard to prepare by sending two soldiers before returning first aid to Fort Worth, Virginia Beach, Massachusetts, then New York City, Rhode Island, Washington, Dulles",
+      "output": ""
+    },
+    {
+      "input": "Passage: In January 1973, after being fired from his job at IBM, Mark Levinson was hired as an accountant for Merrill Lynch Holding Company Limited by William Squires; they worked on that project until 1972, although there had been no advances since then. Led by Frank Lipton, Marcus McCarnett was named editor of the United Nations Development Bank (UDD), which offered him two months salary increases through their financial hardships while working for Ford Motor Company. At MCA, Lewis decided it would not pay any more time during the period between October 1984 and December 1987, rather than staying with the company because \"it didn’t look like he was going to be running the business.\" He started taking classes before attending college where he met Barbara Stewart. When",
+      "output": ""
+    },
+    {
+      "input": "Passage: Although it is not technically possible to construct tyrannical structures with no internal structure, the construction of such buildings are complex and often requires enormous labor—particularly for new high-rise buildings or taller buildings. As they pass down the coast, the sea levels rise more than 40 metres (45 feet) before disloding up from the ocean. The ship's cargo also shows that its crew were \"intentionally negligent\" when docked off the coast near the entrance to avoid flooding during storms. The ship has seen large spike warning lights since July 1631 but did not trigger any significant change until later January 1942.The boat wreck was found by some geologically active areas beneath the water level, making it hardened against erosion. The river",
+      "output": ""
+    },
+    {
+      "input": "Passage: In 1880 England, Henry VIII of Houndsdon was given his title by King George V as commander-in-chief of the French Fleet. John Lloyd Smith had been appointed Lieutenant Commander on 15 September 1882 after which there is no record of any conduct related with him until his death in 1885. A few weeks later, when Charles arrived at Oxfordshire from London where he became captain over the Royal Navy, he ordered another naval stationed; however, under his command, the Prince Sir William Scott returned to England for more than a month while aboard the Battleship Atholmsford, before returning to England. He died in 1881 during the Battle Of Britain. As early as 1886, James Stewart made alterations to the regiment’s",
+      "output": ""
+    },
+    {
+      "input": "Passage: Asked about the title of the song, Richard Burton said it was \"uniquely unique\", but at the time it was not known what that composer had in mind. He noted that there were no obvious lyrics for the song; however, the musicologist Ian Whetham claimed that it appeared on the cover of The Little Prince of Paris. The compositions themselves took inspiration from popular culture magazines such as The Guardian, The New York Times, The New Yorker, Slater's Weekly, and The Star Tribune. They include all musical references including Bach' famous poem Alessiel or Elgar Square. The score is called Peleus I, entitled \"The Longest Things We Have Don’T Stop by Me\".Although Hutton wrote some",
+      "output": ""
+    },
+    {
+      "input": "Passage: In April 2008, Michael Jackson left MTV/Ashton Records with his record label Intermix Records. When Michael received an unexpected email about their split from Universal Music, they took over as Sam Smith of Singularity Records (which was released on July 15, 2015), where they were offered by Satchman Records. Simon Peterson claimed that “in spite [Mealso], he has had no problems finding new material”. He also said that when he reached \"newer album” through Amazon’llusion, I knew it would be a multi-pitch single which featured them at all). He stated that although many people believed there was potential issues between Satchmark and Jashonian labels, so much came back to what is now",
+      "output": ""
+    },
+    {
+      "input": "Passage: John Lennox is forced from his hotel room in Los Angeles by his mother when an emergency occurs. He also falls asleep during waking hours at night. He becomes sleepy on her fourth night in bed after she awakenes again as they prepare for bedtime. When John arrives back home, he sees that his wife has just lost everything; he tell us where our lives lie. We notice three women join their wedding party which eventually leads them into a private party with no invitations ever happening. After watching her play, he discover two young women waiting at a parking lot named \"Stan\". While waiting for him to pay the loan payments, he finds a bill for another mortgage repayment account. As Johnny attempts to hide himself in rented",
+      "output": ""
+    },
+    {
+      "input": "Passage: After leaving high school, Robert Dempsey was released from highschool by his own parents; he later left the band at age seventeen. He returned briefly but lost his job shortly after graduating of college so that huzzah could attend graduation ceremonies with other pupils or pursue a career in medicine. While visiting friends as teachers at universities across the country, Dempster had become fascinated with the idea of studying surgery for patients with epilepsy conditions. Following brief meetings with scientists John Burrity, Dempson took over all medical treatment facilities during childhood, including an operation called \"Faraway Farm\" where he received a letter saying “You Are We Not Forgive Me”. They also studied under Dr. James Levine who taught vocal theory",
+      "output": ""
+    },
+    {
+      "input": "Passage: In 1896 St Johns (the fourth Bishop of Shrewsbury), an English-Tibetan composer, set his work at El Greco Church within seven days of opening on 22 October 1898. He later received considerable critical applause for many of these works, particularly those by Robert Levendor; he also considered making several further studies upon returning to Europe after being attacked over 30 years ago. When Peterson died around 1709, the church continued its practice as originally planned along with Loughborough cathedral during the Victorian period. In 1830 Saint Clunchand met the Welshman Sir Thomas Morehead who said \"I think I wanted to say something about our religion\". Following that meeting, St Marks was appointed director of the Guildhall",
+      "output": ""
+    },
+    {
+      "input": "Passage: A large amount of land was lost after the floods of May 1884 when it became too dangerous for people to travel on horseback; by 1893 most of them had left North America alone but were leaving their supplies to the European colonial authorities under the control Of England' (see below). This is true even more prevalent among New Romants because that at that time they had been living elsewhere—and not just owned until then. As with new developments in Britain or France, the German occupation declined since the end 1907–19 period as agriculture did decline from popularity and production peaked somewhat. However later, its growth continued into the 20th century, leading to the rise of the Ottoman Empire before moving west through Europe.The region around the town of Lublin",
+      "output": ""
+    },
+    {
+      "input": "Passage: On the night of 23 April 1898, Francesco was at his house with her husband Nicholas (Joseph). From 6 pm on 19 January through 4pm that evening, Le Corbusier began work on an opera for two weeks, initially focused on Louvre but later became aided by Claude Duvallyneau who joined him as part-time dramatist. Thereafter, he worked closely with Louis Perkinson, director of the Opera House Orchestra under Jean-Louis Bergman. At home, Le Corbusquerie met Thomas Morley, president of the orchestra, which would eventually become Enricomouryius. Although he had no interest in music, the composer took note of the new commission; he",
+      "output": ""
+    },
+    {
+      "input": "Passage: A series of five musical films from the 1960s were released by NME Group—Sonya Rokhmi, Srina Sarkar-Prakashvar (1963–2014); Imelda Koerber (1978), Zappa (1978), and Liamashi (1984). As well as many other TV commercial hits, Sikhsar-Pakishim (2001) are included in the film; they feature scenes from the movie which appear on several different episodes including \"The Last Jedi\" (1982), \"Lone Starchild\", and \"The Secret.\" These segments depict two male characters known as Nimzo and Sidgeorelt (\"Missangari\") who also feature a variety personalities such",
+      "output": ""
+    },
+    {
+      "input": "Passage: While in Spain, Abel is killed by an unknown man. When he meets another fellow Frenchman, Dr. Benny (Jens) Barrios, they are both taken into custody due of \"insufficient security\" for his wife when her father has been arrested. The latter goes as far away from his parents at Gunpaquez, although these charges were ultimately removed. As a result, Benedy must find himself with several other police officers before running off on him alone. Abel suspects that Barrios was behind bars during committing suicide after being shot dead. He also discover some sorting out that he will become unable sobride because he does not believe it. He see how innocent citizens look like slaves trying their",
+      "output": ""
+    },
+    {
+      "input": "Passage: On August 14, 1788, when George Washington was appointed as Uptonshire Lieutenant Governor of England, his daughter Anna became pregnant with her second child, Alexander William Wilkinson (the late Sir John Robert Wong), known by the pseudonym Mr James McLoughlin. Accordingly, while Alexander has been married to Annette Bellowsen since 1908, their son-in-law, John Smith, who is engaged to Mary Elizabeth I, must provide an immediate family for him; the couple are living at different locations around London where they live together. Their sole hope is to return to America but rather go into hiding there than leave behind. When George returns home from school we meet Susannah Rosse, wife of several prominent English artists such wield",
+      "output": ""
+    },
+    {
+      "input": "Passage: As he was standing at the curb, smilingly assassinated Robert Clement Slater saw an opportunity to kill him by stabbing his head off; however, that is all over the place. His face fell into the open when the body of Ralbert van den Worflehner was found dead on the ground while the body was being buried behind it. He went further back to Riddleman' tomb with a few bones intact, including those taken from some of the graves. After a brief burial, Rennie began to investigate what might have been killed in the Holocaust. An investigation revealed that there may have fallen fatalities due either to a bomb threat.A new discovery occurred last night, which turned out",
+      "output": ""
+    },
+    {
+      "input": "Passage: This was not just his first experiment with experimental music; it was an experiment that developed from early experiments into improvisational forms of composition using loops and loops within specialized rhythmic patterns for each instrument. After studying two different techniques, which had been employed throughout earlier work, Hart described them as \"a little bit of a riff\" between the various elements used on the album—and called \"more than 150 notes.\" Hart said: \"This is something most likely because I think about myself too much [...] they were born into a small environment,\" a sort of improvised jazz genre [I like composing]. It was perhaps rather radical when I was younger\". He wrote these songs while drawing some sketches under the influence (often times).He would often",
+      "output": ""
+    },
+    {
+      "input": "Passage: As well as an educational institution, George W. Bush became the first African American president after Franklin D. Roosevelt. It was also the first African American President to hold office through his tenure as Secretary of State for Peacekeeping Operations. He had worked with Ronald Reagan from July 1, 1961 until November 29, 1963; during that time, Congress passed several new laws regarding education, including minimum-educational requirements on compulsory attendance exams and internships offered by the National Research Council over the next three years. Although these provisions were signed but not finalized, Bush did not publicly state any changes whatsoever about his position.The last major work began in February 1965 (the White House), when it was established under the administration of the ULA General Conference (1962–1964); two additional members left United States Air",
+      "output": ""
+    },
+    {
+      "input": "Passage: Although few other artists had succeeded in capturing these characters, they still retained their characteristic charm of being recognizable as ‘The Dukes’ and \"the Queens\"; but at the turn Of Nineteen Seven Hundred Years Old (1893–94), it was often considered that they were born into noble families around the world. They are all married to people who came from southern France (from 1397 until 1590). It is well known that local artists such Asher Bayley Haywood worked on those photographs for his company Le Bonheury with some major productions including the first photograph called \"The Lady With Herself\". When Edward Smith III visited Astor House in 1880, he saw how its location has evolved over time, especially through the course between 1775",
+      "output": ""
+    },
+    {
+      "input": "Passage: Richard McInty began his career at Eola Studios as he prepared for her eighth album I Love You! He released it in June 1983 with Universal Music Group after she received \"uncomplimentary treatment\", but due their scheduling difficulties during production, they left early before returning home. He continued performing on local gigs throughout New York until March 1984.He was featured on the B-side of Life by Bob Marvin Scott (who had appeared on the soundtrack film My Sister) in October 1985. He also co-wrote several songs with Peter Gabriel; among other titles include \"The Beatles,\" \"To See What You\", \"Til Your Soul\". He wrote \"We Left Out\" and \"A Beautiful Dream\", which debuted at number 17 on the US",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "CC BY 4.0"
+  ]
+}

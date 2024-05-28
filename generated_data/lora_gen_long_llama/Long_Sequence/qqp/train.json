@@ -1,0 +1,182 @@
+{
+  "Definition": [
+    "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option: yes or no."
+  ],
+  "Positive Examples": [
+    {
+      "input": "first sentence: Does Shutterfly ship to Australia? second sentence: Do international students at schools like Ubud use trusted, well-known software for online learning?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Which state in India has most beautiful people (men and women) at present? second sentence: Why do we see very attractive and educated females while there are so many good looking and physically fit men?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Is asthma infectious? second sentence: Why isn't all suffering from this deadly disease contagious?",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "first sentence: What should I do to get my MBA in 2017? second sentence: Should I go for MBA right after my Btech in IT?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is Personal Life Insurance in Los angeles? second sentence: Can anyone give me a good life insurance policy in L'Auberge des Palmyre Islands (French speaking)?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Does anyone know how many square miles is 425 sq. miles? second sentence: How do you convert 425 to sq. miles?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is the difference between IP address, ARP ID and MAC address in an Ethernet Switch? second sentence: How does ARP convert an IP address to a MAC address?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How can I increase my English vocabulary? second sentence: What are some tricks to increase your spoken English vocabulary?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What does anarchy mean? second sentence: \"What is anarchism?\"",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How can I lose 30kg in 4 months? second sentence: What is the best way to reduce weight fast?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Do new real estate agents make money off of commissions they get on sales of their properties? second sentence: Does a real estate agent make good money when they sell re-modelled houses?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How can I find out if someone has written an essay before me for a class that I am taking? second sentence: When will I be able to see all of my answers on Quoran?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Can a helicopter be made as big as an Airbus A380, which is more powerful in take-offs than its smaller sibling? second sentence: I can't take off my seat during long process on TCS without any discomfort. What should I do?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Who has been most influential in your life and why(s)",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How do I get over my fear of getting on a plane without doing it? second sentence: Do new employees at AT&T want to learn how much it would cost to start preparing for an interview on X-01, if they already know some things about the job?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: When will Redmi Note 3 be available on Flipkart? second sentence: Where will Xiaomi RedMix 3 be available in market?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What are some good tips for training in two months before I start competing on any events? second sentence: How do you avoid making mistakes training in two months before your big day?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is meant by generic web page exactly? second sentence: If you just want to build a simple home made website, where do you find good free web hosting?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How do I stop procrastination overcome my goals? second sentence: Will you ever quit smoking?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is your favourite type of milk? second sentence: I am a big milk fan and when it comes to choosing milk, I like a plain one. Which one is better for you guys--Dalmation or Heir Away Milk?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Who is Mr Mayhem of Sons of Anarchy? second sentence: What are the most powerful dark forces in history?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is the best way to overcome depression with exercise? second sentence: How do I overcome my self-hatred and gain confidence in life?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What does it indicate that there are only two possible answers to this question, which is not on any line in between them? second sentence: Is there infinite number of combinations to solve this math question?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: If universe is expanding without limit, what will be the effects on all beings who live in it? second sentence: Will vacuum energy exist without limit? After expansion of space, how would the expansion of dark matter affect the existence of other forms of life?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Will I ever date my high school girlfriend again? second sentence: What are some things about me that makes me want to marry my best friend right now, but haven't yet?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Why is it that sometimes we can't trust ourselves, other times we trust our inner voice? second sentence: How do I overcome my inner voice in English?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Why is it that in India, men can't donate blood during their monthly cycles like women? second sentence: Women are not allowed to donate blood after being on birth control for three months?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How is PDPU GATE qualified for NSEJS 2015",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What's your New Year’ resolution for 2017? second sentence: I am in my 20s. How do I set career goals for myself that will last me at least 10 years after my 25th birthday?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is it like flying on a drone? second sentence: Can you take off-roaming in symbioses with an ex?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Why do you need to calculate your total gross monthly income for 2017 before you apply for your 2016 tax return? second sentence: How can I determine my effective gross monthly income (GAI) for 2017?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What are the most highly anticipated movies coming out in 2016? second sentence: Can I be one of the superheroes of Batman?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Does Emma Watson do accents in her shows? second sentence: I am Emma Watson, how can you act as an English accent for me on American TV and Radio?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Why is Pakistan still at war with India 4 years after 9/11? second sentence: What are some reasons behind Pakistan being at war with Iran?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Why is Wikipedia better than Quora? second sentence: Is Quorans better than Wikipedia in terms of knowledge gained through research, writing advanced questions, using word processors to create answers they can later post on Quor websites for all other users (and more)",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What are some tips on making it through Princeton without majoring in computer science? second sentence: How do I study for an engineering exam at home?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is your review of BBC America, PBS TV and Radio? second sentence: Who is the best professor at Penn State like Michael Griffin? How did he teach?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What are some great methods to lose weight safely? second sentence: How do you slowly reduce your body fat without expensive supplements while still maintaining a good diet plan",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is life like as a college professor? second sentence: What are the most interesting things about being at Penn State?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How smart really are programmers? second sentence: Are programmers really as smart in computer science as they claim to be?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How can you earn money by auctioning your domain names? second sentence: If someone wants to auction off his domain name he needs to pay $0.50 per year for domain usage. Is that too high?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Will I get teased in class because of my short hair? second sentence: How long does it take to grow out your beard?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How does Groupon enforce 1-per-person limits? second sentence: Will I appear on Quora as anonymous?",
+      "output": ""
+    }
+  ]
+}

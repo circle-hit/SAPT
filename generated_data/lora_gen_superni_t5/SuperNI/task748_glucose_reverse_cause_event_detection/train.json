@@ -1,0 +1,132 @@
+{
+  "Contributors": [
+    "Pegah Alipoormolabashi"
+  ],
+  "Source": [
+    "glucose"
+  ],
+  "URL": [
+    "https://github.com/ElementalCognition/glucose/"
+  ],
+  "Categories": [
+    "Information Extraction"
+  ],
+  "Reasoning": [
+    "Causal Reasoning"
+  ],
+  "Definition": [
+    "In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answers when possible. Do not change the main selected sentence in your answer."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Story"
+  ],
+  "Positive Examples": [
+    {
+      "input": "story: Tom got out of bed and bent down on his knee. He tried going still for ten minutes before starting school. He fell off his chair and was forced to leave. He ran faster home but crashed again. selected sentence: He fell asleep for 30 minutes before starting school.",
+      "output": "['Tom falls asleep >Causeds/Enablen> Tom wake up']"
+    },
+    {
+      "input": "story: We went to the lake one summer we had an early morning skateboarding. When we got to the beach we found some bad weather. We had to cancel our trip. After getting home we went back to start riding again. selected sentence: We went to the lake one summer vacation.",
+      "output": "['We go to the lake >Causeableds> We arrive at the lake']"
+    },
+    {
+      "input": "story: Mary bought ten new shoes for her birthday. When they arrived at school she left all off. The next day she got home. They were all sold out! Mary put on their feet whenever they got caught too long. selected sentence: When they arrived at school she got stuck.",
+      "output": "['Mary gets stuck in traffic >Causes/EnableStan puts on her pants']"
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "story: Dan wanted to go skiing but didn't have enough time. He was very nervous about going on his bike with friends. The next day they got on ice and did their trick. After finishing the day her friend rode him home safely! Dan finished riding all night until he felt well enough to go back to skiing. selected sentence: The next day Daniel went skating with his friends.",
+      "output": "['Dan goes skating with friends >Causes/Enable description]"
+    },
+    {
+      "input": "story: Tom was eating dinner out with his friends. But now he feels terrible. He goes back to work every evening until noon. They have ice cream but still feel terrible. Tom gets very sad every night because everyone knows he is sick. selected sentence: So he decided to go home and feel terrible.",
+      "output": "['Tom decideing to go home >Causes/Enable[']"
+    },
+    {
+      "input": "story: Tom wanted popcorn. He decided on a simple recipe for his breakfast. He called his favorite flavor. He found one that was very good. He asked his friend for some bread. Then he delivered it cold with peanut butter. selected sentence: He ordered two packages of popcorn.",
+      "output": "['Tom orders cookies >Causeds/Enable--> Tom delivers pizza']"
+    },
+    {
+      "input": "story: We were walking home one afternoon. There was a storm coming up. None of our neighbors could see us. We ran away. The two had flooded with water. We had to swim until we stopped. selected sentence: We were walking home.",
+      "output": "['We walk home >Causes/EnableScients> We get back']"
+    },
+    {
+      "input": "story: Tim wanted to watch all of his favorite shows. He didn't have time for most of them. He called his mom to see what they were upto. Then he asked his mother to share. When their dad got home before Tim left, Tim was very happy. selected sentence: Tim had never watched such movies.",
+      "output": "[\"Tim has never seen anything good >Causeful> Tim finds out there\", \"The dad has no idea of watching films >Causes/EnableS> Tim savers some pretty pictures more than him"
+    },
+    {
+      "input": "stories: My mother wanted me to go for ice skating. When we got there, she asked me if I could do it with her. She said yes, she would. I went ahead and bought her a icy skateboard. My cat didn't like riding on bikes much at all. selected sentence: My mother wanted me to go for ice skating.",
+      "output": "['My mom wants me to go for ice skating >Causes/EnableS\"]"
+    },
+    {
+      "input": "story: Joe needed urgent medical attention. His family decided to take him to the hospital for an operation. He called his doctor at 4 AM. Joe received a severe stomachache. It was very uncomfortable until he came home as fast as if they could get through all emergency treatment.elected sentence: He received rushed to the hospital immediately afterward.",
+      "output": "['Joe gets to the hospital >Causes/Enable-Causes/Enable| Joe goes to the hospital']"
+    },
+    {
+      "input": "story: Dan was very lonely on Earth Day. He thought about all the things he could find out about. On her way there, he realized something terrible. He had forgotten about all his friends as well. Now if anyone ever hears about him, he never speaks of him again. select phrase: On Her way there, she realized one thing that was terrible.",
+      "output": "['Dan forgetting about the stuff >Causes/Enablement> Dan admitted being lonely']"
+    },
+    {
+      "input": "story: The other day I had to take my dog for lunch. When we got there everyone was very happy! We decided to combine our meals together. We paid all the money spent on food but didn't really know why. My dogs loved coming over to town! selected sentence: We wanted to combine our meals together.",
+      "output": "['We want to combine our meals >Causes/EnableS> We decide to combine dishes']"
+    },
+    {
+      "input": "story: My husband took me camping last week. When we got there, my wife was sad. We went back outside to have ice. We hit the ice with our car on fire. At the end of the day, my wife had pecked me in the face. selected sentence: I caught my dog at home.",
+      "output": "['My husbandcatches my dog at home >Causeful> I get into the water']"
+    },
+    {
+      "input": "story: Amy told her new boyfriend for three days. They were going to spend the night together at his house. When they finally woke up she had broken records. She was devastated but still decided to buy one. selected phrase: Then they decided to buy two copies.",
+      "output": "['Amy decide on buying two copies >Causeless> Amy buyd the copies']"
+    },
+    {
+      "input": "stories: The other day I got lost in the woods behind my house! It was so bad I didn't know what to do next. So I turned around for an hour looking for her. All she wanted was food. She grabbed it and ran away like crazy. finished it all but half way there!",
+      "output": "['I grab the bag >Causes/EnableS> My friend runs back']"
+    },
+    {
+      "input": "stories: We were out playing baseball one night. The ball came loose. And we saw an injured man in the back. We had to go home. We had X-rays of both arms. selected sentences: We were out playing soccer.",
+      "output": "['We play with our ball >Causes/EnableS> We see an injury']"
+    },
+    {
+      "input": "stories: Alexis was nervous about moving back home. She thought she could handle several changes her schedule. But then suddenly one day at school she realized she forgot half of her clothes! Alexis became very concerned with her friends' reactions to her parents on the plane ride. selected sentence: Alexio became anxious for her changing plans.",
+      "output": "['Alexander decideth they would cancel >Causes/Enabled> Alexis read books']"
+    },
+    {
+      "input": "stories: Tom was at work one day and forgot about his lunch box. He went through the entire grocery store without looking everywhere. Finally there were no more than 100 calories in all! He arrived 10 minutes early and drove home. His lunch box had already run out of half way Home! selecting sentence: He went through every grocery store with over 50 dollars in all of it.",
+      "output": "['Tom goes to grocery store >Causes/Enablers> Tom buy groceries']"
+    },
+    {
+      "input": "story: Sammy had never been on an airplane. Mom warned her she was going to lose something. She didn't have much fun on it so she just said no. When they got there all these friends looked pale. Sammy still found out what happened next. selected sentence: She didn'chose anything but she knew Something.",
+      "output": "[\"Sammy doesn'Tammy knows about The plane >Causes/Enable=She ask him,\"]"
+    },
+    {
+      "input": "story: Tim wanted an apple for his birthday party! He ordered three apples at the store. When they got there all kinds were apple-shaped. He asked his wife to fix it for him. Tom finally showed up with her parents. selected sentence: He ordered three apples at the shop.",
+      "output": "['Tim orders apples at the store >Causes/EnableShortcut buy two apples']"
+    },
+    {
+      "input": "story: It was Christmas morning! And there was ice cream on the table. Alice decided to make apple pie. She went inside and picked out the apples. Then she baked her fruit salad. Everyday she saw new apples at school. selected sentence: Alice decided to make Apple pie.",
+      "output": "['Alice decide goes to buy apple pie >Causes/EnableStauseless> Alice makes apple pie juicing']"
+    },
+    {
+      "input": "story: It started raining last night. The boy fell off the tree. His mom put his towel out. He had to go down stairs to catch him. The boy felt so bad but went back to school smiling again! select sentence: It began raining last night.",
+      "output": "['It starts raining >Causes/Enables> The girl goes downhill']"
+    },
+    {
+      "input": "stories: We were playing baseball with old friends. One day our friends said we could pick us if they wanted me. We decided forgetting my friend Jason. We played three games before going on. We are now playing together as he knows how to play. selected sentence: We were playing soccer with old friends.",
+      "output": "['We play two (2) games >Causes/EnableS> We have fun']"
+    }
+  ],
+  "Instance License": [
+    "CC BY-NC 4.0"
+  ]
+}

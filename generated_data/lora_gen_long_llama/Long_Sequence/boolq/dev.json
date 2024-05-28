@@ -1,0 +1,182 @@
+{
+  "Definition": [
+    "According to the following passage, is one of these question true or false? Choose one from the option."
+  ],
+  "Positive Examples": [
+    {
+      "input": "question: do you really need to have two anxiety disorders passage: Anxiety disorder -- Although these are common and treatable health problems, they can be debilitating and may cause significant physical or psychological symptoms; there is no known cure for them. Some people can use medication such as anti-depressants (SSRIs) with very limited success. People can get better results from cognitive-behavioral therapy (CBT) though, including talk-based psychotherapy.",
+      "output": ""
+    },
+    {
+      "input": "question: did danny die in season 5 episode 20 of spongebob squarepants passage: Danny Pudi -- While trying unsuccessfully at his job as an animator for Nickelodeon's SpongeBang TV series, actor Daniel Webber (James Bobin) came up with the idea that someone named Clever should portray him after accidentally falling in love with him. They immediately began filming a pilot which could be used to test their theory. After shooting it for three months, various actors including Rob Lowe, John Goodman and Jim Parsons audition using two different heads, courtesy of STX productions. It was greenlighted on June 17, 2014 by Cartoon Network and premiered its first day at Universal Pictures July 16, 2014.",
+      "output": ""
+    },
+    {
+      "input": "question: does puerto rico need visa for morocco passage: Visa policy of Puerto Rico -- To facilitate expedited entry and exit for United States visitors, several U-Visitor programs are in place to assist with expedited travel and entrance into/outside the country. The most common method involves pre-arrangement through an American Citizenship and Immigration Services (USCIS) center.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "question: was michael bennet in red sparrow season 3 episode 18 grey's anatomy passage: Grey'S Anatomy (season 17) -- On December 10, 2017, Bec revealed on Twitter that she had been cast as Meredith Palmer in Red Sparrow season 20 in an interview.",
+      "output": ""
+    },
+    {
+      "input": "question: did they use magic in mary and lola movie passage: Mary and Lola (film) -- While Maria Hill's life was idyllic, it came to an end when her father died and all that time she had been searching for him had become too difficult. One day he returns to find her but after his estranged wife left them without any contact, he decide anger is his way out. He writes Lola has always believed in love and will do anything necessary to win her back.'' In this version of events, Clarice Starling was born just as Opal Hearthstone returned to Montana from California. The two fall in love and get married in New York City.",
+      "output": ""
+    },
+    {
+      "input": "question: can you be in both world wars at any time passage: World War I -- The First World War was a global conflict that involved two opposing military superpower (the Allies and Axis countries) against each other in Europe'S northernmost region, which became known as the Western Hemisphere. It began with World War I on 3 August 1914 when Germany declared its neutrality, officially ending it after 15 months of fighting through 18 April 1917. After World Wars II came close to an end, however, France continued its involvement in various theaters throughout western Germany as well as supporting numerous large-scale events such cavalry battlefronts, air raids, supply train bombardments, etc...",
+      "output": ""
+    },
+    {
+      "input": "question: can humans have 2 anxiety disorders passage: Anxiety disorder -- Although typically classified with other mental health conditions such as depression or bipolar disorder (a condition marked by high levels of both), anxiety disorder can also trigger physical symptoms in some cases which include significant muscle pain, lightheadedness/dizziness etc...",
+      "output": ""
+    },
+    {
+      "input": "question: has anyone broken their neck in golf passage: List of people who have broken their back -- As stated above there are no major injuries associated with this condition and only about 25 percent of players ever experience it on any given day. The rate of new and/or significant head injuries per year was much lower in 2011 than in 2002, though still remains amongst top 10 for consecutive years.",
+      "output": ""
+    },
+    {
+      "input": "question: did pam actually sing in jesus love you passage: Pam Beesly -- At first she stated that she was going to perform at an all girls dance but after rehearsals and practicing had begun it became clearer that she was performing with her band The Real McCoys. She also said she wanted to be the next big thing (Pam would have been third) so they hired two young singer/dancer' types to come out for three performances. By October 2010, Joanna told Brad about their plans; both agreed that there were more dates she wanted than available roles. From this, Bradley came on as a full time replacement, although temporarily until April 2012.",
+      "output": ""
+    },
+    {
+      "input": "question: do lungfish have bones on fins only passage: Lungfish -- The skin surrounding the body has no pockets for large internal organ structures such as thyroid, pancrea and kidney. An important difference between Chongqing Baiyun' (), which was included in Dongying Chuan-Liang province and Guandao Shan in southern China, where it would be called an inferior walled stomach and Yang Lu'an in Beijing province, is that while Cantonese cuisine often uses very thin slices of meat, other parts of their bodies are actually much larger, with about five times as many muscles and more fat. These include both upper meat and the lower half of the abdomen, including organs encasement with mucu densely adherent to their shells. In addition; because most human anatomy relie directs much of its energy into the head/neck region,",
+      "output": ""
+    },
+    {
+      "input": "question: are they going back and making more episodes passage: American Gods (TV series) -- On April 20, 2014, The WB announced that The Checkers would be returning for Season 7 on AMC with premiere dates set for Friday, May 11, 2018 and Monday July 16, 2018.",
+      "output": ""
+    },
+    {
+      "input": "question: did they ever find out who was behind all those doors before we swept them away passage: The Man Who Leaped -- On 16 November 2018, John and David confirmed that it was not because someone had been filming it and there were too many leads that could not be followed. They decided instead to use their resources in order for everyone to find out about what happened at Bastille Day. It was discovered by Paul Hamel on 8 January 2018, at approximately 10 am.",
+      "output": ""
+    },
+    {
+      "input": "question: did pam die in mother's day movie passage: Pam Beeb -- In 1995, actress Kim Matula died after having an alleged affair with footballer John Ireland and then confessing the murder to police, saying that she was murdered by Benny Andersson. The case was dropped because of legal complications.",
+      "output": ""
+    },
+    {
+      "input": "question: has there ever been no moon landing on mandola lake florida passage: Noonan (Marinette Lake) -- On 12 October 1960, weather conditions improved and became clearer for about 15 minutes. The temperature was warmer than normal and reached a high of 73.5°C (22.8°F). There was some light rain in an hour, but it did not last long as the sun rose and set quickly enough by this time; the daytime temperature reached 83.3°C (72.2° F), which reached its maximum value on 10 July 1961. However, during another three-hour period in late June, temperatures remained warm, reaching 27.3°C (43.2°F) in early July.",
+      "output": ""
+    },
+    {
+      "input": "question: do you have to be american to play in baseball games passage: Major League Baseball -- The National Association of Major League Baseball (NAME), an American professional association in which teams are composed primarily of members who share common interest outside baseball, has rules for its five divisions that determine how players from the various Major League Baseball clubs can compete. As part club-by season agreement with MLB and USPA, these rules also establishe standards for several types uniforms uniformly worn by each player in different seasons as established through league awarding them during their rookie year training period, like spring shorts or winter gloves. In addition, there are certain circumstances under regulations such nonconsen mutual-aid agreements (such interleague use) that prevent some individual team member' caliber club uniform from being used at all, even in official AFL competitions. Examples of offbeat situations include late nights, last name mispronunciations/",
+      "output": ""
+    },
+    {
+      "input": "question: do you have a license to drive in puerto rico passage: Vehicle registration in Puerto Rico -- The driver's license of an individual must be held by his/her employer for a period of time before the person can drive within Puerto Rican territory without another party knowing that this has been an official document since March 1, 1980 (see below). A valid photo ID and proof of Utilitarian status are required upon exiting.",
+      "output": ""
+    },
+    {
+      "input": "question: can you have twins with different dads over 50 years old passage: Superfecundation -- Hetiropaternal superfecundation (PFC) occurs when two people are genetically identical (because, for example, in an F1 hybrid between Edward VII and Charles V). The term normally refer frequently to cases where fraternal offspring arise, but this may also include other possible types of paternity and extrauterine pregnancies. While heteropaternal Superfocal Superhetidism may occur due only through artificial means without physical father-to daughter intercourse, it has been occasionally reported as having occurred by chance.",
+      "output": ""
+    },
+    {
+      "input": "question: can you send usa money without an account passage: U.S and Canadian bank accounts -- The United States does not maintain an official currency - although several large US banks hold both types of currency in reserve, which have been converted at par with other foreign nations' domestic banks. Although most of the major credit card issuers (such as Visa, MasterCard, American Express) do so for their own use, nonbank financial institutions accept euros (or some other payment currency). This allows them relatively easy access to deposits in multiple countries for cash payments made by individuals or entities they control. In addition, since cash may travel at substantially lower rate than a wire transfer, international Wire transfers are much cheaper than using domestically based ATMs when only small amounts are being transferred.",
+      "output": ""
+    },
+    {
+      "input": "question: do you have the right to refuse service in an emergency hospital passage: EMT -- An EMT (also called Paramedic or a paramedic) responds to calls for help in times when emergency medical services are needed. At first a person may be taken to the emergency department'' which usually has only basic equipment and no advanced life support training; later there may even be more complex care available depending upon the nature of call.",
+      "output": ""
+    },
+    {
+      "input": "question: are there any more episodes of blue bloods killer club passage: Blue Blooded Colonist (TV series) -- On September 11, 2017, CBS renewed Episode 5 for an eleventh season which was previously scheduled for release in 2018.",
+      "output": ""
+    },
+    {
+      "input": "question: can you have twins with different father' disposition passage: Superfecundation -- Hetiodism in animals results from mutations from other species of bacteria which pass on their own pathogens and then become sexually mature enough to produce offspring. While heterozygotes are genetically distinct from each another through inheritance, there are strong cases where two out-groups coexist. One such group of organism known as the Holarctic superfamilies reproduces by nuclear energy (a process that produces large quantities but little waste), while most of its offspring develop normally inside cells. In this population, however; half live outside of the nucleus and about half within the cell; they have nearly twice life spans than do non-hybrids.",
+      "output": ""
+    },
+    {
+      "input": "question: do they have 2 versions in malaysia passage: Malaysian Airlines -- In July 2016, Thai Airways International confirmed that it has increased its fleet size by adding more aircrafts to service two new destinations, Colombo and Dakar in southern Malaysia (the latter was previously only available on scheduled flights). The airlines also revealed the addition six high-speed ATR plane types, which were used for longer flights than originally thought.",
+      "output": ""
+    },
+    {
+      "input": "question: does dennis die in remember me movie passage: Remember Me (film) -- In 1996, actor Danny Zuko came on screen for The Last Star (1990), which featured him playing Sean Connery who was kidnapped by aliens and given over as their hostage by some child soldiers fleeing conflict with US forces. Later on, Tony Soprana came back into the game for Season 2, but his character died off at around the half-way mark when Azul' angeredes intervenaded.",
+      "output": ""
+    },
+    {
+      "input": "question: are there mountain gorillas in north carolina passage: Mountain Gorilla -- The Giant pangolin (Puma concolor), also commonly known as the red-spotted cat (Cervus deodar) and sometimes leopard gorilla, mountain lion, snow leopard, Siberian panthers, jaguar and meerkat, is arguably among North America's largest land animals and the world's largest wild terrestrial mammal. An adaptable species, it lives most of its life on trees, including under rocks. It has been successfully domesticated in captivity by humans, but in recent times has become more widespread in Asia, Africa, Latin America and Oceanian countries.",
+      "output": ""
+    },
+    {
+      "input": "question: can you take the bus back to boston after high school in massachusets passage: Mass transit -- Amtrak' currently operates two non-advanced service in Massachusetts and Rhode Island for their commuter rail lines.",
+      "output": ""
+    },
+    {
+      "input": "question: are poppy seeds and sesame seeds the same thing passage: Poppy seed -- The poppy seed (Oenothera tuberosum) is an annual flowering plant that can reach heights of 30 feet (12 m) in its rhizomes. Like most species of this family, it has small green leaves with yellow centers and red-orange pistils. Like many members within each family, it has large, flattened, sometimes hairy leaves, resemblable to those on pecan trees during pollination.",
+      "output": ""
+    },
+    {
+      "input": "question: will there ever be another season of geordie shore passage: Geordie Shore (TV series) -- On June 10, 2017, it was confirmed that ABC had renewed All About Eve for a third season. The second-season premiered on September 20, 2017.",
+      "output": ""
+    },
+    {
+      "input": "question: do you get paid for laughing in new years day 2017 film passage: The Wonka and the Chocolate Factory (2016 film) -- In this version of The Wizards of Waverly Place, Lucy, Druid's granddaughter, visits New Year'S Day with her friends Jack, Sally, Ben, Reggie, Oscar, George, Rooney, Bella and many others on their annual family outing at Universal Studios Hollywood.",
+      "output": ""
+    },
+    {
+      "input": "question: can a us citizen enter canada with any form of visa passage: Visa policy of Canada -- It should be noted that while Canadian lawful permanent residents do not require or have to obtain an Exit and Entry Permit for entering Canada by land, sea, air, or rail Canada has no official travel document designed to facilitate expedited entry.",
+      "output": ""
+    },
+    {
+      "input": "question: can you have both feet on an island in fun dip ocean world series passage: Fun Dip -- The episode was originally written for four players: Jason David Frankel, Adam Beach, Nathalie DeWitt, Chris Traub and Ben Moody. After much deliberation, a final decision was made that only two would be allowed to compete: If they were first or last picks, depending on how the pool filled up. Playing for hours without rest, the contestants had to routinely jump over obstacles in their path; such as under high waves, while keeping a straight line between them at all times during their time in the water. Following the initial trial phase, which started with about five other contestants and involved multiple rounds of jumping jack-pot style, in order not get distracted by what may come next until the very end. It was noted that extreme caution should always go",
+      "output": ""
+    },
+    {
+      "input": "question: do banks in south africa have swift codes passage: Swiss National Bank -- The Swiss National Bank (Swis SCB) issued its first set of banknote stamp issue notes on 11 July 1994 and has since been continuing to produce high-value notes with tight margin structures. On 29 May 2017, it launched a new range called Premier Series featuring higher face-value notes than the previous version.",
+      "output": ""
+    },
+    {
+      "input": "question: can you buy real estate in pennsylvania without having id number passage: Real estate identification card -- One must have juju on their person at all times. However this does not guarantee that they are registered in the state they reside in while living there (It may be possible for e-verify.com users to do so). An individual'S I.D. and Social Security Number must always be on file with the county clerk' office, which can provide needed services such as requesting an e-Verify or even getting clonted if someone attempts to sell the property by using Social Media Marketing (or trying to impersonate ICE officials at gunpoint). The REAL ID Act requires that all residents who own 5% or more of the home are given an I-485 form, notarized statement of trust, tax return affid",
+      "output": ""
+    },
+    {
+      "input": "question: has there ever been 5 tornadoes in central florida passage: Tornado-related deaths -- The most recent confirmed fatalities have occurred in Odesso, Texas on May 11, 2007, when three people were struck by vehicles at around 4:30 p;m while driving near Slade't L'Ain Road and State Highway 75, about 15 miles outside Corrales, NM. There have also been six other smaller-scale tornadoe incidents.",
+      "output": ""
+    },
+    {
+      "input": "question: was there such an animal as bigfoot in prehistory passage: Bigfoot -- When two mammal species were introduced to North America over 10,000 years ago, giant panther and bear became highly prized by people in Asia, where they had been domesticated for more than 50 million years. Over this time, genetic evidence has amasses around 40 different types of animals in which a common feature was their ability not only withstanding extreme temperature but also high water pressure, making them very hardy.",
+      "output": ""
+    },
+    {
+      "input": "question: does it make you smarter or dumber with age passage: Smarter and dumber -- In 2001, researchers measured brain activity in young people by playing an instrument called a Digit Ball (Ding-A-Long), which consisted mostly on two multivibratory sensors. The results indicated that older children were more likely than younger ones at developing cognitive and emotional skills, problem-solvinng skills, and greater levels disposition for making choices and responding appropriately.",
+      "output": ""
+    },
+    {
+      "input": "question: has anyone ever been in outer space with their handprint visible passage: Extraterrestrial skies -- Uttermost unspecified but generally assumed to be on Earth or other celestial bodies (with some exception for Comet Halley), extraterrestrial skies are those that can see through solid objects and thus allow the movement of free-driving astronaut candidates with an instrument such as monorotors, phasers, hot wires etc... The name superion comes from this, or another phrase meaning to come into contact with.'' Another term identifying this type would simply being said to refer to the presence of any surface features seen by Ulympus Mon(o) with its own light and not actually touching the dark side of the Moon.",
+      "output": ""
+    },
+    {
+      "input": "question: do you turn right on red in memphis missouri passage: Turn on Red -- Right turns are permitted only after having been given way by a traffic light. If proper caution is observed, right turns are not allowed at all times; however, drivers (including motorcycles) may resume normal traffic lanes.",
+      "output": ""
+    },
+    {
+      "input": "question: can you have more than two sets of twins in your family passage: Superfecundation -- Hetaropod-like multiplication by four produces three separate offspring with an average number of six each in their second generation -- superfecundation and this makes five total babies over time.",
+      "output": ""
+    },
+    {
+      "input": "question: can you see with a magnifying glass in my office passage: Magnifier (office) -- The power of magnification lies in its ability not only at macro levels but also at the micro level where it assists users in differentiating between small and large amounts of information. A useful example is taking x-rays from an optical image intensifier for people who work in darkened rooms. This article provides an example of how such XYZ data may be used.",
+      "output": ""
+    },
+    {
+      "input": "question: can you have dual citizenship in canada in an emergency passage: Canadian nationality law -- The application of Canada's federal laws can be made both within the country and by foreigners to other members states of the same family (a non-immigrant visa). Citizenship status may also be conferred on permanent residence in Canada for those individuals holding an eligible job at one of the participating companies or financial institutions in whose operations there are mutual legal assistance agreements. Additionally, as per section 90(c)(5)(i) of the Criminal Code of Canada, each province and territory has its own rules and procedures governing when & how such work will be covered under the National Labor Relations Board of Canada-mandated Family Temporary Disability Insurance Act of 1997 (the FTD Act''). This includes provisions applicable to Newfoundland and Labrador and British Columbia, Nova Scotia, Prince Edward Island, Nu",
+      "output": ""
+    },
+    {
+      "input": "question: can you drink in public with your dog passage: Leash law -- In New York, under state law, it is unlawful for an individual to possess a leash with any animal other than the person whom the leashes'' are designed to protect upon being properly restrained by another human. However this does not apply to service animals, police dogs (such as pit bulls and German Shepherds), working horses on foot, bicycles, motorized vehicles, off-road quads/trails, horse carriages, boats, aircraft, or riding a bike rack.",
+      "output": ""
+    },
+    {
+      "input": "question: do you need a middle name in puerto valliage florido passage: Puerto Rico -- In Spanish-speaking Caribbean countries, and particularly among Hispanic Americans, Juan Terreo de las Matlas (Spanish for King of Kings) was the most powerful figure in society and culture. He overtly assertede his own power as an equal citizen by founding and running both La Paz in 1895 on May 1, which result never attracted settlers to the area. Its missions included controlling land between 1730 and 1803, building a road network, controlling several sugar cannons, numerous slave markets throughout Central America, and general improvements to infrastructure.",
+      "output": ""
+    },
+    {
+      "input": "question: does all 50 states still vote in presidential elections passage: Voting rights and electoral college system -- While each state has its own voting rights structure, there are some areas that are not covered by those constitutional protections. The two major exception would be New Mexico, which joined the American Civil Rights Act (CaFTA) on February 1, 1980, making it legal for federal employees and heads-of-state to elect members of their respective legislatures who had personally signed up to run for office without opposition. In 1994, Hawaii became the first U S territory to secede from the union with an executive order declaring sovereignty over that territory by giving control of government operations to an independent entity led locally by Ron DeSantis and appointed board member David Ige as head of government, while remaining under the purview standards set out above; see Ruling Proclamation 2250, State Board of Education Resolution 377 (",
+      "output": ""
+    }
+  ]
+}

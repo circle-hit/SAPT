@@ -1,0 +1,62 @@
+{
+  "Contributors": [
+    "Roseleen Kaur"
+  ],
+  "Source": [
+    "diplomacy_detection"
+  ],
+  "URL": [
+    "https://huggingface.co/datasets/diplomacy_detection"
+  ],
+  "Categories": [
+    "Dialogue Generation"
+  ],
+  "Reasoning": [
+    "Reasoning on Social Interactions",
+    "Commonsense Reasoning -> Social Situations"
+  ],
+  "Definition": [
+    "You are given first 5 messages from a series of message exchanges between 2 persons playing the game of Diplomacy which is an American strategic board game. You need to generate the next message. The message should be generated such that it fits the context seen so far. Avoid the text that is (i) tangent to the context, (ii) repeats the context."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Game",
+    "Dialogue"
+  ],
+  "Positive Examples": [
+    {
+      "input": "['Hey there neighbor. What are your plans for Austria?', \"Having spoken with him, we're on decent terms at the moment but would like to work together more later in the game.\", 'You had much contact with Britain and Germany? I got back to them finally about an year or so ago, but haven’t heard much from them. How do you feel about working together?', 'Not sure yet. He was pretty caged up against England early on but once they made an alliance with Italy he seemed to let go. That could be good for us both', 'Good move",
+      "output": ""
+    },
+    {
+      "input": "['Greeting Germany! Got any juicy gossip?', 'Nothing yet, you?', 'Hey Turkey! How are you doing? Looking forward to working with you this game!', 'You there? Would love to talk strategy at some point', \"I would too, and I hope we can honestly discuss these interests as well. Are your relations with Austria or Italy good enough for you?\"]",
+      "output": ""
+    },
+    {
+      "input": "['Hi there! Not sure we have much to talk about but I figured I would reach out.', 'Yep. How’re things going Italy?', 'Not bad, I think Austria can really benefit from having England around.', 'I know you’re probably thinking standard boring Turkish opening and then what do you do? But I’m curious about your feel on Russia?']",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "['Hey neighbour :3 If we put our minds together early, maybe we can work out if there’s any chance you and Germany might come to some mutual understanding on what to do in these opening moves...I haven’t heard anything yet. What would you propose?', \"Depends on how you like to play as Italy or Russia.\", \" I fully agree with you! As for me, I generally try not to piss off too many people at the start until I get a feel for the lay of the board, so my general decision at start is really just Mos -> Uk",
+      "output": ""
+    },
+    {
+      "input": "[\"Greeting Germany! I'd love for us to start out on the right foot...let me know how we can best avoid any unnecessary and unproductive entanglements early on. It seems likely that A War will move south in support of taking Sev.\", \"Hi England- nice capture as always! We haven't talked nearly enough about Belgium yet, but when I do, I plan to focus on getting Rum and Gremyk done this year. Are you going North or just want to see what Russia has up north?\", 'I’m still undecided at the moment, with my positioning pretty much",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "CC BY 4.0"
+  ]
+}

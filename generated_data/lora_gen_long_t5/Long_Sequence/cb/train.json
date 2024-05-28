@@ -1,0 +1,42 @@
+{
+  "Definition": [
+    "Given a pair of sentences 1 and 2, identify the relationship between them."
+  ],
+  "Positive Examples": [
+    {
+      "input": "sentence 1: B: And, you know, the whole electronic classroom idea. I don't know if I I'm yeah, in favor of, yeah, A: I don’ [[] really believe that is the way I view it. I don'e think they do the same thing sentence 2: they do the same thing",
+      "output": ""
+    },
+    {
+      "input": "sentence 2: B: but if they get the little tiny kids saving it now, in five years, when they get bigger, it'll work a bit more, too. A: Yeah. True. B: Because it's, we've all got to do it right now. I just, I really amazed to find out that, eighty per cent are filled now, in garbage fills. In five years we're supposed to be at about 10 percent pure filth or, um, someone has to take care of those items",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: A: Oh, yes. Animals have a way of talking. B: Alfie did. I tell you if I could have gotten mangled or if someone had told me to do it for all three days. A: I don't know uh, that I'd trade my dog in for the world. sentence 2: she would trade his dog in for all three months",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "sentence 1: A: so there's only been really one working. B) Uh-huh, same here. Uh-huh. A: And, uh, it works for me but I can't see that it would work for probably the majority of people. sentence 2 as well as it would work for probably the majority Of people",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: A: So I watch the fish, you know. Whatever I can do to keep myself occupied. I like to have the TV on, because that usually keeps me, um, more occupied. It kind of takes the time away and I don't realize, that's really the only time I ever watch TV, is when I'm on the bike. and then usually after I'm done riding the bike, just to cool myself down, I usually take uh, and that just kind of uh, gets me, you know, and that just kind of uh, gets me, you know, to where I've got to my usual, but it'll probably get me very busy. But for me, who knows what'd like going up there? And, we all seem to think I can truly enjoy it! Because I never really feel free. sentence 2: she could really enjoys",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: A: but, it was interesting to, I don't know if they're making them better or not, it's hard to say. I think they more of their parts plastic, which, you know, makes things break easier, but I think the technology is better. B: I think technology is better, I'm not sure. I think you've got uh, a good point with the plastic and that. A: I don’T think necessarily that, things are being made better uh, you know, sentence 2: things are being made better",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: B: That is, to be honest. A: So I don't know how my parents did it. B: Yeah. A: I mean, there were five of us and I don't recall, you know, wanting anything in particular. Uh-huh. B: And I don't know how my father did it. He worked at GEICOT in the 1980s, but we got by with the kids okay. But we still think that way. I don're still do not believe we have as much as his son, either. sentence 2: he and his wife are doing something that crazy",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: B: So am I. A: Are you, B: You know, I think it's kind of coming back around to that, don't you, sentence 2: it'll be kind of coming back around to that",
+      "output": ""
+    }
+  ]
+}

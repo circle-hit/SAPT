@@ -1,0 +1,52 @@
+{
+  "Definition": [],
+  "Positive Examples": [
+    {
+      "input": "Which sentence is the effect of \"The boy pushed his sister.\"? Choose one between A and B. A: His sister tattled on him. B: They played hide and seek.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the cause of \"I spit out my chewing gum.\"? Choose one between A and B. A: I blew a bubble with the gum. B: The gum lost its flavor.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the cause of \"The woman tolerated her friend's difficult behavior.\"? Choose one between A and B. A: The woman knew her friend was going through a hard time. B: The woman felt that her friend took advantage over her kindness.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Which sentence is the effect of \"The man had an attack of conscience.\"? Choose one between A and B. A: He manipulated his friend. B: He admitted his indiscretion.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the effect of \"The man slid the razor across his chin.\"? Choose one between A and B. A: His stubble grew. B: His stubble disappeared.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the effect of \"The girl went down the hill on her bike.\"? Choose one between A and B. A: Her bike swerved. B: Her bike sped up.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the effect of \"The woman betrayed her friend.\"? Choose one between A and B. A: Her friend sent her a greeting card. B: Her friend cut off contact with her.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the cause of \"The man took notice of the woman.\"? Choose one between A and B. A: He caught a whiff of her perfume. B: He had his back turned to her.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the effect of \"The boy had trouble buttoning his shirt.\"? Choose one between A and B. A: He refused to wear the shirt. B: He asked his mother for help.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the effect of \"I poured water on my sleeping friend.\"? Choose one between A and B. A: My friend awoke. B: My friend snored.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the effect of \"The woman wanted to be a doctor.\"? Choose one between A and B. A: She visited the hospital. B: She went to medical school.",
+      "output": ""
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "Definition": [
+    "Your task is to perform sentiment classification on the given reviews about a restaurant, choosing from the following categories."
+  ],
+  "Positive Examples": [
+    {
+      "input": "Text: Food was good but overpriced for what you get and quality of food. Service wasn't as horrible as other places I have tried but you get what they pay for...service. Price was right. My coworkers had the chicken salad sandwich which looked like it had been sitting for weeks. It's an odd looking meat with a lot more cheese than you usually see but oh well! We got that one with bacon too so we will try it again soon....I think my favorite thing is their fries....they are amazing as long there are no pickles!!nThe atmosphere inside was nice though - dark woody kind of place and seemed pretty cool with some really interesting things going around it. If you go during lunch hours they tend not be very busy so get there early to avoid that madness! This place really needs it' refill cups on the patio as those can take",
+      "output": ""
+    },
+    {
+      "input": "Text: This location has an extremely low staff turnover rate. I can count on my fingers how many times employees come to work and are replaced unless they bring something very useful to help our business. One day we had 3 new servers who came in and brought us 2 pizzas which never arrived despite us ordering another 6 pizza'S that never arrived (total of four!!!). We ended up giving them to the other worker and I have heard stories of customers going back and forth with different managers until one manager was fired and all his hard earned money wasted in this fashion! My husband ordered some hot wings which were excellent but my daughter got pepperoni sticks which she said were bland. She told us it was not worth her time or the wait for it because they didn't bring pepperonis which she really wanted to try. Our server gave them away as free appetizers and we felt so bad that there was no",
+      "output": ""
+    },
+    {
+      "input": "Text: We had dinner here the other night and loved it!!! Great food. Friendly staff, good vibes and we loved our waitress Aislinna!! It's not often you get the opportunity to sit right in the middle of a table with your friends! I hope this place stays around for ages because I want to keep going back for brunch, cocktails and tap beers",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Text: Great sushi selection with fresh ingredients, but over- priced and bland at worst. If there is any way to salvage this place it's through getting rid of their employees who are miserable as well as being unhappy because they have little jobs to do after hours. It's better just to drive up or take Monorail down & get out there for dinner...I will say that though. Oh wait.... I digress (ha, you got me!) The best part of going here is having access right off the Vegas strip where you can grab an amazing steak. Just remember that if you want a great view, go early in the day or late at night when everyone else is gone!",
+      "output": ""
+    },
+    {
+      "input": "Text: If you're looking for good Chinese food - don't go here! It's way too overpriced and under cooked for taste. We went with two friends, it wasn'T bad, it was just okay as far I could tell. My friend ordered bk mian style spicy chicken dish, it was great! Very authentic tasting Chinese \"hometown dishes..Mian Style! The only thing missing was Steamed Bun for me because there were very few of them in China Town...But overall was very nice food. I will definitely come back next time",
+      "output": ""
+    },
+    {
+      "input": "Text: This place is great! I eat here all of my meals and get lots of compliments on how good I am at cooking, and the food they put out. It'S a family run business but still manages not break the bank. The staff is very friendly as well which makes it much more enjoyable then going into chains like Chili'T or Papa Johns.nI would highly recommend giving this place another try for breakfast! Get there early and be prepared to wait - you have to book tables in advance. Their menu has some interesting items but also more traditional dishes as well. If you don't mind waiting and having things delivered to your table, check out their Breakfast Club that offers both eggs cooked to order and hot entrees as well.",
+      "output": ""
+    },
+    {
+      "input": "Text: This was such haphazard way of doing things, it seemed like they could have just done more and trimmed up on their website before I came for my consultation. After finishing my first treatment on Friday I called them Monday after I had finished with another client and told them all about how good their work was. Within 5 minutes I received word back that X number needed to be fixed on their computer. When I asked for assistance after confirming I should expect it the next day I got an attitude telling me they haven't heard from me and will call when they get around too. So much so that two days later when I tried again it took three months for anyone at Customer Service to answer the phone. In one week!? That didn's insane, but you do get used experiencing this service when everyone else does not even understand that service exists.nI ended up calling several times for an",
+      "output": ""
+    },
+    {
+      "input": "Text: I'm giving 4 stars because for starters, this place has no flavor and only 3 sauce choices on the menu, which really leaves me baffled that anyone would ever decide to order two flavors of rice? Not impressed so far!nIt took us 30 minutes in a very small enclosed booth to get our food and it smellecidently came out warm not chilled like most other Thai restaurants. When we did receive our Thai plates, they fell apart, some even had large pieces of shell remaining from sitting outside (the table next to us had multiple). Our friend ordered pad Thai with egg roll...it seemed fresher and hotter than the actual dish but still didn're tasty at all...to top it off, when she went to put her take-out container full of vegetables and pan fried shrimps, they were actually cold in trays! They said that it was normal",
+      "output": ""
+    },
+    {
+      "input": "Text: This was my second time here, but the most disappointing so far. The food here always seems fresh and tasty! We order several dishes, which include everything but dessert. I would probably try again just for breakfast, but it's not worth wasting time on it after dinner!nThe service is good too...at least from what I hear! They make every dish exactly how you like it, so it'll be easy to remember. For example, they use thick cut bacon in their eggs and sausages, not as thin cut bacon used by other establishment; their hash brown casserole comes with potatoes, carrot soup, etc.; their spinach pie, or even macaroni and cheese is made fresh to order, unlike most places, where they pre-make something that can then be frozen or microwaved. Their bread pudding and chocolate cake are both pretty good as well. But if I had one",
+      "output": ""
+    },
+    {
+      "input": "Text: If you are ever in Vegas for any reason whatsoever, then this place is well worth a visit...nThis place has so many different food options that they are very reasonably priced, which is definitely one of its selling points! I had an appetizer plate of mozzarella and basil with prosciutto di Parma (the homemade salami slices) - it was absolutely delicious, as were my sides of pesto pasta & fresh cut fries! The salads here were huge, loaded with all the right things, while their bread basket had everything to please both my sweet tooth and palette including olive oil on focacia crostini, artichoke hearts, sun-dried tomatoes, etc. There're also some amazing cheesecake desserts on the menu that will knock your socks off! Don'T get fool led here though - there are plenty of other great places to",
+      "output": ""
+    },
+    {
+      "input": "Text: This place had no taste at all! I tried several different dishes on their menu and they tasted pretty much average. The wait people were really nice though, which was good. It was just so busy in here that I didn't get any chance for my food. We went inside because the line outside was ridiculously long. If I didn'T want to walk out the door, I would.",
+      "output": ""
+    },
+    {
+      "input": "Text: Just came in for my annual checkup and had some issues w/ my eye pressure! Dr. Smith was fantastic and saved the situation! I would recommend it to all new patients. She listens and takes care of everything!nI always have great results with any type or problem! Thank you so much!!!! My vision has never been better! I am excited to continue working here! Please keep up the amazing work!!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: My family and I enjoyed some delicious Italian food at this place. The wait staff was courteous yet unobtrusive.nWe went during happy hour which offered great appetizer deals. We had several entrees that were very tasty!",
+      "output": ""
+    },
+    {
+      "input": "Text: Very disappointing food in an atmosphere that feels like it was designed for tourists or outcasts with loud music blasting, no air conditioners, and dirty booths! It'd be great when you walk in to get your meal but the line was insane! Would NEVER come here again",
+      "output": ""
+    },
+    {
+      "input": "Text: My husband and I visited Kona Grill on Feb 17 for dinner. We ordered from their appetizer menu and opted for an order of fries and two sides. The entree was absolutely nothing special. My wife ordered the shrimp cake which was overly salty and definitely not what we had hoped it would be. It also was served cold and without sauce. She said it would taste better with the sauce.nWe sat down at 6 PM for our table service. Our waitress came out right away and retrieved two plastic cups. As she took them back out another staff member approached us and apologized that the plates remained empty. However as soon after as they brought food her hands went back to me and put my hand up to take our drink away. When she finally returned to the hostel to bring us a dish she forgot to take out the check so I couldn't get",
+      "output": ""
+    },
+    {
+      "input": "Text: My mom insisted we try this place because of how clean it is inside (it's actually a smoke-free area). She also said that this was one big disappointment with their service. We waited 20 minutes for water when our food came out after asking for it at least 10 times over the past 3 hours. Then another 15 minutes to get our check. Finally the staff decided they were finished and we should just leave. It had taken so long to be seated that we left thinking, it was getting better, but when someone tell you that you have to pay $20+ per person for hot food (attesting to my mother' opinion) makes me suspicious. If I ever decide to go back here, I will give them some stars but not 4 or 5. There are other places to be found here for less money, like Chipotle which has been consistently good, etc. All three in",
+      "output": ""
+    },
+    {
+      "input": "Text: I don't need an excuse to get down here more than once. This place has always had great food. The bar staff are friendly and accommodating. And of course our server Joey was awesome!!!nI will definitely be back for more tacos! My go-to Mexican deli in Madison has definitely become Juanite'z Taco! It'll also give me another reason to stop and see all the cute little restaurants downtown that you would normally only find along Prince or State streets. You don'*T miss it!! Oh and they offer delivery which is perfect for parties or any occasion where it may not be convenient to drive yourself there!",
+      "output": ""
+    },
+    {
+      "input": "Text: I have always loved watching Mario Batali in movies. And now that his movie career is over, maybe it's time to give this guy another shot!nLindsay Vance and her husband (Val), are back together again making some of their most beloved classics together. Their love for film began back in 2002 when they were cast as Joe Pesci and Paul Newman' respectively. They grew up in Brooklyn and spent much quality family time on Long Island. Prior experiencing great fortune and success in acting, their performances at NYU (Broadway and Off-BROADWAY) led them to realize they could also enjoy working together on new plays by both men and women. This all culminated with the highly successful smash hit, Love Actually starring Robin Roberts. However, after having seen enough of these blockbusters to know it would not be long before there was no",
+      "output": ""
+    },
+    {
+      "input": "Text: I've been really impressed with how well they have transitioned the atmosphere from traditional Mexican food to more American style fareats. The fish tacos are amazing! They really have changed things up from all of that classic American and Italian/Chines dishes. It'll be interesting watching what changes come together!n",
+      "output": ""
+    },
+    {
+      "input": "Text: We went through this branch twice (first time in Summer 2014) and I have had several excellent experiences at every one of them. The staff was friendly and extremely helpful. If we ever wanted another reason for going through our bank in Las Vegas just ask these guys...they know what they are doing and you'll be happy you did. Thanks Glendale!",
+      "output": ""
+    },
+    {
+      "input": "Text: Great selection of foods! The best thing about this place was their cheesecake desserts. My favorite was definitely my chocolate cake and strawberries with raspberries. Yum. If only they had some kind or discount on those cupcake flavors. I have been here before and have loved it. Will definitely come back again. It'll be the first stop for me when visiting Vegas again. Can't wait to try their pizza next.",
+      "output": ""
+    },
+    {
+      "input": "Text: The worst part of my experience at this store was waiting...I have never stood in line so long that I had no time to wait. Once we got inside I noticed that they were closing - it was 11am and everyone must be out or soooo busy! There was only one register open, the lady checking people in seemed overwhelmed but didn't say anything. She looked very angry when I mentioned she wasn'\". What??nnAnyways...the merchandise selection was pretty great, so my advice is shop wisely and don'\"t waste any time before you check out the store. It won't help you save money or give you time. But...when I walk through the door there is nothing wrong with trying it on to see if you like it better. Otherwise, get ready to spend way more than what you originally signed up for. My personal favorite products by far were",
+      "output": ""
+    },
+    {
+      "input": "Text: I just wanted to write and let you know that The Brow Bar has changed ownership and now it's solely owned by two men! It isn't anymore...\"George Bush Plaza\". That was so sad because that location had so much potential as an awesome spot for me to get my eyebrows done at - I love this place already but unfortunately, they didn' deny it to us at our appointment, we have no plans to go back in there! So this new owner has basically turned over control of their establishment to another man and they are now completely powerless with their new management style. Their staff is not knowledgeable or well trained at their job, the prices are extremely ridiculous. Even when you pay full price, don' think you are going out of business if they keep charging higher rates than others who are using them! They have been known under previous owners to charge way too",
+      "output": ""
+    },
+    {
+      "input": "Text: We went here as part of our stay in Las Vegas and I can say it was very disappointing. The room was dirty, there were large bugs crawling all over our pillowcases. Also their bathroom (showers are really tiny) was not very clean. After using this place for one night, we had no desire to return back. It had some nice things, such that the pool tables and flat screens where able to be used again the next day. However they need to improve there service! If you want to save time and money in your visit to The Mirage don't waste it at Circus Grand or MGM properties...just go to Harrah'S instead!!nWould we recommend staying at Circus? No. Not even close",
+      "output": ""
+    },
+    {
+      "input": "Text: A quick update... This place has changed owners multiple times. Today was no different. I was told they were just changing rooms when it turns out they had only been here for three months in November with some other party of 20 people and now there are 10+ tables open and 2 more private parties going--no one really knows how it works inside. The new owner seems ok at making concessions or keeping their staff busy but his attitude makes me suspicious too. He doesn't seem in vey great health at all so it's tough to gauge him with my limited English speaking skills and personality but it should be easy for everyone who stays to give this new management time to work things out. We won' denver casino buffet not because they didn' load our table and make us feel uncomfortable. They tried to charge us $63pp (we have never paid more than $10) for 3 hours and",
+      "output": ""
+    },
+    {
+      "input": "Text: The bartender was friendly and informative. As I had been drinking in my hotel room for the last three years without any alcohol being served I asked her what was the difference between beer-based cocktails and wine-based drinks (i.e. no one really knows). She said that they aren'\"t allowed in here... so she went over some of our other beers to see if she could pinpoint the differences.nWe shared an aviation drink with another lady and it had 3 different kinds of bitters and 4 flavors. Overall this experience was okay at best. It wasn't memorable.",
+      "output": ""
+    },
+    {
+      "input": "Text: I really want to like this place but after dining here and reading all the glowing comments it wasn't for me. The menu was very basic but for $18 you can have decent food made fresh at your table every time. It was okay...just not amazing!nThe atmosphere was nice, very friendly and service attentive. But I think the main problem with the restaurant are their prices! They charge $20 for dinner buffets, $35 for lunch, etc and then $15 per appetizer...with drinks included....you could spend more than $50 for 3 entrees! My daughter had an eggplant parm which she said she couldn' oven take, but they charged $17, so we paid $10 for her dish...then another $2 when they took our order (we asked for extra bread and cheese). We were also told to pay separate for desserts because most of them were out and expensive! So we didn'",
+      "output": ""
+    },
+    {
+      "input": "Text: The bartender was nice, but there wasn'y much interaction with the patrons. He just kept passing them over to someone else who took care of the drinks and food. Food tasted like pre-made frozen yogurt. We didn'T eat anything, as we just had it for dessert. Drink prices were very high! They do try to upsell you on certain items by telling people in front of you, but the service just got worse. There used be free tables but this place has NO TRACK INFO! I really wanted to give three stars, because I really liked their drink selection and I enjoyed trying stuff at least once. But they don'nt have any alcohol (or even beer). It was kind of sad and made us want leave",
+      "output": ""
+    },
+    {
+      "input": "Text: We love this place. Every time we come to Vegas, I get that same feeling that you have gone too far with these guys and girls...nThis place sucked... The food was horrible, my favorite thing here is their mac salad but it is definitely not what they're known for. They also serve wings and pretzel sticks (both are mushy). If they can't make the food fresh, at least give them some other ingredients instead of using canned stuff, so they don' dent it and ruin its flavor! This place would only survive if the staff knew how much pride we take in the restaurants food and service, because there's no way this business could be going on without our patronage every single week! Please just hire people that know how hard it works to run their place like your life depended on it! Not only that, the decor looks tac",
+      "output": ""
+    },
+    {
+      "input": "Text: It's always good to see what other people have to say about this place---- and it was pretty true. The service is great (and friendly), the drinks are excellent but my husband has been there twice in his two week stay. We really enjoyed their food, especially after hearing some awesome reviews-- so we decided to give it another go. I was expecting a large room with multiple flat screen TVs, which I can appreciate considering most of the tables were taken up with groups who weren't eating there-- and that may have played minus points for us, as sometimes I think it becomes much more apparent when the lights go down or there seems less staff around. That said, we had no trouble finding someone to take care while we ate, even at 5am, and we even made good use out them getting our plates cleared at the same time!nI will probably end up",
+      "output": ""
+    },
+    {
+      "input": "Text: Food was horrible and we had waited over 30 minutes before our food even came out for us! My husband ordered an appetizer (chicken tenders) and after about 15 minutes she forgot it! We ate in front of her and the other diners which took an additional 15 minutes to get a table. She didn't want anything else to go with so we ended up walking away... Never again!nService could be better",
+      "output": ""
+    },
+    {
+      "input": "Text: I ordered chicken wings with coleslaw on Tuesday as my appetizer and was so disappointed when they showed up at 1pm and said it would be prepared later. When we arrived the staff were not very attentive either. The manager came over and personally asked how we wanted our food and brought us hot rolls and then never offered us water, which we both felt was uncalled for. He took the time to ask us about how many people had come in and what kind of dishes we were interested enough in that we were willing to pay extra to see them out again. We got some drinks while waiting and that was nice, but again, there really seemed to only one other person in an entire restaurant, which may suggest something was up with the ordering process. Overall an average experience that will definitely leave me wondering why everyone hasn't tried this place. It's a fast bar with cheap prices, good service and decent",
+      "output": ""
+    },
+    {
+      "input": "Text: My wife had some of their specials and I'm thinking she'll be going back again for her next order.nIf you are looking for authentic Mexican food with great customer service you can't go wrong at this place. However, don' get too excited. The prices are high and you will pay over $125 PER sandwich for tacos. We split our two favorite salsas which comes with chips, beans, cheese and tomatoes. That would cost us nearly $42! Plus there was $10 worth free soda! Yum! They also deliver on time (they have been consistent in keeping their delivery dates). This was a busy day so we requested an appointment. Our waiter did not make sure we got seated at the window or near the speaker but made our wait for almost 15 minutes and by mid morning our ice box wasn'T empty yet...we were still hopeful that they",
+      "output": ""
+    },
+    {
+      "input": "Text: Great place for breakfast with kids, especially the weekend mornings! The eggs are cooked perfectly (the scrambled was good). I had some delicious biscuit and gravy that my son loves, and their strawberry cake is pretty fantastic. We love taking our family here when we are in town. It wasn't busy on our recent visit but we'd definitely love to come back.nI'm not sure where the rave lies...we were starving last night and decided to try out La Bellagio for dinner, but that ruined the food experience. My husband said that he really liked this location, and the staff seemed very attentive. However, we did come here because there was lots of people on the strip and we wanted to have some comforting dessert before heading back to Vegas. Our server didn' oven friendly it up so my boyfriend made us chocolate chip pancake mix with fresh strawberries and",
+      "output": ""
+    },
+    {
+      "input": "Text: Soooooo glad I didn't have this in my face when I saw it! This place has definitely been one of my best meals at home!nThis was by far my favorite meal of all time! My husband loves pasta, so this dish sounded amazing especially since it'll be his dad' oven pizza!! And he is such eloquently put together in how to prepare this delicious food. We also had several appetizers to share that were equally awesome and we can' forget about the dessert because you get to try them all!! The tirami rice pudding was probably one item every kid should eat at least once!! Oh...and they do free tastings for everyone with AYCE cards as well.....not only will we go back to sample more but our kids will, too! =]) Thank you SO much!!!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: My review based on only three experiences.nFirst of all, it was hot and sticky and I had no problem getting in to get a table. They have plenty different tables (some of them right in front of each other) but it's always nice to sit at one of their booth like that too! The place gets really packed during lunch time. There was one particular guy who kept trying his hair out trying to figure out how to keep the girl interested in what was going on inside. After looking through a few menus he finally did find one where you can specify what kind/style of pizza you want and the waiters were pretty quick about getting your order. We got some sorting done and went over our options for burgers and salads- we picked up two 6-packs so it looks kind of expensive but it was actually quite tasty. A beer came with our meal",
+      "output": ""
+    },
+    {
+      "input": "Text: I love this place and have been going here for many years. The food is awesome as well as service is great! If I am looking for good Chinese then you have to go here at least once!! It's ok but not amazing and there are better Chinese places out there to try in Phoenix like China 101 or Spring Mountain Buffet! Oh and of course it'd be rude not eating Chinese because of how spicy the food is! There are yuan restaurants all over so that would keep me coming back hahah, sorry Mr Bungz!!!nIt'll always be my first choice whenever I am in town, lol...maybe one day I will make San Clemente/Peirce City too...you never know!!! So do your best for sure, they have tons to choose from...lol",
+      "output": ""
+    },
+    {
+      "input": "Text: I had been wanting to go and try this out for some time, but was put off by all the negative Yelp and website comments.nI have tried several different foods here now in hopes that it will finally be like my beloved TJ's food (which is sadly not as good). The one thing they really do very well is their shakes (particularly their lemon ginger) and although my previous order did not come with an actual drink for me, it came so close that I couldn't help but feel satisfied once I tasted it. Also they offer gluten free options but are extremely small compared to most other eateries that serve the same item. In other words, if you don' want that extra bite of chewy goodness, you will most likely need to look for somewhere else. For those of us who still enjoy having fresh fish and chips, the bar scene inside seems pretty",
+      "output": ""
+    },
+    {
+      "input": "Text: This place was great when we were in Charlotte. The food tasted amazing and everything on the menu looked delicious. My husband got the seafood pasta dish and really enjoyed it. He also wanted some of the salads on the menu and was disappointed that all of them came with dressing instead rice which he would normally get without sauce. Our server had a nice attitude but this meal just wasn't for him. Overall I would give 4 stars if it wasn'ter crowded or you are not too picky. It might be worth taking cabs to have lunch or dinner because it is worth paying more. We will defiantly go back for sure. Just make sure you don' load the tank before going home. Enjoy! Next time at Carolina Fish Camp you are free to bring your own alcohol so long as you make sure you check out their other restaurants first. You can tell they'",
+      "output": ""
+    },
+    {
+      "input": "Text: The hotel was lovely and quaint. We liked the location close enough that it didn't get too packed when we were there. There were many things to do at our leisure including going bowling. They have an arcade on site as well which kept kids interested until they were done with it. You can find anything you might be looking for here. I enjoyed my daytime activities here even though it did get very packed. It really felt like being in another world and far away from everything going wrong. But, I do think I will come back during the evenings to hang out with friends and family. Overall, I'm happy staying here. And will continue to make trips down the Strip whenever I can to check this place off of my list of places to visit.nI just wish the casino floor was bigger and if I didn'\"t want to wait to sit down it would still be fun",
+      "output": ""
+    },
+    {
+      "input": "Text: After having read all of this I'll give my 1 star for service. The gentleman who helped us was pleasant enough but not so much into his job that he could fix and maintain things properly. He seemed like the type of person that you just leave at home when something needs fixing because you can get it taken care off as soon possible. As we were in there, there wasn't any hot tea or coffee and they forgot our water which I assume is common place there. Other than that, no complaints. My husband and daughter enjoyed their meal too and will be back!nI wouldn' deny them 5 stars if I had paid full price but at least it was good value and would comcome in handy on future visits to Vegas. Oh, and we didn\"T have to wait for service which I really appreciate in Las Vegas because most places take forever. Now oh and",
+      "output": ""
+    },
+    {
+      "input": "Text: Went here for lunch yesterday with my daughter and we loved it. The staff was fantastic, as are all their employees.nIf you're in Charlotte this is worth a stop! They are very friendly and helpful. A few things I'm not crazy about include that they only have one seating area. It gets loud pretty fast, so go early and watch the kids play outside or plan out when you can come back again. My husband had the cheeseburger which was excellent. Very big size and he also got two fries on his side. He wasn't too fond of them but was still full afterwards. Good prices and it seemed the owners were always having good experiences at there places. If you are going for something scrumpy try Red Robin next door and see what else they offer. Oh and you may want some onion rings and ranch dressing, you will love that place just as",
+      "output": ""
+    },
+    {
+      "input": "Text: I have used this company for over 30 years and everytime I bring it up there people just say \"it's been going like gangbusters since they opened\". My husband loves their pancakes and when we order them they are always fresh! They deliver right to our house which save us so much time. It has been well worth the price! You get more than you pay or they will make your whole meal free and then some",
+      "output": ""
+    },
+    {
+      "input": "Text: I can't believe these people are giving this place such bad ratings! The food and service at Firehouse has not been great, in fact for half price or less you can get a really decent meal out of them.nnSorry guys, but these places need help, stat! You should be ashamed of yourselves, if they don' let anyone in and leave your family with only sub par food! It takes so long to prepare a full dinner for 6+ adults especially if you have children. Some of it comes from sitting around chatting to waitstaff which makes their job even more impossible. If you want eat healthy and delicious home style food that won' deny them one star then Fletchers Market is NOT for YOU! Their frozen veggie burritos are disgusting, microwaved chicken nugget sticks in an oil bath? What??!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: We love coming here and have always had good service! The food has been consistent and delicious and we have even gotten takeouts and delivered to our office as part of catering events. They are very knowledgeable and courteous about any needs you may need for your event. I really enjoy working with them because I know they have excellent customer service",
+      "output": ""
+    },
+    {
+      "input": "Text: I went there for lunch yesterday and there are some positives. I loved the atmosphere. It was cute and intimate. But I did have claustrophobic issues when we were eating so much food. There were only two workers working that entire time; one on the floor with us and one behind us who had his back to us and couldn't see us well enough during our meals. We ordered drinks, which were good- the wine list looked very small. So it would have been nicer if the chef didn'T mind having an awkward conversation with \"hi there\". I will say, though, that I think my meal might have just as easily been over-priced. At least I wouldn' let \"yobby' boss decide how well we were treated and not me! And when it comes down this -----the staff is always super friendly",
+      "output": ""
+    },
+    {
+      "input": "Text: This place really needs its own Yelp account! The service is horrible, and not worth it for lunch or supper! I have eaten out in better establishments, but this place just isn't up to par with their food. It doesn'll get you anything, and frankly the portions are tiny and tasteless.ndoh that'd be great...if they could figure out thier ordering system, it'd be the absolute best. Oh the tables were pretty small though - we had two large parties of four at dinner. We ordered our normal entree, which was actually delicious, along side an appetizer which is basically three sandwiches. My wife did a combo plate with rice/bean dip and soup that included sausage links, broccoli, green peppers, mushrooms and tomatoes...that'd have been great too! But the only good thing was she got us",
+      "output": ""
+    },
+    {
+      "input": "Text: Great food and great service! The atmosphere inside was charming and relaxing. They even had some local artist performing live music. We will definitely be going back. Highly recommended. Thanks for the warm welcome!!nKnowing what we do with all my hard earned cash I'm sure our clients are pleased! Oh the best part, there is plenty of free street parking right in front of us which we love. You can get as close as you want. It's just out back so be careful... it looks like if there were any kind or cars coming from underneath! If you see anyone approaching, STOP HIM!!! There'll be copious amounts more trouble at hand. And please DO NOT block anyone or they will follow you around! This place can be dangerous to get out into the open!!!!!!! My only complaint is that when they first opened the doors, I thought they would call EVERYONE",
+      "output": ""
+    },
+    {
+      "input": "Text: This place was fun for our bachelorette weekend. The bartenders were super nice and I loved that they had tons of beer options! It was super cute inside with big leather couches and tables that we can lounge around on. If this is your first time here try some BBQ pizza, it's pretty tasty! My favorite part of the whole experience was getting my nails done by Joe!! He did an amazing job!! A great little spot on Fremont Street. Loved everything! Super chill vibe! Will come back!!",
+      "output": ""
+    },
+    {
+      "input": "Text: This place is awesome! Very clean. Friendly staff, and the food is pretty delicious! My favorite thing is their mac & cheese with spinach salad. It's very light and delicious. I love that every dish has lots of ingredients. The Mac n' Cheese has been really popular because it'99% of the price. They also serve you in glasses and there are cute little pots for sauces. Love this place! Can't wait to go back next time I'm in Vegas! If you have a group coming to town, definitely swing by this restaurant! Good luck finding parking though! Parking garage could be much easier to open up! And of course great wine list and bar scene! Check it out! Cheers!!!!!!!!!! Also don' forget to ask about Happy Hour",
+      "output": ""
+    },
+    {
+      "input": "Text: Good sushi...slow service. We had our appetizer last and ordered it for pick-up. The waitress came by when we were still eating. She took my order and brought us out our appetizer right away. Not sure what happened, but she was very nice. When we left her took one look at me and said how could anyone mess up like that, if you don't know what I mean. No joke there. Very disappointed with everything. Service w/ food should be good atleast 5 stars",
+      "output": ""
+    },
+    {
+      "input": "Text: I'm just writing this review because the new owner of Sweet Chill was very unprofessional. It's now two months after they opened and all I can say is, \"I was so hoping it was going be better\". What he did instead was turn it into something ugly. His place smelled like urine! He never once came out until 2 in there with his manager or chef/owner even asking us what kind we wanted to order. Then he tried to charge me more than a hundred dollars for my food which is way beyond ridiculous at $16+ per piece (including tip) when you could make the salad WAY cheaper by doing your own thing. We asked him to pull off the appetizer menu items so we wouldn't have to pay so much - even if they were delicious... And I mean amazing as this is! Not only that but this establishment",
+      "output": ""
+    },
+    {
+      "input": "Text: It was good... But I expected better.... The food itself is average at best and it comes cheap as chips and salsa (with some of it actually being tacos). They have great selection of margariton'd sauces, though the hot sauce is hit or miss for me. If you are in the area I highly recommend going elsewhere... Otherwise the prices would be pretty reasonable for this kind off place",
+      "output": ""
+    },
+    {
+      "input": "Text: I just love this place! It is so clean with amazing customer service and great food and drink choices. They do have an awesome patio for summer months, it is absolutely gorgeous outside, and the outdoor seating area is perfect for enjoying some cold drinks and snacks. The bartenders are extremely friendly as well- they even bring out your water refill right before your sitdown dinner! So nice to come after our long day of golfing or attending karate class. We will definitely be back! This is my all time favorite spot in Vegas, hands down! Great beer selection, huge menu, delicious appetizers, incredible cocktails, etc. Highly recommend!! You cannot beat that deal for sure! Go check it at least once! Enjoy!!!! Ohh and you have 2 miles to walk on each side to get into clubhouse! Awesome! There're many clubs on every block and there'll be one somewhere near",
+      "output": ""
+    },
+    {
+      "input": "Text: Great selection of beer at reasonable prices. Nice atmosphere. I don't see the point in giving it zero stars except for those that want them since you get no free samples of their food. The BBQ chicken wings are great. But my overall experience soured once I tried their mac and cheese (it was not spicy). It was just OK. Maybe some would enjoy if they sat on their hands but I wasn'd do it for this location.nCheer up people who have been waiting on hold since last time you were here! Also good value compared to other establishment down this way. You know your money is well-spent when there're so many customers queuing at the door, hahah!!! If you think you can handle that level of hoarding then come back and give us another chance or find another place to stay",
+      "output": ""
+    },
+    {
+      "input": "Text: Went there recently to get takeout sushi and they had good prices too! They also have delivery service if you are local in Mesa and don't want to drive long. The tunika rolls I got had spiciness in them but the other rolls tasted great. If your looking for authentic Japanese food this is where it should be! My son had his first Sashimi plate here and was very satisfied. Our waitress was friendly and helpful with explaining the menu.nIf you're interested in learning more about their dishes then definitely come down. There is so much to learn just by being around them and talking with them! This place really is worth the trip especially since the hours are flexible. Also their lunch special is only $6!! It will keep you full til dinner rolls arrive in 5-10 days...I highly suggest!! You can read some of my previous experiences at Su",
+      "output": ""
+    },
+    {
+      "input": "Text: Not worth it in this case!! The best thing I did at my trip was get all dressed up and go over here and have fun for an hour and change! It's not as crazy or expensive as some of the other hotels here and you get to meet cool people. Plus they give you free shots while you wait! This place doesn't make you feel like you are doing something really bad. And if you do enjoy yourself then the drinks at the bar are delicious!!!! If you want cheap but good food then this is the place for your next stay.nWe will definitely be back for sure, we will just go here during happy hour!!! =] We can go anywhere. They offer lots of different rooms, and fortunately the price for one night is very reasonable, but if you are looking for 4-5 star quality then there may only 2 places that have such high rating in Vegas. But",
+      "output": ""
+    },
+    {
+      "input": "Text: We are regulars here as we like it here. It' not fancy or anything but good quality at reasonable prices. The food has always been consistent. Today, I ordered two (2) dishes of Thai Basil Chicken (thick noodles) and one (1) stir-fried shrimp. Both of them were tasty. They both had rice (I think they have no option for that in Thailand) while I had curry chicken which had some very peculiar taste. Overall, I'm happy with my meal and will continue to go here. For other people looking for authentic local cuisine check out Laodhai Cooking School which is located about 10 miles away. This one, in particular, was delicious. Next time, we shall try Papaya Fried Rice next. Yum! And finally, the staff has been friendly and professional since day 1. Oh my... this place really does serve amazing tasting Thai Food. Don'",
+      "output": ""
+    },
+    {
+      "input": "Text: This place is one of those places you can't leave and the food tasted so damn good you just had to recreate the experience back in your own kitchen!nWe ordered several dishes and had some sort for lunch but after an hour they were literally cold and out of everything I tried. If they had been able give us more than 4 choices they would have served it up! The only thing that stood out was their homemade bread pudding - so delicious you would wonder how anyone could go wrong here. It was very filling and surprisingly cheap if you are looking for some type meal at the end of the night! I loved mine! There were many other tables in our neighborhood with empty plates. A really nice treat for when you want to feel like a local",
+      "output": ""
+    },
+    {
+      "input": "Text: I loved it and will definitely be going back for another try!nWe had our reservation at 11pm - so we arrived shortly before. We were told that we would not receive our drinks until after 5pm. Well we showed up a little before, but that was fine. Then there were some people who came in after us. It was almost midnight (and we were starving) and no one seemed concerned. So we decided to grab 6-7 shots, all of whom we took with water. At least half shot. Most likely due since I ordered them, not because they wanted me dead or anything.nThe food was good as usual. You have a great selection of apps. Mine had pesto, goat cheese dip and chicken wings... Yum!! Great atmosphere and awesome music. Drinks were strong enough to power us through. All rounded out with an amazing view of the",
+      "output": ""
+    },
+    {
+      "input": "Text: I've been twice now over 4 years and both times it was terrible! The manager took away my power in making this happen. He made me wait 10 minutes in an area that normally I never have to walk through, then when we got our table to put the food down he asked us what was wrong with the bread. It's not even his fault that they are charging extra but you know how much money is taken out of each customer? We were really frustrated. To make matters worse I brought home some garlic shrimp that had already started cooking that night and was still pink inside when I tried to cook them on a hot plate without gloves or anything else I would normally do to hold the bag so tightly that it wouldnt come apart. All because that one bad experience cost you $130 dollars! Not cool!! If only they could figure out if it was possible for us to take out one piece instead",
+      "output": ""
+    },
+    {
+      "input": "Text: I'm not sure what happened to this one-star review from last month, but it wasn't very good and I won' get around making this place better until we return in 3 months. The food was decent, service terrible, but we had already moved here a few weeks ago so I thought that was enough for now.nThe problem is that there is no definitive menu that clearly lays out everything you need to know about your order before you come in...it was pretty generic. We were told it would take 20 minutes just walk in, sit down, order - but after 15 minutes and another 10 if we wanted - they never called us and said we didn' deny any orders. Nope, nope, we would have gone back but they couldn's do more without asking us first. That'll make waiting much less of an issue, even if it",
+      "output": ""
+    },
+    {
+      "input": "Text: I love this place! The food and service is second to none!!nThe only downside of the menu is that it doesn't have an expiration date. We came in at 9PM (on New Year's Day) so that means we had to wait for a table. It wasn'T THAT busy, but the only tables left were ones with 2 or 3. There was only three different entrees to choose from. Our first was their Mongolian beef sandwich. So yummy. Next was our shrimp cocktail...OMG!! What fried oysters!! OMG!! They must be fresh since they did not put them under heat until we asked...oh well. And the dessert plate, my absolute favorite item on the menu. Chocolate cake mousse with vanilla bean gelato (YUMMMM!) Ohhhhh!! DELICIOUS!!! My boyfriend ordered the salmon steak with lobster tail",
+      "output": ""
+    },
+    {
+      "input": "Text: If I have to rate this place for one thing it needs to be that they are good in customer service, and their pizzas are good and the employees there are always friendly and helpful when needed. The prices here are reasonable and their delivery times are fast even with late night pickup orders which is nice because of the limited amount (if any) that I get home at 3am from work.nI just got an email from them saying that my order will be ready in 20 minutes - so good. Now the question is how long does it take for me to receive the food? It is typically within 10 mins but sometimes can be longer. In their defense, the manager was there right away with his team, he didn't come into our room until 2pm when we call in for dinner so a little patience is necessary. However, our waitress did come out to tell us where the box",
+      "output": ""
+    },
+    {
+      "input": "Text: I've been waiting almost a week to try this place out. We were in Vegas earlier today for 4 nights, and my wife wanted to go with me.nWe got there a little after 5:30 pm, so it wasn't too busy (but not packed). There were plenty of different food selections...pretty sure it would be more fun to sit at tables rather than just stand around in booth-chairs! After an hour of sitting near their large bar area (which also had lots of TV projection equipment), we finally made our way to the back room of TryPasta where they have pizza for $4.99! Yes!!! It was delicious!!!!! A big plus was that they gave us free chips n dip as yumminess ;D, and the staff were great (and nice enough). The atmosphere wasn'T bad, but not worth $15+/nite...",
+      "output": ""
+    },
+    {
+      "input": "Text: I have been here twice...first for lunch and again when we stayed in Vegas (it was mid May, just after renovation). The food is great!! We had fresh salads and bread as well as delicious sandwiches (including some vegan)! It'S all very good quality...not at my usual price!nThe service was also super friendly. Will be back!! You can find me @ https://www2.twitter-com/pghdobson or give me +1 717-539-2035 during business hours (Monday through Friday, 8-5pm) for pick up or delivery orders. If you don'T want the drive through service, we also can provide it! Great job!!!! AWESOME!!!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: We had been searching for sushi since moving downtown and finally found one we loved! It's about the same size as most other Japanese restaurants, but the difference was that it was in Chinatown...and if I don't say something bad about this place, others will assume I disliked its existence because everything there seems fake.nWe started at lunch and ordered their Crazy Tun tuna which they said was fresh fish and vegetables wrapped inside cucumber slices, so good! The rolls are filled with chicken, lettuce, mayo and jalapeu00e9o, and of course some rice. My favorite thing was probably their salmon salad which comes in two varieties- sweet (kate) or salty (ben). I also tried one of their specialties the spicy scallop roll that had an overwhelming kick to it, although I had high hopes for this dish.nI waited 30",
+      "output": ""
+    },
+    {
+      "input": "Text: This place was awesome! I had two drinks each at happy hour. They gave us free shots and it was really cool to watch their pouring machine work. The staff were also really friendly and helpful. Overall this was genuinely the best drink I have ever had in my life. There are too many other fantastic bars to list here. We highly recommend checking this place out for your next night on Mill Ave or downtown Chandler if that's what you're looking for! Thanks guys! Oh yes, please let me know if you end up trying something new... we would love to meet-up. If so let me know as soon possible!!n",
+      "output": ""
+    },
+    {
+      "input": "Text: I have always loved this place, it is the best steak house in Montreal!nIt is one of two restaurants that my whole family loves...and I would not be afraid to go out and try the rest. The French fries, are the bomb! Everything about them is excellent, from how they serve you, to how delicious the food comes out, the servers are very friendly and helpful. We ordered 3 items to share. They brought us 2 huge baskets of bread that were perfect for sharing. It tasted wonderful. My boyfriend enjoyed his meat pie while I had the filet with mushrooms which taste really good when served alongside potatoes, onions and leeks! For appetizer we also got 2 large crab cakes! Both dishes came served with french fries which were super crispy and yummy, as well as 2 little scalloped pork tenderloin tips which are so tender and juicy. Dessert was a mini",
+      "output": ""
+    },
+    {
+      "input": "Text: I was expecting much more for their price range, but they do it here with style. They have an impressive wine list and decent tapas menu, although you're paying a little extra if you go all out on appetizer food and eat at dinnertime.nThe only disappointment is that the portions are too small! Two entrees averaged 13.5 (including tax), while an order of six margaritarii was just shy $19. The service is good though, as long waitresse Nicole gives your table what she think looks like her plate. That said, we will be back next week for cocktails and some great seafood specialities. Great happy hour deals for lunch and dinner! We loved being in this spot for the first time after so many years on Las Vegas Boulevard. Can't wait to return!",
+      "output": ""
+    },
+    {
+      "input": "Text: I've come here twice and the food was delicious. The service is pretty friendly and efficient as well. Overall it's ok just nothing special to write home with... However it'll have to do.nThanks for great meal!",
+      "output": ""
+    },
+    {
+      "input": "Text: The service was horrible! Took forever for them even to come out of their office to get our order! Ordered 2 pizzas and one sub with my husband for takeout and it took over 20 mins total!!! Not coming back here!!! This place has been closed long enough!!! Go here at 10:00 when they are not busy. They will deliver them right away! There other places in Henderson that serve better have delivery! Please do yourself this utmost favor, go get your food/delivery delivered or you may never be back to see what we got!!",
+      "output": ""
+    },
+    {
+      "input": "Text: My wife and I visited this location on Saturday night for their anniversary dinner. We ordered two meals, both excellent and well-done. The first meal was our filets alfredo. After tasting the wonderful filetes, it is clear there are many other items on their menu that we should try as well. Our second dish came out shortly afterwards with very little sauce, yet so much flavor!! It had us full before the entre started! We will be returning, but for now it'll be on another day when I can get to sample the rest of the offerings at Thomas Keller' Hometown Buffet (located down the street). Enjoy your visit at HWT Las Vegas. This is my third time dining here and it will not be my last! Thank you Mimi L for taking care all of us while we have been in town! You truly have made this trip very enjoyable!",
+      "output": ""
+    },
+    {
+      "input": "Text: The customer service was great but my pizza had just been delivered and it still looked good. So I sent them another order based on those positives and they said \"No problem. They will take care of you. We'll take one hour to deliver it tomorrow, so they're doing that right now.nWe won't be going back. It's too close to where we live which we are trying very hard to avoid!",
+      "output": ""
+    },
+    {
+      "input": "Text: This place threw off my tastebuds and I could not finish a whole glass of water after only two bite out of it...but no complaints there either...it made me feel good and satisfied so much so that I'll go back in a heartbeat! My boyfriend had some kind of spicy salmon dish with potatoes and asparagus and we both loved it. The sauce was light and had just the right amount (not too heavy) and I'm very pleased with how fresh tasting the food is. It was just like eating sushi at home (minus the mussels). You can find it in most of the other places as well though, but this was the best one we tried so far in our journey.nWe went in for breakfast and it looked really nice with a lot more space in the dining area. They have outdoor seating, which is really convenient. We had walked around all",
+      "output": ""
+    },
+    {
+      "input": "Text: I really like this place!nIf you're not feeling too lazy and want to be close to home for dinner (or lunch), you can get take out with no problem here. We've tried the crab legs and had very good food. If you are in any type of hurry, they have an express menu that offers fast service and delicious food. We are definitely taking them back in the summer since there was so low wait times before! They also had great happy hour specials! The only bad thing we had was waiting time which made it tough to sit anywhere, even though the chairs were comfortable. But everyone was super nice and helpful! And if you don't mind being slightly loud, this place is perfect for lunch dates! Great atmosphere, friendly people, nice servers and overall it'd be ok to go out once in  awhile. It might not be worth every penny, but",
+      "output": ""
+    },
+    {
+      "input": "Text: Good food but overpriced at $10-$13 for what you get if you have to go by yourself. If your in with friends or family bring them and split it",
+      "output": ""
+    },
+    {
+      "input": "Text: As someone who likes their pizza thin and crispy you can bet that this was the last slice I had from them after my night of eating out in New Orleans with some friends.nI figured it would be nice to go out for dinner and have fresh food, however this time the place is completely packed! Our waiter came over stating that it is too busy to take your order. He brought me the menu at the register and told us to sit outside. The tables are right next to a huge party so it'll be difficult getting some good table service when everyone sit down. So we ate our usual (pizza in hand ) which came out pretty quickly, along side an antipasto bar (which is really small). After ordering it arrived we were served 4 slices of garlic bread with 2 strips of pepperoni. It'd be hard to mess up those little",
+      "output": ""
+    },
+    {
+      "input": "Text: Just ate here for breakfast! The food was good but over priced. For lunch I would suggest getting chicken and waffles or french fries or something! Its just OK but its just overpriced for such bland flavorless food! We ordered eggs with spinach & bacon which were both under cooked. My son got his usual meal of two sides of cornbread but it had no cheese! Not impressed! He said that they do not sell pork at this location so maybe next week someone will think to take him back! They have very small portion and taste like processed foods - you can't go wrong there! If u are going on vacation and going into town be prepared to spend upwards of $300+ for dinner in Vegas....not worth it. You will be better off at home cooking yourself or paying good old fashioned diner prices!",
+      "output": ""
+    },
+    {
+      "input": "Text: I haven't been here for quite some time because I really wanted to try it...but then my expectations were pretty low.nThe place had two bar seatings and there was no way we could sit ourselves at the table, but it wasn' not bad. Quite possibly the greatest Mexican food buffet I've had in Las Vegas (I've been to many). It comes with huge portions of meat, seafood, desserts, drinks, rice/pasta and an entire area filled solely by cheesecloth covered hookah pipes. The best dish, hands down, was the chicken sandwich that came completewith all the trimming except 2 pieces of jalapeu00f1os which weren' load in hot sauce. But as someone said they should just give away half or half off their sandwiches as an incentive for customers to come. So, I think you got something going with",
+      "output": ""
+    },
+    {
+      "input": "Text: I've been here for the past 6 years and I love it... The only place in town that makes me feel like I can be myself on Saturday Night Football - this place. Love their drinks nI think my favorites are still Rock Lobster Manhattan with Blue Moon Vodka ($22), but they also have great frozen margaritts & cocktails with some other interesting ones too like Margaritaville which also has really good food and cheap prices! They offer delivery (for $2) and I have always had happy hour special drink deals if you ask the wait staff",
+      "output": ""
+    },
+    {
+      "input": "Text: I love this place! So friendly and it's close to my house. They always have great deals and discounts. It'd be rude not try them out at least once, its worth your money!!!!!!!! The food here makes me wish someone would open one near me!! Oh how nice is that!!nI'm obsessed when ever I go, you have so many options of things to eat and the variety of foods are just incredible!!! Also very clean and spacious...love those chairs in the back where they play board games or whatever!! Love love LOVE IT!!!! Please visit sometime. Thank you for all the wonderful times we had!!! Great customer service and even better prices! Thanks Earls Seafood Market!!! We will continue to shop at these places! Cant wait until they add gluten free food items to their menu!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: I had an awful experience at Tega Cay when they opened here in 2007. It's probably because I was visiting with my family and we were staying nearby in Henderson. The hostesco (head waiter) asked us every night after we ordered if everything was alright. We thought it was weird that the chef would ask me how everything was for dinner. After our meal, we got into arguing and he finally shut off the water cooler and turned around and left the place empty. He never showed back up! There are other restaurants within this area as well as several others. If you want great Italian food you have plenty of options and will not be disappointed here. Unfortunately, our dining experiences there did not match the quality of the rest of the hotels we visited.nThe first time we went to try out Marmion after eating elsewhere in town, our server took forever to get our",
+      "output": ""
+    },
+    {
+      "input": "Text: I'm going with 3 stars. After reading some of the other comments I was under the impression the food might be amazing but it was not and the service was so bad that I had to flag down someone to get water or coffee for my friend while we were having dinner. We did have one bottle of wine and it wasn't complimentary (which was fine, we like that kind of atmosphere). The place was very dark, it seemed as if all the lights from above lit up when they left their table for another waiter. There were 2 separate servers on our table that brought us two different cocktails to start our meal. It was hard to tell how many cocktails each server brought. At first I thought they had way too much alcohol because we didn'T need them, until the next server came along to refill us for free. So for $11 they really weren' let you drink your entire glass(or",
+      "output": ""
+    },
+    {
+      "input": "Text: This place has an awesome atmosphere for brunch and I would go back with my family anytime.nWe got some amazing mimos--they even had fresh squeezed orange juice if you wanted. The food was delicious, too. It was the first time I tried their avocado salad and it was just the right mix of veggies (some were undercooked and some overcooked). If you're looking for lunch during the week, this is the place! Also the drinks are cheap but tasty. You can get half off everything if there's no wait! Great breakfast spot with great staff! Yummmm!! And good times all around. There are three separate seating areas- downstairs, upstairs AND in the middle area for groups! Lots of different foods, oh, and there'll be free dessert- dont miss out! Oh and it'z open 24/7 for your lunchtime snacks, dinner",
+      "output": ""
+    },
+    {
+      "input": "Text: This place really does it all. I went here for lunch (with kids!) before going downtown and this was an A+ experience! The service was friendly and there are plenty of tables if you don't want to wait for the table at your choice.nOur server took our drink order immediately without asking and was very attentive. She recommended some good local beer/mixes that we had no clue were around the corner...and even remembered a couple things we forgot to ask! There is definitely some buzz with this spot! It makes us come back time + again. They serve breakfast as well as dinner which we did not get as my children wanted fried eggs for their toast but we were informed that they were out of them when they arrived! My son loves pancake day but wasn'T getting his breakfast until after 5 in the morning!!! If we go, he will beg him for it",
+      "output": ""
+    },
+    {
+      "input": "Text: I went in for some lunch with my son's class group and they wanted something that resembled grilled chicken sandwiches, but the taste was not what I anticipated at first. The lettuce wraps were cold, even after we warmed them up, the bread they came in wasn't fresh, and they didn'treally try to help me with my lunch menu choices. My husband ordered an extra sandwich and he said he didn'T want another one and asked for change. He also had trouble getting his food out of the container because of all the sauce spilling everywhere. After waiting 20 minutes for our drinks to arrive, our waitress disappeared for 10 minutes to get more people'S order together...unbelievable! So the tip from this place for service needs a lot bigger than just $10!! If you have been here - do it! This place is horrible and will most likely cost",
+      "output": ""
+    },
+    {
+      "input": "Text: I went here after seeing it featured in Diners Drive-Ins and Dives. The service was great, but it'd be rude to go there expecting anything less than what you get in an airport hotel restaurant. They have all kinds of Asian food that are not your typical Americanized foods...I had some curry which was good, some beef short rib which was excellent, chicken pad Thai with coconut rice, etc...The place wasn't busy at all so we didn'T wait long! It was nice being so close to everything and the prices were quite decent. We will definately stop again when in Vegas and hope to try more. Can you imagine taking the same meal in this chain restaurant on another strip? You might need to bring extra napkins or something...lol!! If it is open 24 hours you will have good luck finding parking because their valet parking lot is right",
+      "output": ""
+    },
+    {
+      "input": "Text: We have been going to this casino over a year and we must say it is one of the best Casino Hotels you can stay at. The service has been friendly and helpful, we had an upgraded suite with two queen beds.nWe were also provided with free valet parking.nIf we could give zero stars for anything... i would do so... but all inall we love where we are staying and what kind people they serve. I'd definitely recommend checking out Aria and Encore!! They really did make us feel welcome! Great job guys!!!! Very nice room! Comfortable chairs with huge pillows as well...would not hesitate to stay here again and will tell all my friends about this. This place was great! It was close to everything so getting back into town after our anniversary would be easy, too. Love Caesar's Palace! Can't wait until next year!!! And don remember",
+      "output": ""
+    },
+    {
+      "input": "Text: Not much more to say. We were here for dinner and we had an AMAZING time, but the service is not so great. Our waiter asked how long it would take us to get our drinks (for 10 people?). He said 20-25 mins. An hour?! That'll be ridiculous when you have so many choices in Vegas! Plus we are only 30-40 minutes away from our hotel, so getting to/from work can take forever and can't even see to buy gifts (I hate shopping with people that don'\"t want to help) I was frustrated...the food was good but there were other places within 5 miles where I could get better tasting meals for less money, at half the price or even cheaper then Taco Bell or Applebees and yet still feel like stealing at home!!! How frustrating! Just avoid this place and eat elsewhere!! =(*no",
+      "output": ""
+    },
+    {
+      "input": "Text: It's like eating at Chili'd with fries and perogies...and it costs more than lunch! They don't have any happy hour prices so go for dinner to avoid paying as much. My husband ordered green chili cheese steak (pounded up) on white bread and said it had no flavor; the server gave it he had none in the restaurant but we got two orders of hot dogs and they were good! I am also surprised the place is open only until 8pm as other places are not too accommodating. We will be back! Also the waitress was nice! Will definately come again when in Vegas!! Great atmosphere and service",
+      "output": ""
+    },
+    {
+      "input": "Text: We've always wanted to try this place. It was our first stop before going out, so we didn't expect too much. There wasn's plenty of seating and ambiance that we liked. When I got there we were seated in about 10 minutes. The waitress came by our table introducing herself-I wasn'T expecting her to have any interest in greeting me! She did natch, and brought us water which looked pretty good but then she quickly started pitching other things in order to keep us interested. After eating, she handed us some plates with three tiny crabapples as appetizers, two different salads and bread. Everything was decent, except for one thing, my food lasted much longer than our bill! They had really big pieces of fish, I think it would be better to go out when it' oven hot. My friend was raving how they cooked",
+      "output": ""
+    },
+    {
+      "input": "Text: So when I get this text informing me they'd be working that night at 7 pm and would call back when we got home it makes me want to gag. The staff were so nice and worked quickly around my last minute emergency situation. Would recommend them!!!!!!! This place was perfect for someone that doesn't like driving far away to get great food but needs some local delivery! We'll be back!! Great service...definitely will go again with no doubt!! Will post on our trip tomorrow!!! Thanks Phoenix Pizza Co!nPhoenix Pizza co Rocked our world! Can'T wait to try it out!!! Love you guys!!!!! Awe thanks Jason- your sweet! It's the 3rb week of June now and it is hot in here Phoenix!!!! Hot enough for summer nights!!!! Yummmm....can' let down the pants!!! That looks delicious!! You are",
+      "output": ""
+    },
+    {
+      "input": "Text: I have used them for many years and never once had ANY issues with this place. The owner has a lot of experience in customer service and always does his best to please. He gives you all he can and it shows in the results.nI am an avid Yelper and so when you have such great experiences like my friend having there first time here at Dottie's they will keep coming back. Thanks guys!",
+      "output": ""
+    },
+    {
+      "input": "Text: We tried this place after an episode of Diner Night in Las Vegas last night. I must admit I wasn't thrilled with what was offered. It was nothing special. The decor looked like the old one you see uptown at Joey Vs Guy back home.nWhen we went, it had all been changed and they were literally just redoing all the walls with white panels so they could be more welcoming. They didn'T want people looking down into the dirty bar where there is trash all over the floor and tables that weren;t even clean themselves. There was no way this would draw me in and stay there for another meal, so I left disappointed. But maybe the positive experience outweigh my disappointment. Oh well.....I will look other places for Mexican food to satisfy me while on vacation and try not to go anywhere else. Thanks!",
+      "output": ""
+    },
+    {
+      "input": "Text: We had our first meeting at this location. I wanted to try it, since many of my co-workers have raved about how delicious the food is here. So for dinner we went for an early seated lunch. At 6:30 we were there! It was so full and it took forever just to get greetediners! Then they did their pre-fix menu which was awesome, if we hadn't been already outta there and needed the waiteress to bring our meals then it would have been nearly impossible to do what we ordered.nAfter waiting 20 minutes I finally got an appreciative look from one of the guys who did the meal...He said thankyou..and left! That made me pretty happy and glad he got such attention. When I asked for his name i was like no, that was great! My whole group laughed at me when we",
+      "output": ""
+    },
+    {
+      "input": "Text: This place was one of the first places I visited when I started dating with my now husband last year. We came at 3am, and it was packed but not so busy that I couldn't enjoy their brunch menu (although that would be more accurate). The food was good, not spectacular, but it wasn'T bad. It's just not worth chasing down after. They have an outdoor patio space, and they have tables outside so you can sit at - and dine in - this amazing little oasis by yourself.nI had huevo breakfast burrito (my fave) with egg whites. Really? Who's making these things up? You shouldn??t make these stuff up. Egg yolks in burros?! No thanks! Hubby loved his eggs too, although they were not cooked perfectly. Also I didn' oven bake them, but just throw them under",
+      "output": ""
+    },
+    {
+      "input": "Text: If I had a time machine in reverse, it might be worth this drive for some delicious Mexican food! There is something utterly delightful and unique about their dishes (including my favorite -- carnitoro) and every one is made fresh and with love.nIt's also conveniently located right behind Fashion Valley Mall, so you're sure not left out",
+      "output": ""
+    },
+    {
+      "input": "Text: This place used be pretty bad but it has gotten much better in recent years. Great patios and bar with live music most nights. Good service! I've been here 3 times. Always get what you want at lunch time which is good for me because I get bored with their same food over and again. The atmosphere is nice. They do have AYCE beer if you want an after dinner drink (which I don't). But they are not too into giving specials for happy hour, so I usually take advantage of that. Sometimes, the prices get a bit expensive. If you come to this location, there'll be plenty people around waiting to eat.nI will definitely be back for some new menu items and fresh seafood and steak when it comes out! Oh, and there're lots of great parking nearby. Don' forget to wear comfy shoes. Also, bring",
+      "output": ""
+    },
+    {
+      "input": "Text: My review: Ok.nI went to this buffet for an early lunch. A friend and I were in town visiting family so we made reservations based on eating at Fuddruckers nearby. After ordering a soda, my girlfriend had ordered the same thing but with chicken instead of turkey. The woman at the counter told us that it was because it wasn't listed as one of the specials. No big deal, but still annoying. We asked the same thing later and they did not say anything. They just started giving out coupons for different things, which was nice. It'll be interesting to see what happens. Maybe next time we'll try something else... Or maybe that would mean no future recommendations? But we are already getting nostalgic thinking about all those times we spent there in college or when we were kids! Oh and if you don want the spicy food here, order them over medium",
+      "output": ""
+    },
+    {
+      "input": "Text: I don't know if this place will be around for long, but when my family & I go here we love it! The pizza is good, but when there is no one else in our party eating (we had an 8 person group) there is always some waiter with food coming from the back of the line. We sat down to take numb and then ordered another round of garlic bread... ummm....yum...it took another 15 minutes until they finally got back to us...and it wasn'd even been busy that day!!nI've ordered their cheesesteak and pepperoni pie several time before because my favorite was always good (the only bad part is that the crust tending to get soggy). However, today, at least they were making sure we didn' have enough time for it...oh he waiter kept telling me",
+      "output": ""
+    },
+    {
+      "input": "Text: I have tried many different places here in Phoenix but this one does have an edge that few other locations have. There are very few non-meat eateries as well as it has 24 hour seating, which makes for VERY interesting eating experiences and dining experience in Scottsdale.nMy wife had their famous crab cakes which were delicious (and I think they actually use real shrimp too). They were cooked perfectly, with crispy bacon strips and steamed broccoli flowers on top. The wait time was only 15 minutes. We would definitely go back again. You can get your food right away or order delivery for next day service. A quick bite for lunch or dinner...the perfect way to curb hunger and indulge while traveling on vacation!",
+      "output": ""
+    },
+    {
+      "input": "Text: Loved it! We loved this place! I am so glad I was introduced to them and now I will be regular patron!nWe had 3 children: 15 month old son who ate almost everything in our party, 2 year-old daughter (9 and 9 months) both got half of each breakfast for her birthdays! They are both happy eating here as are their parents and grandparents!! The staff were all very friendly and attentive! There are only 4 waitresse' with the exception service manager Mimi!!! This place never disappoints! Will definitely go back when we visit Phoenix again in November or December. Can't wait!!!!!!!",
+      "output": ""
+    }
+  ]
+}

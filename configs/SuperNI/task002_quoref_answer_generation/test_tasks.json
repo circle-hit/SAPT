@@ -1,0 +1,24 @@
+{
+  "SuperNI": [
+    {
+      "sampling strategy": "full",
+      "dataset name": "task1572_samsum_summary"
+    },
+    {
+      "sampling strategy": "full",
+      "dataset name": "task363_sst2_polarity_classification"
+    },
+    {
+      "sampling strategy": "full",
+      "dataset name": "task1290_xsum_summarization"
+    },
+    {
+      "sampling strategy": "full",
+      "dataset name": "task181_outcome_extraction"
+    },
+    {
+      "sampling strategy": "full",
+      "dataset name": "task002_quoref_answer_generation"
+    }
+  ]
+}

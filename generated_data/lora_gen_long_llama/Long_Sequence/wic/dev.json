@@ -1,0 +1,182 @@
+{
+  "Definition": [
+    "Given a word and two sentences, whether the word is used with the same sense in both sentence?"
+  ],
+  "Positive Examples": [
+    {
+      "input": "word: go The washing machine won't go unless it's plugged in. These ugly billboards have to go!",
+      "output": ""
+    },
+    {
+      "input": "word: life He lived for many years without food. Social life was usually good.",
+      "output": ""
+    },
+    {
+      "input": "word: play Play football. The kids love to play outside.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "word: give Give priority to. The French doors give onto neo-classical terraces.",
+      "output": ""
+    },
+    {
+      "input": "word: head He stuck his head out the window. They say that good leaders have to have good heads.",
+      "output": ""
+    },
+    {
+      "input": "word: work The voting process doesn't work as well as people thought. This method doesn'",
+      "output": ""
+    },
+    {
+      "input": "word: run The assembly line was on its way. They ran twenty blood tests to see if they had any disease.",
+      "output": ""
+    },
+    {
+      "input": "word: face Turn your partner around and face him. She wanted to wipe him off the face of this earth.",
+      "output": ""
+    },
+    {
+      "input": "word: go How fast does your new car go? These ugly billboards have to go!",
+      "output": ""
+    },
+    {
+      "input": "word: play Play football. We played hockey for many years.",
+      "output": ""
+    },
+    {
+      "input": "word: make Make advances. She made an important mistake in her decision not to go through the trouble of divorce.",
+      "output": ""
+    },
+    {
+      "input": "word: raise To raise a wall. Raise from the dead.",
+      "output": ""
+    },
+    {
+      "input": "word: work Work stone into tools. The salesman works at finishing up when the customer comes.",
+      "output": ""
+    },
+    {
+      "input": "word: carry These bonds carry warrants. She carried her ideas to an extreme.",
+      "output": ""
+    },
+    {
+      "input": "word: work I will work hard to improve my grades. They worked as an integrated team.",
+      "output": ""
+    },
+    {
+      "input": "word: carry These bonds carry warrants. The restaurant served seafood for dinner.",
+      "output": ""
+    },
+    {
+      "input": "word: play The Princeton football team plays Yale this weekend. Play water from hoses.",
+      "output": ""
+    },
+    {
+      "input": "word: life He wanted to live his own long-term life without interference from others. She's my love, my support, my everything.",
+      "output": ""
+    },
+    {
+      "input": "word: work Work an electric drill. This pilot works the controls.",
+      "output": ""
+    },
+    {
+      "input": "word: cut Cut trenches. The new tooth will cut well.",
+      "output": ""
+    },
+    {
+      "input": "word: be I shall take it as granted. It has been three years since my grandmother died. (similar to My grandmother's death certificate, but she was never buried).",
+      "output": ""
+    },
+    {
+      "input": "word: face Put that sign on your face. Why the sad face?",
+      "output": ""
+    },
+    {
+      "input": "word: take Take shelter from the storm. He was often taken to be an outcast.",
+      "output": ""
+    },
+    {
+      "input": "word: life Life depends on many chemical and physical processes. The battery had a short (unusable) life.",
+      "output": ""
+    },
+    {
+      "input": "word: face Dew was falling from the face of the leaf. Why the sad face?",
+      "output": ""
+    },
+    {
+      "input": "word: play Play football. I played hockey all my life.",
+      "output": ""
+    },
+    {
+      "input": "word: be I shall be writing to you soon. There were many good days and bad days.",
+      "output": ""
+    },
+    {
+      "input": "word: break Break into tears. If it wasn't for that quack I would have been fired.",
+      "output": ""
+    },
+    {
+      "input": "word: facelift Give your home'make over'. More than he bargained for, the new president took office at",
+      "output": ""
+    },
+    {
+      "input": "word: make We'll make Cincinnati by 7 tonight. Make yourself clear.",
+      "output": ""
+    },
+    {
+      "input": "word: point Life has lost its point. The gun points at almost any direction.",
+      "output": ""
+    },
+    {
+      "input": "word: break If you see this man, run! His camera broke.",
+      "output": ""
+    },
+    {
+      "input": "word: work Work stone into tools. How does your idea work in practice?",
+      "output": ""
+    },
+    {
+      "input": "word: carry To carry well one must hold the breath. I had to carry her all the way to the car.",
+      "output": ""
+    },
+    {
+      "input": "word: go These ugly billboards have to be removed. To go through trouble.",
+      "output": ""
+    },
+    {
+      "input": "word: take Take out a loan. She took an apartment on tenth street.",
+      "output": ""
+    },
+    {
+      "input": "word: play Play water from hoses. Pele played for this Brazilian teams many times.",
+      "output": ""
+    },
+    {
+      "input": "word: give Give one's talents to charity. Can you please give me lessons?",
+      "output": ""
+    },
+    {
+      "input": "word: work This method doesn't work. The medicine works only if you take it with a lot of water.",
+      "output": ""
+    },
+    {
+      "input": "word: be I may well be an hour. It has been three years since my grandmother died. (similar to My grandmother's death certificate, but in Spanish).",
+      "output": ""
+    },
+    {
+      "input": "word: break When will the meeting be? The teacher broke the news to the whole class.",
+      "output": ""
+    },
+    {
+      "input": "word: make Make love, not war. He'll make ten points for that performance!",
+      "output": ""
+    },
+    {
+      "input": "word: take This box won't take all the items. Take shelter from the storm.",
+      "output": ""
+    }
+  ]
+}

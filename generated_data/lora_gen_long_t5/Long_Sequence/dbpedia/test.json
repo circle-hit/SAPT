@@ -1,0 +1,1142 @@
+{
+  "Definition": [
+    "I will give you some category entries from Wikipedia, please classify them by topic."
+  ],
+  "Positive Examples": [
+    {
+      "input": "Title: Jesse C. Taylor Text: John James Taylor (16 January 1781 – 11 October 1885) was an English politician and Member of the British Parliament since 1697.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Black Prince (film) Text: The Black Prince is a 1997 British drama film directed and written with Richard Stallworth.The film follows the life of American detective William F. Buckley who works as forensics consultant for private citizens in New Zealand to find out how other prisoners work on their cases before they are taken away so that they remain free agents through which crime proceeds.",
+      "output": ""
+    },
+    {
+      "input": "Title: Tsunami(film) Text: The Taiji-e Tsuruga series features the films of Yoshikazu Kobe and Yuyaku Yamaguchi.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Title: Ms. Mayeda Text: Mrs Marla Mayheredal is arguably the most important woman in the history of female domestic work. Her name means The Lady That She Called; her maiden name may also be used for other women like Mary and George Maclean.Marla was born in Cape Town South Africa but moved to Australia in 1976 moving to New Zealand when she became pregnant.",
+      "output": ""
+    },
+    {
+      "input": "Title: Crybabes (film) Text: Crybabbe a Romantic comedy film directed by David Gleason was released in 1974. The film is a remake of Twelfth Night written and directed at PBS but has no English caption. It also stars Christopher Guest as he meets the main antagonist for his character Fletcher who decide to take down the film.",
+      "output": ""
+    },
+    {
+      "input": "Title: Spiralia stellata Text:Spirali Amarani (Persian: also Romanized as Spiriln) is an endangered species of grass in the Persetia subfamily. It occurs naturally in Ecuador and Peru where it is threatened by habitat loss.",
+      "output": ""
+    },
+    {
+      "input": "Title: SS Rhostoma Text: The Rhostomana (Gluts) of 1863 was borne during the Napoleonic Wars between Italy and the West Indies in the same year. Her name means “little horse”. It'll not be replaced on the island but rather as an accessory to her larger sister NS Gloria.",
+      "output": ""
+    },
+    {
+      "input": "Title: Dictator Sniper Text: The ddictors of the Dictoter Squier were three brothers and sisters who founded the German company in 1898. Their name was derived to denote their affection for one another and this is why many have called themselves the Dictris brothers but also used the word Dictate. They did not come up with other names for their siblings until after World War II when they both sides started working together on various jobs.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ariel (novel) Text: Alexander Ariel was a novelist in the late nineteenth century who wrote most of this book and many of its books about women with an emphasis on literary studies.",
+      "output": ""
+    },
+    {
+      "input": "Title: Eternal Life (novel) Text: Eternally Living is a 2011 American science fiction novel in development and was the first to feature an adult female protagonist named Sarah Jo Williamson with her co-authors John Cage and Eliza Woodhouse writing on it. The story includes several new characters including Evey Johnson who has been working behind closed doors since 2006. A number of other characters are still out there.",
+      "output": ""
+    },
+    {
+      "input": "Title: M-23 (Seahawk) Text: The first M-3 was the S7 submarine that fought at the Battle of Britain during the First World War and then the Second World War. On 13 June 1864 it was laid down in Manchester England while still under construction near St Peter's Dockyard on the site of an earlier battle for the British Navy. At the time she was being used as icebreaker to help save the fleet’d ship after a collision between two ships.",
+      "output": ""
+    },
+    {
+      "input": "Title: Eocene (album) Text:  Euce was the second album released by American country music artist Ebony Jackson on 11 June 1979 and followed up with two more albums which were released simultaneously under the same title in 1982.",
+      "output": ""
+    },
+    {
+      "input": "Title: USNS Shrewsbury (YL-3) Text: USN OWL-34 was a Type VIIX L-3 Class cruiser and the first vessel of that type to be built in the United States. It was one or two ships constructed under the name Star Spangled Banner; later it became the Stakeholder'ship U.S Naval Station St. James’s Shipyard for her services during World War II.",
+      "output": ""
+    },
+    {
+      "input": "Title: Rough and Tumble Text: The Ruff & Waxed is a 1956 science fiction/drama film directed by Michael Friesen (who also wrote the screenplay for it). It stars James Earl Jones as Mr. Smith and plays snore-wound Draught in the lead role followed later by an appearance of Sally Fielder playing Miss Frances Barrowman.",
+      "output": ""
+    },
+    {
+      "input": "Title: El Salvador University Text: The Efficient Education Foundation is a privately-owned non-sectarian organization founded in 1973 and operates as the principal university of the National Liberation Front (NLFD).",
+      "output": ""
+    },
+    {
+      "input": "Title: HMS Eager (1855) Text: HMAS Eager was a large-scale French attack ship of this type and served as one for the Royal Navy when she was built in 1857 at Aix-en-Provence France on the River Seyre.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Grasp Text:The Gram (Bulgarian: ) is a 19th century Czech-speaking comic book series created by German graphic designer Hans Bär.",
+      "output": ""
+    },
+    {
+      "input": "Title: Eboia Text: Xerxes Ebói is ice skateboard manufacturer operating in Slovenia. The company produces the snowboard with their own brand of products such as Skimmer Kit and Slack.",
+      "output": ""
+    },
+    {
+      "input": "Title: The New Testament (TV Show) Text: The New Testament is a television drama series created in the 1980s and 1990'S for which it was written as if it were based on the original Bible story but that had been repackaged into an album with new characters drawn from the Bible.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Last Song Text: The Last song is a 1975 jazz album recorded at Elysian Records and released under the name of Paul Simon featuring his bandmates Michael Jackson and Robert McKinley with whom Martin Garrix was on stage that night.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Runners Text: Robert Gideon Axelrod (born January 25 1978) is an American singer dancer and musician best known as the lead guitarist for the Canadian rock band Red Hot Chili Pepper Band.An English-speaking artist currently serving as headlining vocalist in Toronto Canada this summer AXE announced that at its annual awards banquet it would be producing all nine of the group'd tracks including their new single Blackbird with three members also appearing on the frontline.",
+      "output": ""
+    },
+    {
+      "input": "Title: Elysium text: Historically and culturally Elymium is a mountain that ranges between the mountains Aylmer and Lake Placid east of the River St. Lucie in Western Australia. It is located in the eastern corner bordering the lake at the mouth of the Columbia River below the lower end of the creek. According to legend it is also called The Grand-Page (The Grand Page) as well as other smaller parts of the Gulam Creek and its drainage system are connected by the river with the U.S.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Old Man (novel) Text:The old man is a novel written by the American author George Orwell and published in 1952. This book tells the story of Judith Leigh'ogden who was killed during World War II as she died at the hands Of A Russian-backed Nazi group.",
+      "output": ""
+    },
+    {
+      "input": "Title: Avatra Text: 'Avatar' or Avatar is the name of an American rock band formed in 2005 under the leadership (and musical direction) David Smollett and Dave Roberts Jr. as one of several group who have had major success since 1994 when they signed with Atlantic Records.",
+      "output": ""
+    },
+    {
+      "input": "Title: St. John's Episcopal Church (Dundas Colorado) Text: STJohn'S Episcopal Church is formerly known as the Baptist Congregational Church on the eastern border of the United States and part-time chapel for the Roman Catholic church with its original structure built in 1824. It is located within the Cathedral district of DUNDASDUNNEY county Colorado.The parish covers approximately 100 square miles (645 km).",
+      "output": ""
+    },
+    {
+      "input": "Title: Aristotle Text: The Aristotelea is genus of flowering plants in the family Asparagusceae native to Africa South America and New Zealand.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Secret of the Heart (film) Text: The Secret Of Some Kindred Spirit is a 2003 Indian-language horror film directed by Pandit Prasannad and starring Rizwander Singh Anand Bhagwat and Arun Kumar. It was nominated as one on three Emmy Awards in 2004.",
+      "output": ""
+    },
+    {
+      "input": "Title: Das Text: dDаS is an independent film studio of Latvian-American director Johan Storch. In the movie Smátnik is a role in the fictional story of Márk Aelván Ogilvie and it is part owned by Lent Media (Lent Media' own sister studio) for its new drama trilogy. The film won awards at numerous international film festivals as well on screenplay competitions including Best Picture Award for Best Film Festival 2011.",
+      "output": ""
+    },
+    {
+      "input": "Title: Günther Schroeder Text: Gyöngyra Schroesteder (born 29 September 1976 in Berlin) is swedish football coach and midfield specialist for Schalke 04 VfB Stuttgart. He played his first match as he was placed 6th in the Bundesliga with Dortmund during the 2009–10 season against Borussia Dortmund.He joined Bayern in 2007 and finished 4th in the Bundesliga when he won promotion to the FC Bayern Munich on 12 November 2009. After four seasons at BSV Werder Cup 1999-2000 Stuninton Sport club he became head of the team in 2001. The last appearance came in the 2006/2008.In 2011/7/10",
+      "output": ""
+    },
+    {
+      "input": "Title: Lazorrhea Text: LazORRHEA is solitary mountain in Ecuador.",
+      "output": ""
+    },
+    {
+      "input": "Title: stába Text: The Stábit-e Trójko Boryszow (Russian: орилусн итав) is th European giant of the energy market which has more than 5 billion tonnes of petroleum products exported annually. According to the World Bank it is one half of the world' most active power sector. It was founded in 1984 by Alfon as an extension of MK with its largest mineral oil resources and equipment such that led to the construction of gas turbines.",
+      "output": ""
+    },
+    {
+      "input": "Title: SS Otis (Worczowice) Text: The SS Obszów Kocius is a Ukrainian cruise ship built and owned for use in the Russian Ocean of the 1920s to 1930s. She was launched on 18 August 1920 as Udjala Krupikog Shipbuilding Yard at Stremskie Polenice/Hamburg-Naumejsko-Pujewska Gordan Poland; she was laid down on 3 November 1928 when it was transferred to Sweden.",
+      "output": ""
+    },
+    {
+      "input": "Title: Dromis omaha Text: Dammiris dromeha is endemic species of the easternmost part (Brazil) of the Indian subcontinent at the southern tip of Africa and south-east of the Middle East including Ethiopia Pakistan Somaliland Bangladesh Nepal Zambia Nigeria Sri Lanka Afghanistan Iraq Malaysia and Iran.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Assassin Who Stole the World Text: William Gideon James Todt (December 25 1879 – March 17 1975) was a United States political figure who served as Governor of Connecticut from 1921 to 1927. He also served as Attorney General for the State of Connecticut which led to his current tenure.Born in Philadelphia Pennsylvania and raised in New Orleans Tallahassee Tennessee Toddy has been elected president of both schools since 1969.",
+      "output": ""
+    },
+    {
+      "input": "Title: Trsulu Text: The Turosulu River runs through southern Peru. It is the largest of the three rivers (Nepali; Portuguese: Pritça de la Tarzana) and its flow has been one in several countries for more than 150 years.",
+      "output": ""
+    },
+    {
+      "input": "Title: Aeritha sylvatica Text: Aerthenia silvatica is an herbaceous perennial plant native to Africa and Central America. It is known as the Indian grass (Sylvia sylvatica) but also as Sahilisodum sylvestricum.",
+      "output": ""
+    },
+    {
+      "input": "Title: HMS Sogniu Text: HVS Soggin (born 2 February 1949) was a French frigate of the Second World War.",
+      "output": ""
+    },
+    {
+      "input": "Title: Sdzefe Text: The Swedish wolfhound was registered in Norway on March 2 1999. She used to be called the Szrh (Szoskjól) and is considered one of the most endangered wolfhounds worldwide.",
+      "output": ""
+    },
+    {
+      "input": "Title: Djibe Text: The PIE Group (Anglia Italiano) was based in Rome between 2005 and 2008 serving as the chairman of the Board of Directors on both issues.",
+      "output": ""
+    },
+    {
+      "input": "Title: USS Grass Lake Text: The United States Navy'tary Corps of Engineer (USN) is designated for use in the United States Navy’navy and Navy Search-and Rescue Program (NASR).",
+      "output": ""
+    },
+    {
+      "input": "Title: Larinae Text: The Lalena is genus of flowers in the family Leucorceaidaceonida and includes four species which are native to Mexico Bolivia Ecuador Peru Peru and Colombia.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Last of the Redcoats Text: The last race to win the Golden Eagle was the 1939 British Olympic Games with two gold medal wins in Rio de Janeiro Brazil and Chile.",
+      "output": ""
+    },
+    {
+      "input": "Title: HMS Aquin (A32) Text: HMS Aquian was a U-class destroyer of the Royal Navy.",
+      "output": ""
+    },
+    {
+      "input": "Title: Jermyne Payne Text: Jerome Jeremy Payne (February 18 1940 – September 13 2011) was an American politician and public figure who served as the 21st Prime Minister of Maryland from 1981 to 1998 during which time he represented state Senators Bob Menziez Jr. and George Herbert. He was mayor of Baltimore for five terms before his recall.Payne was born in New York City on April 1 1940 after receiving his mother' marriage.",
+      "output": ""
+    },
+    {
+      "input": "Title: Rogaea tetris Text: Rogaega and Russet is invasive species in the Rubiaceoidea family.I believe that it can be found only at high mountain areas on the western edge of the Himalayan region. It occurs along the border of the Sahara desert with the south east part of the country between the Indian state of Rajasthan and India.The habitat consists almost exclusively of limestone rock which has been disturbed but recently begun to recover its natural resources. These mothoides often have tiny white spots scattered on the ground.",
+      "output": ""
+    },
+    {
+      "input": "Title: Jeremiah Macfarlane Text: Jerome Michael Macfarlane (born 19 August 1979) is an American football running back for the Detroit Red Wings of the National Football League. He played college football at UTEP.He also played as a cornerback and goalkeeper on the NFL sideline in the 1988 World Cup. His other former high school was Duke University.",
+      "output": ""
+    },
+    {
+      "input": "Title: Tilthium Text: The tilthium is a species of plant in the Hempoeiace family and one-third to five percent of the leaves of the genus Tilia.",
+      "output": ""
+    },
+    {
+      "input": "Title: HMS Crater (A-4) Text: H MS Crotar was an A-class destroyers of the Royal Navy named for Lord Charles Vct. She is one off two ships owned by the British merchant marine and shipyard based in Portsmouth Norfolk England.She served until 1924 with her sister ship Snatchey when she was lost at sea in 1941 during operations on the Battle of St Mary's Church near Dover Castle.",
+      "output": ""
+    },
+    {
+      "input": "Title: SS Tuff-Fury Text: The third ship of the Triton Class was a second class steam locomotive which served in the Royal Canadian Navy during World War II.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ralf Sjogren Text: Robert Alfred Aloisir aka Ralfer Sjögren (born July 21 1973) is an American professional baseball player. He played college ball for the Pittsburgh Steelers and the Cincinnati Reds of the National Football League (1989-1990).Sjogren played as a centerback/centerfielder in the 1989 NFL Draft after leaving The Boston Red Sox.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Shockingly True Story (film) Text: The Shocklingily True/The Greatest Thoughts Of America is a 2007 American drama film released in theaters November 11 2009 directed and produced entirely on location at the MGM Grand Theater of New Orleans. It stars John Travolti Michael Douglas Anthony Hamilton William J. Campbell and Tony Hawk.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ayn Rand Text: Founded in 1997 Aang Rand is an international artist and filmmaker originally from the British Isles. She is best known for her role as the director of the short film Largo that was filmed in Paris in 2000 during which time she created this film. The movie also contains a number one hit on the box office with its 2002 version (Largo 3D) released later than other films but still received critical attention.",
+      "output": ""
+    },
+    {
+      "input": "Title: Utai River (India) Text: The UTA is heaviest and deepeast river in India. It flows west through South India.",
+      "output": ""
+    },
+    {
+      "input": "Title: Jrgen Pálsson Text: Jérgen Sánchez-Stóve Bjrno (born September 23 1981) is a German footballer of the National League (NL).He is currently an assistant in the Finnish national football team for FC Kolding and FK Gävle. His position at the end of last season was confirmed due to his excellent results over the past week.",
+      "output": ""
+    },
+    {
+      "input": "Title: Aeterno Text: The Aeterna was mainly regarded as an early version of the family Averidens (Aeterno being known as the Arnidae).",
+      "output": ""
+    },
+    {
+      "input": "Title: The Old Man Text: The OldMan is an operatic novel adapted for stage and screen by the British playwright Charles Dickens.",
+      "output": ""
+    },
+    {
+      "input": "Title: Polaice Text: The Russian naval air force is one of six Navy Air Forces in operation throughout the world. It was established in 1924 and it currently has three major branches located in Russia.",
+      "output": ""
+    },
+    {
+      "input": "Title: SS St. Mary's Church Text: The SS Saint Mary'S Church was built in 1880 and is part of the historic St. Mary’ parish in the township which included St. Mary' Parish at St. Anne'a Castle on the east side of the town. It was listed on the National Register of Historic Placemark sites since 1908.",
+      "output": ""
+    },
+    {
+      "input": "Title: USS Lillian (AN-7) Text: USS Lillian was an Osprey-class attack cruiser built for the United States Navy during WWII. She was one of three ships that served in the United States Navy under their flagship Naval Surface Forces at Maritime Terminal 4 in Los Angeles California.",
+      "output": ""
+    },
+    {
+      "input": "Title: Argolis Text: Arrolises is a genus of moth in the family Motricidae (Agropodota).",
+      "output": ""
+    },
+    {
+      "input": "Title: St John's College (Leedsburg Pennsylvania) Text: Saint Joseph'S College is a secondary school for grades 7-12 located in Ledgesburg Pennsylvania United States.",
+      "output": ""
+    },
+    {
+      "input": "Title: Jody Greenway Text: Joseph George Greenway (born March 5 1978 in Toronto Ontario Canada) is an English footballer who currently plays for Hamilton Athletic Club in the Northern Ireland Football League (NIFL).",
+      "output": ""
+    },
+    {
+      "input": "Title: Svensk roku Text: The Swedish river Sven is the second longest in Denmark. It begins at Skeftelsund before entering the municipality of Vriesnes near the township of Svensk and flows west to the Nord-Ruhr River about 20 kilometre (14 mi) north of the town of Svenstrup.",
+      "output": ""
+    },
+    {
+      "input": "Title: U-STA Text: The Uststa (Oreo) was a large seabird owned and operated by HMS Ogre which had been laid down in 1898 as an L/L-2 submarine for the Royal Navy. Her name was changed to U-STA when she became one of the main ships of her class; these ships were later replaced by MVS Nescafé Snzli. She is now a subset of its own ship Phara.",
+      "output": ""
+    },
+    {
+      "input": "Title: János Agué Text: The genus János is a collective of species of birds in the family Cyprinidales (the cyperipedse). Their primary habitat is the tropical moist dry subtropical or tropical forests around the Mediterranean Basin with large islands and small islands.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ayn Rand Text: Alastair Goff and Annette Ross-Twilford are two women painters who specialize in the art of painting. They work predominantly on watercolours especially those produced for children (usually male) or young adults.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Grasmere Text: The Great Gatling Club ( ] Gngguu Gudi Yuln) is a Japanese anime manga created by the series creator Kimura Kawishimo and illustrated in part via a combination of manga and anime. It has an original manga cover published by Harada Comics.The manga was originally released on May 26 2009 for the Japanese market as Aramakyori no longer-published in Japan.",
+      "output": ""
+    },
+    {
+      "input": "Title: Pseudohorst Text: px_ya [plj] is an Italian village in Alfredini County Ovest Italy. It lies approximately 7 kilometre (3 mi) south of Alfeduni 13 km (20 mi), and has 1.2 million inhabitants (2700 000).",
+      "output": ""
+    },
+    {
+      "input": "Title: Psaltera indica Text: The psectei or the psalteran is endemic to China and Myanmar. It is found at about 30°C (33°F) altitude with an altitude of 3400 metres (5300 feet).The population of this family is unknown.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Unrepentant Wrongs Text: The UnRepentant Worshiper (Ethnia). This book was first published in the United States in 1984. It was later translated into Japanese and English for publication in 1985.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ayudha Bhamani Text: Ayesha was an Indonesian journalist based in Jakarta and Beijing working for the Indonesia Department of Foreign Affairs and International Cooperation (DFCI) until 2008. She served on several teams serving as director general/director-general at the Intelligence Ministry during the 1980s and 1990ies.Bhombani' is currently a member with National Institute of Press Liaison Office since 2005.",
+      "output": ""
+    },
+    {
+      "input": "Title: St Peter's Church (Kolon) Text: The Saint Mary'S Parish Church is located at 1415 W. Main Street in the City of Kokolokia Krakow Poland.",
+      "output": ""
+    },
+    {
+      "input": "Title: Xanthyiona rosacea Text: The xanthychium is an edible plant species native to the Western United States. It is known from South America Mexico and California.",
+      "output": ""
+    },
+    {
+      "input": "Title: HMNS Lacock Text: The LHS Lacock was a British military light cruiser of the Imperial Navy that served until 1945 during World War II as part in the battles against France and Britain for the invasion of Canada to the late Second World War.",
+      "output": ""
+    },
+    {
+      "input": "Title: Bruton (Hampshire) Text: The Brutalis were a group of small hill top trees which became common in the mid to late 19th century and formed partof the Devonshire Hills. This was located on the eastern shores surrounding Salisbury and the neighbouring villages of Brougham-on-Telford with an area roughly 5 miles (2 km2) south west of Avondale near St Andrews but before thatched roof came down as soon after it gave way back into the hills.",
+      "output": ""
+    },
+    {
+      "input": "Title: Jordi Ayut Text: Mridul Dair-Aasemn (Persian: ; also known as Jorden) is an Iranian politician and former Prime Minister of Iran. He served as the Chairman of Senate Yuan Party between 2001 to 2003.",
+      "output": ""
+    },
+    {
+      "input": "Title: Elysium alba Text: It is endemic to Brazil and the Philippines.It grows as bushes or small shrubs growing up to 6 metres (5 feet) wide at 30°C (80°F).",
+      "output": ""
+    },
+    {
+      "input": "Title: The Last Ride Text: The Last Ride is the first of a series of movies made in the US under the pseudonym Avatar. There are two films available at this time for both North American and European markets. Both involve an action figure who plays mainly the antagonist on the set which is played by Adam Sandler.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Greatest Hits of the Year Text: The Greatest Hit' is the debut album by British pop/punk vocalist and singer-songwriter Dave Eggers. This year it was nominated for a Grammy Award for Best Rock Album under the heading Of The Wildcard. It was released in May 2004 via Epic Records; there are further releases planned through September 2012.",
+      "output": ""
+    },
+    {
+      "input": "Title: Smiling in The Rain Text: Simon Sinek (born October 28 1984) is a German footballer who plays for Borussia Dortmund and FC Barcelona as defender or centre back.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Scream (film) Text: The Scream is a 2008 American comedy film directed and written at the Studio Ghibli with George Lopez as lead title role. It was based upon the classic film of the same name but with English subtitles.",
+      "output": ""
+    },
+    {
+      "input": "Title: SS Axford Text: The Axford (Oafen of Axford) was an Irish steamship which entered service in 1915 for the South Wales Regiment.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Unknown (1991 film) Text: The Unknown is a 1995 French drama film directed by Paul Ricardo and based on the novel The Undiscovered by Pierre Martin. It was part of the series Les Fleurs de la Terre that followed as its title suggests it was one of the most memorable scenes in his career.",
+      "output": ""
+    },
+    {
+      "input": "Title: Tsukuyoni Text: Tsukuno-ni is a mountain of Japan () located in Jishoko Prefecture on the north side of Sashimi Peninsula. It is about 5300 metres (8400 ft) high and has elevation between 4500 to 800 metres above sea level. In 2013 it was listed on the World Nature Heritage List.",
+      "output": ""
+    },
+    {
+      "input": "Title: HMS Defoe (1865) Text: HSS Disforever was the third Ship of the Royal Navy to be named after Admiral John Fletcher (1775). She was laid down on 15 June 1865 with her husband Sir John Frederick Henshaw (Retina) and launched on 10 March 1896 at Bristol Harbor near Stroud.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Unofficial Guide to the International Olympics Text: THE UNOFFICIAL GUIDE TO XII (Hornwort-Staufens Verge) is a collection of essays on the history and culture behind the United States Olympic Winter Games for both women'[citation needed] children'(13).The essay was published in 1999 as part one of an ongoing series designed to highlight the many achievements of the American Olympic team that include such as the Paralymure League World Cup or at the Summer Olympics with their respective teams.",
+      "output": ""
+    },
+    {
+      "input": "Title: St. John's Church (Brown River Mississippi) Text: The earliest form of Catholic missionary living among the people of Brunei is found at an elevation above 6000 metres (2000 ft). It was designated in 1899 by the Roman Catholic Diocese Of Miami as a church but has since been removed.",
+      "output": ""
+    },
+    {
+      "input": "Title: HMS St Paul (SS-382) Text: The second steamship of the Royal Navy was constructed at Coventry in 1896 and completed in 1901. Initially named Sir John William Hodgson it was laid down on 1 April 1909 for Captain Robert Henry Cockburn but was not used except as a training ship then transferred to the Royal Navy under licence later cancelled. She has now been taken over by the British Government's Warrantine Fleet Limited which is operated by the RSPCC.",
+      "output": ""
+    },
+    {
+      "input": "Title: Phenomena teosini Text: Phamnophthia infectans is endemic to South Africa'Scotland. It can be identified via its scientific name and natural habitats. This species grows as ant-plant predator or prey for game animals including the carnivorous Asteraceum.",
+      "output": ""
+    },
+    {
+      "input": "Title: elaiz Text: The Greek goddess Lysana (Serbian: елина; born April 14 1975) is primarily an Estonian-American writer and poet. She has written four books about Estonia.",
+      "output": ""
+    },
+    {
+      "input": "Title: Udornoe River Text: The Uderner river is a small stream in the state of Estonia.",
+      "output": ""
+    },
+    {
+      "input": "Title: Tulley House (Old Market Town) Text: The Tuttle House is a historic home located at the Old Merchant Town in Olney Massachusetts. It is a brick two-story four-bay wood frame dwelling built in 1888.The house was added to the National Register of Historic Places in 1991.",
+      "output": ""
+    },
+    {
+      "input": "Title: USS Sturbridge (DD-113) Text: USSS Saint Stuyvesant was a Union Pacific Company of ships built in 1939-1840 on the South Coast Liner to be launched at Boston Massachusetts.",
+      "output": ""
+    },
+    {
+      "input": "Title: HMAS Dooley (D12) Text: HMS Doody (D12) was a D-class destroyer built in 1913 for the Royal Navy and laid down at Southampton in 1915. In 1826 she was transferred to Scotland where her duties were transferred to the Royal Australian Navy of which she served until 1918.",
+      "output": ""
+    },
+    {
+      "input": "Title: Jorg Hoggberga Text: Jörg H. Hoggberg (born February 5 1959) is Deputy Lieutenant Governor and Minister for Housing Communities of Germany.",
+      "output": ""
+    },
+    {
+      "input": "Title: USS Sullivan (A-101) Text: USSS Sargent (A-101) was a Union Tanker-class destroyer of the United States Navy during World War II. It was built at San Diego California and launched on July 17 1918 under license from the Bureau for Shipbuilding and Marine Safety. She served in the United Nations as NS-C-12 with the U.N Ampts program until her final call to serve came in November 1942.",
+      "output": ""
+    },
+    {
+      "input": "Title: USS Avalon (AN-323) Text: USSS Avalon the first U.S Navy ship ever built was a General Douglas C. Otis-class destroyer of the United States Navy named for Chief George Avnery who led the British fleet in the Second World War against Germany; however she served only as mate to the British army under President John F. Kennedy until 1953.Avalon originally debuted on 12 August 1944 Lieutenant James B. McVinnette and her crews were captured by the American Marine Corps during the Korean War.",
+      "output": ""
+    },
+    {
+      "input": "Title: John Loughman Text: John Leslie Logue MBE is the Chairman of the Board for the National Governor's Association (NRA). His portfolio comprises a range consisting of government minister committee and advisory council members as well as other key administrative posts such chief executive officer director and deputy secretary-general. He previously served as chairman of RANA which included oversight of the National Directorate General in the Department of Finance until 2000.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Message Text: The message is a short memoir written by Stephen Hill the author of several other books dealing with the subject of political and social issues facing the left in this country for over 35 years. It was originally published as Manifesto on March 8 1997.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Goods of the 'Second World War' Text: It wasn't until the Second World Wars that many American soldiers came to see their beloved Uncle Harry.",
+      "output": ""
+    },
+    {
+      "input": "Title: lády Zbra Text: The Îlády Zbra is an urban city of central Bulgaria on the border between Bulgaria and Croatia.",
+      "output": ""
+    },
+    {
+      "input": "Title: Lapislamys Text: The Lappilapirislamy is a species of moth in the Geometridae family. It was described by Henrique Alonso in 1995.It has been described previously as Luteum dorsalis",
+      "output": ""
+    },
+    {
+      "input": "Title: Afton Text: The aforesaid Afronus was formerly called Sulphutos (Salt Sea) as an island in the South Atlantic. An alpinis and a mountain peak it is one of the largest mountains in the region.I am very proud to have owned this property since 2005.",
+      "output": ""
+    },
+    {
+      "input": "Title: Jeremiah Ahern Text: Jonathan Edward Järémianer (born 19 March 1989) is Argentinian football player who plays for the FC Atochá City of Macedonsk in the Eskimos division.He was born in Zambezidório on 26 July 1984. He currently plays as defender for the Spanish Superliga La Liga which also features players such like Mario Vargas Antonio Pélin and Diego Perez.",
+      "output": ""
+    },
+    {
+      "input": "Title: Pseutophyllum hivei Text:Ppistalithium haiveis is endemic to the southern Philippines. It can be found in tropical rainforests including Amazonian Rain forests and tropical moister forests of the Central Pacific region.Irwin E. S. T. R. Hicks and J. L. Wendelman also reside on the island.",
+      "output": ""
+    },
+    {
+      "input": "Title: Rhetoric Text: The rhytrocleopods (Porphyrea) are a subfamily of the Pteroceridiidae family. They include four species and eight subspecies in the CeriaceaE order including all seven species.",
+      "output": ""
+    },
+    {
+      "input": "Title: ukuletsky Text: The name of the river is Swedish language in Latin and Greek on the island of Malta (Small Town). It has one main entrance and three other exits for passengers arriving through the town. In the centre lies an administrative complex with offices located at the foothills of the mountain Passumag.There are several towns in this area including Saludvik which was declared UNESCO World Heritage Site in 2002.",
+      "output": ""
+    },
+    {
+      "input": "Title: Lattice and Convertibles Text: The Lala T-100 is a single seat European-made midget motorcycle that was built in England for the Royal Swedish Motorcycle Club (RSM). It has an extended design and features four wheels with sidebars. As well as a front suspension it provides power to the engine's rear wheel hubs.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Way We Live Text: A Life ( Spanish for 'The Way that We Live) is a 2009 film by the Brazilian actor Carlos Almodovar and directed by Jose Villasuario. It was nominated for several Golden Globe Awards including Best Documentary Film in 2005.",
+      "output": ""
+    },
+    {
+      "input": "Title: Cenozoic acid Text: The CENZOIC acid is a hydrocarbon liquid in the Arctic Ocean that is found in Antarctican and northern Pacific seas as well offshore islands with large amounts of groundwater.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Cannibals (film) Text: The Cannibal Family is a 1975 American drama film directed by Richard S. Coburn and produced in London by David Hutton Production Ltd. Produced by Robert L. Cooper this was the first release of the film' debut album to be released on DVD.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ping-pong Text: Pung gong is a Japanese video game developer known for his action/drag games and the gaming industry. There are now more than 200 active games in the PlayStation Network such as Dragon Ball Z Rally Ultimate Battle Royale Monster Jam Mega Bowl Superbowl and even WWE All Stars League.",
+      "output": ""
+    },
+    {
+      "input": "Title: USS Erie (SS-123) Text: The US Southeastern Railroad served as an active U.S Navy station between September 23 1939 and October 6 1939.",
+      "output": ""
+    },
+    {
+      "input": "Title: Yves Gullin Text: The yvena Gulln is an endangered species of bat in the family Coilinidigidae (Euphyticoideales). It is found in South America Brazil and China.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Thrill of the Slayer Text: To find out more about this great American novel read our feature film review article at The New York Times (July 10 2002) or download an app that gives away these games and shows to your friends as Well as for their kids!",
+      "output": ""
+    },
+    {
+      "input": "Title: Argyle-class attack submarine Text: The Argryle-class attack submarines were a class of six British destroyers ordered for the Royal Navy in 1871. These were designed for service on the German West Indies but they never found use in the Pacific.",
+      "output": ""
+    },
+    {
+      "input": "Title: Elsevier (Pennsylvania) Text:Ellevier is an American company focusing on automotive and commercial vehicles design engineering construction technology manufacturing supply and installation and marketing services.",
+      "output": ""
+    },
+    {
+      "input": "Title: Poladytia senecitnis Text: Stella polidorata is frog species of the genus Stellatiina in the family Cyprinidaceaciformidia and associated with subspecies C. senestrelaris (C. senestrellaris).",
+      "output": ""
+    },
+    {
+      "input": "Title: The Lost World of Xyzal Text: The LostWorld Of Yildolf is the first full-length solo album composed by the English rock band Pheonix and co-written by Peter Lougheed. It was released on April 17 2001 through Epic Records with backing from Elton John Paul James David Jones and Billie Jean King.",
+      "output": ""
+    },
+    {
+      "input": "Title: HMS Blitz (1908) Text: HSSBlitz was a British merchant ship built for the Royal Navy during the 19th century. She was one of five ships named after the royal Swedish navy.",
+      "output": ""
+    },
+    {
+      "input": "Title: John M. O'Neill (footballer) Text: John Wmoyne Pryce is a professional English football player currently playing with Arsenal for Manchester United in the Football League.",
+      "output": ""
+    },
+    {
+      "input": "Title: Udaipur Text: University of Dakpuk is primarily an academic college situated in Dakpuk city Bengaluru India. In 2011 it was listed on the Indian Register of Economic and Social Sciences.",
+      "output": ""
+    },
+    {
+      "input": "Title: Dhammika Text: David Ddammikka is ites of the Czech republic.",
+      "output": ""
+    },
+    {
+      "input": "Title: St Catherines Church and Missionary Association Text: Saint Michael'S Cathedral is a Catholic parish church located in the southern portion of New York City on the south side of Manhattan. It was built about 1890 as an Anglican order chapel and it has been designated as UNESCO World Heritage because of its uniqueness and significance.",
+      "output": ""
+    },
+    {
+      "input": "Title: Xylos Text: The Xiloos is a family of the species in the genus Cynos which belongs exclusively to the Euphausidae tribes.",
+      "output": ""
+    },
+    {
+      "input": "Title: Msia Text: Móron Pál (born November 19 1982) is defender of the Polish national football team which plays within the Russian Federation for the Strefbijevce. A veteran player at the National Football League level in 2001 he also played for FC Zwierzkie and FK Dzerzów.",
+      "output": ""
+    },
+    {
+      "input": "Title: Jorg H. Leighton Text: Robert J. Lawrence E. L. Hewitt (April 26 1879 – April 25 1946) was a United States Senator from Louisiana Territory representing district 23 in the 11th congressional district of Louisiana.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Best of Richard Branson Text: This book is a compilation album recorded in the late 1970s by Richard Branson and featuring two original composition recordings to mark 20 years since their first release on Vinyl as well with new tracks added after.",
+      "output": ""
+    },
+    {
+      "input": "Title: Polstnia ruiniana Text: In the late 19th century Polsetnisianu was regarded as one of the great European authors and historian in the early 20th century. The title of its author came from his own name Prydor Wlk which means green apple. It is widely considered to be the oldest documented example of this species.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Way of the Horses (album) Text: There is a new album written and featuring Irish guitarist Nick Homozy released on April 14 2013 through the label'd band New Direction Recordings.",
+      "output": ""
+    },
+    {
+      "input": "Title: HMS Arcturus (R-2) Text: HMS ArcurUS was a Royal Navy R-class attack submarine of the Royal Navy. She served during World War II and did not reach its fate.",
+      "output": ""
+    },
+    {
+      "input": "Title: Jesse E. Coffin Text: John Joseph Coffin (January 26 1923 – November 23 2007) was a Canadian politician and Republican member of the Ontario Senate serving as Deputy Leader of the Alberta Liberal Party since 2007. He also served as President of the Ontario Liberal Party representing Victoria.",
+      "output": ""
+    },
+    {
+      "input": "Title: St. Joseph University of Toronto Text: Saint Mary's Hospital is a private non-profit university in Toronto Ontario Canada. It was established in 1899 and offers higher education programmes for adults aged between 25-50.",
+      "output": ""
+    },
+    {
+      "input": "Title: SS St John's College Text: The SS Saint George' school (St Mary'd’biole) is a public girls' secondary school located in Sonomó Porto Alegre on its former site for the School of Arts and Sciences with an enrollment of 260.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Last Man on Earth Text: The Last man on earth is a 1927 short horror film directed by Robert B. Anderson with lyrics by David LeVine and Tom Holland. It was nominated for an Academy Award in 1956; it won Best Horror Short Film at the 1976 Emmy Awards.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Last Call Text: The Last Call is a 2006 American comedy film directed and written for TV series Fox News.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Secret and the Cursed World (TV series) Text: The Secret and Drowning World is a TV series about an Irish spy known as The Secret. It was released in 1982 on CBS.",
+      "output": ""
+    },
+    {
+      "input": "Title: Elmer's Text: The original Elmer'a had a similar name in the 1880s and was known as Liger'el; but it was actually an earlier version of what has become known as Eddy’S to its fans. In 1922 his son George William Elmer moved there on re-location with other friends who left him before they did. He continued for seven years until being murdered by Otis Aher when he was struck down by a mob which would later murderer.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ariel (film) Text: lazar is the sixth film in the Fry-Castaway series of American short films directed by Kenny Rogerson.",
+      "output": ""
+    },
+    {
+      "input": "Title: Rhamasan Text: The Rhamusan or Rachael Smuiliorrha is takshino dew flowering plant in the family Araxidaceácea known as the arcadiacea tree.",
+      "output": ""
+    },
+    {
+      "input": "Title: Pseudocotea Text: The species Psiecudeidonea is endemic to Ecuador; its scientific name is Parana (Santin). It is endemic in Ecuador.",
+      "output": ""
+    },
+    {
+      "input": "Title: A Sense of Justice Text: The Academy is the world authority on international law and justice for individuals involved in child welfare legislation. For its role to date there has been an emphasis on the human rights aspects of the law related solely to the laws that govern women's issues but it also covers many other areas including education ethics criminal justice immigration civil liberties and gender studies.A Sense Of Law was established in 1991 as the Civil Rights Division of British Bar Association (Clandaveil) and represents people across all segments of the United States with high standards.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Other Side of the Mirror Text: There are two books in the book titled Terror and Love (a pseudonym for The Other Side) written by John McClain Smith published when he moved to San Francisco. He was also the co-author of the novel Shaft.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Greatest Story of All Time Text: For the story see The Greatest Picture Show on YouTube.",
+      "output": ""
+    },
+    {
+      "input": "Title: USS Cayuga (SS-361) Text: USNS Cudahys River is obliquely shaped on the lower part of its stem to prevent it being swept away by the wind during windsurfing or other weather conditions.",
+      "output": ""
+    },
+    {
+      "input": "Title: Güzel-Hülz Text: The Güzel Hafzel a German biplane was flown to Germany in 1913 and served as aviator of the North Atlantic during World War II. He was captured by the Germans in August 1914 which then sold him under the name Golem Srdo.",
+      "output": ""
+    },
+    {
+      "input": "Title: St. James Catholic High School (Georgia) Text: Saint Mary Episcopal Church of the Holy Cross in Gwinnett GA is an independent day/school school located in South Georgia. The school was founded on 26 August 1885 and its current headmaster is Dr. William F. Hemphill.",
+      "output": ""
+    },
+    {
+      "input": "Title: St Mary's College London Text: Saint Mary'S College is a college which offers undergraduate and postgraduate studies in the subjects of English History Literature Music and Physical Education. The university is based at City University London. It began in 1624 with its own name as St John' Church London.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Good Life is a book by Richard Levine that describes the life of smuggler Charles Dickenson and his contemporaries.",
+      "output": ""
+    },
+    {
+      "input": "Title: Paprikahuo Text: The paprikashchii is endemic to Madagascar. It grows in wet and dry climates including subtropical moister forests and marsheland.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Man Who Killed the Man in the Road (Tony Hawkes album) Text: The Man Who Killed the Man in Carver is a 2010 compilation album that features songs by both Tina Turner and Tavi Grant. It was released on July 26 2008.",
+      "output": ""
+    },
+    {
+      "input": "Title: Aigusabad University Text: The school is part of the National College for Students in the Faculty Teaching and Research (NCSTR) which offers degrees in Computer Science and Business Administration.",
+      "output": ""
+    },
+    {
+      "input": "Title: St John's United Methodist Church Text: St Mary' church is a Catholic parish church in the South Orange Parish of New Jersey USA. It is one third African-American and minority worshiping congregation within the Episcopal Diocese of Newark.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Greatest Show on Earth Text: The Greatest Show On Earth is a film that was released early in 1982 with the United States premiere of its version of the same name and an English subtitle. It tells stories of people' dreams about themselves as they prepare to return home for good!The series features five major musical groups including Bob Marley Tom Jones George Lopez Jimi Hendrix and Frank Sinatra (both also stars Richard Adams).",
+      "output": ""
+    },
+    {
+      "input": "Title: The Ways of the World Text:The way is a book written by British author Robert Fletcher and first published in 1932. It was followed up by an edition of it in 1934 under the name The Way of the World.",
+      "output": ""
+    },
+    {
+      "input": "Title: асноо ина Text: The Xudonggu (Simplified Korean: [vyku]) is the fourth album released by Japanese musician Akane Yamaba. It was released on June 21 2009 in Japan through Nippon Records who were under contract with UEM.The record was nominated for both the J-Pop award and National Music Award.",
+      "output": ""
+    },
+    {
+      "input": "Title: uzor Text: The oysous is a fish of the Poseidon family that was classified as a marine gastropod mollusk in the United States and Canada. It has a body weight up to 10 kilograms (26 kg).",
+      "output": ""
+    },
+    {
+      "input": "Title: The Great Divide (1980 film) Text: We are the Great Divide is an eight-week documentary film produced and directed in Los Angeles California by director Jose Ricciotto starring Michael Clements and David Foster. The film was adapted into a feature length television series after its successful first episode (Sweet Home Alabama) when it premiered on MTV' \"The Big Show\" on Sunday October 21 1980.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Last Word (TV Series) Text: The Last Word is a TV series for kids in the family released on September 24 2008.",
+      "output": ""
+    },
+    {
+      "input": "Title: Axasna oequilon Text: Axamnosua or Oyasbaria is endemic to Colombia. The habitat for this species is subtropical or tropical dry forests of mountainous terrain. It is threatened by habitat loss and degradation due changing temperatures (the elevation changes are not as bad as the soil condition).",
+      "output": ""
+    },
+    {
+      "input": "Title: Aeternal (album) Text: Altered is the first studio album by trance and jazz singer-songwriter John Mayer. It was released in 2003 on The Mojo Records.",
+      "output": ""
+    },
+    {
+      "input": "Title: Uzbek (film) Text: The Urukodah (Uzbek: аркс-елов; Kureishi: орона).",
+      "output": ""
+    },
+    {
+      "input": "Title: Crabbe (film) Text: The novel contains the sequel and a short story to the classic film Grindhouse. It was first released in 1979 via Sony Pictures Home Entertainment which also produced three films of the same name.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ralph River Text: The Ralsha River is a river of northwestern New Brunswick in Canada that empties east to the Atlantic Ocean. Its name refered to one of the four islands off the northeast shore of the Columbia River and is named after Robert Ralphin (Ralphi).",
+      "output": ""
+    },
+    {
+      "input": "Title: The Great Counties in America Text: The Great Colonies of America is a 1952 novel written by John Hutchinson and illustrated mostly by Henry Cowell. It tells the story about a group that were recruited to settle in California with money donated by friends their families and friends.",
+      "output": ""
+    },
+    {
+      "input": "Title: Stratasyllium text: The term Stratanskyllium or simply the Stratus Syllans is an old scientific name meaning tree and shrub of the family Spiliaceae in the Anglo-Saxon tradition. It was originally used to refer also \"Strawberries.\"",
+      "output": ""
+    },
+    {
+      "input": "Title: John B. Taylor Text: John B Thomas Taylor (born August 22 1951) is a retired United States attorney and the former Chairman of the House Appropriations Committee responsible for overseeing the administration of the National Association of State Courts. He served as UCP Chief in the 1990s and was appointed to the position in 2000.",
+      "output": ""
+    },
+    {
+      "input": "Title: Utnay (film) Text: The Uwai movie is based on the novel A Thousand Years Later that was first published under the title My Life in Two Parts released in 1992. It features John Leguizamo as one of the lead characters and stars Michael Sheen and Pauline Johnson as an uncredited producer.",
+      "output": ""
+    },
+    {
+      "input": "Title: John Cooney Text: John Charles Kennedy (July 28 1934 – February 30 1990) is an English singer-songwriter and guitarist best known for his work in the band Punk.",
+      "output": ""
+    },
+    {
+      "input": "Title: USS Stony Creek (AP-907) Text: The United States Navy had a third line that served with the U.S Marines during World War II but not in World Wars I or II. Her name was changed to Stontson Creek on 17 September 1937. She is considered one of the most distinguished ships as an early carrier of warships and her design used this designation for its unusual ability to sink battleship shipwreck’s rearing vessel. As such she is so unique it belongs to America.",
+      "output": ""
+    },
+    {
+      "input": "Title: SS Glissau Text: The SS Glitzau was the second of three German submarines built to serve in the First World War. In June 1915 she had completed six operations for the Royal Navy before being re-engined and transferred to Germany'Sterndienst (Sea Scout Corps) in 1940. She has been laid down as NS Sgt Paul E. Lutz on 11 May 1941 under the command of Captain Henry Dwo R. Clemberg at HMS Klingsburg when she was commissioned into the Royal Norwegian Navy.",
+      "output": ""
+    },
+    {
+      "input": "Title: Aiken High School Text: The Australian Institute of Technology a College located in Aisden is an independent secondary and post-secondary institution which specialises within the arts and sciences. It also has its own private art gallery.",
+      "output": ""
+    },
+    {
+      "input": "Title: St. John’s Church (Hamilton North Yorkshire) Text: The First and second churches of St James in the church are located on the hill beside the village of Hedley Greenham.The church was originally built at 820 feet (1440 m2) but is now run as a Catholic church with a parish council. The first church to be built was probably one of several that were built for Sir Frederick A. Williamson before being relocateeable after he had been bought by the Methodist Church in 1850.",
+      "output": ""
+    },
+    {
+      "input": "Title: udovohor River Text: The Avnyk (Norwegian: Uvdai) is the river of the Slovak Republic Bulgaria. Its source lies in the south-east of the village of Národova.",
+      "output": ""
+    },
+    {
+      "input": "Title: iajsko Text: The town of Aktyn is Located in the city centre of Novo Rovinj Croatia.",
+      "output": ""
+    },
+    {
+      "input": "Title: Gleaners (film) Text: It tells the story of a German footballer George Glynde who is sent to Germany on holiday for a short assignment in September 2008. His mother-in law Georgieg Möller had an affair with Hitler after their son was killed as he was serving in prison during that period! He was caught off guard and imprisoning his father over threats of violence against him while trying soberm.",
+      "output": ""
+    },
+    {
+      "input": "Title: Evgeny (sergeant) Text: Evgenia is helennangian snail-like gastropod mollusk in the family Mytillidariidae found only in Brazil Colombia and Peru. It is found along river bottoms of Amazonians or other regions of subtropical or tropical rainforests. The wingspan is 5–9mm at 2–3 cm (4–1). At 4°E Vanni has a length of 14 to 18 centimetre for each leaflet.The larvae feed on Alopes with Athericella calippararophytes (Landa) Angustaria pachyphacia elegandraca cladellary species.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ms. Alysoni Text: The Matriarcha L. Alyson (Greek:  ; born August 29 1961 in Njemet) is formerly the Chief Secretary of the Ministry of Defence with responsibility for public relations and human resources within government departments throughout Europe and North America. She also served as the Minister of Defence'Secretary-General until December 2010 when she was appointed Permanent Secretary responsible for Public Safety.",
+      "output": ""
+    },
+    {
+      "input": "Title: Virbuksyad Text: The novel Bye Byodhi is based on the real-life tragedy of a man named Virbot in South Asia. It stars Umar Farouk and Sashika Kume who play the roles of Nanna (the dog).",
+      "output": ""
+    },
+    {
+      "input": "Title: John B. McCalla Text: John Wallace McCallan (b. November 17 1940) is Deputy Mayor of the City Of Toronto since January 2010 and is currently the Mayor of Toronto. He was born in Toronto Canada but moved to Toronto after living in Ontario for five years before moving back home to North York with four younger siblings.",
+      "output": ""
+    },
+    {
+      "input": "Title: Stratton College Text: Stanford College is a private college in Devonshire England. Its main campus is situated at West Street and the surrounding area is a suburb of Bath.",
+      "output": ""
+    },
+    {
+      "input": "Title: Leopolda Text: This album was the debut release of Italian rock band The Clef in 2002 and first released on March 25 2003 through their independent label La Ciutatella. It is a tribute to the hard hitting music albums of the early 2000s which were all recorded live (the majority being vocalists) with bassist John Rutter adding his own jazzy sound mixing.",
+      "output": ""
+    },
+    {
+      "input": "Title: St Louis University College School Text: The SUCSB is a small public secondary school in St Charles Missouri United States and is operated as SMHS.St. Louis University has an average annual attendance of about 2000 students.",
+      "output": ""
+    },
+    {
+      "input": "Title: John W. Brown Text: John WB Brown (born April 19 1933) is a former American football running back currently playing for the Kansas City Chiefs in the National Football League. He made his major league debut at age 14.",
+      "output": ""
+    },
+    {
+      "input": "Title: Rdlu Text: Rédlur [rvla] is a village in the administrative district of Gminski within Otny County Subcarpathian Voivodeship on 18 May 2005 before being transferred to the National Park Service.",
+      "output": ""
+    },
+    {
+      "input": "Title: Asterophila monophyllatum Text: Asterophil polyphyllate is endemic to the United States where it grows in mountainous regions of western North America and Europe. Its ecological status has been obscured during the last 50 years.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ethyl-Haets Text: ETHYL-HAETH and its sister company Ethical Habitat are a group of independent clothing stores in the United States.",
+      "output": ""
+    },
+    {
+      "input": "Title: ód (snow) Text: The Aóte river is a small drainage ditch in southern Norway'Sudkirkfjorden the northernmost mouth of the Sjöstromalge rivers. It flows westwards and then into Lake Superior between the lakes of Skoganden and Troms near the city centre.",
+      "output": ""
+    },
+    {
+      "input": "Title: Pelektas 'Royal' Text: The Royal Proportion (also known as the Queen Mother) was renamed on September 4 2007 for her former sister Lettie Marie Patricio but its name has since been changed to Pius 'Milroy' and she is now Princess of Wales. She died in 2002 following harrowing injuries during ill health.",
+      "output": ""
+    },
+    {
+      "input": "Title: Cleopatra iris Text: The Echinopsis iridium is endemic to Ecuador and Peru where it is found in Brazil. Its natural habitats are subtropical or tropical moist montane forests and marsheland.",
+      "output": ""
+    },
+    {
+      "input": "Title: The End of Time Text: The End Of Times is a 2009 book on the British series Breaking Bad in which Peter O'Connor writes about how people lose everything at one point or another over their lifetimes.",
+      "output": ""
+    },
+    {
+      "input": "Title: Dixie High School Text: The Dixie Hill High School is located in Deerfield Virginia USA and is one of 17 schools within the Dixie area. Its motto for 2014-2015 is 'Familiarity with your teachers'.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Great Recession Text:The GreatRevolution is an American comic manga writer and photographer who was born on October 17 1969 in the Twin Cities of New York City for Warner Brothers Comics.",
+      "output": ""
+    },
+    {
+      "input": "Title: Aquilina afibrata Text: The Anguila dactylus is endemic to the southern part of Africa. It was identified in 1981 by the British Geological Survey but it is now included in the List II Extent of the Southern African Tribes (Balkan).The tree has a diameter of 30.5-15.9 cm (32.5-37 inch) and weigh 60 kg (13 pounds).",
+      "output": ""
+    },
+    {
+      "input": "Title: Mödchen (Staszowice) Text: Möelken is the biggest port in Smetana Slovenia and a major port of the Czech Republic. It is situated between Zyugalno Brnica Municipality and Staskapolnic municipality. The main harbor was opened on 23 April 1908.Möélem has a modern harbour with a central canal.The river is about 8 km (6 mi) long.",
+      "output": ""
+    },
+    {
+      "input": "Title: Dulce di Fiori Text: The Dale di fiori was a type of mountain in the Dolomites which is situated in the Vals del Fuego Region in the department south-west of Rio Grande do Serra.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ariel Bardolin Text: Ariel Bardin-Bardes was a British painter active between 1896 and 1916.",
+      "output": ""
+    },
+    {
+      "input": "Title: Aphrodite & Seymour Text: Aldous O'Leary is a French novelist and editor best known for his work on the literary classics of the nineteenth century.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Great Depression (album) Text: This collection of recordings was produced especially for the band’s new album The Great Depression published in 1992 by Time Recorded Music Records.",
+      "output": ""
+    },
+    {
+      "input": "Title: Aristocrates Xanthia Text: Aristocrates (Chellicus xanthio) is an extinct genus of tree in the family Coccoliformes which include all species of shrubs and trees.",
+      "output": ""
+    },
+    {
+      "input": "Title: Sven Ehlers Text: dag Oelmers is Count of Liechtenstein state deputy minister of Education and Culture under the Ministry for Science and Technology.",
+      "output": ""
+    },
+    {
+      "input": "Title: HMS Coronet (1894) Text: HMP Coronerton was the last steam-powered British destroyer to be commissioned at the Battle of Britain where she competed against Royal Navy ships in the Second World War.",
+      "output": ""
+    },
+    {
+      "input": "Title: Xanatia Text: This species is native to South Sudan.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Greatest Show in the World (film) Text: This is an American film directed starring Robert Altman and starring David Foster Wallace as Dr. George O'Connell who have written three books for his company. It was nominated for an Academy Award that year winning the Best Director award twice.",
+      "output": ""
+    },
+    {
+      "input": "Title: The New York Times (2009 film) Text:The New JerseyTimes.com is a 2010 documentary about the life of journalist and author Robert L. Welch. It covers his time at Princeton University with colleagues in Boston Massachusetts Chicago Illinois Philadelphia San Diego CA and Oakland California.",
+      "output": ""
+    },
+    {
+      "input": "Title: Xerionium infrangiense Text: The Xexitium is an extant species of the genus Zerbesiacea which was discovered in 1910 at the sites of the old millennium excavations and excavated minerals that were found on the island (Symbiont). It is native to Brazil.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Old House (Los Angeles California) Text: The Old Home or the Old School is a historic building on Elm Street in Los Angeles California United States. It has been listed on the National Register of Historic PlaceStories since 1975.It was added to the National Register of Historic Placemark places in 1996.",
+      "output": ""
+    },
+    {
+      "input": "Title: The New York Times (2001) Text: The New Jersey Time is a magazine covering the news and features of Chicago sports teams including Fox News Chicago Suns Los Angeles Giants New York Giants Atlanta Brave Herons and the New York Giants.",
+      "output": ""
+    },
+    {
+      "input": "Title: Elms College Text: The Elme School of English Language is a grammar school situated in the town centre of London.Founded in 1889 it is known for producing high-quality language courses in English and French.The college is one within the University College London branch of the University College London Foundation Ltd.",
+      "output": ""
+    },
+    {
+      "input": "Title: Amos (Michigan) Text: Amos is a lake located in the City of Macomb Michigan United States.",
+      "output": ""
+    },
+    {
+      "input": "Title: USS Cayman (D-171) Text: The USS Calymen (D-171) was an Ospreachy-class destroyer escort for the United States Navy during World War II.",
+      "output": ""
+    },
+    {
+      "input": "Title: Leucocarpus riodontes Text: The leagocorpus Rodontes is endemic to Peru. Its natural habitat is subtropical or tropical moist montane forests and subtropic basin regions including the highlands of the Bahia del Pachuca River.",
+      "output": ""
+    },
+    {
+      "input": "Title: Virgo (album) Text: It was released in 2003 on Sony Music Europe as the first release of the second EP version of the new album Velociraps. A single called \"Evergreen\" was released with it and also became an official number one hit at the British Independent Music Awards for best instrumental songwriting. The album was nominated for the 2008 Grammy Award for Best Contemporary Latin Album.",
+      "output": ""
+    },
+    {
+      "input": "Title: Rda (film) Text: Hrálián Rózner Ribeiros gor Pietro Pinto was compiled during the early 1990'S-thirties. It was originally made as one of his short films or part two and it had been published through VHS in 1986.Rozeiros became more popular for producing other short films than The Twilight Singers.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ayristos górnie Text: AумASTOS is a village in Górnów County Ostravace Lithuania. It was named after August Emanuele Förrestreiter and Georgi Sokolowski.",
+      "output": ""
+    },
+    {
+      "input": "Title: Lahti University Text: The Lajong University of the Philippines is a public university located in Lal Jordaloyen Philippines established in 1983.",
+      "output": ""
+    },
+    {
+      "input": "Title: Laithyre (film) Text: The story of Lallithe is a fictional novel by J.Cleve Jones that first appeared in the 1960s for the magazine Orion and was later reprinted as A Line In This Forest. It is about two young lovers who decide to go on their own journey through the United States with three children.The film' production team also includes Richard Hines George W. Smith Eric Clapton and David S. Martin.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ariel (film) Text: Alexandre de la Vallée was a 1930s British silent drama film directed by Richard H. Lee and starring William Gibson Robert Ebert and Henry Ford.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Good Life (film) Text: The Great Lives is a 1995 feature film about Jeremy Scott who becomes a former American baseball player in the NFL.It was awarded Best Foreign Language Film at the 1999 Afcon Film Festival.Son of Ray Rice his father Raymond served as General Manager of the Chicago Cub Scout team and later became Executive Director of Cannon Ball Productions.",
+      "output": ""
+    },
+    {
+      "input": "Title: adnei Afzal Text: ‘Aczelis’ is ogre species of flowering plant in the Anglo-Saxon family that includes many genera including Afro-Iberian Manukauan and Afro-Iberian Plant families (Afro-Iberian). The common name for Aczelis is Hettos.",
+      "output": ""
+    },
+    {
+      "input": "Title: Lenin's horn Text: The Leni (Helamona) is an extinct species of genus in the family Eichmannieidariida or Eichmanniaceales. It was discovered during 1915 under the name Lothium.",
+      "output": ""
+    },
+    {
+      "input": "Title: MV Tuffa (A-8) Text: MV Taft is based in the town of Maternini in the Italian provinces of Milan and Bologna. It was launched in 1989 with three crew on stage; one for the local opera company Axis dellOrchidto before becoming part owner of the company.",
+      "output": ""
+    },
+    {
+      "input": "Title: Yokohama (Finland) Text: The yokohame is  in Japan and the name of its author is Japanese writer Takumi Yukiokawa. It was made known to the Japanese by his book Awakening which was published in 1909.The title refers exclusively on the first two pages of the booklet. These letters are signed but do sign it with the initial capital K.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ugawai University Text: The Universities of Ugrahiu (Ugawai) is an autonomous administrative university in Osaka Japan located in the Kumamoto Prefecture. It is situated in the Central Region of Yamaguchi Prefecture.",
+      "output": ""
+    },
+    {
+      "input": "Title: Sgt. George (politician) Text: Srpa Glebojska is prosecutors and lawyer in the Serbian Federal Territory of Serbieh.",
+      "output": ""
+    },
+    {
+      "input": "Title: SS B-34 Text: A first sister ship was purchased at the same time that one of its brothers was sold under the name Tsunami; she was also named Zorra. The latter had been in service for several years but only served once when the original owner died while still employed as he retired and did not return to active duty.",
+      "output": ""
+    },
+    {
+      "input": "Title: uküle Text: The ukulo is an independent Slovenian film studio and theatre company founded in 1995 at the invitation of Slovak-born director Heiko Kutyanowski for the Czech Republic Film Institute. It was known for its experimental films which have been produced as well as animated short films.",
+      "output": ""
+    },
+    {
+      "input": "Title: Tilson High School (Billand) Text: The Tulson High School is located in the town of Boltsville Alabama. There are approximately 320 students and four instructors. In 2004 the college's enrollment was 135 students with 285 full-time associate teachers and one student teaching assistant.",
+      "output": ""
+    },
+    {
+      "input": "Title: Leland College Text: The Loyal Larkin College is a private liberal arts college in the city of Los Angeles California United States that was officially known as University Of Southern California-Latex since 2007. It is an independent public institution which serves Latin America students internationally and has its own student body.The college began operation in 1999 but closed in 2006.",
+      "output": ""
+    },
+    {
+      "input": "Title: St. Joseph's Church (Sweetsville New York) Text: Saint James is a Roman Catholic church on the south side of Pittsburgh Michigan in West Side Farms County. It was listed on the National Register of Historic Placed May 8 1987.",
+      "output": ""
+    },
+    {
+      "input": "Title: HMS Consolley (1855) Text: HMV Consilly was a C-class cruiser of the Royal Navy and launched in 1855 before being abandoned at the end when she was sold to Australia.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Great War Text: At the same time as World War II (1946) the Great War was an intercontinental conflict between Germany and Russia. In 1948 it was declared a national holiday.",
+      "output": ""
+    },
+    {
+      "input": "Title: Sgt. Michael Fisk Text: The name Stephen D. Smith is the 77th President of the United States Congress representing District 33 in the United Kingdom. He was elected in 2004 and served as Mayor of Philadelphia for 13 consecutive years. In 2006Fisk retired after one term to serve as Chairman of the Federal Select Committee on Appropriations.",
+      "output": ""
+    },
+    {
+      "input": "Title: Aimé-e Le Text: Aime é Loulou (born 25 June 1986) is a Brazilian footballer currently playing for Real Madrid in La Liga.",
+      "output": ""
+    },
+    {
+      "input": "Title: HMS Conquest (1902) Text: HMAS Conquest was a B-class steam engine ship built for the Navy to carry out patrol and reconnaissance operations in WW2.",
+      "output": ""
+    },
+    {
+      "input": "Title: St. Stephen’s Church (Frisco Texas) Text: Saint George' – The Convent is an active catholic church in Frisco Texas located in the downtown area within the Catholic Diocese of El Paso.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Long Goodbye Text: This short film explains the history of the long-dead Red Baron and his journey through the British Isles to England.",
+      "output": ""
+    },
+    {
+      "input": "Title: USS Westmoreland (YL-6) Text: USS Westmorelands was a Southeastern United States Naval Ship designated for service in World War II.",
+      "output": ""
+    },
+    {
+      "input": "Title: Alysson Text: Alysesson aluminoides is frog larvae of the genus Alylostion in the family Alcidea derivatida but sometimes called Amphigoideum or Abiesonia.This species was first described by Dr. F. Ebeling and then by Hélène Ovalle who also mentioned it.",
+      "output": ""
+    },
+    {
+      "input": "Title: SS Saga Text: This ship is the second in the series of ships built for Imperial British Navy (IBN).Sag-Light Line was used between 1894 and 1903. The last two ships were named after the Royal Fleet at their home port of Southampton.",
+      "output": ""
+    },
+    {
+      "input": "Title: Spirol Text: Spyroli is a river of Romania.",
+      "output": ""
+    },
+    {
+      "input": "Title: John Bruton Text: John Brutes (August 17 1884-November 9 1889) was an American lawyer of prominent attorneys who served as the president and governor for Ohio in 1895 and 1899.Brette was born in Cincinnati Kentucky United States into two parents with young daughters; they have raised six children over the course time. In 1896 his father died aged 33 and began practicing law before retiring to pursue a career in medicine.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Good Wives of the Great Gatsby Text: At the onset this book began with a description of the lives of three young ladies who are struggling to find themselves in society. They were both girls at the time but not all their mothers.",
+      "output": ""
+    },
+    {
+      "input": "Title: Rhonda Alden Text: Rian Alden - American singer is known to be one of the most prolific female vocalists in country music (as well as rap and gospel artists). He has been featured on the radio at The Village Voice since 2005 when she became best known for her song My Life With You.Alden first appeared on his solo albums Sing Out Your Feeling with Lady Gaga and Little Star then returned to the group'niolax album It was recorded backstage at home!",
+      "output": ""
+    },
+    {
+      "input": "Title: John & Anne's Book Club Text: John et al. founded in 1789 and continues to publish works on the subject of books about the life of Jean-Louis Bourgeoisie as both writer and artist.",
+      "output": ""
+    },
+    {
+      "input": "Title: Lago de San Pablo Text: The Lago (Spanish: Lago) is an artificial lake located in Laguna California on the eastern coast of Los Angeles County where it lies near the town of Lago Verde and within the city's surrounding neighborhoods. At present its height varies between 614 to 1025 feet (309–405 metres) depending on the location of the place as well as temperatures. It is particulate because of its low elevation.",
+      "output": ""
+    },
+    {
+      "input": "Title: Spiral (film) Text: S Pirullu (Telugu: икикантре седеник) is a 1999 movie directed by Gus Van Der Zand and released in Italy on April 24 2005 under the title of Spirular. It has been nominated for Academy Awards at the 2002 Venice Film Festival.",
+      "output": ""
+    },
+    {
+      "input": "Title: Uur Szczytów County Text: The village of Aur is a municipality in the district Buzec-Bolaszowice within Ostraviski County West Pomerania Voivodeship inside Sidney [uva] Germany near the border with Czech Oblast Prussia. It lies approximately 5 kilometre (0 mi) north west of Ostravic and 22 km (23 mi).",
+      "output": ""
+    },
+    {
+      "input": "Title: sofa River Text: This estuary is mainly found in the city of Cracow Poland where it intersected with Smoczorniak on the north side.",
+      "output": ""
+    },
+    {
+      "input": "Title: John Eben Text: John Edward Osborne is the 63rd Governor General of Nova Scotia.",
+      "output": ""
+    },
+    {
+      "input": "Title: HS Bristol Text: The Stork & Weston is a historic house at 302 East Broad Street in Bristol England which dates back to 1870.It was added on October 2 1902 for the Worcestershire Parish Council.The house has two stories and three bays each with a central porch or portico.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Secret History Text: The Secret Story is a novel by John Steinbeck and published in 1909. It was first published as the third book in his trilogy on the subject of religion.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Big Sleep Text: The Big Sleep is a 2008 American comedy film directed and produced during the first phase of its release at the Toronto International Film Festival (TIF). It was written by Michael B. Johnson featuring John Lee Roth Adam Aiken Paul McLean and Andrew R. Martin.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ms. Maynard Text: The Margaret Maynell is a New Zealand representative on the New Zealand Parliament for South West Island representing Sligo North Western Cape Northern Territory and the South West Territories. She has represented the territory since 2009.",
+      "output": ""
+    },
+    {
+      "input": "Title: Jorja Zylkiewicz Text: Jozef Zabójczyk [jsjo zabojika] is the village in northern Poland located in the administrative district of Gmina Bdne within Dbrowo County Lower Silesian Voivodeship near Krzyszowice and Wroclawowiec-Pomeranian Voivodeship on 13 March 1993.",
+      "output": ""
+    },
+    {
+      "input": "Title: John Polley Text: John Henry polley is a Scottish professional and county councillor representing South Devon in the District of Durham. He represents North Yorkshire in Scotland's Welsh National Assembly.",
+      "output": ""
+    },
+    {
+      "input": "Title: Aetys xenophosa Text: Aegilops andis is endemic to the South Africa district of Elgin. It is part in Ebb-Sierra National Park.",
+      "output": ""
+    },
+    {
+      "input": "Title: Gigüd River Text: The Géigieu River is a river of Guangzhou China. It flows southeast into the Fujian Province in the Chubei Province province of Fujian and south to the Shanxi Province of Jiangshâzu Province (Sushigeu).",
+      "output": ""
+    },
+    {
+      "input": "Title: Lazaretto rosco Text: The lazarette or Larus rerostra is a moth of the Paranopterida family found in Colombia and Peru. It was described by Hulbert on 29 July 2007 under the name Alvarena-Morelloszowicz within the Ciminocchia Group. According to the 1983–1982 List Plot No. 1162 Ról1PV3 (L) A.R.",
+      "output": ""
+    },
+    {
+      "input": "Title: Papua New Guinea Text: PPCC is the first private school to become established in the province of Guyana with branches throughout rural and inner-city areas. The school was founded in 1924 providing basic education including English language learning (ESL) and mathematics which it continues to deliver at international level across countries such as China Mongolia Morocco India Pakistan Iran Sudan Afghanistan Bangladesh Somalila Uganda Malawi and Nigeria. It has an enrollment of more than 1500 students.",
+      "output": ""
+    },
+    {
+      "input": "Title: St Nicholas Church (Pasquale) Text: The Saint Nicolas Church is primarily an historic church located at the site of Pasqualo’ Catholic Church in Paquanunque Parish Arizona.The church was founded about 150 years ago and underwent substantial reconstruction since it closed for renovation on July 29 2002.",
+      "output": ""
+    },
+    {
+      "input": "Title: Leydemannia stolichus Text: Leyesmanniana Sistorloi (born May 12 1957 in Krakow) is russian footballer who currently plays for Borussia Dortmund as defender and midfield player.",
+      "output": ""
+    },
+    {
+      "input": "Title: John H. Eddy Text: John F. Eddy (born September 14 1939) is a retired California public school teacher and former member of the California School Board who served as the first principal of Mission College in Los Angeles after leaving University of California at Berkeley. He also served as president of Junior Achievement International.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Big Picture (1965 film) Text: The Big Picture is a 1965 American fantasy film directed and written with George R. R. Martin and released in the United States on May 23 1966.",
+      "output": ""
+    },
+    {
+      "input": "Title: HS-M6 Text: The HS-6 was built in the United States and became a passenger ferry during World War II. She served as schooner for USCB under orders of the U.S Army (United States Coast Guard). Her designator was Henry B. Sargent Jr.",
+      "output": ""
+    },
+    {
+      "input": "Title: ukaszów Text: The ukamów [dkubwámjt] is an urban village in the administrative district of Gmino Golci within Szczecin County Lower Silesian Voivodeship in south-central Poland close to the border with Serbia. It lies approximately 7 kilometre (2 mi) north-west and 9 km (11 mi).The population was 534 at last year 1871.",
+      "output": ""
+    },
+    {
+      "input": "Title: orasneh Text: The borough of Orosza is the seat and administrative centre for Poland'Slodowice. It is part in the municipal district of Orosza.",
+      "output": ""
+    },
+    {
+      "input": "Title: Yves DeVries Text: Yuven de Vries is a former American wrestler who played for the Baltimore Raven'd Blue-Rays and New York Jetpack in the 1988 NFL Draft. He was born in Milwaukee Wisconsin (now known as Odesk) but moved to Nashville Texas where joined the Chicago Cub team shortly after entering high school.Devry first started at age 12 and continued up through grade 12. In his sophomore year she became the youngest of her ever since joining the club.",
+      "output": ""
+    },
+    {
+      "input": "Title: Jyotham Wood Text: Ronny Wood (born November 12 1970 in London England) is an English footballer who plays for St Mary's Hospital and the Manchester City Football Club.",
+      "output": ""
+    },
+    {
+      "input": "Title: Ayasthenia neophylli Text: The Asian species of plantation shrub (Kayakushku) is endemic to Japan. Its habitat is subtropical or tropical moist montan terrain. It is threatened by habitat loss.Important Note(en]:Major Lake Nikamura National Park and nearby areas.",
+      "output": ""
+    },
+    {
+      "input": "Title: Eloquent (Albany newspaper) Text: The Elouent or Eloquent is an Australian weekly newspaper founded in 1978 and printed every Thursday in Australia. It covers all of the major cities of Auckland South East Queensland Perth and New Zealand.Ellequent was launched as an English-speaking national paper on 5 September 1998 but had just started publication on 26 February 2003. Since then it has gone to number one with nearly 15,000 copies distributed each month.Locks has been referred throughout his career.",
+      "output": ""
+    },
+    {
+      "input": "Title: objrnala Text: The spelled Objér (Tamil: lu) is the title of one of Tamil’-e Doty'an novels translated by Turkish writer Amir Tashkovsky in his third volume. It was published first on January 26 2003 at the University of Amsterdam but later became available as downloadable content.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Other Side (film) Text: The other side is a 2007 Italian horror film directed by Luigi Ciampi and written by Franco Piacentini.",
+      "output": ""
+    },
+    {
+      "input": "Title: Pseudola Text: Pahrnella pyraifolium is endemic to Brazil. Its natural habitats are subtropical or tropical moist lowland forests and marsheries.",
+      "output": ""
+    },
+    {
+      "input": "Title: Elahsambad River Text: The Egyptian Sea was a river of the Egypt Indian subcontinent south-east and southeast of the Gulf of Aden in the Gulf of Aden at the level above the Black Sea. It was named after the city of Ghadrachal Abbas (formerly Gujjar) which is situated approximately 20 kilometre(14 mi) southwest of the town of Erqektliyah.",
+      "output": ""
+    },
+    {
+      "input": "Title: MV Leopold (1915) Text: The Leapfrog Line was an early passenger vessel of the German Imperial Navy launched in 1625 and completed in June 1815 as part on the British liner Lunge (Lgw). In 1916 it was sold to the Russian Navy but not used again for service or transport until 1927.",
+      "output": ""
+    },
+    {
+      "input": "Title: Phytoleon Text: The PhyToLeón is a family of marine predators that inhabit South Africa. It was formed in the late nineteenth century when British researchers identified the two species as phyllosota (or Phyclypsithrydium and Phyllosothius).Phodiaethrales with long-horneted spine could not be observed at all but were seen on this island.",
+      "output": ""
+    },
+    {
+      "input": "Title: Cullinan Text: The Cullinaner is a genus of small tree plants in the family Asteraceidamiformes (Spitzer-Poetitiida).",
+      "output": ""
+    },
+    {
+      "input": "Title: USS San Jose (AX-27) Text: USSS San Jose (AX-71) was an Ax-27 in commission of the United States Navy during World War II. She served with two destroyers and a destroyer tug named Smoot (1894–1894) which was laid down at Fort Monroe Maine on August 22 1918 sponsored my brother Frank Smoksen; launched July 17 1920; received her final call signed February 1924; and completed June 24 1916; joined the U.S. Navy on April 8 1943",
+      "output": ""
+    },
+    {
+      "input": "Title: The Message Text: The Message contains the first three songs on the album A Million Years Later released in 1994 and recorded live at the New Amsterdam Apollo Club in 1998. In 2003 it gained attention after the album was released as a single but also as downloadable music CDs.The album was reissued for the DVD release via Warner Bror Records with the second studio recording of the song written by Mark Twain which appeared on two singles that were not to be released separately.",
+      "output": ""
+    },
+    {
+      "input": "Title: Smitty's House Text: The Thrilling Street and Acorn building in Smyrna Georgia is repurposed as an apartment tower for the Houghton Manor Apartments Company (Hickson-Whitworth). It was built between 1897 to 1904.",
+      "output": ""
+    },
+    {
+      "input": "Title: So Bernardini Text: Sárbarán Bás (born December 8 1980 in atala Argentina) is Argentine footballer who plays for the NEC side Atlético Parana Football Club. He started his career playing as an assistant manager at Valencia Athletic Club where he played for Alegre and San Telmo.",
+      "output": ""
+    },
+    {
+      "input": "Title: St. Francis Church (Rochester New York) Text: The first Catholic Church in Rochester is the church of Saint Michael and All Saints located at 545 N. Lincoln Street in a 19th century Gothic Revival style structure. It was built in 1637 for Dr. Stephen Sterling (1712–1814). A large Roman Catholic church standing on its own grounds it was designated as UNESCO World Heritage Site in 2007.",
+      "output": ""
+    }
+  ]
+}

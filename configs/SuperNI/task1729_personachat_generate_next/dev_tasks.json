@@ -1,0 +1,8 @@
+{
+  "SuperNI": [
+    {
+      "sampling strategy": "full",
+      "dataset name": "task1729_personachat_generate_next"
+    }
+  ]
+}

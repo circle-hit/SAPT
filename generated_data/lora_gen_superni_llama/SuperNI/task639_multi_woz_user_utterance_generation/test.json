@@ -1,0 +1,60 @@
+{
+  "Contributors": [
+    "Ayush Kalani"
+  ],
+  "Source": [
+    "multi_woz_v22"
+  ],
+  "URL": [
+    "https://huggingface.co/datasets/multi_woz_v22"
+  ],
+  "Categories": [
+    "Dialogue Generation"
+  ],
+  "Reasoning": [
+    "Reasoning on Social Interactions"
+  ],
+  "Definition": [
+    "You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Dialogue"
+  ],
+  "Positive Examples": [
+    {
+      "input": "I'd like to find a panasian restaurant in the centre of town please.",
+      "output": ""
+    },
+    {
+      "input": "There are lots of things to do, did you have an area preference?",
+      "output": ""
+    },
+    {
+      "input": "Yes, please. I will need their address and what price range it is in.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "There are 17 Chinese places that you may like, do you have further criteria to narrow it down?",
+      "output": ""
+    },
+    {
+      "input": "What is your departure site?",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "Apache 2.0"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "Contributors": [
+    "Amirreza Mirzaei"
+  ],
+  "Source": [
+    "commonsenseqa"
+  ],
+  "URL": [
+    "https://www.tau-nlp.org/commonsenseqa"
+  ],
+  "Categories": [
+    "Question Answering"
+  ],
+  "Reasoning": [
+    "Commonsense Reasoning"
+  ],
+  "Definition": [
+    "You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond association. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Commonsense -> Concepts and Relations"
+  ],
+  "Positive Examples": [
+    {
+      "input": "What does it feel like when you see something rise? (A)descend (B)fall (C)expand (D)bloom (E)twilight",
+      "output": ""
+    },
+    {
+      "input": "She needed more information to fix it, so she consulted the what? department? (A)chicken coop (B)google (C)newspaper (D)online (E)manual",
+      "output": ""
+    },
+    {
+      "input": "If I want someone to clean my place, what could it be? (A)motel room (B)bathroom (C)nearest public restroom (D)house (E)drawing room",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "When you see something rise, you what? (t)think (b)fall (c)descend (E)go down",
+      "output": ""
+    },
+    {
+      "input": "The pitcher was ready for hell, what did he do before the game? (A)breathe (B)fever (C)michigan (D)baseball (E)baseball stadium",
+      "output": ""
+    },
+    {
+      "input": "Where would you find uncooked crab meat? (A)wharf (B)red lobster (C)fish market (D)body of water (E)stew pot",
+      "output": ""
+    },
+    {
+      "input": "What is someone who doesn't have immortality likely doing? (i)have no home (b)rebirth (c)mortal (d)decomposition (E)never want",
+      "output": ""
+    },
+    {
+      "input": "The man in the white suit was very lazy. He did nothing useful. Meanwhile, the ban in the blue had put in effort and was doing what? (A)work (B)much more (C)hard work (D)play sports (E)stand still",
+      "output": ""
+    },
+    {
+      "input": "Where can you find all required information about fire extinguishers? (A)building (B)library (C)boat (D)electrical circuit (E)gas station",
+      "output": ""
+    },
+    {
+      "input": "They dealt with anxiety all day, it was what that kept them busy? (A)crying (B)relaxation (C)headache (D)discomfort (E)happiness",
+      "output": ""
+    },
+    {
+      "input": "A car was going to eat someone, but in an unexpected stop it struck a pedestrian and struck him. What kind might have happened? (A)automobile accidents (B)backache (C)pollution (D)getting lost (E)cargo",
+      "output": ""
+    },
+    {
+      "input": "Where is likely to have many flats in this area? The city will house about how many people? If it were an office building what would be the cheapest place to live? (A)manhattan (B)woodrow (C)new york city (D)blocks (E)office park",
+      "output": ""
+    },
+    {
+      "input": "The man laid in bed, he was just focused on what he was doing, because that was what? (A)rest (B)deep thought (C)falling asleep (D)bunk (E)meditate",
+      "output": ""
+    },
+    {
+      "input": "Where would I find much more than just an office worker? (A)skyscraper (B)friend'd house (C)school building (D)city (E)baby shower",
+      "output": ""
+    },
+    {
+      "input": "Where is food likely stored at room temperature? (A)shop (B)freezer (C)store (D)home (E)refrigerator",
+      "output": ""
+    },
+    {
+      "input": "The business men left their discussion in the dressing room, now they just wanted to relax in the sauna of the what? (A)brush hair (B)theater (C)house (D)dwelling (E)bathhouse",
+      "output": ""
+    },
+    {
+      "input": "The man is carrying equipment to get girls in trouble, what is his job? (A)train wreck (B)injuries (C)school bus (D)crime scene (E)violence",
+      "output": ""
+    },
+    {
+      "input": "The detective was finding information from witnesses, why would they do that? (A)fun (B)ulcers (C)get answers (D)happiness (E)power",
+      "output": ""
+    },
+    {
+      "input": "When you're attending school what are you hoping to gain? (A)detention (B)graduate (C)inspiration (D)boredom (E)growth",
+      "output": ""
+    },
+    {
+      "input": "When is someone likely entering committing murder? (A)prosecution (B)killing (C)distress (D)go to jail (E)trial",
+      "output": ""
+    },
+    {
+      "input": "What do people want in relation? (A)feelings (B)food (C)relationship (D)exchanging ideas (E)discussion",
+      "output": ""
+    },
+    {
+      "input": "When getting in shape, this is something that does wonder? (A)eat more (B)starve (C)give up (D)period of recovery (E)jogging",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "Unknown"
+  ]
+}

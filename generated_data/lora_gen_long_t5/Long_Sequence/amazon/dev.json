@@ -1,0 +1,422 @@
+{
+  "Definition": [
+    "Given a review text from an e-commerce platform, please analyze the sentiment polarity expressed in the text. Choose one from the following sentiment categories: very negative, negative, neutral, positive and very positive!"
+  ],
+  "Positive Examples": [
+    {
+      "input": "Title: Good but not Great Text: I liked this DVD for its own merit (I've seen most of their other DVDs). However, it seemed like there was hardly any substance at all to that video so I decided to let it play on Youtube rather than waiting for others’ feedback or reviews/recommendation because even though they did have good production quality with several great videos which are more original content such as \"Will Be My Mother\". There were some good ones here too; however, we didn't really enjoy watching these movies when we got them. Overall, OK TV shows often provide better footage then you can get anywhere else except a few films!",
+      "output": ""
+    },
+    {
+      "input": "Title: I really do recommend it Text: After buying this book on Amazon...I am very impressed!The story is great but there are only few scenes to follow. It takes way too much time for me (I usually get 3 minutes) before finishing reading most of the book. However, once I was finished through the whole book I couldn't put down so long. And when I got home my friend had to go back into her bedroom at 5am because she was busy with other stuff that we never read about.....she went out and bought several more books like \"The House.\"",
+      "output": ""
+    },
+    {
+      "input": "Title: not as good as advertised Text: The price for this phone was much better than Amazon said it would be! I had to look on other sites about how to get this phone to work properly before calling them (which they did). It looks like the cord isn't tight enough that you can's hold it out of the way but when you put your phone into high tech mode it works perfectly. If you really want someone to make contact with customer service or call me back should try this phone first.The number is 3 numbers which are 1-9 letters so far...I have only used mine once since March 2007",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Title: Whats wrong with this book? Text: This is an attempt at a novel that gives little information but does give insight into what goes on around town where it takes place. I guess there are not some good books out there about how to run errand places or manage people who just live off of them like all you will ever see happen (like the building behind us).",
+      "output": ""
+    },
+    {
+      "input": "Title: Just not as cool as I thought it would be Text: This was just too cool to give up on this movie! Unfortunately, there are way more people with bad taste than Meg McConnell here or even Amy Schumer who make some of her own movies instead of being a good mommy.",
+      "output": ""
+    },
+    {
+      "input": "Title: Good but too much stuff Text: I am going to use this book because it is a quick study guide on how to create your own database for our home office computer programs (which you can also download online). So there are many things to consider about this book that should be included with every reference manual since most people have never been taught any software system before.",
+      "output": ""
+    },
+    {
+      "input": "Title: This product is great! Text: I bought this item because I loved the music on it (I'm currently using Pandora to play \"The Curst\"). The CD was fine too; but the sound was inconsistent so don' say you were expecting anything more than your usual cavernicle mix. Also didnt like the way that Sony did at the top of the CD album...but even with all the songs as expected, they were pretty good....and there wasn'to much about them either.",
+      "output": ""
+    },
+    {
+      "input": "Title: Great for those of you who prefer more classic jazz Text: I really enjoy these albums as they are light, crisp, and have been enjoying their music since day one. When I first heard this band perform at my house (which we've also bought), it instantly became obvious to me that Jeff Beck was good company. The singers had wonderful instrumental parts but none of them were particularly stand out; no bass or drumming with much power seemed like heavy enough to support any singing.I would definitely give this CD 4 stars instead because I love all of his other songs...and I am happy to say that there isnt too many great songs on here!",
+      "output": ""
+    },
+    {
+      "input": "Title: The first of two book series that I read for college Text: This 2nd book by John P. Kelly is quite well written! It's not easy to get into the storylines so I don’t know what it means when they are all told about each other.",
+      "output": ""
+    },
+    {
+      "input": "Title: What are they thinking? Text: If you like what people have spoken about these songs but think it is a poor translation of something good that's been made for English speakers only. It was never intended to be a reference book or as if this music were written by someone without any previous experience with English literature so I can just say that there might be better material out there...",
+      "output": ""
+    },
+    {
+      "input": "Title: Good to have Text: I like your books because they are interesting and provide you good ideas of what can be done for your business or hobbies with no unnecessary steps etc. but there are some things missing on this book that you would want to know before reading it",
+      "output": ""
+    },
+    {
+      "input": "Title: Is it worth spending more than $20? Text: I bought both of these for $59.99 on Amazon because they were cheaper then most stores. I didn't want to spend so much money but when my husband suggested purchasing this watch we thought it was worth noting that there is no warranty provided with this product. It would be smarter to buy two sets instead of three!",
+      "output": ""
+    },
+    {
+      "input": "Title: A little bit of a surprise Text: This movie is so much better than it was advertised. It really did put you for days when you could not get to the middle half of the film. The dialogue is fantastic but I felt left out too quickly by some parts.",
+      "output": ""
+    },
+    {
+      "input": "Title: Don't waste your money Text: I got this for my 4 year old daughter who loves to read. Unfortunately it is not easy but it was worth it because there were more interesting stories than we had ever heard before.",
+      "output": ""
+    },
+    {
+      "input": "Title: I don't like it Text: The first 3 songs on this CD are really good (I do not actually know why). In the middle of the 2nd song \"The End\", she is screaming out for something different to say. She has so much more pop sound than that!",
+      "output": ""
+    },
+    {
+      "input": "Title: Too Much Fun Text: I bought this game for my daughter (her age) last Christmas; she is loving it. She loves to play with it as well. The only downside of this game was that there weren't many good reasons to buy it other than because you can' go online at amazon and purchase it. Also, since we are on holiday season, our family had to wait three months before we found out what happened when your parents came back home so they don’ll know how to make money.",
+      "output": ""
+    },
+    {
+      "input": "Title: A Great Beginning Text: This book was definitely not as good of introductory material as others that I have read though it is another excellent introduction to The New Testament. Although many people are familiar with this subject matter, it does provide great insight into God's creation for us all. It gives me pause since I find my knowledge base at different time periods which has been difficult because its complexity makes some sections easy reading just about 30 years.",
+      "output": ""
+    },
+    {
+      "input": "Title: Not worth it Text: I bought this book because I love her other books, which you can purchase online. It takes so long to finish before getting any sleep at all. She just keeps moving along....I am glad that she is doing what she loves! And now on to the fun stuff...",
+      "output": ""
+    },
+    {
+      "input": "Title: A classic Text: I purchased this item for my mom who loves to do crafts with me as well as her daughters! But it's hard to find good patterns online so I was happy when I saw some on Amazon that were similar to what I had before but are now much more sophisticated designs. It can go really far beyond traditional craft projects or just about anything else you would get using today.",
+      "output": ""
+    },
+    {
+      "input": "Title: The book is great but Text: I'm sure you have seen it before since there is not much new on this novel (although some parts may be interesting to know). This book contains information about most places mentioned in the book as well as many other places by authors that arent so well known or researched.",
+      "output": ""
+    },
+    {
+      "input": "Title: Very Good! Text: I bought these for school years ago and they came out great!!It is easy to hang things on the wall or make something of them as long you have enough space around it so that when everything falls off (so your feet are not exposed) there is no need to hang anything with these because this product has been extremely durable.",
+      "output": ""
+    },
+    {
+      "input": "Title: Not sure how it's worth it Text: I purchased this for my 7 years old son who LOVES his new bass guitar after getting him to sit outside with her friends on Christmas morning at school. The only problem was that when you were ready to use it they wouldnt respond or notice anything. They are constantly having trouble hearing each chord sound over any of the other instruments (like \"Twoman\") because there is no volume controls so then neither band will work properly.I used up all 3 CD sets before using them again. For us kids not too happy about listening to music, we don’re really impressed by it.",
+      "output": ""
+    },
+    {
+      "input": "Title: Good but disappointed Text: These headphones are great for when you hear something that sounds better than classical or jazz. Unfortunately there's no way to get them to play on your stereo so it seems like they don’t sound as good as they used too (they do have some decent bass)",
+      "output": ""
+    },
+    {
+      "input": "Title: A nice set of books but Text: This is merely cds with some nice samples taken from the old library to add to her collection for anyone interested. The DVD includes lots more than just the music; it also contains plenty of other material I've never seen before including some early sample tracks by Bob Dylan which has become popular recently thanks to his use of \"the band\" genre (\"Alive on\") etc. It does give quite enticing insights into what happens when people have their first encounters there.",
+      "output": ""
+    },
+    {
+      "input": "Title: Very good but not great Text: I haven't used this thing for many months now so it is still pretty useful (it would be nice to have some of that old stuff around) But once you use it all the time it gets really boring. You are just throwing things out when you get home because you don;t bother with it or whatever else. The sound is better than most others on the market...",
+      "output": ""
+    },
+    {
+      "input": "Title: Not what I was looking for!!!! Text: After watching this movie with my family (who isn't Christian) I wanted it more to see how they were going to handle the loss of their mother. As we know she is Jewish but her stepdaughter is not Catholic. So as you can imagine there are some similarities between the two wives! She has three other kids all married and no grandbabies so everything about them. It had good characters and strong characters yet still felt like someone elses child.",
+      "output": ""
+    },
+    {
+      "input": "Title: Good Book Text: This book will take you on remembrance of some events that happened during the war between Germany's civil rights movement (Folks right to vote) but not all historical events can be easily followed along; however there were some interesting parts throughout this book which I don't mind sharing with any specific time or place. Donnot get me wrong...this is just another way of making money for books designed for youth like yourself as if your reading this book?",
+      "output": ""
+    },
+    {
+      "input": "Title: Not bad but... Text: I am glad that this book did not disappoint my children about any of the first 3 movies we received! The stories are simple and well told, and their parents seemed to be enjoying it so much as us.",
+      "output": ""
+    },
+    {
+      "input": "Title: It has good graphics but doesn't do what it says on its cover. Text: This book is really bad. When I was first getting into this series of novels, some characters just had so much going for them that you could see their eyes staring at you. If you are starting to read about vampires like me, don’ll stop now; otherwise wait till they get back because there will be another story later. There have been other books written without any depth or logic whatsoever, not sure how people can write such a large number of pages with different ending chapters!",
+      "output": ""
+    },
+    {
+      "input": "Title: The best film I have ever seen Text: If you like this type of movie, it must be on your bucket list! It is full with violence at every corner!! When we see \"The Best Picture Show Ever\", there was no question that these two were going to star opposite each other. This could only happen because they are both female actors who come off as men for women (and male) so why do our bodies matter? These ladies always look good in their pajamas... They never appear anywhere around anybody except them. You can't tell which gender or age they did. That means nothing even though either way its directed by Michael Douglas. To anyone else out there knows otherwise, maybe not really worth buying anything.",
+      "output": ""
+    },
+    {
+      "input": "Title: I like this game Text: While it appears that there are only 2 good games available for download with my version (version 2.0).It hasn'h been more than 2 hours of gaming since I last downloaded it.",
+      "output": ""
+    },
+    {
+      "input": "Title: Not so good Text: I like the fact that the film isn't as interesting as other reviews say it is because it doesn’ go with much of the plot but not many scenes. But there are enough characters to make it worth watching anyway.",
+      "output": ""
+    },
+    {
+      "input": "Title: A must have for all collectors of art history Text: I bought this book as my first book on Art History which is so much more accessible than any other reference works that I can find. My main interest lies herein being our love of art. It is definitely worth it because it has lots going to make you remember most of your childhood memories too!!",
+      "output": ""
+    },
+    {
+      "input": "Title: Not what I expected Text: I was hoping for fewer \"blurrings\" but these came out well. My expectations were too low -- only 8 hours total to see how much that will increase with each season.",
+      "output": ""
+    },
+    {
+      "input": "Title: Too short for my baby Text: I purchased this watch because it's too short for babies under 3 months of age so it can easily be lost with childbirth. It doesnt keep you awake enough to tell you that your baby has been sleeping through the night but instead sleep at home during toddler or infant days as well. So while it may not seem to take its course when we want it...",
+      "output": ""
+    },
+    {
+      "input": "Title: A wonderful read Text: I had to laugh so hard with this book because there were moments that felt like it gave away more information than really needed. If you didn't care for reading about the characters or plots then stay away from these as they are well worth your time",
+      "output": ""
+    },
+    {
+      "input": "Title: Disappointing Text: I read this book on how to train your cat before teaching him his new dog. It was not easy reading but it did teach me more about my cat which is what she does best. She would help her with other dogs such as pigs that don't have ears at all.",
+      "output": ""
+    },
+    {
+      "input": "Title: This Book has been worth every penny! Text: There is nothing to compare this book with at all; it's just another way of teaching people what they need not to know by reading some stories before them",
+      "output": ""
+    },
+    {
+      "input": "Title: Good Value Text: I picked this up at DH to use as part of my cleaning routines (no special needs). It'd be perfect for someone with allergies but no other medical conditions so not recommended. But it works well enough.",
+      "output": ""
+    },
+    {
+      "input": "Title: Not worth it Text: I bought this because my wife's mother wanted me to watch her for another DVD. The first few months she was doing well but then all of he did suddenly died off. I felt bad for her so I decided against buying more copies on Amazon when they came out with only 1 DVD. They do come up with better versions that don’t have any videos at all!",
+      "output": ""
+    },
+    {
+      "input": "Title: Just okay Text: I've played this game for about 5 years now with 3 different consoles so it works pretty well. Not too bad but there are better games out there on PS2. My kids still play at times because they want to play as fast as possible. If you like those games then stick with it.",
+      "output": ""
+    },
+    {
+      "input": "Title: Not what I expected Text: If you wanted to learn how to use computers on your Mac, buy this book! The instructions are well written (some of my favorite lines), but it is hard for me or others who haven't read through them before.",
+      "output": ""
+    },
+    {
+      "input": "Title: Great book for those just starting learning English! Text: My daughter is 3 1/2 years old and our kids love to read this book before they have even got started with elementary school. They really enjoy going over many facts and tricks that I never knew there were about Spanish or German so we decided to give it another try.",
+      "output": ""
+    },
+    {
+      "input": "Title: Very good product Text: I have been using this camera for several years now with no problems. The unit is light but has trouble getting it to work at all.The lens needs to be removed so you can use the camera again. If your camera doesn't come with reversing vision, then you may want another camera which uses a different type of lens than that model does because each sensor requires additional coverage or more battery power. When we turn back on our phones (which are not usually charged), even without any problem they seem unassociable with the other camcorders out there. In addition, my 3 year old son would like to see how the system worked before going home.",
+      "output": ""
+    },
+    {
+      "input": "Title: A lot of fun Text: I was very impressed with this game but after playing it over several weeks to no avail for months (until last summer) they didn' TASK me at all because my son had not been using his mouse properly so we thought having \"smart\" keyboard keys would be more comfortable as that is what I got on here...",
+      "output": ""
+    },
+    {
+      "input": "Title: not bad though..... Text: I bought this movie because I have heard good things about this series but I'm still not sure what was wrong with it or where they ended up going on their journey. As other reviews have said, we just can't take them seriously as horror films. That is to say that all of the special effects are excellent!",
+      "output": ""
+    },
+    {
+      "input": "Title: The Best Text: I haven't watched this film to make sure it does justice to all of the fantastic action that was on this movie.I really enjoyed watching it even though most parts looked like they were shot at nighttime.The best part is seeing what happens back when you look up into the dark side.And there are so many great moments (you know)! But the bad guys who try to kill things with no real emotion do not feel comfortable or alive?You can find funny scenes throughout the movie as well as some interesting characters but overall the good ones get too much attention.There are definitely some weak scenes which don'thre cutes outthere but also lots of other fun bits about the plotline. Also, the ending ends abruptly after another chapter. And the story takes over",
+      "output": ""
+    },
+    {
+      "input": "Title: A great story line! Text: I am a huge Harry Potter fan so this was inevitable when it came out...but my wife didn't like that either. This book is fantastic....I love these characters!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: Very Good Books! Text: I enjoyed reading all of this series as both young and old would have liked it...I've actually been reading these two novels lately because I thought they were fascinating reads that could make me wonder what happened to Peter Scully before his demise. So now here is why....Beforesting a reader (and maybe you will find out) there are some real good stories about how people change their way through life but also those who live forever should not be disillained with any kind either person or group of people we love. The plot had us thinking \"Silver\" was going to kill someone for doing wrong so badly by everyone else. It makes her feel like a child again. She really does nothing more than watch other people while trying to",
+      "output": ""
+    },
+    {
+      "input": "Title: Very Disappointed Text: I've heard that this was supposed to be cd of classic pop tunes but they never make it up. For some reason, my first CD had \"Creative Expressions\" which sounds like a mix on the soundtrack when you buy it. This is really disappointing because there are no chord progression or instrumental elements (never mind your songs).",
+      "output": ""
+    },
+    {
+      "input": "Title: good but too short Text: This is lil like 3 books combined. I'm sorry to say that after reading all of these reviews it seems this book would be shorter than what was advertised on their websites.",
+      "output": ""
+    },
+    {
+      "input": "Title: Love this book Text: This is what I had expected but wasn't disappointed. It got me through each chapter which kept me going while reading it. In my opinion \"Remembering,\" was better than anything else on the entire book since it really took so many pages to get there. The second half seemed rather boring as well. If you enjoy books about real people or classics of American history (like the one mentioned above) then read this instead.",
+      "output": ""
+    },
+    {
+      "input": "Title: Not what I ordered Text: Although I received this product through Amazon it was not what I ordered. It arrived to my home on time and there are no instructions. The packaging is okay but some people will want to return items for refunds or exchanges because they don't have returns policies? If you do call Amazon we may charge more than $10 plus shipping since that price does not include delivery cost which isn’T worth paying $130 just for 2 reasons. You need to make sure your company can provide customer service so let us know when you get back via eBay.",
+      "output": ""
+    },
+    {
+      "input": "Title: Great game Text: I enjoyed the game so much that it became my favorite series of all time. The characters were excellent! It's also nice to see their new animated character develop over time as well.",
+      "output": ""
+    },
+    {
+      "input": "Title: Not what I expected Text: This watch is great for the price. You can't go wrong at this price!",
+      "output": ""
+    },
+    {
+      "input": "Title: Too much of tin can Text: For this price I paid almost $1200 to get 3 pairs of shoes! That's over $50 for only 2 pairs...",
+      "output": ""
+    },
+    {
+      "input": "Title: The best ever Text: I loved this movie. It was great!",
+      "output": ""
+    },
+    {
+      "input": "Title: Just Great Text: This album is great because it makes me feel like I'm listening to music that doesnt sound all that good. It has this awesomeness of song lyrics without the \"single\" feeling.",
+      "output": ""
+    },
+    {
+      "input": "Title: Too Small for My Baby Text: I bought this toy as Christmas presents...and it was just okay until after 2 months when my infant died. Now that we have used up all our food items, its getting too small for her!!",
+      "output": ""
+    },
+    {
+      "input": "Title: Great Value Text: This was remarkably affordable! I have spent more than $20 on this product so far with no problem. The quality of the material has not diminished over time since I purchased it.",
+      "output": ""
+    },
+    {
+      "input": "Title: The last few songs should be closer to \"Beware\" Text: My sister is a huge Wolfman fan so as usual her singing on this CD was way better than the last couple of tracks she had heard (Alternative World). Also I think it's funny that some of the other artists didnt have enough backing at all by themselves but not too much else like his previous music.",
+      "output": ""
+    },
+    {
+      "input": "Title: A little too short for my eyes Text: This book was not as bad as I thought it would be. It had some nice descriptions but there were also errors on several pages. One of them (instead of three) stated that \"nothing can help you because no one understands what is needed to solve this problem.\" That makes reading books like this much harder.",
+      "output": ""
+    },
+    {
+      "input": "Title: A great film Text: This was based on Antoine De Smets' first book The Man From Another Planet which was published under the name “In Search Of David\". It is true that this movie doesn't necessarily have anything to do with David Fincher but there are elements of his biography that make him feel like he may be missing something or has lost some valuable insights? If you love Arthur Finney take out of it because it seems to be more important than what I am trying to say. But I think maybe they would benefit from having a couple of chapters as well.",
+      "output": ""
+    },
+    {
+      "input": "Title: Don't pay for this Text: This CD is okay but not what I would like it to be. A little long of track \"Really Good\" instead of \"Just Say No\"",
+      "output": ""
+    },
+    {
+      "input": "Title: Great but nothing special Text: As i mentioned above this is amazingly good movie that would fit nicely into any horror movie library (if you can afford it). I have not seen anything like it before or even on television which was interesting to see. If your only interest has been filmmaking then watch this as well. It will be worth watching at least $139.99 for DVD's alone; though my family knows its history when it comes down to shooting video tape so she wants to make sure they are playing their first ever Halloween films because of what some fans may find out about them while others donT buy this album after seeing \"Screaming Eyes\"",
+      "output": ""
+    },
+    {
+      "input": "Title: Great tool for making small items Text: This is incredibly convenient to use but makes me nervous when my hands are full of large tools. The key was on top with two finger pressure sensors placed right between each other! I'm sure it will be helpful for your children (and perhaps even you as well) who have had many baby toys over their life too long without spilling all over themselves.",
+      "output": ""
+    },
+    {
+      "input": "Title: This is what happens! Text: I'm sure that most of us have been listening to this series for quite sometime now. In case you are new to the genre, check out my thoughts about this film which were first released on November 16, 2006. On top off all that good info regarding C&C, we hear their storyline when they show up as \"Face it\" by MTV2 (my favourite). It will take awhile before you get over the fact that Sniflers can make more books with more depth than anything else available at any time since 1974.I like the music here but I am really not interested in some movies where there are no subtitles or descriptions given whatsoever.",
+      "output": ""
+    },
+    {
+      "input": "Title: Disappointed Text: I received this with my wife's permission (not that I am not a fan of these type of DVD'S). We watched it for two weeks now until our son is born. He loves it so much we ordered it as he was expecting another copy to be sent when his nephew turned three months ago. It just never happened after 5 months! The last four were dead within a month!!",
+      "output": ""
+    },
+    {
+      "input": "Title: I don't really understand what this guy is saying... Text: The fact that his title was \"Tell me you were here...\" makes it difficult to watch him on TV either because of the dialogue or the way he tells stories about people they barely know. It also gets old after 4-5 decades as far back then! This film didn'y make sense for me until now. If anyone ever hears John Hunley speak out loud through their lyrics....",
+      "output": ""
+    },
+    {
+      "input": "Title: Not much for kids! Text: I read this book about 5 months ago while working with children who are learning English as if they would like to learn how to use it or find out what vocabulary goes where your child needs help on. Then after 3 weeks of reading she got all excited so we went over her phone and asked permission before getting home too far into writing because that is the only thing I can say right now...",
+      "output": ""
+    },
+    {
+      "input": "Title: Very boring Text: I bought this book to keep track of my progress as slrbtwndnfc/dynocrossing etc... It was not enjoyable at all....",
+      "output": ""
+    },
+    {
+      "input": "Title: Not sure this is what it would be like... Text: I was hoping for something different to say about the book itself which actually made me laugh out loud while reading it myself. But instead she's just yappying at some random person that seems annoyed by their characters but then they suddenly make up more sense! This seemed oddly unintentionally rude (I found no reason not to take part of the book) as well as talking through everything you do when you get homeward towards the end. Instead of feeling sorry for everyone else who has been through with this book, I guess maybe we should really call it \"Curtrown Out.\" And there might be another chapter on the story next so dont buy it or pay too much because its all over the internet?",
+      "output": ""
+    },
+    {
+      "input": "Title: Great Book Text: This book was excellent when it came out! I'm not sure how people could do this to their kids without buying too many books of that nature just like other books. The best thing about this book is that you can actually read all those books at once!",
+      "output": ""
+    },
+    {
+      "input": "Title: The first 3 seasons are still worth it... Text: I loved this movie....so much so that I have not seen anything since or when I was 12 (I think) like it already! It is well done!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: I was looking for something that said more about music Text: What this song says has to be a mix of old stuff mixed with new stuff. The first song is \"I Love You\". But it doesn't say how much you are going through. It does state several different points as well. However, there will always be some good songs on my playlists including \"Around the Moon\" which is actually kind enough not so bad when you listen to other songs like \"I Am A Dream.\" That album just sounds like a collection of songs that don’â€TMT Give Up! because these are all cover songs by me. Maybe next time instead we can put together ONE CD (or maybe two) or three versions here and there may be less than 3 tracks but no more than",
+      "output": ""
+    },
+    {
+      "input": "Title: Great book Text: This book gave me great insight into people's minds through different experiences of life as well that we could learn from our children today (and future generations). The way it was written seemed like so much more than just \"the\" story line\".",
+      "output": ""
+    },
+    {
+      "input": "Title: Not as Good as It Looks Text: I found this to be unsatisurable. My other husband said \"What'oh? No.\" His eyes looked sad for two days before getting upset; no one seemed to notice him when they went outside or inside of his house. But it looks better than you picture shows that there should even be more depth!",
+      "output": ""
+    },
+    {
+      "input": "Title: Dont buy Text: I really have high hopes for this book. It would be great to hear some real stories about how other peoples lived their lives before someone did it too.I was wrong when I purchased it because there are lots of characters who talk over each others but they do not come out exactly like they were or even worse than you think is better on the outside. Also, don' get into the \"Why\", \"Why?\" The why behind my friends say things happen that no one else does seems to matter.If anyone has bought books on this subject then read up! If you own this book, you should give it ONE chance first.",
+      "output": ""
+    },
+    {
+      "input": "Title: Good Book Text: The book itself is incredibly helpful to me as I am working on two books at once. One is my husband's new home room with our 2 dogs...both of which have been having difficulty getting along. The other has trouble sleeping because it doesnt get dark enough when there needs be more light; however, the dog was easily disturbed by the bedtime so much that we had to run over them twice before trying to find out what was going wrong with him. We were given 4 days time to figure this out but no luck....we live inside houses!",
+      "output": ""
+    },
+    {
+      "input": "Title: Nice book but not so exciting Text: I bought this book to learn how to cook with pasta. It was easy to prepare and presented beautifully for my first cooking class. The books are easy to understand while at the same time giving you good recipes that will really help anyone build their own food. But it did turn into stumbling when serving your guests each morning.",
+      "output": ""
+    },
+    {
+      "input": "Title: Good enough Text: I'd have to say that this is my favorite book of his! If you love romance or suspensful readings like Janet McPherson it won' TAKE AWAY ALL THE FEELINGS FROM ME BUT THIS IS NOT IT!!",
+      "output": ""
+    },
+    {
+      "input": "Title: Good book Text: The book is good for learning Hebrew. It helps your language get up to speed about the languages you learn.",
+      "output": ""
+    },
+    {
+      "input": "Title: Excellent work! Text: This book is truly informative as it describes various problems faced by modern day students of business law (and many others). However with so much information available on our system that I had trouble finding anything to help me out, this volume has some useful info about how to prepare your documents for public use.",
+      "output": ""
+    },
+    {
+      "input": "Title: Not great Text: I got this as ear piece for my first baby because his ears are so sensitive that it is difficult to hear him. He needs some special hearing aids like flukes or vibration therapy but no luck with this device at all. The sound is really annoying after only 1-2 minutes of use.",
+      "output": ""
+    },
+    {
+      "input": "Title: Not my favorite book Text: I love this book because of it's uniqueness; however there are some parts that are hard to follow or just can't be followed. The author doesn&aposve much experience so probably won&aposnt be reading many books about her husband at all.",
+      "output": ""
+    },
+    {
+      "input": "Title: I just want to give this 5 stars!!! Text: I had seen these at different stores that I was looking for on Amazon because they seem expensive enough without being too cute or trendy. They are nice pieces of furniture but not much else. The only thing is that you have to take them out with you! You get what you pay for?",
+      "output": ""
+    },
+    {
+      "input": "Title: Great for dogs Text: I bought these because they're nice looking (not to say that their design is amazing); however, there are some scratches on my dog's nose during bathing time so we had to take extra caution when using them around babies who might not be as attentive or gentle with other pets than our furry friends).",
+      "output": ""
+    },
+    {
+      "input": "Title: Not as good as other books Text: I have used this book several times on my work desk for years now. The pages are not quite right and it takes up more than 5 pages to read each page. When using it with others that you will get better results but at first look seem OK enough",
+      "output": ""
+    },
+    {
+      "input": "Title: I really liked it Text: This book was nice to read but had some errors that made my job harder when reading it. As far as grammar is concerned this book could easily have been written better with more examples. The writing style of Ms. Adler makes it hard to follow though.",
+      "output": ""
+    },
+    {
+      "input": "Title: Disliked Text: I had no problem using this thing for over 3 years. The only real issue was that it would not come out at all on my second computer day. It worked well enough once or twice (and still works).",
+      "output": ""
+    },
+    {
+      "input": "Title: No doubt that this book should be called \"The New Romantics\" Text: This is true of all those romantic novels I have read but I don't think it was good enough for me to give it two stars. It would have been nice had there not been these few offbeat moments!",
+      "output": ""
+    },
+    {
+      "input": "Title: Don't waste your money Text: When I purchased these shoes for my son to practice running over after her, it felt like too much pressure that they had to be kept up while she was running through the track with this pair of trainers (in front). This item does not work as well as other sneakers which were similar quality.",
+      "output": ""
+    },
+    {
+      "input": "Title: Very good book! Text: I haven't used this book for years at all but only once or twice. It is pretty simple to use though.The problem with it was that when you started using it as such there were no words of instruction nor help anywhere.",
+      "output": ""
+    },
+    {
+      "input": "Title: Excellent product Text: I received my order today for about $49.90($159.99). My husband's car has had two of these problems that they are experiencing. There is no service call back or email on this item when you request support (we live right outside Austin TX) so there was no way to contact us via phone after hours...",
+      "output": ""
+    },
+    {
+      "input": "Title: I am a lover of art Text: This book contains many great illustrations by Jorji Haley for example, it illustrates the ways that art can be beautiful without taking up too much space or time. Also, this is primarily true fiction with some humorous parts sprinkled throughout (like how she was told to use her own paintings)The pictures are also quite charming; but they're not only pretty, but there are plenty more visual effects than descriptions on the pages.",
+      "output": ""
+    },
+    {
+      "input": "Title: Is not really that great Text: The story was interesting as well as boring. It'll be more of melodramatic reading for me but it is good to know how things work within the system rather than depending on your own skills.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Best Of Text: This is Probably my FAVORITE CD by Tom Cawthon that I've ever heard. It was good to listen but it wasnt great as well.",
+      "output": ""
+    },
+    {
+      "input": "Title: Good book for anyone who loves to read it Text: I've used this book many times before because of its depth and detail. It is well written and easy to grasp; however, there are several sections which might be too difficult to understand as someone would say (for example \"Howard Swindle\") but you can do so much more just by listening or reading your mind about something that requires patience than just saying hello to yourself with a little writing skills. For those who don’t have time to spend on their thoughts then try other books like \"Whatever Happens After You\" or \"I Found A Secret\". This is definitely worth reading.",
+      "output": ""
+    },
+    {
+      "input": "Title: A good read Text: This is ok but doesn't seem to be as exciting as some of the other reviews which were more about what I had seen or heard before it; therefore this wasn'the right book for me!",
+      "output": ""
+    },
+    {
+      "input": "Title: Not quite as cute as my daughter's favorite... Text: We ordered this set for our 4 year old niece with her two best friends on Christmas Eve. My daughter was super excited because she had it just after Halloween! She got to play at the park next door and I found out that we have three of these kids (Sister) who are really good at playing together. Now when we get back some of the girls will be happy about getting dirty or dirty so they don\"t stain up anymore. The other four dogs love to play with their toys until they all break up and fall apart.I recommend this set over any other books you buy.",
+      "output": ""
+    },
+    {
+      "input": "Title: A real gem Text: I have to say that this book has some serious meat content. The writing style is really sharp (and it's a nice look at what was going on). Also, the characters are good but still not all that interesting.",
+      "output": ""
+    },
+    {
+      "input": "Title: Not what I thought it would be Text: This book had some interesting insights into how people behaved toward each other during stressful times at work as well as dealing with difficult clients of all levels. It was easy to read when you first picked up \"The Secret Life of Bees\" by Charles McNeill Jr but not for sure whether they have been told their names right or wrong. You might like this book because its simplicity is refreshingly honest and has plenty of stories (with lots more examples), so you are going along on if you were really concerned about your health care issues than money.",
+      "output": ""
+    },
+    {
+      "input": "Title: Great product....but too many bugs Text: I bought two of these because they seemed to fit perfectly with the other pairs that I had. The only thing wrong is that it wouldn't open on my \"old\" computer monitor or TV but did not come close to setting any temperature (the light will blink anyway) so you would have to adjust this before buying again. It worked great until I realized what was needed just under the display itself! If you don’tting them inside your house like me then buy something else...I think there are better quality available for those who want their stuff. And even if we could do without having another set of batteries attached to our desk space than most all can be shipped through the Amazon web site www@globaldigital.com",
+      "output": ""
+    }
+  ]
+}

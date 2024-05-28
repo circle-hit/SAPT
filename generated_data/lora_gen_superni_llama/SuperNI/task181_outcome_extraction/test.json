@@ -1,0 +1,74 @@
+{
+  "Contributors": [
+    "Pegah Alipoormolabashi"
+  ],
+  "Source": [
+    "pico"
+  ],
+  "URL": [
+    "https://github.com/Markus-Zlabinger/pico-annotation"
+  ],
+  "Categories": [
+    "Information Extraction"
+  ],
+  "Reasoning": [],
+  "Definition": [
+    "In medical studies, treatments are tested within a group of study participants. To determine if a new treatment works, various outcomes are measured in the people who take part in the study. You will be given 4.5 points for every answer that you give about the effectiveness of the intervention. If no information about the outcome is mentioned, just answer with: \"not found\". Outcomes contain: outcomes measured in patients: like blood sugar, outcomes regarding the intervention: like effectiveness, costs the score on a medical test or questionnaire, positive or negative events in the patient groups: like quitting smoking, or adverse reactions. Do not mention numbers or results, interpretations of outcomes, outcome mentions without relevant information."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Medicine"
+  ],
+  "Positive Examples": [
+    {
+      "input": "Patients were examined after these periods to ensure they had adequate drainage and sufficient antipyretic treatment to prevent any progression of disease ( exhalation TLCO = 30.4 +/- 12.6 ; P = 0.",
+      "output": ""
+    },
+    {
+      "input": "Participants assigned to 3CM were more likely to have mental health visits and higher outpatient pharmacy use rates compared with control participants ( 37 %",
+      "output": ""
+    },
+    {
+      "input": "However, this approach can only account for potential third variables between users that may affect both depression and functioning status.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "These types were used for immunotherapy trials involving adult ANLL, since there was an increasing amount of evidence showing that AML and M",
+      "output": ""
+    },
+    {
+      "input": "Allurgy was performed at 1 week after these periods.",
+      "output": ""
+    },
+    {
+      "input": "There may be fewer cases with AML than with MDS and different prophylactic strategies.",
+      "output": ""
+    },
+    {
+      "input": "One hundred eighty-three children were randomly assigned to receive three weekly doses of levamisole ( n = 110 ) or placebo",
+      "output": ""
+    },
+    {
+      "input": "This difference was small and could not be explained by differences in other interventions in which children participated.",
+      "output": ""
+    },
+    {
+      "input": "This report deals only with amonafide as a Phase II agent.",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "Unknown"
+  ]
+}

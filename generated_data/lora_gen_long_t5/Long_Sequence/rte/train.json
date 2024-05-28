@@ -1,0 +1,182 @@
+{
+  "Definition": [
+    "Does the following sentence 1 contradict or entailment and/or to any other part of the sentence 2?"
+  ],
+  "Positive Examples": [
+    {
+      "input": "sentence 1: In Germany, among the largest companies to advertise on Internet is German tech giant Siemens, which announced today that it has acquired its first competitor for an electronic music company SDV in Germany. sentence 2: Deutsche Telekom is a German technology firm.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The New Zealand Prime Minister, NZ Prime Minister, Tony Blair has said that Mr. Mandela was not to blame for the events in Australia which caused the tragedy of \"Six Flags.\" sentence 2: MGM says it is time to stop the violence in Australia as we celebrate six weeks of high-profile deaths since last year.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: \"If they win, we'll have to prove that there are benefits,\" said former Texas Gov. Pat Fitzgerald on Friday. Fitzgerald claimed that people will take over control of the company when it comes time for them sit down with him as his boss. Fitzgerald described the situation as one where \"the party is in power while you enjoy dinner and entertainment.\" Fitzgerald called the decision by Fitzgerald \"defensive\" and \"frustrating\". sentence 2: Pat Fitzgerald is an executive at Texas Federal District Attorney.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "sentence 1: The first ever U.S Presidential election was in 1983 when Senator Hillary Clinton sent an email to President Obama emphasizing that she would support his presidency through \"the most important vote\" in the 1992 presidential election, accordingto official White House reports. She gave speech before a crowd of about 200 people during lunch on Tuesday, and it was clear they wanted her there so she could participate. But now she's facing criticism for calling out president Carter over his anti-government campaigners because of its disapproving comments criticize Mr. Obama as well as former senator who supported McCain at times. sentence 2: Barack Obama is running for general elections (am).",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: Although the price of wine is higher than most other domestic wines, it has held steady sales since last year. sentence 2: Wine is sold in China only to people living in Asia.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: In addition to his studies, he was awarded two Pulitzer Prizes for Physics and Chemistry. sentence 2: The Pulitzer Prize will be awarded to the best student in Mathematics.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The first woman to hold the prize was Lady Eliza Dooley. In her 40s, she became an avid reader of books written by and for women especially about girls and fashion. She is now considered one of the most famous actressed women in Australia. Her work has been recognised internationally both as outstanding art and craftsmanship, winning awards at five international film festivals (including two Golden Globes), and among the leading feminist artists around the World. But even the right-hand story will be seen as \"something which is more universally appealing than many\". sentence 2: Woman with a Scotchnum.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The British have made known that there are numerous other islands off the Baltic coast which are similar to the Irish Sea on the European continent. sentence 2: The Baltic countries share their islands with Ireland.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The World Economic Forum (WEF) held its sixth regional summit today, with the chairman of the Board of Governors Richard M. Gerhardt II calling it \"the most important conference ever held by any organization to host a G20 summit.\" sentence 2: The forum' annual meeting took place in Madrid on Thursday.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The new discovery is that analogue computers could be made by humans, rather than automate their creation. sentence 2: Modern anti-virus software can be made.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The government of Brazil has asked its members to allow their daughters to return home. sentence 2: Women are allowed back in Brazil after leaving school.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: There are many issues that need to be resolved before China can join the WTO. sentence 2: Beijing proposes an agreement with the US.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: In addition to being an official member of the international Atomic Energy Agency, Russian President Vladimir Putin is known as a staunch opponent of such actions. sentence 2: Russia was criticised for its nuclear weapons test.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: As soon as she returned home, she said it seemed that people were beginning to question why all this happened. sentence 2: Many people are asking how they can stop Maria being pregnant again now because of what happened with her.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The British government agreed to release three soldiers held captive by Italian police on Monday, charged with 17 people being jailed for eight years. sentence 2: Three officers were locked up inside a military base in Italy.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: Mr. Bush, however has maintained that some of his advisers are interested in making changes to make more room for Democrats and Republicans in Congress. \"I believe I should be able to do that,\" said House Speaker Nancy Petraeus on Tuesday when he asked me about the budget deficit. This comes as President Obama announced last Friday that he would not seek additional funding from the Democratic central committee except for those who are opposed to raising taxes due by congressional leaders because our policy is so much cheaper than other policies.\" sentence 2: The Republican National Convention will adopt new tax reform measures.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: Two new species of microbes, aphids and cygnet are thought to be responsible for nearly all recent changes in rodent behaviour. sentence 2: Zoo animals reproduce on steroids.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: There is a growing concern that China could lose control of the oil market and raise taxes by forcing the Chinese to buy U.S owned oil from Iran, which has been controversial for years because of sanctions against Iran. sentence 2; China hopes to acquire oil from Iran.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: For example, in the US nuclear power plant near Fukuoka City, the wind-driven power plants are used by the government to generate electricity. sentence 2: The wind power projects are designed and operated at Fuokuokawa's facility.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The world's largest oil spill since August 2004 has been caused by a massive storm. This occurred in an area known as the Central African Republic but was first reported late last month at the Abu Qed International Airport (AQE). sentence 2: A big flood struck Australia.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The New York Times' cover story about George Clooney is untrue. But there are many stories like it, such as his appearance to throw off an Elton John and how he turned that lead into Harry Potter. And even more shocking is what we learned in yesterday's CNN interview where he talked about getting married (and then having a divorce). Now he says he believes Lon Chaney has no choice but to be gay; this is \"my family\". sentence 2: William Chachaney knows who Ir Chaplin was born in England.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The former secretary General of the Navy, George Washington, said in an interview Wednesday that Mr. Powell knew about Bush's deployment in Iraq as a result from his trip to China. sentence 2: President Obama is accused by many people of spying for North Korea.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: On February 10, 2011, in an interview with Reuters News, William Shapiro, who claimed that the New York Times was \"the worst story\" on television since 9/11, said Mr. Bloomberg's reporting about the news broke because Fox News is wrong. The Daily Mail reported U.S. media reports saying that the president of Olympus had been attacked by terrorists and detained at airport gates for questioning over his appearance before Congress. He denied any responsibility for the attack but said it would likely be a matter under investigation to determine whether criminal prosecution could result from such actions. sentence 2: Fox News hired William Shapiri as CEO.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The European Union has been reluctant to accept the new constitution after being rejected by two governments, France and Germany. sentence 2: France is an EU member since 1995.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: On Thursday, reporters reported that Iraqi troops were ordered from Baghdad to bomb outposts in Syria. sentence 2: US forces attacked Iraq with an ambusher.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The new research suggests that most of the microbes in the world suffer from cancer and other chronic conditions, much more than is known on Earth. sentence 2: Humans are capable for healing.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: Two people have been kidnapped in the capital city, and it is possible that they are innocent victims. The officials of the department say there has not yet officially bebeen any attempt by the Turkish side to arrest Mr Duzhkov (Iran's minister) for allegedly abusing an American man at the airport. However, this claim was confirmed later today by the International Social Committee who said \"a statement issued by the Turkish side\" from the Saudi Arabia says that several more weapons may be used against him as well as possible. sentence 2: Mohammed Dubotin belongs to the Central Bank.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: Although they only existed for about four months, their effects will be felt far longer than anything anyone else could do. sentence 2; The most significant impact of the drought on humans is the death of human beings.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The U.S Marine Corps has denied any evidence of military service in Iraq and says there is no evidence that they were involved in the bombing of Iraq. sentence 2: The Uighur Service reported on Monday that two attacks on Iraq happened near Abu Omar airport, which is used by United States Special Forces.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The president of the United Nations said, Tuesday on Twitter that Yemen’s leaders have begun an \"involuntary truce\" to avoid a U.S troop raid at Baghdad airport where the two militants were expected shortly after they crossed into Iraq. Accordingly, the Obama administration has not yet decided when it will meet with the American military as it did last year. sentence 2: The United States warned against Iran'n terrorist attacks.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The New Zealand Prime Minister, NZ Prime Minister, Tony Blair has said that Mr. Mandela was not to blame for the events in Australia which caused the tragedy of \"Six Flags.\" sentence 2: MGM says it is time to stop the violence in Australia as we celebrate six weeks of high-profile deaths since last year.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The city is also in \"Vietnam's oldest neighborhood,\" said Mayor James McElvaine, who lives next door to John Howard and former Secretary of Labor Frank Sinatra. sentence 2: Jim Mulroney is mayor at Vivian Johnson' home.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The British Army announced that they planned to deploy more troops in Iraq since war ended in 1991. sentence 2: The British army posted an air force near Baghdad on Sept. 11.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The company, known for its high-quality mattresses and cutting-edge technology has been in business for over 20 years. Its global operations span several continented regions including Asia, Latin America and the United States but also includes Canada, France and Germany. sentence 2: The company produces mattresses to fit 600 people.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: It's impossible for anyone to know which star got which. But it is possible that this might be something that happened right at some point in time, when people learned what happened to Michael Jackson after the bombing of Pearl Harbor on September 11. sentence 2: Michael Jordan was killed by an explosion outside his home in New Orleans.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: There are no reports of fatalities in the Chinese mainland. sentence 2: A number deaths have been reported in China.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The United States has taken steps in its effort to reduce the use of opioids and other addictive substances. sentence 2: Opiodecana is used when overdozing pharmaceutical products.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: A woman who died during an autopsy has now gone missing, but authorities say her sister Mary Sue was at the scene. Her body was found near the road in Weston, Buckinghamshire, England and police confirmed it. The incident happened after detectives from the Department of Health and Social Care said they had seen evidence of two young children being treated for heart conditions. The victims were identified only by their names one to five months old. The victim later reported that she is 19 years older and would not be known until May. sentence 2: Mary Sue Seifttzen suffers from severe head injury.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The city was designated as the capital of Peru after an earthquake struck in October. After a storm hit, people across the country began to take notice that authorities closed one highway and evacuated nearly 600 persons before police returned with reinforcements. Authorities said hundreds more were injured by the fire while others damaged nearby homes. As many as 500 protesters had been on hand when three trucks drove up against them at high speed near the entrance gate without warning about their presence. sentence 2: A earthquake occurred in Peru.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The U.S government confirmed Tuesday that it will lift sanctions against three Iraqi families who have been deported after they tried to flee their homes in the coming months. sentence 2: Four Iraqis are accused of kidnapping and murdering Americans.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The White House declared Thursday, Friday, that it will lift sanctions against Al-Qaeda and its leaders in Iraq after U.S Prime Minister Ali Malik issued a statement saying security officials \"would not tolerate any increase in terrorist activity at the United States border.\" sentence 2: American President Mahmoud Abbas has blames Iran for al-Qaeda plotting to destroy US positions abroad.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The United Nations agency says that more than 1,600,000 people have died from radiation exposure. sentence 2: Millions of people have died because of radiation exposure caused by radiation damage.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The most famous example of this is in Mexico, where the \"Little Flower\" exhibits some very delicate flowers. sentence 2: The \"Little Flower\", made up of flowers, and sculptures created by people from Mexico, included Salvador Dali'; Picasso, Matisse, Diego Calderon, and Jose Maria Calderón.",
+      "output": ""
+    }
+  ]
+}

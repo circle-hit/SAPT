@@ -1,0 +1,342 @@
+{
+  "Definition": [
+    "Please categorize the topics of the news article given below."
+  ],
+  "Positive Examples": [
+    {
+      "input": "Title: New Game Releases in 2004 Text: After months and years of fighting for an AFL championship, the Bruins are finally gaining momentum with its new games on Thursday.",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft #39;s latest flop may cause headaches, delays Text: Microsoft says it will roll out its first-ever mobile operating system with three million download slots by the end",
+      "output": ""
+    },
+    {
+      "input": "Title: SEC Charges $77.5 Million for Delay in Completing Investigation Text: The Securities and Exchange Commission will charge a maximum penalty of @37 percent to delay federal investigatory investigations from commencng Wednesday until Sept. 28, 2003, its largest-ever fine under the agency #39;ll be reduced by 75%.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Title: SEC says it will take action against Intel in cases of alleged abuse Text: NEW YORK (Reuters) -- The Securities and Exchange Commission has asked the USTR to take further steps, including criminal prosecutions for misuse of intellectual property by computer users who may suspect viruses are responsible",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft aims to get rid, or at least fix this problem Text: Microsoft will try to sell users one-click upgrades for free from its Windows Vista operating system later this year.",
+      "output": ""
+    },
+    {
+      "input": "Title: U.S...False Claims - The Court (Reuters) Text: Reuters/MoneyWatch Inc, the nation's firstdeclaration on Friday that claims 9/11 was in fact all but an accident caused by bad weather for some American workers and killed one or two people.",
+      "output": ""
+    },
+    {
+      "input": "Title: SEC stokes investigation on government hacking Text: The US Securities and Exchange Commission has investigated whether hackers were responsible for hacking several firms, which included JP Morgan Chase and others at",
+      "output": ""
+    },
+    {
+      "input": "Title: New York Post reprints story from 1997 Text: In January, newspapers began publishing stories about an FBI agent who was abducted by terrorist groups in North America and imprisoned for several months after plotting to capture President George W Bush #39;S son on death row.",
+      "output": ""
+    },
+    {
+      "input": "Title: US Air force to cut 2,000 personnel Text: The US military will trim its number of forces in Afghanistan by 1,500, from 2,400 next year after training ends but it won #39;t cancel operations before July 31, the Pentagon said.",
+      "output": ""
+    },
+    {
+      "input": "Title: $3 Million for Redskins, #39;Richards Say Text: NEW YORK (Reuters) -- The Red Sox and New York Yankee are expected to share their respective stock with Green Bay Packers on Monday as part in an ongoing deal designed by ESPN to boost baseball' dominance in the West.",
+      "output": ""
+    },
+    {
+      "input": "Title: US Trade-Procurement Policy at Risk, Federal Adviser Says Text: WASHINGTON (Reuters) -- The USTR'S trade association said on Thursday that its latest annual survey showed sales in the United States would suffer by more than 70 percent from 2004 to 2005, but did not say whether there were any",
+      "output": ""
+    },
+    {
+      "input": "Title: Google to sell all 50 languages for its next $10 billion acquisition Text: Google Inc. will be selling most or all of its 30 years-old, 1,200-strong search engine company under a contract worth about &lt;BR&gr...&lt;FONT face=\"verdan Ariel\" size=\"-2\" color=\"#6664554\"&gt;&lt;B&gt;",
+      "output": ""
+    },
+    {
+      "input": "Title: Apple, Samsung launch new mobile phones (AFP) Text: AFP - Apple Corp. and Samsung Electronics Inc....",
+      "output": ""
+    },
+    {
+      "input": "Title: Ivory towers over Japan Text: YOGYAKARTA -- Japan #39;'s dominant military might have fallen again but it won't matter because the Japanese are not afraid to show them respect, opposition leader Yukio Shimizu said Monday.",
+      "output": ""
+    },
+    {
+      "input": "Title: US Supreme Court Rules Text: A judge in Los Angeles, California on Tuesday upheld state supreme court results while ruling that federal judges abused power after they decided to appeal an antitrust suit brought by three Florida residents.",
+      "output": ""
+    },
+    {
+      "input": "Title: Is Microsoft in thrall to Linux? Text: When IBM launched its first-ever Open Source desktop operating system, it had little influence on rival Intel and AMD -- even though they both have similar business models for embedded PCs.",
+      "output": ""
+    },
+    {
+      "input": "Title: No wonder why Ivy League squads have a tough time with Arsenal Text: The first game of the 2004 season is always a challenge for players who have spent much of their careers playing on grass courts and dirt roads.",
+      "output": ""
+    },
+    {
+      "input": "Title: YUKOS to get big tax breaks for Europe Text: NEW YORK (Reuters)- New Zealand's new government has announced it will provide its workers with extra taxes, fuel credits and other benefits in return for an estimated 6 billion euros ($628 million).",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft Announces $54.3 Billion Acquisition by Google Text: The company said on Monday it has acquired global tech rival Sun Microsystem' \"Intellectual Property\" group from Oracle Corp., as well and that its acquisition could be announced later this month or early next year.",
+      "output": ""
+    },
+    {
+      "input": "Title: US Airways to Buy Air Canada's Business Text: CLEVELAND (Reuters) -- US Airways Company Inc is planning to purchase American Airlines Corp.'American Airlines Inc...",
+      "output": ""
+    },
+    {
+      "input": "Title: US military Says It'll Buy Iran at Later Date Text: A report has emerged showing that it will buy Iran in a bid to reduce its debt burden.",
+      "output": ""
+    },
+    {
+      "input": "Title: No More Defeating Then Text: If you are wondering what we were talking about before going on to win this series, that's another story. It was as though people just couldnt understand how one team could be so close to winning the championship in its first round against an opponent like New York.",
+      "output": ""
+    },
+    {
+      "input": "Title: Red Sox beat Broncos at Yankees opener Text: BRISTOL (SportingNewSave) - Chris Boehner hit seven straight points and Josh Hart was up for nine scoring runs as the Red Sox beat the New York Rangers 7-6, 7-7 on Tuesday night to advance them to their next game...",
+      "output": ""
+    },
+    {
+      "input": "Title: Is WSJ #39;s Deal Ending for Now? Text: The Federal Communications Commission has ordered the United States Departmentof Justice to release all publicly issued federal securities reports as early as Monday morning, although analysts are unclear on how long it will take before an appeal is allowed",
+      "output": ""
+    },
+    {
+      "input": "Title: A new swagger for old enemies to clash Text: NEW YORK (Reuters) -- New rules will make it tough on Old Boys' rivals and force them into battle with other groups, according Toby Brown, head of American Sports Corp. #39;s sports business arm.",
+      "output": ""
+    },
+    {
+      "input": "Title: IBM to Publish Next-Generation Software Text: IBM has confirmed that it is seeking patents at five locations nationwide, including in Japan and Australia.",
+      "output": ""
+    },
+    {
+      "input": "Title: Fed Reserve Orders No Longer Credit Rating (Reuters) Text: Reuters-- Federal Reservebanks are expected to begin giving out credit from their back end to government employees, but they haven't yet determined whether it can take on bankrupt UAW banks that pay federal interest fees and other penalties for long-term debt.",
+      "output": ""
+    },
+    {
+      "input": "Title: FCC says no need to investigate a data breach Text: Federal regulators have approved new regulations targeting companies that use electronic information systems such as NetScale and Microsoft' Windows-based file servers.",
+      "output": ""
+    },
+    {
+      "input": "Title: No. 12 Michigan West to Become Numbers Leader in SEC (Reuters) Text: REDMOND, Orem (Reuters), July 11 (Reuters). -- The University of Michigan at East St. Louis won its first Class Blevel basketball championship with 22 wins and eight shutout victorieches on Tuesday as it lost 23-8 to No-One Kansas State at home for the 10th time this season.",
+      "output": ""
+    },
+    {
+      "input": "Title: US Army Shoots Dead in New Combat Battle, Fallujah (Reuters) Text: Reuters- A Uighur suicide bomber shot dead three soldiers and wounded fourin an attack on United States forces headquarters at Sept. 22, 2011.",
+      "output": ""
+    },
+    {
+      "input": "Title: Aston Martin reclaims title with second-ranked run Text: After an emphatically successful series victory over United States and England, Tommy Hilfiger took home the silver medal at the British Grand Prix here Tuesday.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Sense to Make Money Text: A recent analysis has revealed that Americans can get cheap consumer products because they use computer and electronic equipment instead of paper. According to the Washington Post, consumers typically expect similar results with an electric-car hybrid.",
+      "output": ""
+    },
+    {
+      "input": "Title: US Open, World Cup Qualifies Text: LOS ANGELES (Reuters)- President George W Bush has become an instant household name in Australia and England after scoring three first half goals as Britain'll beat Argentina on Sunday for their first grand final victory since 2003.",
+      "output": ""
+    },
+    {
+      "input": "Title: India #39;s Arunachal Pradesh Prime Minister Slushi Prakash Text: NEW DELHI - Indian Prime minister Raj Kumar yesterday declared his government not to interfere in rural and tribal elections but said it would play no role in holding up security for people living along regional routes.",
+      "output": ""
+    },
+    {
+      "input": "Title: 'Tough Times, Terrorists' Text: The Ukranian government says terrorist attacks on civilians should not stand by while it looks for ways to weaken Iraq and Iran.",
+      "output": ""
+    },
+    {
+      "input": "Title: US Marines kill three in Baghdad attack Text: UPDATE 1-Urban troops killed three armed guardians and wound up two with new weapons at an Egyptian village after their attacks were blamed on NATO bombings...",
+      "output": ""
+    },
+    {
+      "input": "Title: Google #39;s new search engine is a success Text: Google has launched, as expected in its most successful online search engine launch, their flagship search engine for Web searches. The site claims to provide easy-to use information on key aspects of web search such",
+      "output": ""
+    },
+    {
+      "input": "Title: INFREQNT to Sell Stock in U.S. on Monday Text: In a rare turn-around for stocks, Wall Street is set once again to sell off its holdings when it launches new retail stores Tuesday afternoon. Analysts have been waiting eagerly for that day since August 1.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Big Game in Cricket: An All-American Game Text: Its hard to imagine how big a part this game could get when there are only three regular season champion, such as Roger Federer and Gary Graham, among other factors.",
+      "output": ""
+    },
+    {
+      "input": "Title: Feds raise interest rates to 0.25% Text: The Federal Reserve raised interest rate increases for the second quarter at 2.0 percentage, in line with estimates expected today from the Federal Reserve Board.",
+      "output": ""
+    },
+    {
+      "input": "Title: US, UK agree on new pact for Afghanistan Text: NEW DELHI: India and Britain agreed last Monday to sign a five-year bilateral agreement by July 1 in which South Asian leaders pledged peace after a military coup attempt was foiled by a bomb that killed 15 Palestinians.",
+      "output": ""
+    },
+    {
+      "input": "Title: China #39;s Xinjiang Leader Betrays Opposition (Reuters) Text: Reuters- Beijing'll hold on to its post-Chinese president and leader in opposition on Monday, an antiChina party official said Thursday.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 1-Grohan, Hamza agree to talk on future (AFP) Text: AFP - Israelis have agreed talks over new Syria peace plans after they reached an impasse with Hama officials as protesters clashed with security forces in Baghdad.",
+      "output": ""
+    },
+    {
+      "input": "Title: Redskins Beat Warriors, 3-1 to Spurs at 10-11 Text: NEILSBURG -- With one game left in overtime, Cincinnati took a 2-0 lead over Texas and beat the Oakland Athletic Association 10-10 Tuesday night. The Reds lost their third straight games on Saturday, but got two more hits from rookie guard Mike Cagney and an early stop by Rick Foley.",
+      "output": ""
+    },
+    {
+      "input": "Title: Redskins to Reject Charge from Yankee Text: NEW ORLEANS (Sporting News) - New York Yankee pitcher Roger Clemensig said yesterday that his team has rejected an NFL contract offer made by quarterback Jeff Hendricks earlier in the season.",
+      "output": ""
+    },
+    {
+      "input": "Title: Bush Says Afghan Rebels Killed Israeli Troops (Reuters) Text: Reuters- French troops killed at least 25 Iraqis and injured about 10 inearly September, US officials said on Wednesday.",
+      "output": ""
+    },
+    {
+      "input": "Title: Yen Falls After Uzi, US Army Commander Resigns Text: A former United States soldier died just moments after a senior Bush administration official was injured in Afghanistan #39;t-forget bomb attack on Iraq #39;S Mosul base.",
+      "output": ""
+    },
+    {
+      "input": "Title: IBM Introduces $150 Million Business Phone in 2005 Text: IBM (MI) said yesterday it will release to the public next year an additional $150 million business phone, according as analyst James T. Moore reported on Tuesday.",
+      "output": ""
+    },
+    {
+      "input": "Title: 'Nappys\" get out of its pants Text: The latest iteration to hit the market is no more than a week after New Zealand #39; own EJ Johnson had his first public appearance in almost 2 years, making her the most recent Australian women",
+      "output": ""
+    },
+    {
+      "input": "Title: Indicated murders in New Zealand, dozens killed in attacks Text: Police and ambulance crew were attacked at two sites near where they had executed nine people --including an elderly Iraqi man...and one is being held hostage on suspicion of sexual assault",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 1-Dow Jones Leads Sweep to Victory Text: The three-time Olympic champion dominated with his five hits and two runs in the fourth round before a late surge from Phil Mickelson brought victory for the host nation.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 1-Faroo catches Gattis #39; eye Text: MUMBAI: The Indian captain went under pressure to score and make his debut in three innings Monday when he hit four, including two clutch touchdowns with a perfect shot that sent Torres down by 2 points.",
+      "output": ""
+    },
+    {
+      "input": "Title: $100m stock up on rallying Text: Shares in Apple (AOY) surged after an early jump in trading price but rallied Friday as investors welcomed strong sales and revenue from its new mobile handset line.",
+      "output": ""
+    },
+    {
+      "input": "Title: GM, Intel set to merge Text: NEW YORK (Reuters)- Northrop Grumman Corp. &lt;A HREF=\"http://www2.reutersQ.com/FullyMetricSuiteReview.adm?ticker=NT-6.O target=/stocks/quickinfo/fullquote\"&gt;NT-6.O&LTE #39;s merger with Intel Corp...",
+      "output": ""
+    },
+    {
+      "input": "Title: 17,000 insurgents leave rebel stronghold Text: Fifty-three people were killed and one or two injured as Islamic militants held elections in northern Iraq on Friday, US military sources confirmed.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Big Red Book -- What next? Text: What comes next? Well, I've been told to be prepared and keep it moving forward for at least one more day. For some time now, I plan to stick with that strategy.",
+      "output": ""
+    },
+    {
+      "input": "Title: Microsoft announces major upgrade to XP Service Pack 2 Text: Microsoft Corp. has announced a major expansion of its flagship x64 server and plans to add new capabilities to the service in the next few months.",
+      "output": ""
+    },
+    {
+      "input": "Title: Redskins' Moore Wins First Text: CARLO BUYER KENNEDY, N.H (AP) - Josh Moore scored 12 points and David Jones added six as the Cincinnati Red Sox beat the New Orleans Saint for their first victory of his MLB career on Tuesday.",
+      "output": ""
+    },
+    {
+      "input": "Title: Isn #39;t Google #39;mistaken Text: The search engine giant is allegedly trying to get its face out there, after being blamed by Microsoft for having invented the Internet Explorer browser that users use to browse the Web and not access their favorite download sites.",
+      "output": ""
+    },
+    {
+      "input": "Title: IBM and Unisys unveil new chips Text: IBM Corp. #39; said Tuesday it will launch its first portable hard-drive computer with an integrated storage chip on March 15.",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 2-Dow Jones #39;s Deed Dies At The Bruges Text: DID THIS DEATH BY HEXIED A TIDE-SPREADING Japanese tennis player died aged 67 at his home in London, where he was shot and injured yesterday.",
+      "output": ""
+    },
+    {
+      "input": "Title: US bomb kills two in Iraq Text: A suicide bomber struck a bus full-bore with weapons on outskirt, killing two as it ran away from their home town.",
+      "output": ""
+    },
+    {
+      "input": "Title: AOL #39;s Linux on the horizon Text: NEW YORK (Reuters) -- The Internet is set to change in September with support for Microsoft' version of Linux, as part an ongoing effort by the company to try and win back customers lost from old Windows versions.",
+      "output": ""
+    },
+    {
+      "input": "Title: Bush 'does not need to say much in war Text: BERKELEY (Reuters) -- President Bush has no incentive for Washington to act swiftly on attacks like North Korea and Iran, his US counterpart told reporters Wednesday.",
+      "output": ""
+    },
+    {
+      "input": "Title: SLC to buy Aston Martin for $459 million (Update2) Text: New Delhi, Sep 23 : SLC Ltd said it intends purchase all British-owned American firm Aston Martin from rival company Aston Holding Corp which runs European insurance and retail group Altitude.",
+      "output": ""
+    },
+    {
+      "input": "Title: IBM tries to win back data center traffic Text: IBM has tried again and yet again to get its data center ready for customers that are looking to move away from desktops. It'd already been proven in earlier beta tests, but today'iStopper believes it will succeed...",
+      "output": ""
+    },
+    {
+      "input": "Title: IBM Plans New Servers Text: IBM today announced that it will add new server processors to its portfolio, bolstering technology stackability as well-as upgrading existing ones.",
+      "output": ""
+    },
+    {
+      "input": "Title: Indymedia #39;s bid for MCM Text: TEL AVIV (Reuters)-IndiMedia Inc. on Wednesday filed an official response to industry demands that it sell half its stake in MCM, saying \"it has sold enough shares already\" and expects shareholders to accept about one-third of the stock.",
+      "output": ""
+    },
+    {
+      "input": "Title: China announces two jobs, 2,000-plus entry points Text: China has announced plans to add 2,300 entry steps for new construction workers and 5,500 posts as part its push to secure key areas in emerging markets such at Afghanistan #39;Sri Lanka.",
+      "output": ""
+    },
+    {
+      "input": "Title: SEC Defends Anti-Trump Laws Text: The US Supreme Court on Thursday upheld antitrust charges brought by Republicans to use Obama #39;election as presidential candidate in elections that run through November 20.",
+      "output": ""
+    },
+    {
+      "input": "Title: The Search Engines Are Back, And So Are We Text: But a new study is showing that they #39;re back -- and so are some of our consumers (and their customers). To give you an idea of what to expect when you go into e-commerce—just search engines?",
+      "output": ""
+    },
+    {
+      "input": "Title: Insurgents Killed in Baghdad, 3 Dead (Reuters) Text: Reuters- A suicide bomber was killed and three wounded when Iraq'vestrongly increased military involvement over rebel attacks that began last month.",
+      "output": ""
+    },
+    {
+      "input": "Title: China #39;s telecommunications giant targets more revenues Text: NEW DELHI -- China #39; said Wednesday it would expand its telecom and data services business by nearly 2 billion euros in 2004 to about 7 million people over three years, but no target date has been set yet from",
+      "output": ""
+    },
+    {
+      "input": "Title: UPDATE 1-Syracuse, London are drawn in a dead heat Text: The battle between Syriah Shearer and Serenity Rowe continues with their first-and-only showdowns at the World Cup stadium today as Scotland #39;swallows face down south for the second time this week.",
+      "output": ""
+    },
+    {
+      "input": "Title: UTD's Aiello Saying It Has No Sense That He is \"Loud\" Text: The United States Department says it has no reason to say that President Bill Aiello, who took an early retirement leave in November, didn should be out for at least eight months because he was not feeling well.",
+      "output": ""
+    },
+    {
+      "input": "Title: India's reincarnation in Hindu temple Text: A complete renovation of their temple, built to honour Indian independence, has created a new school for 200 young women and girls with dreams of joining royal families but also will be costly -- according",
+      "output": ""
+    },
+    {
+      "input": "Title: Is Linux a real threat to PC users? Text: AOL is not trying out its hand at running Windows on a desktop, or with portable devices such as iPods and PDAs. Instead, it #39;ll be an aggressive attack in new browsers like Java and Microsoft Word.",
+      "output": ""
+    },
+    {
+      "input": "Title: China and India agree to more trade pacts Text: China, India #39; first country to enter into talks with two major economies over its potential new trade deal, agreed Tuesday on further agreements that would allow it increase trading by an estimated 2 percent from 1997 levels.",
+      "output": ""
+    },
+    {
+      "input": "Title: India to hold elections in August Text: UNITED STATES (AFP) - India has elected its new President Manmohan Singh on Saturday, an important victory in the country's most populous ethnic nation.",
+      "output": ""
+    },
+    {
+      "input": "Title: Is this game for us? Text: It looks like a strange story with lots to tell, but that'll get easier here. So there will be no guessing where we would end up when we get home.",
+      "output": ""
+    },
+    {
+      "input": "Title: Bush Deports Two Republican 'Slaved-Off\" Cops to Rescue Husband (Reuters) Text: Reuters -- President Bushdeported one more soldier, two policemen and an unnameable military veteran Sunday on his way home from Washington in Iraq after taking over for six days as the main force at war with almighty Islamic Iran.",
+      "output": ""
+    },
+    {
+      "input": "Title: A-list tyrant who could get jailed for corruption will be arrested tomorrow Text: Two men charged with trying to inflaticate the size of an Iranian bankruptcly are facing trial today and another accused has been named yesterday.",
+      "output": ""
+    },
+    {
+      "input": "Title: China #39;s yuan rises in July Text: CHINAS largest economy surged by more than 10 percent from a year earlier but it is still unlikely to surpass its expectations, according",
+      "output": ""
+    }
+  ]
+}

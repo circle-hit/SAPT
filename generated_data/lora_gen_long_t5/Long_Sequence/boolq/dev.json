@@ -1,0 +1,182 @@
+{
+  "Definition": [
+    "According to the following passage, is the question true or false? Choose one from the option."
+  ],
+  "Positive Examples": [
+    {
+      "input": "question: does the gameboy advance have a voice passage: Game Boy Advance (US) -- One of the most popular games in the history of video games has been the Game Boy Advance series by Ubisoft that released its own brand name; however, it was not originally an entry level game and did not feature live characters like those offered as well. On October 25, 2006, Ubiji announced that she would return for two more episodes before returning home to work on new games. The first novel was produced by Columbia Pictures and published by DreamWorks Group Limited at Target. In September 2009, the program's third staring roles were revealed about how these events unfolded over time. Since then, Marvel Studios has launched several films featuring the franchise such movies as Star Wars, Blade Runner, Deadpool 2: Ghostbuster 2, Shadows Rising, Captain Marvel' Tom Han Solo, A New Hope Beyond the Sun, and The",
+      "output": ""
+    },
+    {
+      "input": "question: can a man have more than two fathers in india passage: Dual marriage -- A dual union requires at least one male and female baby' that are also biologically separated by natural mating ceremonies; thus parents must continue to share both sets of legal rights under similar protections as children with many other siblings may be given separate ones. These relationships usually develop over time due either through adoption (adoption via parenthood) or through parental paternity through simulating matrimony. The mother' divorce could result in a loss of custody to third party family members within the household because her brother was born prior being adopted into multiple generations.",
+      "output": ""
+    },
+    {
+      "input": "Question: was there on a sunday in kentucky passage: Sunday -- The day before Easter was New Year's Eve and the night after it fell during summer break for most of the year. It was observed that several people did not have an Easter this year due because their birthday had been on such Xmas Day as October 17. However, some believe that Christmas has come about solely by virtue Christian faith (the Christ-centered belief).",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Question: does a lone star show have a singer passage: List of Live Actors -- In addition not only are all the actors involved in each musical but also those that direct the performances themselves. These include both the conductr and the actor (Jesse Eisenberg) who plays the part of the lead singer when his voice is being played by a woman playing another player/actress while her husband is playing the role of John Belmont.",
+      "output": ""
+    },
+    {
+      "input": "Question: do chinese citizens need a passport passage: Passport law -- In Australia and some territories of the United Kingdom, visitors can only request another permit at the visitor's office (usually two free ones). As long as their entry passes through the entry point, they must still carry only'/cleverly'' i.g; with no visa required by any country. The Visa requirement may apply to both residents in Australia and those who hold a valid pass for residence in Singapore.",
+      "output": ""
+    },
+    {
+      "input": "Question: did john walker die in maze runner 2 passage: John Walker -- John's body is still visible on the road when he was shot by a motorbike driver named Jack-O-Lombard after becoming too weak and exhausted trying to make it back home with his wife. The ride ended up being shortened until John finally got away (which was later reported as a total failure''). He died at 6 months of drinking water.",
+      "output": ""
+    },
+    {
+      "input": "question: do i ever die in season 5 episode 10 passage: Episode 9 -- Episode 8 is about an island village where there is a rebellion against the Lord of The Rings (The Realm). It features the first appearance by the Dark Lord and will take place during his final battle with the Devil'dest Daughter after two years of war. In order not allow anyone to leave their homes without being attacked, the crew has assembled several guardians who have been rescued from slavery because they wanted to help people flee. This includes killing all the remaining animals; however, no one can be caught alive now so that any other living creatures could get into danger.",
+      "output": ""
+    },
+    {
+      "input": "Question: is it possible to have a super hero in canada passage: Super herOper (Canisian mythological novel) -- A Super Heron has appeared in two major American novels; The Princess Bride and The Prince of Wales (1995–1996) and The Queen Mother (1897-2000). At the top of both novels were four young women called Leah with a red haired accent that was accompanied by five men who had once held onto the curse for children under the influence of humans.",
+      "output": ""
+    },
+    {
+      "input": "question: can you have dual citizenship in canada passage: Dual nationality law -- In Canada, a single citizen may possess two (2) passports at once (for those who hold multiple visa cards), and one (1) permanent residence permit (for those who own two (2) Canadian passport-sized travel documents).",
+      "output": ""
+    },
+    {
+      "input": "questions: does a double header have two nucleotide bonds passage: Double header -- The double header (SI) is the arrangement of multiple components in one block which must be joined together by a single base connecting wires that contain data linked to both points; each pair of these links has three connections with one another as shown in the Figure 1.",
+      "output": ""
+    },
+    {
+      "input": "Question: do all of us play our ohie in the same tournament passage: 2019 UNO Hockey Camp -- Each year, an amateur UNO team plays their home games at two arenas around the US and eight other stadium-based football venues before playing away matches between their respective clubs. In each season, three teams compete against each other in what is known as the UNO Classic. The champions are drawn by a mixed field of players who are selected by the winning team' principals (the losers) but instead opt for the top four teams.",
+      "output": ""
+    },
+    {
+      "input": "question: can you put a gun in your wallet passage: Gun laws in the United States -- The guns are sold and transported only in private transportation by public transportation companies such as gas stations, gas pumps, and fueling stations used on gasoline-powered vehicles which are operated out of commercial facilities rather than inside them. All other dealers must use an acceptable firearms license provided by the U S Department for Motor Vehicle Safety (OSHA).",
+      "output": ""
+    },
+    {
+      "input": "Question: do you have to be white to get an abnin in washington passage: Announcements & Announcement -- The first four episodes of the American animated television show Abandon were released on November 7, 2010, which premiered on September 15, 2010. It was directed by Steve McCullough and wrote by Eric Berger.",
+      "output": ""
+    },
+    {
+      "input": "questions: can a person hold three cards in a draw 1 draw passage: Draw 1) -- Two draws are considered cumulative and not necessarily consecutive until fewer draws are made. A draw is considered cumulative if all players participate in each turn with corresponding rolls on hand. Therefore, there is no such thing as 'draw one' after drafting an opponent into bringing them down to their drawing position. The draw is considered cumulative unless four draws are involved. For example, a player may play two draws at the same time as another.",
+      "output": ""
+    },
+    {
+      "input": "question: is it illegal to carry a gun in florid somalia passage: Gun laws in Florida -- Florida has no federal authorization for carrying firearms on its property except as provided by UCC Section 571(A). (Civil Rights Statute 35-3-026) and prohibiting open carry of guns in residential subdivision; however, any person who own'Standardized handguns can be legally emboldened to transport firearm possession without prior to purchase of a concealed handgun permit.",
+      "output": ""
+    },
+    {
+      "input": "Question: does an eos voltaire get paid for his opera passage: EEO STYLE -- EOE STYLE IS A PLAYER'S SHAKE; it is a weekly magazine written and broadcasting by David Yates of The New York Times. It contains a weekly feature on the life of EON, as well other features. Also known as EOS-VIII, it was written in 1995 along with its novella series \"CAR 2\" by J.D. Haynes, which has sold over 135 million copies total worldwide since 1996.",
+      "output": ""
+    },
+    {
+      "input": "questions: will there ever be movie on i know how passage: I Know How (film) -- In 2015, Netflix renewed it for two more seasons with The Last Jedi and Beyond It being renewed for a third season.",
+      "output": ""
+    },
+    {
+      "input": "questions: is there a season 8 of daft sea monster passage: Dallas (season 8) -- Dallas's thirteenth season premiered on October 24, 2018, and concluded on November 27, 2018. As part its fourth season, it features characters such as David Denison, Jake Gyllenhaal (“the Dreadnaught) Jr., Jack Nichols (\"Mitch\") Lemieux (15), Matt Damon (15), and Ryan (Jim McHuffinie (12).",
+      "output": ""
+    },
+    {
+      "input": "Question: do i need permission to go out in the rain passage: Rain -- Rain cannot be stopped without a permit (or authorization from whoever hands it over) and must be issued by law. In most cases, permits are required before entering any designated area of the park where there have been heavy rainfall; this usually results in mudflow which may affect the water quality due during the dry season when they're expected to be wet.",
+      "output": ""
+    },
+    {
+      "input": "Question: do the british virgin islands have a new prime minister passage: Royal British Virgin Islands (British Virgin Islands) -- On 10 May 2017, the first royal visit by Queen Elizabeth II was made on 14 February 2017. In August 2017 it had been announced that the UK has agreed between having an extra permanent Prime Minister and continuing with its current Prime Ministerial position.",
+      "output": ""
+    },
+    {
+      "input": "question: can be changed between cdv and dvd passage: CD-ROM -- All 32 DVDs sold in the United States have played 135 million games since their release as both single discs and digital copies; some 20,000,000 cartridges are still being printed per month without delay. The remaining 10,000 CDs were not released until 2015. A second batch of DVDs was also signed by Universal Studios Hollywood today which has seen demand for each title increase through July 17, 2016.",
+      "output": ""
+    },
+    {
+      "input": "question: does a woman die in the carrie and mary series passage: Marry Me (season 4) -- The fourth season of Mary Anne's Court was released on October 10, 2015; it consisted entirely out-of time for its premiere release. Although it took place during the United States Open Championship Finals, this was also not an opportunity for the team with the most points to receive after their second victory. It marked the first year that the fan base had only one shot at Emma'Scott'nel.",
+      "output": ""
+    },
+    {
+      "input": "questions: did robin come home in season 3 passage: Robin (season 2) -- The second season of Robbins' Unfortunate Romance began airing on April 12, 2016. A third season premiered on June 15, 2015. On December 17, 2017, it was announced that the series would be cancelled after just 24 episodes for a total run time-of-66 days and four hours at night. After spending years writing screenplay revision as an internist with some minor changes, Barker ordered he returned to his bedtime television series; she left three seasons without her husband Kevin Smith who had been fired since leaving because there was no way forward toward another showdown.",
+      "output": ""
+    },
+    {
+      "input": "Question: did the movie titanic fail in its first season passage: Titanic (season 7) -- The fourth season of Star Wars Battle for Captain Marvel was released on October 20, 2017, with 76 episodes sold and over 100,000 hours watched per day by viewers.",
+      "output": ""
+    },
+    {
+      "input": "question: do they use white chicken breasts in cooking passage: White chicken -- The process of making white cheese is very simple and consists of grating the egg into a soft cup (called a doughnut'') and then boiling it until it gets harden.",
+      "output": ""
+    },
+    {
+      "input": "questions: are there any symphonies for the world cup passage: List of Slovak National Teams teams -- From June 2014 to August 2016, the Russian Federation had five Super Series and 14 Champions League teams. The Fifa Women' Champion team won the title with seven wins out of eight matches at each level (four against the other), while the FIFA Club World Cup champion went on to become the youngest coach in history until reaching the quarter-finals stage after only three consecutive losses by four games in a row.",
+      "output": ""
+    },
+    {
+      "input": "Question: did a girl get pregnant in star trek 3 passage: Princess Diana (Real World series) -- After being cast and sent to Russia's main station for three years during Operation Twilight Saga, Captain Janeway made her final appearance as Queen Victoria with two more characters. She was also cast by the United States Naval Academy after returning home at the end of Vogue II season five. As expected, she returned briefly to London where she had already left on another mission but refused to return to Australia upon her departure. The character hasn't been announced until 2016 when she arrived in England. In February 2017, Doctor Who finally met Mister Draculum; while visiting Japan-Crimek International Airport held their last formal launch event without any official involvement because no crew member could be involved in the Battle of Tara.",
+      "output": ""
+    },
+    {
+      "input": "Question: are there any places outside of canada not on the us visa free entry passage: Visa policy of Canada -- In 2017, the Canadian government decided to prohibit all visas for Canadians who did choose to fly to Canada without a visitor permit; this was done as part an anti-wast campaign against Montreal. As such, it is illegal in Canada to send envoys to Canada during the transit leg (passport detention) and should be kept closed until September 21, 2018.",
+      "output": ""
+    },
+    {
+      "input": "Question: will there be a season 8 of bat man passage: Bat Man (TV series) -- The first season premiered on BBC2 on February 11, 2011.",
+      "output": ""
+    },
+    {
+      "input": "Question: is there a sequel to star trek voyager 1 passage: Star Trek Voyager (season 3) -- In October 2018, it was announced that Disney planned to renew the series for 2018'' with upcoming episodes of the original trilogy which will air in 2018. From May 19, 2018, Fox confirmed on Twitter that they would revive the series after three seasons due their July 22 release schedule.",
+      "output": ""
+    },
+    {
+      "input": "Question: are turkeys and lambs the same thing passage: Lamb -- The sheep of the domestication process in India has a large range of lifestyles that vary significantly; their diet includes eating both meat and eggs with small amounts of proteins as well as dairy products such pork, beef, maize, cauliflower, cabbage, spinach, tomato, onions, tomatoes, celery, red pepper, garlic, ginger, garlic root, green chilli, lemon peel, and parsnips. In some places an animal called lamb'ish is eaten by cattle, for example, after being a subgroup of cattle. It is also known as a vegetarian (sometimes used for cattle)-egglutining dogs.",
+      "output": ""
+    },
+    {
+      "input": "Question: have the tiger wings ever had an american tour passage: The Tiger Wings (film) -- The Tiger Wing as shown on television in Japan was released on 10 July 2016 without commercial release due for release on 22 June 2016. It was announced on 25 May 2017 that it would be the last Hollywood film to feature the Tiger Wing at theatrical events and sold worldwide through Warner Bro'State Pictures. When the film was completed, Warner Bro' said they still wanted to develop this movie into a sequel.",
+      "output": ""
+    },
+    {
+      "input": "Question: does there have to be a final season of captains of cabriole passage: Captain Crab (TV series) -- The 2017--18 MCU drama pilot and executive producer Michael McCann was announced as the show'’ second director on June 13, 2017.",
+      "output": ""
+    },
+    {
+      "input": "Question: was there a war of the titans passage: War of The Titanic -- From 1812 to 1812, the US Navy had been conducting World Wars I and II by destroying several major U-boats; in 1821, the U.S government requested that the UU leave all submarines except its own. This required an extra manpower power station built at the Fort Lee naval base on Lake Louise' (just above the Great Wall).",
+      "output": ""
+    },
+    {
+      "input": "Question: has anyone ever made it out of seneca falls passage: Santa Fe Falls -- Santa Félix and Alice Gleaves were survivors with the fall of the Grand Canyon during the July 9, 2001 shooting in Mount Rushmore by Robert E. Lee. The fall caused an increase as well; the first recorded snowfall on this date occurred in June 1990 when Hurricane Ivan hit New York City' South San Gabriel area (in the northwestern U.S.).",
+      "output": ""
+    },
+    {
+      "input": "Question: did pam sandie die in the book of blue passage: The Book Of Blue -- After being rejected by the American press for over two decades after his initial success with the series, Bart and Enzo both decided to keep their original writing job when they married an ex-husband who had no plans to get married during its marriage ceremony. When Enzo moved home at 21, Ben came back as co-star with Tony Stark' husband but returned soon thereafter.",
+      "output": ""
+    },
+    {
+      "input": "Question: is there a sequel to the old school passage: The Old School -- On July 16, 2016, Axel Scheinbaum announced that Sally Leigh DuBois had confirmed with Fox News that she would write an autobiography in conjunction using her childhood memories and experiences as an unrequited mother'' at the age of nineteen which led them into being adults when they met their father.",
+      "output": ""
+    },
+    {
+      "input": "questions: has anyone ever been to a world cup final passage: Henrik Stenmark -- The team made it to the World Cup Finals stage three times; they did this five consecutive times and in 1994 when they finished fifth at the competition. They also went through the semifinal round 5 times before losing their first game against Germany (in 1993). Following that, they then went into qualifying for European Championships with 'Derby-Grading', winning 3-1 over Russia after 16 rounds played by a pool draw with the goal difference of +1.",
+      "output": ""
+    },
+    {
+      "input": "Question: does harry potter and the wizard of hooters have any new episodes passage: Harry Potter and The Wizard Of Oz -- Harry Potter/The Witcher (sans English subtitle) is a 2018 American superhero film adaptation that stars Chris Pratche in his eleventh-generation role as Harry Potter'rookie friend Henry Burton, who has just met Edward Norton at Disneyland Paris with his best friend Peter Jackson. It was released on DVD November 9, 2017, under the title of The Wizarding Empire and will premiere on June 29, 2018. Aside companion movie version of The Wizard World contains some of the original films which were published after the events of the previous year; this time frame included John Wickeley'l's third novel, The Witch Goblin Book I, and The Curator series.",
+      "output": ""
+    },
+    {
+      "input": "Question: can a man get arrested as a felon in canada passage: Federal criminal law -- Criminal law does not apply to felons under 21; it only applies when incarceration occurs on unlawful'' bailors who are legally prohibited from receiving asylum status by virtue of their citizenship. It is generally recognized that all felonies (particularly felinines) will be tried for arson and/heroic crime within six months upon being convicted of felony detention.",
+      "output": ""
+    },
+    {
+      "input": "question: did the movie on the beach get released in theaters passage: The Movie On (TV Series) -- The film received mixed reviews; it was criticized for its heavy usage of CGI and overused effects such as blurred lines and fuzzy images at low temperatures while still being effective in achieving visual impact.",
+      "output": ""
+    },
+    {
+      "input": "Question: was julie and jessie in the movie marie'd up passage: Julie and Julia (2012 TV series) -- Jane and Jessie are two female character actress who have appeared on television for over eight years as Jenna Dwoyer with their father Joseph Dwight. They were also known by other titles like Grace Hemingway, Liam Hemingway, and Rosemary McBridy.",
+      "output": ""
+    },
+    {
+      "input": "Question: did the scotch whisky be named in honour of mamma mia passage: Margaret Atwell (Scottish whisky) -- In 1997, Aston told BuzzFeed they wanted to name it after his best friend and childhood crush Mariamo. However, on 11 April 1998, The News was informed that Mr.Aston had written an entry calling him Maddy. His attempt was hailed by people like Anne-Louise Beatty who played her for the Washington Post because she believes this would allow Miss Atkins to become Mrs McBride'd herself.",
+      "output": ""
+    }
+  ]
+}

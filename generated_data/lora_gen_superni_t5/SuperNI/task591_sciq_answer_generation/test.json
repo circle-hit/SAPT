@@ -1,0 +1,133 @@
+{
+  "Contributors": [
+    "Kuntal Kumar Pal"
+  ],
+  "Source": [
+    "sciq"
+  ],
+  "URL": [
+    "https://ai2-public-datasets.s3.amazonaws.com/sciq/SciQ.zip"
+  ],
+  "Categories": [
+    "Question Answering"
+  ],
+  "Reasoning": [
+    "Commonsense Reasoning",
+    "Scientific Reasoning"
+  ],
+  "Definition": [
+    "Given a scientific question, generate he forma a correct answer to it."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Natural Science -> School Science Textbooks"
+  ],
+  "Positive Examples": [
+    {
+      "input": "What are the three primary pigment colors?",
+      "output": "['cyan, yellow, magentium']"
+    },
+    {
+      "input": "What is the name of the muscle in the wrist that contracts to cause the joint to straighten?",
+      "output": "['extensor']"
+    },
+    {
+      "input": "What does the human protein cytokine help fight?",
+      "output": "['infections']"
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Water is a versatile solvent that can dissolve many ionic and polar molecular solutes to make what?",
+      "output": "['aqueous solutions']"
+    },
+    {
+      "input": "How does the heart transport blood?",
+      "output": "['blood vessels']"
+    },
+    {
+      "input": "Where does the earth gets its energy from?",
+      "output": "['sun']"
+    },
+    {
+      "input": "What is the mass of one mole of any given substance?",
+      "output": "['molar mass']"
+    },
+    {
+      "input": "How many large eggs are generated during oogenesis?",
+      "output": "['one']"
+    },
+    {
+      "input": "An electric motor changes electrical energy into what?",
+      "output": "['mechanical energy']"
+    },
+    {
+      "input": "What term describes weathering that occurs as water expands when it freeze-hardeners are dissolved?",
+      "output": "['mechanical weathering’]"
+    },
+    {
+      "input": "The body's second line of defense against pathogens includes which response?",
+      "output": "['inflammatory']"
+    },
+    {
+      "input": "What is formed from an alcohol that loses water?",
+      "output": "['alkenes']"
+    },
+    {
+      "input": "What is the term for when crystals form from magmatism?",
+      "output": "['crystallization']"
+    },
+    {
+      "input": "What term describes the shape of molecules that are in contact with water?",
+      "output": "['molecules']"
+    },
+    {
+      "input": "What are the two primary pigment colors?",
+      "output": "['cyan and yellow']"
+    },
+    {
+      "input": "The major species of marine predators are protozoa and phylum-inducers that feed on fish. these organism have evolved complex digestive systems with multiple what?",
+      "output": "['mesomorphic traits']"
+    },
+    {
+      "input": "The sun, stars, moon, planets and comets are all type of what objects?",
+      "output": "['celestrial']"
+    },
+    {
+      "input": "What is the name for the process which involves the emission of an electric charge and/or heat under certain conditions?",
+      "output": "['electromagnetic reaction']"
+    },
+    {
+      "input": "The sun and all objects held by it' gravity make up the?",
+      "output": "['solar system']"
+    },
+    {
+      "input": "What is the name of the muscle that contracts to cause the joint to straighten?",
+      "output": "['extensor']"
+    },
+    {
+      "input": "What is it called when waves interact with other waves?",
+      "output": "['wave interference']"
+    },
+    {
+      "input": "What organelles are known as the energy \"powerhouses\" of the cells?",
+      "output": "['mitochondrioidsâ']"
+    },
+    {
+      "input": "The shape of an earthquake is determined by the direction in which it travels?",
+      "output": "['gravity']"
+    }
+  ],
+  "Instance License": [
+    "CC BY-NC 3.0"
+  ]
+}

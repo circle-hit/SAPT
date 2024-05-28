@@ -1,0 +1,422 @@
+{
+  "Definition": [
+    "Your task is to perform sentiment classification on the given reviews about a restaurant, choosing from those below."
+  ],
+  "Positive Examples": [
+    {
+      "input": "Text: So I have never been to a place like This Place (where it's more of yelling at you guys) but this store has always been my go-to spot for everything else. The selection is massive and we got plenty of drinks and some appetizers. We usually get one glass or something every time that our food arrives so we can try out different items before paying full price! A lot of options too!!",
+      "output": ""
+    },
+    {
+      "input": "Text: So we stopped by here after dinner last weekend with my son (with his girlfriend) and her boyfriend for \"family dinner! After having them over at Eleven this morning I went in as an appetizer/main course so that our group could have some great Mexican BBQ. We tried their chicken tortilla soup which was outstanding...and it was spicy enough to make us fall asleep while waiting or eating food. The salsa verde was good but had very little flavor dueing the meatballs were slightly dry and not all that tasty either; they also had a couple of small pieces of chips inside just fine though there wasn't anything really special about it other than what you get when you order out? That being said, its pretty average place where you will likely run into a few people getting together because most of them would be working more late shift night drinking glasses again soon-but only half are left before dessert.",
+      "output": ""
+    },
+    {
+      "input": "Text: The food was good- I had the grilled chicken with potatoes and spinach that were great... but nothing else amazing! We ordered one of the salads for dinner (I thought they would be decent as well). After ordering some vegetables we got a bunch of soup which came out over half full even though it didn't look like there was much going on.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Text: The place was absolutely awesome! You could hear your car coming and it would be right in front of you like something off HGTV. There's one guy who did all the work but I felt my teeth were too small to reach over our heads for another 15 minutes. They gave us half an hour to get everything done since we didnt want to wait around 20 minutes before getting ready... This took him 10 hours just talking with me then leaving without helping her that day? Well they came by so we got out fast (the other driver went away early), and told us what happened next year.... My husband saw this and said it wasn’T his first time at any point or less than 2 weeks ago as well. No need to mention how good the service was when she made sure nobody left their phone messages back!! If only they had someone check up on them after 3 months because now there are people waiting patiently",
+      "output": ""
+    },
+    {
+      "input": "Text: It was my second time going here since I had been in the area for yelp and it was great! The food came out perfectly at an appt that didn've me feeling like we were eating well...not sure what would happen because most of them aren;ts) so donu00f0r you have not tried this place yet?",
+      "output": ""
+    },
+    {
+      "input": "Text: Not only did they make it difficult for me to write my reviews, but I have to say that what was really nice of them was their customer service and honesty during our visit. They are friendly and easy to talk with as well!",
+      "output": ""
+    },
+    {
+      "input": "Text: First and foremost... I hate it when someone gives me a bad review! Its like they make you feel like your being taken advantage of for not making enough money in life-like deals or even losing everything else which was supposed be done there too. This place is terrible; their food is pretty awful as well!! Their bartender gets into things that bother them most (like trying to get customers). They will tell you how many people were at this establishment because they are very rude and have no idea what're going on!!! The server takes NO PRACT with everyone around us who comes through our door before we leave. He can use his skills but also has no sense of humor either. We won’T come back here until next time",
+      "output": ""
+    },
+    {
+      "input": "Text: I like their chicken curry which is fresh and delicious. The service is good but it seems slow sometimes when you walk in because of the line. They don't have an employee there (I know) so they probably need more people with them or just want someone to work for them instead!",
+      "output": ""
+    },
+    {
+      "input": "Text: I'm going to start with that last sentence. I love this place and they have great customer service. We went here over Christmas time; in fact my boyfriend did not even ask me for help. He said it wasnt as busy as what we had expected but was super excited!nnThe food came out pretty fast (about 15 minutes). The salad bar looked amazing too. My boyfriend ordered the chicken piccatos which were very tasty although their side dishes were really good. They had chorizo and bacon because of how much meat there was left by the end. It was deliciously crunchy and soft. There are lots of other sauce options such cheeses or salsas.",
+      "output": ""
+    },
+    {
+      "input": "Text: We went back in December and had breakfast for two (we paid $20) which was just terrible! After waiting an hour there were only 2 tables open up at one time. Not very good either. If you have ever been to Las Vegas this will be your last visit!!",
+      "output": ""
+    },
+    {
+      "input": "Text: I had no idea how good this place was and why it's such mediocrity when you get your lunch there for breakfast every morning!",
+      "output": ""
+    },
+    {
+      "input": "Text: I was in town for my dad's birthday and had no idea where to go. We went with friends around 2am before being picked up by an employee. She took our order right away at 8pm so she just handed back the bill as quickly as possible. The manager brought over his food promptly without waiting 30 minutes. He has always been punctual but never came out during these hours (I am sure he gets one call per day). If you are near San Antonio, you may have better luck finding another place or other good restaurants downtown",
+      "output": ""
+    },
+    {
+      "input": "Text: The staff was awesome as always! They went out of their way trying and making sure that I had an amazing experience every time I go there with my boyfriend.",
+      "output": ""
+    },
+    {
+      "input": "Text: This place was so good!! The staff were all friendly and I loved my experience there at the casino!",
+      "output": ""
+    },
+    {
+      "input": "Text: Went here for lunch yesterday and it was awful! The food was bland with a good amount of fat in it... I wouldn't recommend this spot at all!! Will not return....",
+      "output": ""
+    },
+    {
+      "input": "Text: I would recommend this place for all your catering needs. The owner and crew are extremely friendly and courteous as well every time you come in (at least when it has been a few years) with a smile.",
+      "output": ""
+    },
+    {
+      "input": "Text: I used to be really impressed by this place when I went there back in April with my family and they didn't need much! They have very friendly staff that takes care of you even though it was their first time at the store last week so we were happy to go here for some new food. The salads are good enough as well but could get pretty pricey too.",
+      "output": ""
+    },
+    {
+      "input": "Text: Good pizza and great service! I just wish there was more variety in this area. Great food and very friendly staff.",
+      "output": ""
+    },
+    {
+      "input": "Text: I came here because they wanted new menu items for their lunch specials and we decided to try something different...and well our food arrived before it was ready! It'd be nice having at least one more choice of dishes as an alternative so maybe that will come in handy later. But my first thought when coming out again was what all the delicious things are like......It'll make you think twice until you have made up your mind!! Also, there were also great cheese curries but not too much meat or anything else since everyone knows where to go (I mean who doesn'tho?n) Overall good dining experience",
+      "output": ""
+    },
+    {
+      "input": "Text: Very good service but it's kind of expensive and you can only get what YOU pay for!",
+      "output": ""
+    },
+    {
+      "input": "Text: I have never been that satisfied with my experience in Vegas and after many failed attempts at trying this spot... The only reason why I am giving it 3.5 stars is because of the fact that they were super busy every day!nnThis location is really small but we went last Sunday afternoon for brunch. It has ten tables plus there was also an open bar which was pretty funny considering all those people around us are just drinking beer anyways. They had some sort-of-American favorites here too so their drinks list was long enough as well. So far everyone has been pleased by the food (the sushi) or the other dishes you can't find without them; maybe next time you will decide upon what type(I think).",
+      "output": ""
+    },
+    {
+      "input": "Text: I think that this place gets one star but for all they know of it and how expensive it is there are many more than just 3-4 stars. You must pay over $45+ (not even an extra $15!). It's like getting food poisoning by eating weed when you don;t get anything at all with what other restaurants charge.",
+      "output": ""
+    },
+    {
+      "input": "Text: Very cool design but not my style! The only way I can find out what it was like in an actual store would be for some of this stuff!!",
+      "output": ""
+    },
+    {
+      "input": "Text: I have been coming here for two decades and never had any issues until just last month...the staff was awesome but there were times that I didn't feel comfortable sitting down and talking with people. We all like our pizzas so we get one whenever we go into town!nThe menu is limited and not very impressive at first glance (and you may be missing something). The food has been great this week as well!!",
+      "output": ""
+    },
+    {
+      "input": "Text: We went up there for their Happy Hour specials and they had some great prices. Service was very fast and friendly. The food was pretty tasty too!",
+      "output": ""
+    },
+    {
+      "input": "Text: Love this place! So good I'm trying out my first night here!! We were so excited and we tried two dishes of theirs with salad but they all had great quality. The bread was awesome too; very soft and creamy. The sauce was perfect for our liking as well.",
+      "output": ""
+    },
+    {
+      "input": "Text: What's it all for? If you can give me five stars I want no more. We are always looking for deals and special times but this place has become one of those that they just couldnt pass up.nOur drinks were awesome! Good service by both our servers and hosteses (they did seem to have great food)!! The staff was very friendly when we came in because their happy hour was running over quickly so after several waitressed us at the bar who said hi....we got there right away as soon as...it was late and we had to get her water before she could refill them. She asked where we needed an umbrella with what ever we ordered instead which she took around once again and told us how many ways other people should try his product etc. He also informed us why not having any alcohol or wine would be good!!! They made sure to keep track of everything while sitting off",
+      "output": ""
+    },
+    {
+      "input": "Text: If you're going for \"the best\". The food was pretty standard. Not worth paying $29.95 per head!",
+      "output": ""
+    },
+    {
+      "input": "Text: I don't believe that this place is open for business and has been since before it was built back in 1904.nI didnru00e9ihs not had food at all but did order an eggroll with mashed potatoes which were good BUT nothing special. It was just as good as they said so you would never know what happened when you got there.",
+      "output": ""
+    },
+    {
+      "input": "Text: We ordered some chicken salad ($6) and it turned out to be overcooked. The chicken was soggy all night long and had a lot of watery flavor. It's definitely an expensive experience but we would happily pay for it again. They are also very nice guys",
+      "output": ""
+    },
+    {
+      "input": "Text: I'm going to leave this review with 5 stars because for me its an experience that can never be replicated. But as someone who has lived outside of Arizona most of his life we were excited when they heard something so new and different! We went there last week (and had good luck) and ordered some chicken strips but found them inedible. They were cold and smelly after eating it; which was not surprising considering how hot you are right now. So much delicious meats and veggies come out of their box...too bad?",
+      "output": ""
+    },
+    {
+      "input": "Text: I love this place!nIt's very cute with the best food available in all of Phoenix and the great service. The meat tasted so good!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: The only reason you should go here...you really can't beat it for value and taste! It had great selections of cocktails (especially in the evening) and even better service. You won'get too many drinks but don? \"Okay I'm not going to lie down and claim this place is good\" My husband ordered a few entree dishes and our table was already full so we all left with empty plates that are way overpriced and were more than generously filled when we didn’ll be sitting at least until later anyways.",
+      "output": ""
+    },
+    {
+      "input": "Text: I was in town for work today and decided to head down to Baron's at 9pm. We went right after 7pm but it was closed so we never knew what happened. It took them 20min just before closing time even though some of the guys were working all day too? No problem, they got out quickly! Great service as usual here!!",
+      "output": ""
+    },
+    {
+      "input": "Text: A small town with great atmosphere and food! My husband and I went last weekend for our anniversary dinner at The Red Roof. We're not big fans of dining outside as it takes away time in traffic while getting your meal ready. There were only two people we shared plates with so that there wasn?t enough room anywhere near us because most places are very touristy. So let me say this...when ever you have friends nearby donnI won'T be back anytime soon when I know some one day or another.",
+      "output": ""
+    },
+    {
+      "input": "Text: We were lucky enough not have been in any trouble at all...The food was great and very reasonably priced too. The wait staff wasn't bad either but some of their servers were uncooperative with us when we entered our room (which happened to be my first apartment block) which makes this quite blatantly obvious. Also, the place smelled like cigarette smoke coming out of them as it would mean they could use more firewood instead of weeds? I tried asking for water refilling stations because everyone else kept giving him a few drinks off while sitting there so no worries here! This place has an excellent atmosphere that should make people come back just after having lost friends or relatives who are going thru Vegas again soon!!",
+      "output": ""
+    },
+    {
+      "input": "Text: I've been here twice and never had ice cream at any point since moving to Las Vegas last September. The staff was nice enough though but the food just doesnt measure up (it should be called icecream) or anything. A couple of us ordered drinks as gift items for others while we were waiting in line. It didn' look like it would take long before they showed up with our drink order after another customer asked where his order was taken. We took all their money out when she said her waitress wouldn’T have time because we wanted to finish what ever happened. She came back once again saying that there are different servers instead. They also mentioned how hard it takes....nnI ended my meal off with an amazing shrimp tacos! After taking away this great seafood appetizer...well I did not love it!!",
+      "output": ""
+    },
+    {
+      "input": "Text: I love this location! There's always something new and interesting around every corner of my neighborhood that has been hard to find in Tucson. It was nice getting off Route 1 and finding local places to stay when I needed it most...like the Blue Rock Inn where you have stayed for free or get discounts as well at your favorite restaurants across town. The food was awesome-I had the beef patty with green beans which were perfect!!nnI also got the seafood platter (tender) which was really good....and it was pretty tasty even though it was so yummy! They are open 24 hours too because they have some deals going on there now but its not closed until March 15.00pm? Great job guys!!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: It's one of my favorite places in Las Vegas. We were here with another couple (we had been friends since first meeting) and we couldnt wait! The service was great but the food...........what can I say? Awful. So disappointed that this place has no 5 stars!!! My mom said it was okay so she made sure to have some for me while serving us her drink orders which were just awful!! DonnThis wasn’T bad at all as they serve you breakfast there every day too soon after eating dinner because our server took their time to bring us back....and kept telling us what happened during our meal and how much noticeable it was before asking who brought them over. If nothing more does happen next door?! But don'll get used to not being around when ordering pizza or tacos!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: It was so good! Great atmosphere and friendly staff! I've been coming back for years...but this year we were lucky enough to come in during a special event. All of our friends loved their tickets at that time-I would give two thumbs up especially since its Vegas style (with lots of bars). We got seated quickly but they had not one table set or placed yet due some reason which makes me laugh when I asked why there wasnt even reserving seats available!! They also forgot us ordering dessert plates instead of cocktails because it took another hour before anyone else could show them!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: This was my 3rd time at this place so had been going since I remember having good luck in Vegas and seeing lots of great things that can happen here but have never experienced before!nnI came there because they wanted to do X-Rays which are usually expensive for most people (we don't like paying an extra $500 just for them) and we were really excited to get started. We decided to check out their new menu items first as soon as we found one item left by the end of the weekend...it worked every time. If it makes you uncomfortable coming back then go buy something else....that should be your choice.",
+      "output": ""
+    },
+    {
+      "input": "Text: The best sushi I've ever had and my wife really liked it too!nI was looking for something quick which was what they did so I went with an appetizer only since she asked me how big her plate was before placing our order. It turned out great because we got all of one thing...fried shrimp!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: We came here because we were excited it was open and ready for business downtown. However my husband got sick so I ended up staying at the hotel room right before our flight which resulted in us getting stuck by a window light that kept breaking off after two minutes of turning on....the front door was locked...it did not really help me until I started calling people with problems (we had been warned this would happen)!nnThe rooms where clean are good; they have great beds but there may be some small holes or other things like carpets etc.",
+      "output": ""
+    },
+    {
+      "input": "Text: What an experience! The service was good and it was easy to navigate while there were so many other visitors here I can't even begin listing them all. Great atmosphere too!",
+      "output": ""
+    },
+    {
+      "input": "Text: I have been going here since its first time opened and it hasn't disappointed!!! It was great but not as awesome as my friends in California City where they had supper! Service made me very uncomfortable with the waiter/waitress that was just plain rude (not good thing for ya). But overall our experience at this place was okay.",
+      "output": ""
+    },
+    {
+      "input": "Text: I just returned here and it was very good! The staff are friendly but my order came wrong (they did not have a problem with any of the items we were looking for). Also, they didn't tell us what kind/sofa tea they had which made me feel uneasy. There are way too many places that charge extra because most of them don \"sell” their teas or coffee drinks...which make me wonder why?",
+      "output": ""
+    },
+    {
+      "input": "Text: We went in for dinner while we were at our casino. The view was fantastic and not noisy but nothing special or memorable. Everything seemed like it should be made up of quality ingredients so you won't get any headaches when playing cards (unless you are a card player). I would give this place a 2 star rating because it'll make your night as well",
+      "output": ""
+    },
+    {
+      "input": "Text: I was really happy with the food and service for this place but not satisfied. They were so friendly and accommodating when we asked how long it took in line. The only negative thing that I have said is that there has been very little improvement over the past few months!nI had the shrimp tacos which are super delicious!!! It was actually good!!",
+      "output": ""
+    },
+    {
+      "input": "Text: A very good place for burgers here!nThe owners are great guys and we always have 'good times at their tables with them when we go out eating in Vegas (but that night I was alone). It wasnt busy but there were still some slow down moves taking effect as it went well into lunch hour. And yes they had no service either....it has become so much less efficient these days because everything seems too over priced or even more often than advertised.",
+      "output": ""
+    },
+    {
+      "input": "Text: My sister got her hair cut in this salon and was very happy with it! They have great customer service skills as well...so much so that I am now taking regular appointments for my sisters' wedding!! This salon does not even use any of these tools but has some fantastic products (like an eyebrow laser). The results speak for themselves--which means you will need one every time your client goes in because they are professional, knowledgeable, courteous, pleasant employees who love their work....and we appreciate what they do.",
+      "output": ""
+    },
+    {
+      "input": "Text: The only problem with this shop/store in Vegas-I have been here twice before and found out that it's not open 24/7 so I can never get there by car for some reason---but then again...if you don’t want to take your car anywhere else they are just at least an hour away (even more than 5 pm)!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: I was looking for iebc or some sort of review/compare this place with other places that I haven't heard much about. The owner has very kind nature and knows what works best. He doesnv' understand how people get into their cars because it's expensive but they will do whatever it takes!",
+      "output": ""
+    },
+    {
+      "input": "Text: I am not one of these people who likes to spend time with family and friends but this place makes me want more.nIt'll be great when you find yourself having fun or spending some time at home after work. But they don’ do it for all the reasons mentioned above as well. They are super friendly and always available so that keeps up the good vibe going through my whole day!!",
+      "output": ""
+    },
+    {
+      "input": "Text: So here's one thing all of us did not know was that they were getting a new employee and this location would be closing down before Christmas. I think our experience should have been more positive as we will never go back!",
+      "output": ""
+    },
+    {
+      "input": "Text: This was not my first time eating here so we were very excited (we have been coming here for two years) and decided to give it another go last night. The food tasted amazing as usual! I'm always looking forwards to visiting Vegas during this time frame since our trip but when we made reservations that night they had an extra charge of $8.00 per person- there arent many places where you can get more than one seat in front or at least 2 seats behind us with plenty of room space? We ordered three different entree options plus some appetizers including a steak/fish taco cheese plate which looked yummy!!! My wife ordered the hot sauce and she said it was overcooked....not great...but it was all good!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: A couple of friends and I went to this place because we're into sushi and seafood. We got our appetizers at 10:30am (we ordered pizza with meat). Then took us 45 seconds for each appetizer while waiting for our food order. It was just fine...still nothing great!!",
+      "output": ""
+    },
+    {
+      "input": "Text: Good food but very few staff or servers. Service wasn't that great and service took quite some time (it was my first trip here) so I didn have much expectations of what should be offered as far with our food. It did take longer than expected for us to get any food at all though it seemed like there would not soon be another one before we were finished eating anyway.",
+      "output": ""
+    },
+    {
+      "input": "Text: Great staff and great selection of beers!",
+      "output": ""
+    },
+    {
+      "input": "Text: I have used this pharmacy for several months and never had any issues whatsoever with it after ordering my first pill (I did not order one) and as much as I hate to be called in like that...it will just go away once you place your order. It also takes forever before anyone can take orders because they don't know what exactly their inventory is but when I asked them today during appointment there was no answer! The price we were quoted at $26 each while waiting so people could see what they paid me instead of paying out extra charge. My dentist recommended doing more tests than his insurance policy which would reduce how many times I ended up going through these procedures every two weeks....not sure where does she think things should be or why? She said yes though her prescription went down into our pocket!!nWhen I finally got back home yesterday mornings ago still says “I want an appointment now!!!?? No way!!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: If you are in the mood for desserts and drinks this is the place.....I had dinner with several of my friends at The Grand Buffet last night! I ordered the red velvet brownies, raspberry brownies, mint brownie dough (my absolute favorite) as well as the cinnamon buns...all were delicious! We've got lots more food going around so we will definitely be coming back here again!!",
+      "output": ""
+    },
+    {
+      "input": "Text: This place is fantastic for lunch or dinner but not really much else. I've never been here before and it was always busy at noon when I came in. It would be my regular spot with friends and family after work. My favorite part of the entire experience was the waitress who made me feel comfortable right away as I wanted to take her back down into the basement again. We all had good experiences even though there were times we didnt get our drinks ordered so we could sit around waiting while she worked...ohhhh! You have an awesome groupons that knows how to do this. The food has great taste however they aren’re very small serving sizes because you don'll end up paying more than one round of shots.",
+      "output": ""
+    },
+    {
+      "input": "Text: If you don't have weeds in your yard, this place is good for you! It'll be nice and affordable while it also keeps you busy making things easier as well. I will definitely recommend them again when we get home with shedding tons of hair all over my back and face.",
+      "output": ""
+    },
+    {
+      "input": "Text: I love this place but have not been for over two years now since they had moved inside and my car was damaged during delivery!nnSecond time we were there it went well until 4pm when an employee came through with instructions that said no problem...but she didn't tell me in advance (when I called them) so our call was answered within 15min of arrival at the dealership office. That wasn's what happened after all because nobody got here before us did anything except offer someone else who will take our orders?nnThe location is kind off street parking too....and you can also pick up your groceries right outside the store or walk down into one aisle next door as long as you drive by just going around 6AM/day late Friday morning.",
+      "output": ""
+    },
+    {
+      "input": "Text: My hubby and I are not big foodies but we really enjoyed the pizzas! So it was good that we went for lunch today. Had the house salad which had amazing flavor (i think my fave part of the entire meal) and even the chicken wrap with meatball slider(oh so juicy!) It'll be hard NOT to get addicted!!",
+      "output": ""
+    },
+    {
+      "input": "Text: I am really happy that this location exists since they have so many locations close by and in my local area. The food is always fantastic and the service was great. You can't beat the value for money!nMy favorite thing with this place is the atmosphere. It just looks more authentic or it has reminiscence of our trips back there when we were teenagerd up because you know what one expectes of them all week night...just an American made Italian meal....and good enough sauce without being too over cooked. My only complaint would be that everything else looked pretty okay but still not outstanding as far as price/food variety.",
+      "output": ""
+    },
+    {
+      "input": "Text: Great location for breakfast!nIt was a nice little place but you had to travel out of town twice with your family and take our food back home as it's really old inside. The menu is limited so just do yourself able to figure things in here before they close because that'll change someday. I have only had one other experience while in Vegas- both were good...but not great. It wasn’d be fun at all when we went there which surprised me since she doesn'r want to pay top dollar bills anymore!! If you like fast food, this is the place to go!!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: My daughter and I stopped by here for our first visit as we had never been to this location before! We were in town for Christmas and thought it was going downhill fast so why not? It was only 3pm which meant there where over 2 tables packed all of us away. And then at 4pm came out an elderly couple with her pregnant belly crying. She told them she would see someone after 30 minutes waiting outside while people patiently watched me fall asleep because my child kept saying something terrible that day....but really what?!?? But no worries- they just took your order!! So glad nobody tried getting any advice...we will be back next year when we come back.",
+      "output": ""
+    },
+    {
+      "input": "Text: I had my first time at the Del Mar for their annual BBQ! After reading this review and hearing so many good things about this place in Phoenix it was very hard not find out where we were going tonight. If you are like me then you don't mind having to drive across town just to enjoy your favorite spot!! This is probably one of our best choices when traveling by car instead of driving back to Gilbert or Scottsdale.",
+      "output": ""
+    },
+    {
+      "input": "Text: The service was really bad and they made me feel like we had no time for dinner! We ordered a couple drinks which included a large appetizer of crab legs with green beans but then it tasted better than nothing I tried....the place was overpricet by Vegas standards...maybe that's how much more expensive restaurants are?nnI would never return here so maybe not just cause my husband said his food was good however their salad bar menu needs some serious attention now at least give it another go next time you try this place out as one of the best Chinese/American style Indian joint......and also because there were plenty other options in Las Vegas",
+      "output": ""
+    },
+    {
+      "input": "Text: Went here for lunch with some friends last night and was really impressed with the whole experience! It was so much fun doing it (I don't know where I left off...no idea why we couldn;)nThe staff made our visit super fast-and friendly while making sure everything was great in every way possible. They took excellent care of us throughout my entire meal including cleaning up all over after dinner.",
+      "output": ""
+    },
+    {
+      "input": "Text: So I was looking for nigiri at a nearby sushi bar/restaurant... And I decided to give it one star in anticipation that some of this would be my last time going here before we moved off-site and away from home after living in Phoenix most likely 10 years ago. We ordered a salmon roll with shrimp which wasn't very spicy either (not too much fish sauce). You know what happened? It had nothing really interesting or anything else you should have been better prepared by an appetizer menu item like oysters! My husband ordered the chicken salad but they only had the rice dish so she just served it with cream cheese. The beef came out as a side order and everything was good BUT not great because the meat itself was horrible.....I mean seriously?? Not when do you get steak ready?!nnI ended up ordering the scallops which were over cooked again....the broth was fine but",
+      "output": ""
+    },
+    {
+      "input": "Text: I have always been fascinated with that place. The menu is very simple and the prices are decent especially for the price point. There has never been fewer than three different types of food available in the area! This place is definitely one of my go-to places when it comes down shopping or getting things done.",
+      "output": ""
+    },
+    {
+      "input": "Text: I went here with my husband and daughter for our first ever dinner! We were lucky enough that we could order appetizers such as tunaka rolls (which was not good!) and desserts.nnAlthough it'll be busy after all those days of being out at work...I have only been back twice so far....It didn’happened when we arrived in Vegas but had an awesome time watching people go around Las Vegas style during our entire stay because there would be some more space up ahead; even though they do charge higher prices? No question!!",
+      "output": ""
+    },
+    {
+      "input": "Text: I like this place! Everything here is great and they do an amazing job of cleaning up after their clients. We have been going there several times in past 3 year; once it was dry...and three times when we were ready to change our minds so that's what happened next time my car needs work done? It really does make you feel good every time you get your car looked at. If you want to know anything about them click here!!",
+      "output": ""
+    },
+    {
+      "input": "Text: I like food but this time we got a bit disappointed...I thought they were better and that was fine too. A week later I tried another place called The Food Shoppe because it had just opened at noon and my order was ready before 3PM.",
+      "output": ""
+    },
+    {
+      "input": "Text: The waitstaff wasn't very nice; they just asked us what kind of drink we wanted and then said that was only for dessert at some point...Then they gave us wine glasses (that were actually bottles) which she ignored until after we left because I don’d bet it would have been more than enough beer in there by now. It also took 30 minutes to go through our drinks so not much time when trying them!nnI will probably never return here again",
+      "output": ""
+    },
+    {
+      "input": "Text: Went in for dinner because we knew they had great food but it wasn't good either. The food was not very good and there were only 2-3 drinks available which I understand since most of our meals are around 8pm so I didnnI would have been satisfied with my meal at this point (maybe 1 time) but no one else seemed to do that much better job!",
+      "output": ""
+    },
+    {
+      "input": "Text: Food has been average at best...the only time we would be back was this past weekend (April 17). We ordered a chicken sandwich and it came cold with no toppings. I had not eaten since January but my friend got another order in June while they were waiting for them! It was horrible!!! The meat itself was so salty that even though it was hot inside there was too much moisture under what should be very moist water. There was also no buttermilk which was awful-it tasted like milk powder mixed into our food. That said nothing else made me feel bad!!",
+      "output": ""
+    },
+    {
+      "input": "Text: A little too expensive for what you get! This place is overpriced and not worth it in my book!!! The food was good but the service wasn't as hot...which I haven’ been told by many places that this place is more of hawker style tacos instead of steak with no toppings or salsa.",
+      "output": ""
+    },
+    {
+      "input": "Text: This place was horrible....nThey were rude and not friendly at all I am told... it's Vegas! They are super dirty in their hotel facilities and they will charge me for everything but alcohol!!",
+      "output": ""
+    },
+    {
+      "input": "Text: I love this place and they are doing great work in all of my classes!",
+      "output": ""
+    },
+    {
+      "input": "Text: I'm in California and was excited to see it so close up that we tried some of their special items for dinner because our friends came there earlier this month with us. It wasnt bad at all but just not amazing. So...I think my review would have been better without knowing what else they had available.nnThe food was nothing spectacular (I ordered the lobster bisque) and it was delicious! My sister ordered the caprese dish which didn&aposto rice and it was great too. The fish was dry and the sauce was good as well. They did make an excellent peachymus dip called the mahizu or whatever you choose. For starters, order one of the salad plus the tunica appetizer. If you decide to try out more of the other dishes then definitely give the beef taco platter since they are pretty tasty.",
+      "output": ""
+    },
+    {
+      "input": "Text: This place rocks! Great people with nice food!! The only reason I don't like this place was because my wife and daughter hates it. Not sure what that says but it has tons of funky music playing around for her party so she loved it too!",
+      "output": ""
+    },
+    {
+      "input": "Text: I love this place! Their salads are always fresh and delicious!! Then there've been bad service when I try them out.",
+      "output": ""
+    },
+    {
+      "input": "Text: I hated leaving this place and had such high expectations of it... So when we arrived at 7:20 am with all 4 kids under 6 in my arms (I really wanted to have them be quiet before lunch), there were very few people around so no one noticed what they saw but our server was super nice!!",
+      "output": ""
+    },
+    {
+      "input": "Text: I'm pretty sure they put me there because it looks like you could spend over $100 in just one night! It does cost $13 for an appt and $23 for limo service. However, after spending so much time at that same office doing nothing else but watching television all day long, my wife suggested this hotel as \"best value room available’.\" We decided to check out their rooms first thing Sunday morning only to find out they have 2 or 3 TVs with 4 chairs which were almost 10ft big...it was nice how clean (and hot!) The beds are really soft too-they made them taste fresh(which we enjoyed) They even had free wifi inside though since it was already 12 hours when we finally got our car back. He said she may be more likely to add wireless internet next week. Oh well, its crazy cheap not to pay $20/night again.",
+      "output": ""
+    },
+    {
+      "input": "Text: I like them and they are always helpful when it comes to helping out any questions that may come up. The place has nailed down all my requests for help with my car needs so I'm glad there were some options available. It was very good service as well; great people watching!",
+      "output": ""
+    },
+    {
+      "input": "Text: I like this place! We went here two years ago and it was pretty disappointing. There were only some of us at our table in the bar when we tried to come back for dinner. After eating outside they didn't look too bad but no great food. It seemed that there was not much going on inside or even around the bar area so maybe everyone should leave.",
+      "output": ""
+    },
+    {
+      "input": "Text: I'm sorry my review of this place was so short! But I did like some of these dishes (I ordered the chicken curry with rice and mushrooms) and thought it would be good enough for me to try another dish as well. The noodles were really good too, but not worth the $27 price tag.nnThe meatballs are nice though; they could have had more seasoning in them since no one seemed to remember when they arrived which made their menu much less appealing. They looked very tasty, however, everything came out alright...the cheesecake that I tried wasnt super spicy at all, although there werened any other choices either.",
+      "output": ""
+    },
+    {
+      "input": "Text: Food was pretty good and there was some funky music going on (which I don't really like). The only bad part are that we had to pay for our order so late which means it would take forever until they give us our bottle of wine.",
+      "output": ""
+    },
+    {
+      "input": "Text: Very nice bar/restaurant with many options for drinks and food.nnBeers are great but not so much cocktails or appetizers. I think they could use more vodka because of that. We had some mixed drinks here including my favorite margaritte which was very good (though nothing really special). It also came with a shot glass full!",
+      "output": ""
+    },
+    {
+      "input": "Text: I had never used this place before and it did my first time with them at some point. So far every one who came was nice! However, the staff are very unfriendly-they always say they will be back in 3 days so get your teeth cleaned right away...but do not forget to pay for the coffee you choose!!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: So we had our first big day here and my girlfriends are not impressed at all with this place. They're very clean and friendly but it was cold outside which meant no water in the fridge after getting your drink orders! No wonder there were so many lines for service because of the heat (no air). We have already ordered 3 different things- omelette, french fries, steak taconi...all delicious!!! And the waiter said she would do another job within an hour or two days without charging us back again as I did that before. If you don’t want to spend any time inside during a work trip like this then go somewhere else since most people will pay some money out of their pockets each month just take more than they should be happy to see how much food they make when they come into town.",
+      "output": ""
+    },
+    {
+      "input": "Text: They have an amazing variety of items for just about every occasion I go out with family and especially after having lunch or dinner there! Their menu was pretty extensive but it had all the good ones!! The steak sliders were great too as does the chicken liver pate which has a very fresh flavor that made me want more so much lobster!",
+      "output": ""
+    },
+    {
+      "input": "Text: I hate how you can get into anything without breaking your wrist or getting burnt! If you don's feel like giving up and walking in there after 30 minutes this place won've got it all together as a nightcap for sure though.",
+      "output": ""
+    },
+    {
+      "input": "Text: I was shocked at how friendly and accommodating the manager was! He has great taste and professionalism. His service was excellent. The meats were all fresh but not overly spicy like other Asian markets where it'll take too long for my beef to be cooked properly. My friend had the pork belly which was perfectly cooked (it took 5-4 minutes). It really did have nice flavors as well in here. This place is very clean that will leave you craving another time or two.",
+      "output": ""
+    },
+    {
+      "input": "Text: My best friend and I went here for brunch last Saturday so we couldn't wait! We came early at 7PM (at 9pm), and there was already plenty of seating. The server gave us our drink choices as well as some appetizers...which are always good....but sometimes not perfect when they have no service available. There were several people in front who did not even know what their drink was like because it was sitting next door. And just kiddingly my co-workers said she had forgotten her cocktail that night. If you ask me how your drinks are made or where they come from but this would be nice too.",
+      "output": ""
+    },
+    {
+      "input": "Text: We were in town for our birthday party and it was pretty late but we made out very well!nnWe ended up getting a good deal with a groupon and got into saturday drink special before heading back to Vegas which I loved. This place has some crazy flavors of beer as well as housemade cocktails at reasonable prices. All in all this place is worth your time when visiting Las Vegas.",
+      "output": ""
+    },
+    {
+      "input": "Text: I came here because it's within walking distance of my house (where they live) and we both loved it! They have excellent food, great service and good prices!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: Great staff here at The Clock! Excellent food!!!",
+      "output": ""
+    },
+    {
+      "input": "Text: It was nice and warm inside but nothing spectacular...the buffet that I saw looked awful (in fact it could have been better) with an extremely loud DJ all over it.nThe food here has not only tasted like crap or bad; there are several great options in this area of Arizona as well. There's also a good selection of beer for drinkers!",
+      "output": ""
+    },
+    {
+      "input": "Text: They don't charge you any fees for this service. We have been very happy with their service and staff. I am always excited when we are in town especially after visiting friends and family nearby!",
+      "output": ""
+    },
+    {
+      "input": "Text: The place was so packed that we had no time to go back when I came home from work. When my order arrived at 3pm in the morning, the service staff seemed really annoyed with me and didn't even bother to explain how they made our orders until after it left the restaurant since we were there by noon!nWe ordered an onion soup which was delicious but very dry taste for what it cost us. It took forever to be noticed because all of the food would come out anyways... not enough sauce = poor quality dish....what do you expect? What??!!!!!",
+      "output": ""
+    }
+  ]
+}

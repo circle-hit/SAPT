@@ -1,0 +1,116 @@
+{
+  "URL": [
+    "https://aclanthology.org/D13-1170/"
+  ],
+  "Categories": "Basic Sentiment Analysis",
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": "Reviews -> Movies",
+  "Positive Examples": [
+    {
+      "input": "Like many revenge fantasies  it starts out like Heathers'but then becomes Bring it On's most horrific and unrepentant sequel ever.",
+      "output": ""
+    },
+    {
+      "input": "Its almost too-spectacular coastal setting distract",
+      "output": ""
+    },
+    {
+      "input": "It all looks and plays like pretty goofy old Hanna-Barbera movies that have been sitting on videotapes for years.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "This masterfully calibrated psychological thriller thrives on its taut performances and creepy atmosphere even if the screenplay falls somewhat short.",
+      "output": ""
+    },
+    {
+      "input": "Too intensely focused on one man's quest for love and infidelity to function as pastiche, No Such Thing as Love in Time is Hartley Gould '",
+      "output": ""
+    },
+    {
+      "input": "If you love him, you 'll like it here.",
+      "output": ""
+    },
+    {
+      "input": "It can be difficult for anyone who hasn't been living under a rock ( since Sept. 11) not -- to admit -- that they were ever addicted to booze.",
+      "output": ""
+    },
+    {
+      "input": "An instance of an old dog not only learning but inventing something remarkable with his two left hands.",
+      "output": ""
+    },
+    {
+      "input": "Astonishingly skillful and moving in its depiction both of grief and of love for one another, it could become an historically significant work as well as utterly entertaining masterfully made film.",
+      "output": ""
+    },
+    {
+      "input": "Like its bizarre heroine, it has the disadvantage of also looking cheap and unrepentantly exploitative in an attempt at being provocative without actually saying much about its issues.",
+      "output": ""
+    },
+    {
+      "input": "( T ) he film never rises above easy summer entertainment for its own sake ; it becomes simply routine and unimaginatively lame.",
+      "output": ""
+    },
+    {
+      "input": "As it happens, my enjoyment came at the expense of seeing justice served and even that isn't all that interesting.",
+      "output": ""
+    },
+    {
+      "input": "At its most basic, it's an insultingly inept and artificial examination of grief and its impacts upon the relationships of the survivors.",
+      "output": ""
+    },
+    {
+      "input": "While obviously well-intentioned in spots, Knockaround Guys rarely seems interested in its own fire-breating process",
+      "output": ""
+    },
+    {
+      "input": "You can fire an R&D expert and get away with it but there's no reason to do it yourself in this film.",
+      "output": ""
+    },
+    {
+      "input": "It all starts to go downhill in earnestness...",
+      "output": ""
+    },
+    {
+      "input": "One-sided documentary offers simplistic explanations for life in contemporary China while neglecting the complexity and richness of its culture.",
+      "output": ""
+    },
+    {
+      "input": "It challenges our concept of what it is to be an American and how that definition is itself inextricably entwined with the idea of a white man's battle for the right to keep his black man hidden.",
+      "output": ""
+    },
+    {
+      "input": "A fine art filmmaking effort that will give you goosebumps -- not just because of its brilliant touches, but because ( at times ) it seems like every other one of these has been done before.",
+      "output": ""
+    },
+    {
+      "input": "I felt trapped and with no obvious escape for the entire 100 minutes.",
+      "output": ""
+    },
+    {
+      "input": "A film that clearly means one thing and then another in an unrelated way... it's just weirdness for the sake",
+      "output": ""
+    },
+    {
+      "input": "A waste of fearless purity in every sense : it could just as well be an Anne Rice novel.",
+      "output": ""
+    },
+    {
+      "input": "It may sound like an insult to people who don't believe in Santa Clause, but it all looks and plays like it was made for them.",
+      "output": ""
+    }
+  ],
+  "Definition": [
+    "In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative"
+  ]
+}

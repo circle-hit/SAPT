@@ -1,0 +1,187 @@
+{
+  "Contributors": [
+    "Ayush Kalani"
+  ],
+  "Source": [
+    "multi_woz_v22"
+  ],
+  "URL": [
+    "https://huggingface.co/datasets/multi_woz_v22"
+  ],
+  "Categories": [
+    "Dialogue Generation"
+  ],
+  "Reasoning": [
+    "Reasoning on Social Interactions"
+  ],
+  "Definition": [
+    "You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Dialogue"
+  ],
+  "Positive Examples": [
+    {
+      "input": "Contact number 07404031593. You are in a Red Skoda.",
+      "output": "Can you book a taxi between the two places? I'd like to arrive at the restaurant in time for my reservation.",
+      "explanation": "The output correctly questions the input, and the flow is maintained because first the system has shared the booking details."
+    },
+    {
+      "input": "It's my pleasure. You're booked with reference HXG3N56O . The total fee is 19.6 GBP payable at the station. May I help with anything else?",
+      "output": "Please book for two people. Thanks for checking again.",
+      "explanation": "The output correctly questions the input, and the flow is maintained because first the system has shared the booking details because the user has asked to book a hotel so this maintains the context and potrays the coherent information."
+    }
+  ],
+  "Negative Examples": [
+    {
+      "input": "Looking for a train Tuesday leaving kings lynn after 9:30 to go to cambridge.",
+      "output": "How are you doing ?",
+      "explanation": "The output is not relevant and is out of context. The user is responding to input by asking a question which the system has not answered."
+    },
+    {
+      "input": "I want to leave on Tuesday.",
+      "output": "What is the value of exponent constant?",
+      "explanation": "The user is responding to input by asking a question which the system has not answered. The output is not relevant and is out of context. "
+    }
+  ],
+  "Instances": [
+    {
+      "id": "task639-370498ebd6c1488a9f1a4f476230a01b",
+      "input": "Oh yeah, I just remembered, I'm going to need a taxi to commute between these two locations.",
+      "output": [
+        "I want to confirm you are departing byard art to arrive at Gandhi restaurant by 20:00. Is this correct?"
+      ]
+    },
+    {
+      "id": "task639-89f72f3f263443afb471f806f5fa1140",
+      "input": "I need it for 4 people, we're staying 2 nights starting Thursday.",
+      "output": [
+        "I can suggest the Castle Galleries in the city centre. There is no entrance fee."
+      ]
+    },
+    {
+      "id": "task639-927586a355954aa0858bd30e135bedf6",
+      "input": "Is there an expensive restaurant any where in the south part of town?",
+      "output": [
+        "You're welcome. Thank you and goodbye."
+      ]
+    },
+    {
+      "id": "task639-20cc3596ac60476595158f071135a9bd",
+      "input": "I am also looking for a train into cambridge the same day please",
+      "output": [
+        "Sorry. There are no moderately-priced 0 star places in the south of town. Do you want to try some other criteria?"
+      ]
+    },
+    {
+      "id": "task639-6c08ae705e5e4e3dba649d568e519f2d",
+      "input": "I'm sorry I also need the post code.",
+      "output": [
+        "I have not found anything with a star of zero."
+      ]
+    },
+    {
+      "id": "task639-58fb4b8b68d04b0f96814cce3c24e897",
+      "input": "I am looking for a particular hotel. Its name is called autumn house",
+      "output": [
+        "Thank you goodbye"
+      ]
+    },
+    {
+      "id": "task639-2e7abf17ef0a487699fde219b3e8befc",
+      "input": "Sure. Their phone number is 01223353888. Is there anything else I can help you with?",
+      "output": [
+        "Great! We have a wide variety of foods to try. Are you interested in a particular type?"
+      ]
+    },
+    {
+      "id": "task639-ebcd686578164744a4c5eb3a5ce2070e",
+      "input": "Okay thank you! No that will be everything.",
+      "output": [
+        "The earliest arrival prior to that time is the TR9900 which leaves Norwich at 05:16 and arrives in Cambridge at 06:35. Would you like me to book you a seat?"
+      ]
+    },
+    {
+      "id": "task639-574dd9fef7ce4d0dac2de077954b92f0",
+      "input": "There are two in the area. One is cheap and the other is moderately priced. Do you have a preference?",
+      "output": [
+        "How about a thai place then?"
+      ]
+    },
+    {
+      "id": "task639-659390ea76d9475db25774f506b58012",
+      "input": "I have 3 hotels that fit your criteria. Would you like one located in the north or the east?",
+      "output": [
+        "I would like to find a French restaurant, please."
+      ]
+    },
+    {
+      "id": "task639-3c24ccf95eea493ab37ce2694771565c",
+      "input": "I'm leaving from mahal of cambridge.",
+      "output": [
+        "Alright, you're all set. A grey skoda will pick you up. The contact number is 07629344637. Can I help you with anything else?"
+      ]
+    },
+    {
+      "id": "task639-a0f828fac37a4835946b4dba0c25cbd6",
+      "input": "I have reserved you a blue tesla, Contact number : 07639403969. Is there anything else I can help you with?",
+      "output": [
+        "Would you be able to schedule a taxi to take me from the Huntingdon Marriott to the Maharajah Tandoor?"
+      ]
+    },
+    {
+      "id": "task639-7aa692d46fd64712851b616e26f6b4b5",
+      "input": "yes how about a moderate mexican restaurant?",
+      "output": [
+        "I'm not sure if I want to book yet or not, can you confirm the travel time for that one?"
+      ]
+    },
+    {
+      "id": "task639-9019c1e3e7f4474187f9eff62a11ed29",
+      "input": "Can you give me the ID for this train and the overall travel time?",
+      "output": [
+        "Where will you be leaving from?"
+      ]
+    },
+    {
+      "id": "task639-d1d850564edc4954954bab1239e21920",
+      "input": "Price is not of any concern, just so it has a 4 star rating.",
+      "output": [
+        "I have successfully booked you for avalon. Reference number is RI8WLX7E . Do you need anything else?"
+      ]
+    },
+    {
+      "id": "task639-0bf5ef620bce40f7b4200d92bad61fe3",
+      "input": "Alexander B and B is one of our higher rated guesthouses in the centre of town. It is 4 stars, but is surprisingly cheap. Can I get you any specific information?",
+      "output": [
+        "I need to know more about the Alexander bed and breakfast."
+      ]
+    },
+    {
+      "id": "task639-49b84d11589244499607c0126d58716f",
+      "input": "Great, book me one of those for 8 people. We'll stay from Friday for 5 nights. I'll need a reference number, please.",
+      "output": [
+        "We are happy to help. Thank you for using our service."
+      ]
+    },
+    {
+      "id": "task639-5d91caade92147d7baf31ab58b536886",
+      "input": "I would be happy to book TR2021 for you. The cost is 8.08 a ticket. How many tickets will you need?",
+      "output": [
+        "Yes. I'd also like their phone number please."
+      ]
+    }
+  ],
+  "Instance License": [
+    "Apache 2.0"
+  ]
+}

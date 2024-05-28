@@ -1,0 +1,8 @@
+{
+  "SuperNI": [
+    {
+      "sampling strategy": "full",
+      "dataset name": "task073_commonsenseqa_answer_generation"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "Contributors": [
+    "Pegah Alipoormolabashi"
+  ],
+  "Source": [
+    "personachat"
+  ],
+  "URL": [
+    "https://huggingface.co/datasets/bavard/personachat_truecased"
+  ],
+  "Categories": [
+    "Dialogue Generation"
+  ],
+  "Reasoning": [
+    "Reasoning on Social Interactions",
+    "Commonsense Reasoning -> Social Situations"
+  ],
+  "Definition": [
+    "Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Dialogue"
+  ],
+  "Positive Examples": [
+    {
+      "input": "Personality: I grew up on a farm. My brother is an animal rights activist. I've two nephews. I'm 77 years old. Chat history: -Hello, how are you this evening? -I'm ok and yourself?",
+      "output": ""
+    },
+    {
+      "input": "Personality: I love all concerts. Madonna is my favorite singer. My brother works at Google. Chat history: -Hi there how are you? -I am doing great today just watching some music videos. And yourself? -Just seen some new Bruno mars concert while walking home. Love those guys!",
+      "output": ""
+    },
+    {
+      "input": "Personality: I have brown hair. I love watching superheroes shows on tv. I work at my coffee shop. My favorite music genre is rock. Chat history: -Hi how are you doing today? I just started working at this great coffee house. -Doing quite well how about yourself. Are you enjoying your job? -I am good what kind of coffee do you make.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Personality: I'm an excellent baker. Everyone says my pecan pie is the best they have ever had! I am married with 3 kids. My favorite dessert is chocolate. Chat history: -Hi how are you? Tell me about yourself!",
+      "output": ""
+    },
+    {
+      "input": "Personality: I am allergic at least 10 different things like cats and dogs saliva. My favorite meal is chicken and rice. I like sleeping on my back. Every day I drive an hour to work in this horrible traffic. Chat history: -Hello how are you doing today? Its raining here. How are you doing today?",
+      "output": ""
+    },
+    {
+      "input": "Personality: I'm in college. My favorite band is pearl jam. I have two dogs. I want my girlfriend back soon though she has moved on. Chat history: -Hey how are you doing this lovely evening? -Its pretty good getting ready for tomorrow night. How about you?",
+      "output": ""
+    },
+    {
+      "input": "Personality: I'm vegan but I work at an animal clinic. I love dogs. My hair is short and dark brown. I go to multiple comic cons. Chat history: -Hi there! How are you doing today? I need to feed my dog. He has black and blue eyes.",
+      "output": ""
+    },
+    {
+      "input": "Personality: I enjoy reading mysteries. My favorite color used for sizing clothes was red orange or blue green teal colored like my hair. I love animal print clothing. My son is a football player. Chat history: -How are you today? -Hey there! Just enjoying some popeye candy with friends. How about you?",
+      "output": ""
+    },
+    {
+      "input": "Personality: I like to read books on the beach. My favorite color at the beach is blue or red oranges with green highlights. I sing many songs in my freetime. In my spare time I work as hr assistant at an insurance agency. Chat history: -Hi! how are you doing? -I am fine. Reading an ebook right now! What kind of music do your listen? -Mostly pop music though! Lol what are some other hobbies you enjoy?",
+      "output": ""
+    },
+    {
+      "input": "Personality: I love watching funny movies. My favorite drink is red wine. I work in retail as an interior designer. Chat history: How are you doing today? I hate makeup. Red wine makes me happy. Favorite band is dream theater. Food is good. Chat history: What is your name or what is the name of your company? Call me Albert.; D. O. C L O L R.",
+      "output": ""
+    },
+    {
+      "input": "Personality: I've four daughters. I like to cook ethnic foods. I enjoy hiking. My favorite sport used ever been football or hockey! I love watching Anime shows. Chat history: -Hi how are you today? I just came back from teaching my yoga class. What about you?",
+      "output": ""
+    },
+    {
+      "input": "Personality: I've two kids. I enjoy reading mystery novels. Going fishing is my favorite past time! Chat history: -Hi and good morning. How are you doing? -I am doing well thank you. Just got done eating lunch. Thinking about what movie to see tonight.",
+      "output": ""
+    },
+    {
+      "input": "Personality: I like to make short films. My favorite music is rock and roll. I'm diabetic. I used makeup to camouflage my skin. Chat history: -How are you today? Do you have any hobbies?",
+      "output": ""
+    },
+    {
+      "input": "Personality: My hobbies include reading and cycling. I am currently couch surfing at home. In my spare time from studying I like cloud watching. My favorite band is tool. Chat history: -Hi how are you doing? Just finished unpacking. I am so annoyed with this weather. -Did it rain last week? It has been over ten days now. We have finally had some decent rain. But it was still pretty awful.",
+      "output": ""
+    },
+    {
+      "input": "Personality: I work for an architect firm. My favorite drink is pepsi. I like reading horror novels. I enjoy building computers. Chat history: -Hello! How are you doing today? -I'm great thanks for asking.",
+      "output": ""
+    },
+    {
+      "input": "Personality: I love watching funny movies with my family. Sometimes, I watch Anime. My favorite band is iron maiden. Momo mob got here early on the internet. Chat history: How are you doing today? -Hi! good. Just finished mooing, relaxing. What are you up for?",
+      "output": ""
+    },
+    {
+      "input": "Personality: I'm single. I am content with my life. My husband is an author and we have twins together! I enjoy hiking and staying fit on weekends. Chat history: -Hello how are you doing today? I just got back from working at Google. So whats that all about?",
+      "output": ""
+    },
+    {
+      "input": "Personality: I love lasagna like it never dies or anything. My mom is from San Fran but my dad is italian. In Italy, people like mexican food. There are some nice museums in the city. One day, after walking home with my wife, I discovered she made pasta too! Chat history: -Hi how are you today? -I am great how are you doing tonight?",
+      "output": ""
+    },
+    {
+      "input": "Personality: I grew up on an island. My favorite food is sushi. I am traveling to Paris this year for my vacation. I love dogs. My brother works at Hp. Chat history: -Hi there! how are you doing? Would you like some sushi with me?",
+      "output": ""
+    },
+    {
+      "input": "Personality: I like Coke as ice cream. My favorite band is red hot chilli peppers. I m learning how play guitar. Chocolate chip cookies are my favorite food. Chat history: -Hi there, where do you live? I'm a student at Michigan state university.",
+      "output": ""
+    },
+    {
+      "input": "Personality: I'm six feet tall. I am learning how piano from sven svensson. My hair is curly and dark. I play bingo every wednesday with my friends at 7th grade. Chat history: -Hello! How are you doing today? I just finished playing some piano. -I'm good thanks for asking. What do you like to do in your spare time? Yeah I love music. And drawing on it.",
+      "output": ""
+    },
+    {
+      "input": "Personality: I'm a mother of two little boys named Owen and Wyatt. My husband died twenty years ago. I have one beautiful dog who is named Lola. We just moved to Florida from Va. Chat history: -Hi how are you today? -I am good how are you.",
+      "output": ""
+    },
+    {
+      "input": "Personality: I used makeup as a child and really loved it. My sister has terminal cancer. I've been married five times. Chat history: What do you enjoy doing? I like to work out. It is also my favorite hobby! Food is important to me. How about you?",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "CC BY 4.0"
+  ]
+}

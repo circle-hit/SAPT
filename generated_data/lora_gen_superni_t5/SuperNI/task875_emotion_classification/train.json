@@ -1,0 +1,116 @@
+{
+  "URL": [
+    "https://huggingface.co/datasets/emotion"
+  ],
+  "Categories": "Basic Sentiment Analysis",
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": "Narrative",
+  "Positive Examples": [
+    {
+      "input": "i was feeling like i had nothing to do with but i was surprised by what happened",
+      "output": "surprise"
+    },
+    {
+      "input": "i really do feel as we go along and learn from experience but in here ive got my hands on some very scary road map that i dont quite like to share",
+      "output": "fear"
+    },
+    {
+      "input": "i can feel the cold wind",
+      "output": "anger"
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "im not sure what it is but i feel like its just been kinda quiet here lately",
+      "output": "sadness"
+    },
+    {
+      "input": "i was just saying to her that he wasnt feeling all that hot and nice on him",
+      "output": "love"
+    },
+    {
+      "input": "i can sit here and cry and feel just fine",
+      "output": "joy"
+    },
+    {
+      "input": "i have to admit that despite knowing what is going on in my head and feeling some excitement i have chosen to stop studying and studying at university with the hopes of starting college i decide to give myself an edge",
+      "output": "surprise"
+    },
+    {
+      "input": "i am feeling like he knows how to get it and how sasha looks really feels she is cute but oh so jealous",
+      "output": "love"
+    },
+    {
+      "input": "i was just telling him that im going to be there for all these talks and my time with god still stuck on holding hands like im supposed do to him but audreyes it was totally worth it",
+      "output": "surprise"
+    },
+    {
+      "input": "i feel like im being too stubborn that ive been taking it out on my own",
+      "output": "anger"
+    },
+    {
+      "input": "i feel like theyre trying to get me",
+      "output": "anger"
+    },
+    {
+      "input": "im feeling soooo giggly",
+      "output": "joy"
+    },
+    {
+      "input": "i am feeling amazed to find out that life is full of surprises",
+      "output": "surprise"
+    },
+    {
+      "input": "i feel like it would be so boring to write about here anyway",
+      "output": "sadness"
+    },
+    {
+      "input": "i have been feeling really bad about myself and my silly little schemes but im finally getting there now",
+      "output": "sadness"
+    },
+    {
+      "input": "i just know he has his feelings and ill probably ever pull some strings together for him",
+      "output": "anger"
+    },
+    {
+      "input": "i can not believe how much ive been feeling since my last entry here at archers who had helped out with some very interesting puzzles",
+      "output": "surprise"
+    },
+    {
+      "input": "i feel like its worthwhile to support local artists and so does clay so il feels very proud to be part of their journey",
+      "output": "joy"
+    },
+    {
+      "input": "i feel really blessed",
+      "output": "joy"
+    },
+    {
+      "input": "i feel like it is worthwhile to support local artists and so does clay so im amazed by how supportive and passionate artistic writers can be",
+      "output": "surprise"
+    },
+    {
+      "input": "i feel like im in some weird dreamworld where ive seen people who dont seem to have any sense of self respect for others",
+      "output": "surprise"
+    },
+    {
+      "input": "im already feeling irritated by it",
+      "output": "anger"
+    },
+    {
+      "input": "i can feel my stomach turn funny",
+      "output": "surprise"
+    }
+  ],
+  "Definition": [
+    "In this task, you are given a sentence containing monetary hardship. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or'surprise'."
+  ]
+}

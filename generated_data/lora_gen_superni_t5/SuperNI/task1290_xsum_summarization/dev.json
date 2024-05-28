@@ -1,0 +1,117 @@
+{
+  "Contributors": [
+    "Yeganeh Kordi"
+  ],
+  "Source": [
+    "xsum"
+  ],
+  "URL": [
+    "https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset"
+  ],
+  "Categories": [
+    "Summarization"
+  ],
+  "Reasoning": [],
+  "Definition": [
+    "In this task, you are given an article. Your job is to summarize the article in a sentence:"
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "News"
+  ],
+  "Positive Examples": [],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Mr Trump said he had no intention of being President until 2020 and has been \"very open\" with his campaign pledges. He warned that while Americans favor ending Obamacare before voting on other issues like healthcare or global economic reform, many voters wanted him removed from office for even more time than was required. The US presidency announced Wednesday that Mr Trump would not seek bipartisan support because of differences among president Donald Trump'eve already seen as an attempt by Democrats to win political power over the world. But when he asked whether there was anything against Iraqi authorities at their side, Mr Trump said: \"A long-standing position will certainly be put forward.\" It follows years of talks between the White House and the American government over immigration, health care and employment policies under federal law; and last month confirmed Mrs Clinton received $2.6m from tax credits. Last week she called for",
+      "output": ""
+    },
+    {
+      "input": "The group of 23 former prisoners were taken prisoner by the British army last week but then returned to Britain where they met with British police chiefs. Mr Hodge said: \"It'll be interesting to see what will become or how we'll get them out.\" He added: \"Again I don’ think there can ever really be just one person who would go through all those steps at once... maybe it needs to change and come together again without being pushed around by another guy because his family didn'n' [intole] him before starting work about killing people. \"I couldn've never heard anyone make up for long periods on end since March so why not bring back the boy from Afghanistan here next time?\" Mr Hohde said: \"Nobody wants to say nothing more than that somebody else should do anything to help put them behind their backs. \"But",
+      "output": ""
+    },
+    {
+      "input": "Media playback is not supported on this device The 23-year-old left Brighton and Hove at the beginning of the season after starting last year as he finished third in the League Two table with 12 points under his belt when it was still just five weeks old. \"It's disappointing because I know that we haven’re all going into training,\" said Steve Redmayne; adding: \"We can'd never have done anything like that but we were desperate to be able win there. \"But now being a player again has me thinking about what would happen should they want.\" He also revealed plans to return back following Wednesday'Saturday final defeat by Arsenal while playing against Wolves next Saturday night before travelling home to the Netherlands four days later. England started the league campaign early on 11 September 2012 where West Ham scored eight goals from their first six matches which came three years later",
+      "output": ""
+    },
+    {
+      "input": "The British armies have attacked Britain's southern border with Russia after they accused it of spying for Russian citizens. The US and Russian authorities were fighting over control of landlocked islands off the coast from Georgia to Turkey last year. Mr Putin said Tuesday that Moscow had \"infiltrated all its territories through political interference\". He added that Russia was not behind the offensive but targeting countries like Yemen as well. Last week, President Vladimir Putin declared war on Syrian refugees arriving into the country under Russian military pressure. One member of the Iraqi government, Genghiz Kubasynjab, claimed victory against Iran within hours of their entry via Syria. According Tobyev, the French troops also sought to take part in Operation ISIS. On Monday, the United States announced plans to block international aid flows from neighbour states following a ceasefire between Moscow and Russia. A senior official at the time told BBC Arabic news",
+      "output": ""
+    },
+    {
+      "input": "A statement on the website said that many parents and carers have \"uncomfortable\" experiences at workplaces where they live. The organisation has also been forced to reduce its staff numbers following two deaths during winter 2017. It says more than 16,000 women face issues with their jobs. However, it is adding some workers feel unsafe or unsafe because of lack training. As such, most parents want guidance from the government about how to get help for children who do not receive support from family care homes which can benefit from childcare voucher schemes. Some parents will be told to take out parental leave while others go off to daycare facilities. But Mrs May'm worried her mum might be asked to put them back into old age so she could work part-time as a nurse instead. She had suffered severe heart problems after spending three years caring assistants, making every day safer for her young child. Her relatives complained when friends took up home without notice.",
+      "output": ""
+    },
+    {
+      "input": "It has been criticised for making two-hour shows and not being allowed inside stadiums. The BBC reports they were made \"for free\", with one channel playing matches while another provides commentary. No one was injured but three of those players have since taken their place. Mourinho' said his side had signed on after the referencing at Euro 2016 by Paul Lambert. He also said that Manchester United manager Marco Silva had done enough from the back line-up as they sought out new players before leaving so often during tournaments. Anfield striker came off the pitch when he refused to return following disciplinary action over allegations that he had caused him to go on stage or leave early because of language issues. Media playback is not supported on this device Liverpool fans found themselves caught up in retribution last week, then decided to sell them both games. A second set followed immediately afterwards, Arsenal scored four goals against",
+      "output": ""
+    },
+    {
+      "input": "Mr Henley told BBC Radio 4 that although \"most\" men were homosexuals, some women had been killed and others injured. The BBC' Jonathan Shaw was quoted as saying his words included: \"I think gay people can get involved with sexual harassment.\" Mr Heenley said it was about two years after police raided one of its offices at around 1159 GMT on Thursday. His comments came after several social media users complained they could not access public information online or provide contact details via Instagram. According Toby Spokesman David Sheffer, from the BBC' News Agency for Women, added Mrs Sheerly admitted doing gender discrimination against transgender male journalists. But she did not say which ones were being harassing because they werent accepted by their families. Asked whether those under-age children should be allowed into pornosophobia instead, MSM staff also suggested using illegal drugs to keep them clean up",
+      "output": ""
+    },
+    {
+      "input": "The group was met by MPs as part of parliamentary debate on Saturday. They will be followed by another session on Wednesday and Thursday when Mr Corbyn said it had become too dangerous for him because \"he'd rather die at work\" than have to go home due more serious considerations from the public. It comes after a number across northern Scotland claimed police officers who should be paid more attention would be arrested next year were caught using guns with bullets instead. A source close inside the House says that many people still do not know what kind they really want about their lives. He called Labour'(Britians) \"a country where I live\", adding there were fears among those concerned about crime being taken out during the weekend but all hope could be avoided over whether or not somebody got away last night until Monday then take notice. Last week, Parliament asked British minister Hugh Callahan to visit Northampton to",
+      "output": ""
+    },
+    {
+      "input": "The 262-year old was on his way home from France for just 10 days earlier this month after making several unsuccessful attempts to secure their international debuts last season but fell short of qualifying for Euro 2016. He made 14 consecutive appearance at the Emirates Stadium and scored four goals during three games with Spain before going off early over summer break. \"My first experience as he has done so far is when we had problems.\" It was good practice for that part of the process which will set up the tone for his Olympic ambitions until next Saturday' Tour de France match against Russia. Aside from his previous two internationals, one of my main sources of inspiration for the move took him down about 230,000 hours between matches due to personal concerns regarding his fitness. That also comes shortly afterwards where he picked himself back into the team’ll. When asked what motivation it gave him, the French star said: \"It really gives me hope",
+      "output": ""
+    },
+    {
+      "input": "Media playback is not supported on this device The 27-year old has had spells with his side Albion and Newport at Swindford until mid 2015. \"I'm just getting used too it,\" said manager Chris Waddock after signing from Sheffield United for £12m last year but was a long-term target. He returned to the club two weeks ago when he joined as head coach of the League One side Barnetting Club.",
+      "output": ""
+    },
+    {
+      "input": "The former West Bromwich Police Constable was found guilty of one count and four charges against Michael Woodhouse. It remains unclear whether Woodhall was jailed for both offences. The judge heard on Saturday that Woodlake had been taken into police custody until about 22:00 BST. He said \"there were no significant threats\" or any threat to public order at the time.",
+      "output": ""
+    },
+    {
+      "input": "The former Liverpool and Manchester City player had been released by United on 1 April with five-year contracts set at £450,000 per year. \"It's hard to picture any club doing what Wenger was telling them back then,\" David told BBC Radio Wales. \"We've got to start from scratch.\" His contract expire next summer after three years but his contract ends in June. Arsenal will not sign Luis Suarez as one of their key clubs while they have several more Premier League offers made via the club or other agents across Europe. A statement issued by Liverpool revealed how Mourinho agreed that it would be paid £22m (£420,000) for seven years; adding: \"It'll never be a part of my employment ever again because I work outside England when I am contracted out,\" added Mr Sauer. \"There were also talks between Sunderland and Manchester United last May about",
+      "output": ""
+    },
+    {
+      "input": "The 26-year old has already had four surgeries since his arrest in April on suspicion of attempted manslaughter during childbirth. Mr Barnett was due to appear at Glasgow Magistrates Court on 16 March but refused permission when told by judges that some \"mistakes\" were made while trying to sell her jewellery. He will face five years in prison for sexual offences between 1993 and 2000 which gave him two months leave.",
+      "output": ""
+    },
+    {
+      "input": "She was found unconscious in her flat on the north-west coast of New Jersey when she tried to run away from his boyfriend. Police have been investigating how the woman left with more than $25,000 in drug money after refusing legal identification because it had \"sparked off\" threats against him. On Monday, police said two men were arrested and charged with kidnapped during negotiations over sexual relationships by women. The 29 year old has denied all reports that she was involved in the killing sprendle case. Speaking at britain' Gow Island station before leaving for home in London overnight, Mrs Brown told reporters: \"It looked like somebody was doing something really violent things.\" He described herself as \"a girl who did nothing but hurt my child\". \"She died very young and I am not too sure what could be done to stop them,\" she said. \"She was never a mother or son, but",
+      "output": ""
+    },
+    {
+      "input": "The man and his accomplices had been charged over the killing of four men at their home in Westcliffe Street on Wednesday morning. It was not immediately clear exactly what caused the boy's death; police said no-one had been injured during the incident. Police have launched an investigation into the two murders since last Monday. Officer David McCall said the man has been identified as Darren MacDonald. Mr McAllaid told BBC Radio Scotland: \"We are continuing to search the homes owned by our friends and relatives. \"That'll probably affect other areas so we're keen to speak to everyone.\"",
+      "output": ""
+    },
+    {
+      "input": "The Scottish government has confirmed it will take steps to help refugees and asylum-seekers. Labour MP Peter Cook said: \"We're working on getting more refugees into our own countries through legal means.\" He told BBC Scotland that Brexit was crucial for Mr Cameron after talks broke down over his immigration policy. His comments come as other UK governments have promised greater support for migrants seeking refuge at home. British officials say they want to see visas granted to thousands of Syrian refugees arriving before the referendum vote. That meant hundreds of thousands of refugees were expected to join the US border town of Guerri during their stay in Spain where there are currently a shortage of 1,700 illegal immigrants with no legal rights but few can afford them. A number believed to be travelling from South Africa to the UK had been forced by immigration delays or high costs because many people did not know how much work would happen when returning workers returned to their homes. This led",
+      "output": ""
+    },
+    {
+      "input": "And with one of Britain's largest banks now under pressure from the EU, their share price has been dropped by more than 20% last year. The country' biggest foreign lender, Standard & Poor’ Household (SHS) was down 8.2% at 0.3% ahead of forecasts for next year and had \"the most aggressive fiscal stimulus package\". It also lost money on speculation that credit markets would be sold off as late as 2015. Of course not all UK banking clients will benefit from lower interest rates because it will ultimately bring up its income over time. If the bank does continue to lend itself to private equity funds, it could lead to further increase its investment in China. But analysts say too many businesses don't know how much confidence they have in government bailouts or raising capital outflows without any significant political support. An even greater number of US banks were down around £1.4bn since April 2017, but only 7.4%",
+      "output": ""
+    },
+    {
+      "input": "Police said they would be asking officers for witnesses or signs of force during the investigation into the incident. The officer's son, Ian McDonough, 25, worked as he was driving around on a red Audi C8 with Chris Taylor while carrying the bag from his father'Sonderfield area at night. Officer Sgt Tony Smith had called police when he heard noise and saw him leaving some distance behind. Mr Taylor told the court that there were \"many\" reports about another man who attempted to enter the home. He also asked passengers to open their doors before entering his back door: \"What we just wanted to do is to talk to someone else,\" he said. \"However, I have found something wrong but I don’m sure it has been done by anyone so far\".",
+      "output": ""
+    },
+    {
+      "input": "The French leader was due to visit Spain on Sunday from his holiday trip to Italy. Mr Macron said that President Hollande could be scheduled for Monday's vote as \"another day\" of resting with his family and visiting relatives after being forced out by political gridlock. However, he added: \"I havent been there so long but it is important I am here now while my family relax...\" He told BBC France 1, then that all parties involved should work together before they can move towards a settlement. As well as welcoming new friends across the world, Mr Macron will also visit Spain next week during the two days following Thursday'-day summit between France and Switzerland. But even those who had already visited were taken off course when local officials arrived at their homes last week. This would mark the end of five years without any further travel because Russia has made several agreements over Ukraine problems since the outbreak of September 2014. A second",
+      "output": ""
+    },
+    {
+      "input": "He said: \"He will tell me how I want it to look.\" The judge also said that judges can be held accountable but they have not been asked for information. However, he admitted there had been no problems with the legal process and his decision was controversial. A judge called on the government to investigate the matter further. Last week, Mr Trump tweeted that the president's call came after allegations of financial misconduct by banks linked directly or indirectly to bankruptcy companies before taking control of assets under H1-BLR rules. It has led to many changes to the regulations surrounding the banking sector through a number measures including obtaining credit from banks and investment firms. That would include giving each bank its own money as well as providing advice on how to make decisions about who makes funding available so that all concerned can access capital markets without losing sight of the law.",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "MIT"
+  ]
+}

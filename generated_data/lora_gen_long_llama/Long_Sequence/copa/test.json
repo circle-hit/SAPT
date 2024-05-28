@@ -1,0 +1,52 @@
+{
+  "Definition": [],
+  "Positive Examples": [
+    {
+      "input": "Which sentence is the cause of \"The man broke his toe.\"? Choose one between A and B.  A: He got an infection. B: He washed his hands.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the effect of \"The police officer dropped the gun.\"? Choose one between A and B.  A: The gun recoiled. B: The gun went off.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the cause of \"The mother scolded her daughter.\"? Choose one between A and B.  A: Her daughter burped at the kitchen table. B: Her daughter set the kitchen table.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Which sentence is the cause of \"The bartender refused to serve the patron.\"? Choose one between A and B.  A: The patron was alone. B: The patron was drunk.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the effect of \"The girl was angry with her friend.\"? Choose one between A and B.  A: The girl spread a rumor about her friend. B: The girl told a secret to her friend.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the effect of \"The woman shivered as she got out the pool.\"? Choose one between A and B.  A: She wrapped herself in a towel. B: She poured herself some lemonade.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the cause of \"My body cast a shadow over the grass.\"? Choose one between A and B.  A: The sun was rising. B: The grass was cut.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the effect of \"My knees buckled on the stairs.\"? Choose one between A and B.  A: I caught myself on the railing. B: The railing came loose from the wall.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the effect of \"The baby was wailing in his crib.\"? Choose one between A and B.  A: The mother picked up the baby. B: The baby crawled to the mother.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the cause of \"The patient went into a coma.\"? Choose one between A and B.  A: He suffered emotional trauma. B: His family took him in for medical care.",
+      "output": ""
+    },
+    {
+      "input": "Which sentence is the cause of \"The woman took her family on vacation.\"? Choose one between A and B.  A: Her husband got laid off. B: She received a salary bonus.",
+      "output": ""
+    }
+  ]
+}

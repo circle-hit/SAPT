@@ -1,0 +1,182 @@
+{
+  "Definition": [
+    "Whether the \"first sentence' and the \"second sentence\" have the same meaning? Choose one from the option: yes or no."
+  ],
+  "Positive Examples": [
+    {
+      "input": "first sentence: How can I grow black cats? second sentence: What are some tips to make black cats more attractive!",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How can I make fun of my girlfriend without making her cry? second sentence: How do I make out more girls?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How do I become successful in my profession after 15 years of practicing medicine? second sentence: How can you become a successful doctor for 10 days, without paying any money due to your profession as well??",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "first sentence: Are there any celebrities that aren't on Quora yet?? second sentence: How many celebrities is there in Quoran who don’ten understand what they know but can've passed their comprehension test?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is it like to marry a man of unknown origins on an online forum? second sentence: What was it'll be for me in 15 years coming up with my husband I know now, how should I act then tell her what she thinks of me?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Which is better C++ or Java, Linux or Python? second sentence: Which is better C++ or Java, Linux or Java?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Can we be friends for life? second sentence: How do I get along with people who are like me?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What are some of the funniest images ever taken? second sentence: What is most scariest picture you’ve ever seen on your phone?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: My girlfriend comes to me and we talk about how much she wants us to do. She tells her that she loves me but I still hate my ex. When, after all, what does it mean then for me to love her so much? second sentence: How should I deal with this feeling of not being loved by anyone else when you’re just as close to them than having all boyfriend in your own yourself?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is your review of Newark Liberty? second sentence: What are your thoughts on Newark Liberty?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How many steps will I need to take in order improve my English language? second sentence: How can I improve my english communication skills for doing academic work as an engineering student (Master of Science) at Bhopal University/College?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How many steps to take in getting ready for Swachh Bharat Abhishek Nagarwal at ODA? second sentence: How many steps are taken by Swachhad Bhattacharkar during his Swachhan Baharati Bharath Abhirahat Singh towards clearing up of TISS (Tatara Biswas) Udyogyogi Adhikari Akbar/ Aim going to go into civilians if they would be made sure about him after joining forces?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What are some of the best movies ever made? second sentence: Is there any good movie like ‘Gd’?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Why are we obsessed with girls getting pregnant so much? second sentence: Why do females get pregnant too easily??",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is the difference in meaning between English and French word? second sentence: How do I learn french by myself?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Who is Donald Trump's biggest fan? second sentence: Why do so many people claim that Donald Reagan has his trademark, but instead uses his initial persona as his real name?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How to deal with anger without pain? second sentence: What should be done when someone has not responded to my plea for help?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How do I get more subscribers via Facebook Messenger? second sentence: How do I get more subscribers on my Facebook page?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What are the benefits of digital marketing? second sentence: What is the best advantage to digital marketing as compared with other forms online like websites etc?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What are some good workouts to lose belly fat? second sentence: What is most important in dieting; losing belly fat?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What are some of the best puzzles ever made? second sentence: What are some most amazing puzzles you've used in your life?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Can you tell me how many iPhones there are per person, per month, per room? second sentence: How many iPhones it'll cost us in 2017?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How do I get free Quora accounts for my new post office? second sentence: How do I get free Reddit account in India?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How many students will graduate from NIT Rourkela after their graduation in December 2016 due to their outstanding academic record (average of 22.5). second sentence: What were the top class undergraduates at VCU-Churchili, graduating september 2016; those who graduated last year may also get selected for post-graduate studies with their respective majors into relevant fields during their final papers?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Why is manaphy considered whitewashed? second sentence: How do Manauskasians describe themselves as whitewashers?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How do I become successful in my profession after 15 years of practicing medicine? second sentence: How can you become a successful doctor for 10 days, without paying any money due to your profession as well??",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How do I increase my vocabulary to write 100 words per day? second sentence: How can I improve my English writing speed for writing 150 word documents in a day?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How are IIT students studying at Scripps? Are they worth taking? second sentence: What is the average age of a typical college student to graduate for this field?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is the best way to learn C++? second sentence: How can I learn C++ at home?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How do I increase my concentration power without meditation? second sentence: How did I increase concentration while doing meditation?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is your favorite food? What is it worth eating? second sentence: Which are some of our favorite foods to cook?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What's the scariest trick you've ever had to learn that is how much time we put into each other’d? second sentence: How do I increase my concentration power by 26% over 10 days of training with 14% accuracy in IT (and 1 month per day) all while maintaining physical concentration without any data acquisition?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How do I make money online in India? second sentence: What are the best websites to making online payments for business?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Is there any proof of alien life form that exists on this Earth? second sentence: I'm just an 8 year old teenager. Can anyone shed light about my past?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Why is so much work done on social networking sites like Facebook, Twitter, etc. to make it all so convenient for users in general with their own apps/ websites? second sentence: Who are some newcomers to Facebook?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Do you think that Hillary Clinton has as good a record in Congress than Bill Clinton did when his two terms were filled? second sentence: If Hillary Clinton doesn't win, how can she continue to use her campaign funds while having issues with her fellow lawmakers?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What is the difference between an Air Conditioner and a Refrigerator? second sentence: Which is better, Air Conditioner or Refrigerator?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: Are there any books written by Clive Palmer in his lifetime that can be read over and edited later (at least until 2011) regarding ethics/philosophy etc? second sentence: Do I need Books on Ethics to write an article about myself, but could they use them for something else too??",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What are the best places to visit in Kolkata for an evening? second sentence: What is the best place to go out on a 7 day tour of Bangalore?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What are the things new employees should know going into their first day at Workplace Financial? second sentence: What is it like to be in New York City for a long time without an employer? How do you get over this restriction?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: What are the best places to visit in Goa? second sentence: Where can you go for an excursion on holiday with your loved ones who are visiting?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: How do I get into designing game trailers for guys in London without any professional knowledge required? second sentence: How do you design Game Trailers that look as good as movie trailers/games online?",
+      "output": ""
+    },
+    {
+      "input": "first sentence: When will the new Delhi government sanction 500+ notes not be able to use GST bill for concessions in India? second sentence: What is the new policy on scrapping Rs 500, 1000 and 300 notes as of late (October 2016)?",
+      "output": ""
+    }
+  ]
+}

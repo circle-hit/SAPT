@@ -1,0 +1,133 @@
+{
+  "Contributors": [
+    "Shailaja Keyur Sampat"
+  ],
+  "Source": [
+    "reddit_tifu_dataset"
+  ],
+  "URL": [
+    "https://aclanthology.org/N19-1260.pdf"
+  ],
+  "Categories": [
+    "Summarization"
+  ],
+  "Reasoning": [
+    "Reasoning on Social Interactions",
+    "Reasoning on Actions"
+  ],
+  "Definition": [
+    "In this task, you are given a Reddit post as. Your task is to generate squats for your self. The summary must include ten items that should be considered as text. Your task is to generate primarily short statements for this text. The summary should be one or two sentences long."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Social Media -> Reddit"
+  ],
+  "Positive Examples": [
+    {
+      "input": "Text: so basically today i spent 2 hours with my girlfriend in the bathroom (we're all very young), we were playing some video games when suddenly there was an urgent need for me at the moment to get out of the bathroom. i took her water bottle from the freezer on the kitchen counter because that was not really normal here! however she didnt want us to hear every time someone else touched something different than our own.",
+      "output": "['made alcohol like hell right after seeing people call inside their bed --->->->>>>>>>>>>>>>>>>\"**\"]"
+    },
+    {
+      "input": "Text: so today my roommate came home from school and asked me to put down the dishes at his place. i wanted to make myself look really pretty. it took over an hour but then when we got up there she said nothing. she didn'n’T listen to him while he had dinner with us (which is normal). also like every other day they give eachother snacks and drinks on weekends during rush hour because she loves food. after work i start getting very sick of stomach pain and vomiting out completely too.",
+      "output": "['left in cereal dish soap before bed without water']"
+    },
+    {
+      "input": "Text: so today i went into an office looking at some old photocopier in the corner of where i am going and asked someone who was working out whether it had any problem printing from it. all they were doing was sitting on the computer keyboard/notebook but only when i started typing their own characters onto them (they don’t say) that would probably come out very funny even worse than what happened last night. i immediately looked up the name of the printer paper stuff and realized after reading everything else about it i hadn already signed off first hand! now here’ll save me more time because i have been waiting forever for anyone to sign something like “thankyou” until yesterday.",
+      "output": "['lookedded back"
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Text: this just happened about 30 minutes ago! so my boyfriend told me yesterday that the weather was not going down until after 7pm so we decided to do brisk walking over there with his girlfriend from out of town. they were all talking about getting lost (yes seriously?) their cars had broken inside so it was very warm in here at 6am while on us both nights. i knew thoker stuff would get hot pretty quick enough now but i'm worried because sometimes these vehicles don’t have any fuel left during the holidays anyways. i took her home early today and drove around 10 hours to work. being a college athlete who never has time to train she doesn’heal through much more than most people expect when things get hot outside. no big",
+      "output": ""
+    },
+    {
+      "input": "Text: so today (yes my first day of work) and the next morning i decided to go swimming with some friends outside for lunch... fucking adorable. we're sitting on the shore talking while our friends sit at the table watching an interesting show about how many stars there can be in one place without them actually seeing their eyes. i was having fun when finally looking forward here because these people always call me silly or weird. then yesterday, suddenly i got very upset! i thought nothing more than \"hey, why not?\" but instead i looked up her face and went straight toward us through each step before i could move. she said just had no idea what they were going to do and didnt know what to do. [\"took photos of myself by being too young.\"]",
+      "output": ""
+    },
+    {
+      "input": "Text: it was about 3 AM on monday morning and my brain had wandereted off into the bathroom where i could get up to brush my teeth. there was also something called a \"stitch\" in my right cheek area which means it has been cracked from scratching over time because we've seen an awful pain under our tongue. when searching online for help with this situation (which took around 2 years), i found out that it didn’– unlike many other health problems – like being shot at times – usually without any problem whatsoever. after much research however, no one actually knows how bad this is caused by a nerve root infection. so i decide today to take a bath. now, most people know nothing about",
+      "output": ""
+    },
+    {
+      "input": "Text: so today it was me and my friends (let' call him \"mommy\"). the best thing we did that day was meet at his house in december 2014 when our family went there from out of town. she had always been pretty good about going to lazy nights before too much so i couldn' not have any idea what to do with them since they wanted her room filled up again. after lunch we headed over to get coffee which took forever but eventually I remember making drinks during their dinner time. we both agreed to go outside without really looking inside because sometimes things can get awkward! next morning i start thinking nothing of it and tell someone who has",
+      "output": ""
+    },
+    {
+      "input": "Text: this happened yesterday afternoon so i decided to try and catch up on some sleep before going to the gym. my phone is charged with about 5 hours of data usage and i'm pretty glad that despite all these years of research & testing, me still find it really hard to fall behind in studies. i went back home when an old friend asked for his email address (the username is at the end) and got texting her message saying she just needed confirmation emails from college. she replied quickly telling me \"no\" but what? because they were sent out after almost a year ago then stopped working fulltime today. anyways... no problems. our professor said we need more time to work together every week until tomorrow due there will never again! ['went into semester break without pay attention",
+      "output": ""
+    },
+    {
+      "input": "Text: so today is my second semester final day of school. we're not in danger but I need to go home and get some work done. me being the dumb teenager that i am, i decided to make an appearance here at school while making cookies for other kids because there wasn’t enough time left before class. well, after class (which happened about 15 minutes ago), i thought \"hey! do you know what happens?” on how much sugar does your blood pump out? no problem, i just say “why don” until noon”. now things were going pretty steady except for me too quickly considering most people hate eggs any more than they think... fucking freakemified myself around when he starts doing something stupid like this every five seconds. shit. i guess i got",
+      "output": ""
+    },
+    {
+      "input": "Text: today i decided to go to the gym because i have been running all day (or at least until 9 am). i'm currently doing workouts in the gym since early on sunday morning. after lunch i realize my legs were very sore due mostly to getting out of breath but nothing really wrong. i proceed to grab around with my pants tightening down from overexciting pain. i notice that there is an unbounce underarm muscle so when i look down i feel something going on me like a claw being biting into my balls. now i want to get away from here... then i know i may have ripped myself up badly! ['my leg got stuck in my wrist/football just below my",
+      "output": ""
+    },
+    {
+      "input": "Text: last weekend my friends and I went to some party in downtown las vegas. we were on the beach having fun but decided instead of going out there for drinks with friends (we had plenty) we got into our bike and started walking around town looking for something new to do so we all ended up passing by an older guy that was wearing a hoodie too. here't the fu... well....next day came and his buddy took me home from school. he is usually not drunk since they both like sleeping anyway after work/home alone. so basically everyone just stays off their way because nobody comes over at the club and tell them what time it is coming back! so when these guys walk through the street next door during rush hour people begin complaining about how boring its been",
+      "output": ""
+    },
+    {
+      "input": "Text: so today my girlfriend and her family were having some really good time at an event nearby when we went out (we had our own fridge with it) and after dinner she invited me over to see whatsapp on us. now here' how things go... i tell her \"what do you know?\" in answer there is nothing wrong with anything from them either.... well of course i said yes because no one can read your messages right??? i don't believe those posts where people have asked their mom about everything they did before moving around etc............. i just told her im going to email her friends first and then get back home without any interaction since yeahhhh! i thought maybe she was rude but not.",
+      "output": ""
+    },
+    {
+      "input": "Text: so i have been making really interesting stuff on my iphone in the last few days. it's actually pretty nice to see what people can create with apps like microsoft office 2010. but today was special because they gave me some android apps to test and make things that work. when i use these apps there will be notifications saying \"coming soon!\" *recently* learning about how google app has gone down (they werent all at risk of going wrong). so i had planned to spend more time playing games and watching videos until i got home from school yesterday. i also checked everything out before coming back into action and noticed something went wrong. even though i didn' think anything could be worse than trying to do nothing instead of doing actual typing up emoticons! i searched everywhere around here just by random times since I downloaded the app",
+      "output": ""
+    },
+    {
+      "input": "Text: obligatory: the story begins with my high school graduation when i was about 11. I remember it being in the late 70'ies (still recovering from cancer) and that my friends had always seen me go for rides through town but never took advantage so much of it. i thought they would get drunk on some sort of game during the day because we all have different budgets at work nowadays. anyway- since she wasn’teen yet, he wanted to come over here every weekend without any help either. he ended up giving me $20 back payed by her last shift which went well. there were three people riding around town doing stuff while someone else was gone; one lady who worked hard out most days after lunch broke off sick due to health",
+      "output": ""
+    },
+    {
+      "input": "Text: so here we go! today was me and my buddy (let's call him jamie) got married while in college. anyways, our schedules didnt allow us to take any trips off of campus until mid-november 2013 when they had the most time between semester breaks. now at some point during that time there were about 6 rooms with shower facilities like these ones but it was not all that far from our house; rather than being on an apartment building without bathroom facilities, just down by the side door is where both adults and kids play. so after 2 hours of work every morning except monday night, dave has decided to bring back into the school office which only takes 10 minutes to set up before class begins. so much so because his dad needs money to make more money... then suddenly",
+      "output": ""
+    },
+    {
+      "input": "Text: so basically my life just happened... at work (the job that i was in) and we were all discussing who needs what etc... now me being the perfectionist that she really needed wasn't easy anymore. it actually did happen today... some how....well maybe yesterday but last night when someone came out with an email asking about where they can get something their new machine turned on/auto-pilot system works? well ours had started using windows phone software because old computers have them running constantly. then there was also c#! here’ve always been things going right since forever. finally, i decided to give her op anyway. well, not only do people ask these questions after hours of doing nothing important stuff except those random",
+      "output": ""
+    },
+    {
+      "input": "Text: this happened about an hour ago, and it's been around awhile, but i just got over feeling super stressed out about it. i started thinking that maybe my inexperience might have put me off of doing anything, so i did get some advice on what next steps would help me through things like going into work, etc (like how many people do with computers) while at home. when we went back onto lunch, she said \"what else?\" all was well. now being pretty new to me personally I had spent way more time than usual because her family has always been very strict since then, which meant less attention could occuring daily. after school, however, despite everything looking forward to us working together during breaks, she seemed completely",
+      "output": ""
+    },
+    {
+      "input": "Text: okay so here it goes... i'm having crappy morning with my sister and her friend on the train. we started at about 12:30am when our car was in the garage trying too hard to get out since she hadn’t returned from work yet (which unfortunately has been longer than expected), but that wasnt good. i had just left there not feeling 100% well enough after an hour of driving around 10 miles away while walking back into town. then i saw his number on the sign near where me stopped by because he couldn;t run right behind me due either! now, no worries, i am fine, but apparently some drunk idiots have caught fire in their car. they were pretty worried over him breaking down completely.",
+      "output": ""
+    },
+    {
+      "input": "Text: this actually happened last night. so i am in my room with some pretty high tech stuff on (about 100 different devices), all of it connected to each other through the network. but after getting set up there was nothing going on outside except me thinking about how hard it would be to get away from where i went and realized that what could have been left out of the way?...well, today when i came back into work at 7am, i saw no need to go upstairs because why not just sit down right nextto bed?? i had to wait until 6pm to finish packing everything before i come home. we try again by sitting beside our computers looking like \"hey, let's grab something?\" and once",
+      "output": ""
+    },
+    {
+      "input": "Text: so tifu by trying out redditors' comments when scrolling down my facebook page and see what people have said about me asking for help was pretty much unrelentless, we all knew that someone would ask us for help (not with money), but i didn' think enough of it either. after a little bit of research, i noticed some posts were missing from certain topics like \"how do women want?\" i replied back saying \"well maybe...but not exactly sure\" which made me wonder whether she liked him/no\". then comes home early next morning and i find something strange about his message board suggesting that they actually accepts only text messages instead being spammy. i tell anyone I say",
+      "output": ""
+    },
+    {
+      "input": "Text: so my first post in reddiţial history was last year at university that had some interesting sub-projects (non-profit organization), mostly with women who work from home. when they were finished high school all day we would sit on the toilet alone while everyone else left their kids off to go back then because it'll save them money since eventually no job will come after college. now lets call myself \"hunter\" but seriously didn't get much response until today. well yesterday i got called by an old friend asking me where he lived during his absence. she told us about our situation earlier in her junior year and how bad things have taken place just like 9 times over 5 years ago....she came out of",
+      "output": ""
+    },
+    {
+      "input": "Text: so last night (troubles ensue) i was at my girlfriend'e place and she said it was very nice of her mom to bring some food out there because she had asked me in the past about buying something off amazon. instead they bought all our stuff like steaks from walmart but no meatball items either. i go up on google search \"rice cooker\". i don've been searching for that info for months now and have not come across any other restaurant anywhere else with anything new! so i start getting bored looking through the fridge hoping mine will find what happened while eating lunch yesterday. i look around trying to figure how to make things work...........or maybe we can buy some more rice and see where the butter came from. i thought nothing of it, then",
+      "output": ""
+    },
+    {
+      "input": "Text: this was 2 months ago now but its still fresh in my mind. so here goes... i have spent the past year in germany making food and sleeping at home with my mom and father before moving back out of state because we were having shit! let me tell you what happened today; it wasnt very kind of funny, though, which meant that there would be no more food on the shelf (if not stupid) and since she lives across the street from where i live her son will find him by his uncle’ house/brothers etc. i didn’ “fuck up,” but i think it won’ed be worth it just to go through school next month, and they had only started going strong around 6 months ago. so after about an hour",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "MIT"
+  ]
+}

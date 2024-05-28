@@ -1,0 +1,262 @@
+{
+  "Definition": [
+    "What is the logical relationship (contradiction, entailment or neutral) between 1 and the \"sentence 1\"? Choose one from the option."
+  ],
+  "Positive Examples": [
+    {
+      "input": "sentence 1: The paper reimbursed my travel costs for four days in Paris during this time. sentence 2: This was completely unpaid for.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: And while I was busy with them all over town, she'd come by to see Miss Howard in her waiting car.\" He turned toward her slowly. sentence 2: She was alone in her waiting room.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: It was as good as I remembered. His memory was very short indeed; but what he did remember vividly was his last encounter with death--the horrible car crash in which three young men and two women were crushed to death. He had seen that event so many times over the years at least twenty times, yet unable ever recall it.'I was trying to think of a good movie about such an experience. sentence 2: He will always remember the terrible car accident when tens thousands came down on him.",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "sentence 1: The house was constantly besieged by reporters, who had seen nothing but Kosovar refugees for miles. sentence 2: The house was under constant attack because of an overzealous journalist.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: We can see it now over 100 km long and only 200 metres wide at most of its length, so you have to plan your route around that carefully. sentence 2: The road is made up by small streams that are barely wide enough for two people to travel through.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: Then Tommy asked what had happened to him. He replied that there'd been no further details about it than they've already told him. There was nothing more to be told because they knew where the body was. They did not want to think about the possibility of John being alive. sentence 2: Tommy went on about how things had been and why there hadnt really ever anything else to discuss with him other then his death.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The man suddenly shot up like an out-ofcontrol bull, growing huge until his whole body was covered in black hair and beard. sentence 2: The man felt as though someone were trying to strangle him.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: But we did know something important in that regard, she says quietly. sentence 2: We knew about the details of it all.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: yeah it all depends on what you're trying to accomplish but in general most of the time they all work out very well at least mine has been for over twelve years and and we do about three hours a day because we have two children that keep us going so three days seems like it works well for me although i know my wife would kill for if she could get more than four or five hours pfw you can probably get away with ten sentence Two hours of work per week is better than the 16 hours of non-stop work I did before hand.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: This effect was most pronounced in later phases of deregulation, as during 1995 there were few restrictions on bank holdings, but it had little or no effect on rates at all. sentence 2: The only thing that affected rates when the deregulating began was during 1995.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: It's pitiful magic that can be worked without regard to its nature, for example by cutting off an hour in half so people will get drunk enough to pass out during critical moments of their lives. sentence 2: People who take time out of their lives to use magic are not demonized.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I have never looked at him with any great interest. sentence 2: I have never looked into his eyes.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The cover story marvels at how ridiculous it really would be to make millions of dollars by duplicating these crimes while you're busy running your profitable law firm. sentence 2: It was an unpopular stunt that had people laughing.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: We tracked her across Ireland; she followed us as we went north. sentence 2: The journey was smooth.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: yeah no there's not too many places that allow pets on an off leash basis at least i think because people are scared of them in public so they keep them in small uh enclosed areas sentence 2: There may be some places where you can bring along your pet to",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: Then there was Tommy who cut through, limping on his left side as Drew lay in the middle holding the plate. sentence 2: There are two guys that Tommy could cut through, one on his right side while holding it in his hand.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: In addition, each commercial company may also operate under an executive order for up to 5 years (for example, following a change in business strategy). sentence 2: Some companies can have multiple offices with 5 years of experience.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The old western was almost always shot on location in rural areas. sentence 2: The westerns were primarily focused on locations with nice scenery of rolling hills.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: A major manufacturer of cams for both SLR film and TV cameras has announced that it will spend up to R10 million on developing an innovative high-def display system. sentence 2: A manufacturer of cam software will donate its money to charities.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: She noted that during some audits that were undergone more than 5 years ago, there would be no basis for any interpretation of those older audited accounts.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I don't want to be rude but we were very nice during our stay at Harmony Hall in Annapolis during last month's visit and it'll be wonderful to go back next year, see you then?\" said Poirot unexpectedly. sentence 2: We enjoyed talking with Poo Rot over the phone.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: yeah well um we do it on all our stuff not just computer work but every single machine and project we've got a team for so far and our goal is to outperform that in five years as it seems like there arent any new computers being released very soon and that is scary because there what we really need is is a home theater system with surround sound you know sentence 2: We have tried other methods of home theaters, but none of them were good enough until we found this one at Best Western which we absolutely love.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: It's an hour before sunset, so you have better get there early to see it'll be less of a party than you think.'Pardon me, but I didnt hear anyone talking outside in the bar.)I got up to leave and found that a policeman had accosted me who was standing by the door. Because Drew knew the man would not let me go, and he followed me into another room, so I could get another look at him.The other two officers were gone; they all left, leaving no trace of their presence.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The road beyond Dhulikhel drops precipitously to the tiny settlement of Snaan-id-Dina village, once ruled by one man who left his wife at sea as she prayed over him when he died in 1199.) On its way out are colorful mosques and monasteries where worshippers take up their positions on high mountain top for an hour' sighting of Mt. Zion rising into the sky. Another notable stop is Tal Afar south of Shirakhandiye, an eight hundred year old pilgrimage town built on terraces with rock engraving believed made 1,600 years ago by Amritsar priests.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The house also has five outwardly facing balconies, all with sea views. sentence 2: The house has only four bedrooms on its main floor.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: There was another war in Spain which began on January 1, 1936. He claimed that 3,000 Jewish refugees had arrived. sentence 2: More than 30,000 Jews were allowed to arrive.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: Is it possible, at this time, that she was not really part of our problem, but had instead been taken over? sentence 2: She was never part in any way of our problems.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The windows of these gracious mansions are more ornamental than anything else on show in Kyoto, but they don't have nearly as much history as their handsome European neighbors.' sentence 2: These gracious mansion do boast an extensive amount Italian-style furniture found in this area only in grand manor houses.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: well there's some interesting stuff going on locally right i mean that may have been something else in there but yeah definitely worth a visit just to see it go up you know because uh they put on quite r good program for what was going around here at least in my opinion so keep up the good work we can do better next year by far though sentence 2: They do more than I would like to think.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: He has been opining about this stuff all over town.'He handed out leaflets to his friends.'The locals were beginning disapproval of him. sentence 2: The foreigners had very strong opinions on him",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The paper reimbursed her for this cost by saying that she hadn't been offered anything else and it was clear she was not being charged in connection with this case. sentence 2: She received nothing for her efforts",
+      "output": ""
+    },
+    {
+      "input": "sentence 3: That all of you have little children now-a little girl I'll never forget.\"He handed her teddy bear to Tuppence and told him he could not believe it when she saw that tiny face in his hand. He asked Tuppence what had happened there. She said that her mother came back from Paris yesterday and went to fetch him.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: As she neared the top, Tuppence nodded to her before turning away. sentence 2: Tuppence was speaking.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: For historians, primary data should be qualitative in nature to better support interpretations of complex phenomena; for non-specialist readers, nuance may provide an additional basis for understanding the relationships among phenomena; for those who have little training in data analysis, it may be more difficult to derive informative insights into temporal, narrative, and other information sources; nor is there any evidence that good information can be extracted or used by general nonspecific methods. sentence 2: Non special interests scholars might not need help with their work.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: You could buy that for two dollars on-line, but you know, they're made with real leather-and-suede.\"I washed my hands after I got home and put the box in the washing machine. sentence 2: The price of that online is much cheaper than in other stores near by.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: This uncertainty could have important consequences for Postal Service users as it may adversely affect their ability to pay bills, receive mail, and make other government transactions. sentence 2: There are possible consequences of poor postal service if people decide not",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The analysis discusses several key issues related to (1) 1) how insurance companies assess risk in individual contracts; 2) why certain types are more attractive for life-cycle cost analyses than others; and (3) under what circumstances an insurer should pay less than fair market value for a particular product. sentence 2: An example discussed looks at three different methods for pricing innuity based on factors such as expected depreciation and net present value.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The other item on his agenda was immigration reform. He felt that if they could get this done now, even better things would follow in terms of improving people's legal rights as well as access to justice. sentence 2: They could do nothing about it.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: Then Adria took her own life leaving behind her four daughters and three sisters; all of them at sea with their fathers. sentence 2: Adri gave up his daughters in order to save her family'",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: This effect has been particularly large among those aged 55 and over. sentence 2: Young adults are twice as likely to suffer this affect as seniors.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The man suddenly turned away at the door. sentence 2: Both men ran off quickly but did not notice the other until the latter returned.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: For an easy walk along some of the better-preserved Roman amphitheaters, head for Via Doloro Rosso, on the main square in Piombino or at the back of the Punta Tragara della Signorieta for the 14th-century Certosa di San Giorgio Maggiore (Saint Mark' S), transformed into the Church of St. Sebastian by 15th century master Hieronymus Bosch, embellishing this altar with marble figures and sculptures. sentence 2: The best way to see all these statue wonderland is to go up the stairs past the first church and then down the back alley of Vi",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The railway builders admitted that their plans were doomed from inception; but they never went public until 1853. sentence 2: They wanted to make sure everyone knew about them.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: This reduces future generations' tax burden by eliminating unnecessary federal regulatory expenditures for programs that are proven effective. sentence 2: Federal agencies don't want to face scrutiny because it will make their programs ineffective.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: You'll find good leather-bound volumes in Christian Reimer and at Lemuria; secondhand works by Rembrandt and Goyal are bound to appeal to connoisseurs as well. sentence 2: One of those used books are not worth buying because they can be found in flee markets.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The coast of Grande-Terre has more to offer. sentence 2: There are a lot on the coast of Grandi-Terre.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: If you have problems with your order or would like to place an order outside of business hours, please call us at 505-429-0086. sentence 2: We do not deal in emergency situations; we are only open for orders placed in advance during normal business operations on weekdays.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The most cheerful assessment of my visit, glowing with contented expectation, came at eleven o'clock on Tuesday, April 30, when I received a telephone call from an old man who was dying. He had been in poor health for four years. His wife had died from mebendia a few weeks earlier than expected. sentence 2: This old woman died two days later after her husband, also ill, passed away.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The two cities have twice shared an economic development zone but are now almost completely segregated, so that integration is virtually impossible.' He handed me the paper with instructions to open it. sentence 2: They could not understand why my instructions were needed at all time",
+      "output": ""
+    },
+    {
+      "input": "sentence 2: He said.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: It was as good as they made it so easy for him. sentence 2: This game was really easy to play.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: You have heard it before, murmured in your sleep. He lay chainetted to a large bedframe. His breath quickened as he closed his eyes. 'What's going on. There are these machines which keep us awake so we can remember events and come up with plans. They tell us about all the things we could do. It would be great for some of us to actually plan something!",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: Then there was Tommy Irwin's big moment. sentence 2: Irwin'd had to deal with that on several different levels",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: I have to say, in spite of all evidence of Britons being deceptive as some would put it, they are not likely to be carrying out this great enterprise with total abandon.' He shrugged, \"I do feel very sorry for them because they did give a damn about my country at least five years ago.' sentence 2: Everyone knew me personally when we lived in Canada.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: For females the ratio in men to women may be higher than that for sentence 2: The ratio of males to girls has been shown to be less than 0.04.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The town tumbles downhill, winding through some of Jamaica' finest scenery past plantations plung under British rule. sentence 2: Jamaica has British rules that make it very easy to travel around.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: The man suddenly stopped short of his words. sentence 2: He could not believe what just happened next to him!",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: In addition there are several other federal agencies that have created web sites that can be visited by potential granteers at wwwwatchdog.gov. sentence 2: The websites are not working.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: He saw anger in her eyes. sentence 2: His anger was directed at her.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: They are expected to work closely with other federal agencies, including OMB, in carrying out this mission. sentence 2: Federal employees do not normally work with other agencies during their work.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: you know what kind of weather we are having right now so that when he said this it was just fine well let's move on leave me alone for the moment they took him by his chin but anyway um then after that she gave them another call so please go see her okay yeah before we make plans to come back later there was a knock at our door so we thought we would go and have yep here first thing in the morning before work started as we were going out there trying some other things but once she had finished up there there was cigarette smoke going off the screen of the TV that wasnt doing too good we went into the lounge uh got a cup of tea and kept watching until it finally went off we didn' sing while listening to the news how funny i don;",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: And now I know where to go, she added matter-of factly in her diary. sentence 2: She said that no one knew where they were going but she had faith it would work out.",
+      "output": ""
+    },
+    {
+      "input": "sentence 1: She has been spreading it around her village like wildfire ”and that will take place in due course, she said.",
+      "output": ""
+    }
+  ]
+}

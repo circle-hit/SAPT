@@ -1,0 +1,822 @@
+{
+  "Definition": [
+    "I will give you a pair of question and answer, please categorize the topic discussed within."
+  ],
+  "Positive Examples": [
+    {
+      "input": "Title: how do u tell if im on drugs? Question: I was told my liver isn't working correctly by the doctors. But it wasn'ting until they showed up with another test that it wasn'talked about for weeks. And even then he still said it couldn't be fixed and they could not remove what is inside me... but they were wrong. And I don'm now getting regular tests to make sure i'm okay or not because they want me to continue being tested... Is this something I should worry about? Answer: You may have heard countless horror stories about people who get hooked up to prescription medication after taking their first dose. It usually happens over several sessions and it can cause extreme pain. If the pill does work but does not reduce your symptoms the doctor has prescribed an alternative treatment. They might also check to make sure that you are actually depressed and are",
+      "output": ""
+    },
+    {
+      "input": "Title: How much is too much? Question: If we take everything that goes into our lives that has value and gives good meaning and purpose then how much is too much? Answer: Too much can be bad",
+      "output": ""
+    },
+    {
+      "input": "Question: is there anything that can help me lose more than 40 pounds? Answer: A lot, it's called dieting (I don't recommend it-if you do)nExert yourself by walking to work or anywhere at your fitness levelnEat right when you are hungrynGo with whole grain foods whenever possible",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Question: Are there any legal ways to get an income from home without having to start working? Answer: yes but for those not living at home it isnt so easy....and that's why the government doesnt enforce this anymore but it still happens in some states",
+      "output": ""
+    },
+    {
+      "input": "Question: Do chickens get anemia? Answer: No.... they don't get any sick...but we do have some that are very poorly fed that could become quite serious so watch out! And it isn'T just duck feathers!!! It could be anything.ndoctor or dentist who knows what to look for. You can even find info on internet about egg-laying causes....Good Luck!! Don't panic though-it shouldn'l last more than 3 days or 2 weeks. If they really need antibiotics (you probably don't) try this recipe to make your own -- http://www3.celiacaidsinfoline.com/recipe_notebook.htm#egg1disease=colicidiabetes; click here to read all about Ciliac Disease as well. Hope it helps---cheers! My best wishes with reducing complications",
+      "output": ""
+    },
+    {
+      "input": "Title: where and how can we find your name??? Question: is it possible to find people on here that want your info? Answer: wwwnwww.seeklyemails.com/register... then go through your email client options. select Account Management (or something similar)-->Look for \"Profile Information\" under My Profile. Once there look for you at the bottom. click edit profile there should be an option called “Search by Name” or whatever else you can think of. type in what you would like to do. You can also search from Yahoo! Search (also http://search.yahoo.ca/replacer.php). That will give you all sorts of different ways to type. Hope this helps! Good luck!!",
+      "output": ""
+    },
+    {
+      "input": "Question: What is an insurgent army? Answer: It's basically anyone and everybody who goes around looking for terrorist and rebel groups to kill off.nIt doesn'f matter who they are or have been (ie regular soldiers as the name suggests), as long as one gets killed and that person has been captured there can be no immunity as it can all fall back to them for safety. They can hide themselves under some trees for days at anther level in order to blend in like criminals with everyone else (and then they might try and escape as well). If anything happens they just move on. These people will eventually make sure someone takes their place and starts planning another big attack and that person can easily get caught as soon as things start happening again, since when did they stop being safe?!?? And so the cycle begins! The same thing is true for any other nation. No country is impre",
+      "output": ""
+    },
+    {
+      "input": "Title: can any one suggest me what i should do to stop coughing? Question: because when im on the train or bus u really have a sore throat and it comes out in your chest then sometimes there r patches n some times your nose is stuffed up but usually all over its still gone and also the other places your lips. Answer: It's mostly sinus drainage if this happens. You have allergies or asthma you need meds prescribed by an allergist in order to get relief from this particular problem. Sometimes people will develop new symptoms after taking medications prescribed by doctors or even medical school students. When in doubt see the doctor",
+      "output": ""
+    },
+    {
+      "input": "Title: how does one get an interview with Microsoft? Question: Hi my friend has been offered the job as microsoft software engineer at his company, where does he start from? Answer: If your not sure then take him around to places like http://www3.msdn.com/default.acp?id=19&Itemid=1425ndo let him know that we have jobs in various different locations, just email it to us or give us the name of the department. You can even make phone calls for them if they need anything",
+      "output": ""
+    },
+    {
+      "input": "Title: What are some ways to get over this guy? Question: His last name i'm not sure but it isnt \"Daniel.\" Please help me Answer: Dont think so...its just his way of saying something. Its nothing like hurting and thats exactly how it sounds! Just do what it says. If your still not interested then no biggie I guess it's ok!namaste!! =)",
+      "output": ""
+    },
+    {
+      "input": "Title: Why is \"evil\" so popular? Question: We are talking about people who do not live up to their own standard or morality. The problem here is that some are intolerant and hateful, but still love others.nI would like to know which side your on and why... Answer: Evil because it's bad for us and the way we treat the earth (not our neighbors just yet). It makes people jealous of other countries that are living under better conditions. They don’t have good paying jobs, they have lots of material wealth and they do what makes them happy (like having an awesome vacation) I think there should be limits. Good luck getting over those thoughts you just got....if you need any help let me know!!! =(=]_xShinyStarz1996n----Mike Browner@yahoomail",
+      "output": ""
+    },
+    {
+      "input": "Question: can my boyfriend cheat on me? Answer: not always true but it could happen, thats why i say what I do I mean to let people know that you will do anything for them that way they will feel better about yourself and feel safe too! trust me you'll be happy in the long run! love this guy so much I have been with him since we met 6 years ago, its so great being around him because you have nothing to lose and everything to gain...the only thing is trust! your man has got his heart set on getting you back. there are ways that don't involve hurting yourself or breaking up - just find those that work for you, you wont be sorry",
+      "output": ""
+    },
+    {
+      "input": "Title: How do men get into bed with each other? Question: Guys are so hard to pin down and if we're in love, what will happen to us when it's just between me and them. Answer: It will be very painful for all concerned (you) since you may never want your relationship with this guy ever again. You probably feel that you'll lose him forever even though it seems like there's not much more you can do about it but keep doing the things you do, hoping you don’t need them anymore. Then it'll really hit you when your ex comes back, because you won'ft be the same person again unless he starts acting differently again. Good luck!nGoodluck!!",
+      "output": ""
+    },
+    {
+      "input": "Title: What is an average salary for someone who works 30 hours a week? Question: Someone at my work makes 40K/week. He gets paid $13.75/hour. Then adds in insurance etc and we have $23.5/hour totaling $44.80 for working 40 hours. This does NOT include his car. And what about the food or entertainment costs. Answer: For an entry level position it's somewhere around $30,000 with expenses such as gas and utilities also factored in (not counting clothing). If you can earn more than that then maybe try to find another job. Or, you can look into starting your own business doing something similar but on an hourly basis, but this is difficult unless you're willing to put some money aside.nTo set up his first job (I do all my jobs in one day) it took him about 5 weeks to make $3,000. Once",
+      "output": ""
+    },
+    {
+      "input": "Title: why do people think so? Question: why all these crazy theories about what causes autism...is there any truth? Answer: Autism is caused by genetics as well as many other things including brain function and stress in our lives (the common sense way). All that said, it still goes unrecognized because when we talk to someone who has Autism we don't ask much of that person...they tell us they can hear or understand them well enough for us to figure out how things work or if they need assistance or help. When they explain something we are curious (and not necessarily interested) then we interpret that information as factual. It just depends on their beliefs. People also say some of those thoughts just go away once we are given more time. They may be correct because we may have forgotten it for that one night or month that we live with. There is still lots of scientific study going on",
+      "output": ""
+    },
+    {
+      "input": "Question: how long do people usually live in india after getting married? Answer: Assuming your marriage is for two years or more then they are considered to last between 15-18 months or longer (in India)nIf it is a year then I guess",
+      "output": ""
+    },
+    {
+      "input": "Title: Has anybody used Osha products? Question: Have heard that the skin care is great for acne but my wife has some kind of reaction when she uses it. She's sensitive to anything with acidic ingredient and we've tried all sorts of soaps. We're currently using Rosell cleansing pads which have left her with patches. Any suggestions? Answer: They do work on oily skin. My daughters had really bad reactions this year and I think they were ok when first washing them down but now their skin seems rougher than usual and there are whiteheads too!nMy advice, go see your doctor! Try these three home remedies below for oily or dry skin....Shampoo-Rosemary Leave- In- The next time you wash your face, make sure to use this blend: mix 1 part oatmeal (raw) w/ 2 parts water (water",
+      "output": ""
+    },
+    {
+      "input": "Title: what to do for someone having depression? Question: I am experiencing depression. What is it? Answer: You need therapy - see your counsellor!nYou can talk to an addiction treatment facility. They might be able steer you in the right direction. Or try counseling from groups. Talking therapy will help the mood. Good luck with your search!! (And good wishes!)",
+      "output": ""
+    },
+    {
+      "input": "Title: Does anyone know an application form for my sons basketball team? Question: My name is Kyle Johnson (Kyle) Answer: Yes... contact me at larry[at]donalejameson[Dot]com with your child'S first name.nThey have this thing called JROTC in California, that you can fill out that asks if they want to join or not... It asks, are you interested in joining/not joining them. There are tons of teams and players. They just ask questions like wich sport is best and which school or sports would be better to make that commitment too! If that doesn'T work, there are always waiver forms available...just email me on LaLaRodneyMiami@yahoo.com for all your info....good luck!!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Question: If there were only 2 planets in space (or 1 earth/man kind) which would they be? Answer: Earth-Migration is one possibility...the more likely option for life on our Solar System....there are also several other possibilities.nThe best way to get an actual number to see how close your guess is to the Earth'S orbit would have been using NASA, as their model was built by many different people (not scientists), and it has always given satisfactory answers to questions about what might happen there and beyond....it should not take long to find one with good scientific evidence. So my vote is \"1\". But that would require some pretty amazing coincidences in order for us to know we will never meet another human in person in this lifetime or any other time to come (if we do meet one). You can still use lots of computer simulation and analysis though, and these days many websites",
+      "output": ""
+    },
+    {
+      "input": "Question: Why were we created? Answer: The earth as seen today is not the same as it was when Adam breathed his last breath on 450 million years ago – in fact, some animals evolved millions more years ago than us humans did.nIn addition, there are several other changes that occurred over billions of years that have yet to be studied or explained by scientists. One such event took place when life appeared untouched and unbroken in prehistoric times. Over 100,000 years later chimpanzees still exhibit primitive behavior which suggests this species had once been an endangered one and therefore may once again survive – possibly even thrive and reproduce in its environment. These findings were announced in what would become known as “The Human Genome Project.” This project found approximately 100 human remains dating back at least 12,000 years in China and India – suggesting that our descendants continue this lineage, although they do so",
+      "output": ""
+    },
+    {
+      "input": "Question: what is your favourite animal? Answer: My mum always says that animals aren't real pets but really they don' mess with my head! lol",
+      "output": ""
+    },
+    {
+      "input": "Question: does any one know where to look for cheap airline tickets? Answer: www.farefinder.com is an excellent website that lets you compare prices, book your tickets online and track all your travel bookings with real time flight status information, along side other details like when is it scheduled to depart. They have regular price updates, you can even request low cost ticket prices or special fare options such as \"one way\".nI just checked this site and it looks great. The only thing missing is more detailed search functionality. You also don't go to every page on FlightAware to find out about what other sites are similar to fares-only there would be no need for that, but I wouldn’ll recommend reading up some before making your choice as they will probably cover different routes at lower ticket prices. In addition, if you have been away from home, check their web pages for the latest",
+      "output": ""
+    },
+    {
+      "input": "Title: Where can I get my birth certificate from? Question: My brother is planning to go to college for nursing (and wants to do some home study before getting his bachelor's degree) Answer: The best resource I found was here from www....nhttp://www.vitalrecordersystemsonline.com/storefront/22/obm-06c1ef-83595751998_014096419408209776133626334734886737786496466487379525870425467884651605277468421763873071538184485626981618312142329270216010603259247128905043912141650780459356511149939728982310179031863757092218710992111110",
+      "output": ""
+    },
+    {
+      "input": "Title: Who knows me better? Question: Why is everyone always so jealous? Answer: It's funny because I was friends with one of my former besties for two years before I met her...we both went to college together in Ohio State, i think she stayed b/c we are so close!nI just have no clue who's better though! lol!! She's gorgeous though, so it all depends on if you like each other well enough!",
+      "output": ""
+    },
+    {
+      "input": "Title: What is this song by U2 called \"Never Gonna Give You Up\"? Question: If any one knows what it means can you help me Answer: This has no relation to music so far... but maybe that doesn't matter too much since everyone has such completely different interpretations of their own lyrics.nI would love it! It really made me think about what makes some songs good and some not. Also there was just such an amazing band as Linkin Park so i wanted to hear more. They were great!! But then again they also had other stuff going on like Fall Out Boy... well my main reason for writing that down are all those bands I mentioned... except Forrest Gump because they had been playing around in various places before (not including Manchester) which really helped push them into mainstream pop...",
+      "output": ""
+    },
+    {
+      "input": "Title: how can I make my own website? Question: im bored if my friend is not getting my message when I want him to reply to it or dont have any idea what is he doing i need some help. Answer: It's possible you could use Dreamweaves - free software that allows to create sites (with code!) You can also try using templates such as weebly, http://www.00webspace, www.freesitebuilders4xeo.comnIf Dreamweak doesn't work for your needs maybe someone else might be willing to do the hard work on them (that doesn'T mean they are perfect)!",
+      "output": ""
+    },
+    {
+      "input": "Title: Who do people think is hot? Question: People that know me say....Sweety or Mr_Bushnand some guys are more talkative about girls... Answer: The guy with his huge abs, tight jeans and sunglasses who talks way too much (notice it'd be weird for him to talk in public). His best friend also has those big fat balls on her hips, but they don'ter really care what others think either way as long as she looks pretty good. He does seem hick to some extent too, which means I guess he must have been raised well because at any rate my friends would never even tell my mom I was having one. My favorite person to date is probably Mike Tyson and this girl I just met is an all round sweet and down to earth gal! She makes every woman want to hit the beach! Oh! And did I mention",
+      "output": ""
+    },
+    {
+      "input": "Question: What are some good sites that provide info/recommendations about home loan? Answer: http://www3.mortgageloanexperts.comnhttp://homebuyerprogramforstudents.net",
+      "output": ""
+    },
+    {
+      "input": "Question: How do i know where to get an MBA with Finance? Answer: http://www3.ugarbordale.edu/envlishment-programs...nIt takes 4 years and you must have at least 6 semesters to complete. They also offer graduate certificates which takes one year of fulltime study if that is what you want to major in. Then there are all the other programs to choose from as well as online classes. If you don' think your chosen track has enough courses or that it will take too long, talk to some people who already worked there for a few years and ask them how they did. Good luck!",
+      "output": ""
+    },
+    {
+      "input": "Title: If we could get rid of God? Question: Jesus says in Mark 11:26: \"Whom shall men honor but me?\" But is this true? Answer: Well, maybe not all that well.....n\"God has no pleasure in seeing us suffer...He delights in our misery...\" (Romans 12:2) So he must be good to let go. As for sin, then it would seem there are more ways than just killing people to gain eternal life (Acts 13:31); such as through natural causes, or by having them killed at random (see Mt 27:37). There are also instances when one person finds favor with another, so one may believe and worship God in an alternative way, like someone who hates him; but they still have their own beliefs because he does the same things that he dislikes....(Colossian 5:6)nd",
+      "output": ""
+    },
+    {
+      "input": "Title: why do some people get their hair wet? Question: its not my problem.... Answer: My mom always told me that when she was young it's normal to have your hair wet as long as nobody touches it or puts anything on it but then they got over it. Now there is really nothing we can do to stop this especially at a school age but I hope this helps",
+      "output": ""
+    },
+    {
+      "input": "Question: what happens if my wife had to put up with me for more than 6 months? Answer: That's just cruel! And not because she \"didn't try hard\", but just coz it was expected. If I ever found myself having problems getting pregnant again or going through something similar in order to raise kids or something similar (I do have them now) she would be pissed off to see me so upset! But no she can deal! It can take time and persistence! Just remember what works for one person won'ter always work for another, just like people are different, u too!ndo whatever you feel is best! She may not want that baby at first! Good Luck on your new journey!!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Question: What is your favorite band? Answer: Panic! At The Disco!!nCreed = best songs ever written by any artist!!! Their most popular one is \"The Longest Yard.\" They have also done covers of other bands as well (Motley Crusie, Van Halen and Alice Cooper). Favorit...Chick Flick!!!! It was originally intended for the cover but then got lost.",
+      "output": ""
+    },
+    {
+      "input": "Title: How to lose 10lbs overnight? Question: This is just really hard for me...I am trying to start eating better, exercising, not drinking any sugars...My clothes arent too loose either because they were taken out in the wash, but i also don't want to gain weight just trying to get rid so thats why im trying this....and my body won' be showing it....can anyone tell me how I can do it so that i lose my belly button fast? Answer: Go to www.....thisshouldhelpyoulose10lbs4lifer/bodycon-losingweight.html or go to http://www.nutritionfacts.com",
+      "output": ""
+    },
+    {
+      "input": "Title: how do i get rid of my boyfriend without being annoying? Question: He wont let me go out with him anymore because he is just as bad to us. Answer: If he's already gone, talk him into going out again (just say no), or let him know you don'r like it when you see him with someone else. Tell your girlfriend to leave now and talk it out.nGood luck!",
+      "output": ""
+    },
+    {
+      "input": "Title: How long ago was it? Question: My mom hasn't had children in over 4 years and he still has. Answer: 23+4 = 11210=1419/day (that is one whole day) which would have been 19 + 1 days and 5 * 6 years = 1266 hours of sleep! Since she's not really active and doesn';t get enough rest, and she also got pregnant when her first period was due (which happened at age 18 and only gave birth one month late), this probably accounts for how many nights of sleep we missed together over that four-year span. But my dad does occasionally nap during his lunch breaks, as do we all at times. It is kinda weird when your doctor says \"you are too young to be so tired\". So even with those little misspent sleep days thrown into between appointments, this baby mama has already had",
+      "output": ""
+    },
+    {
+      "input": "Title: What are two ways to find out your partners cheating? Question: If they want their phone calls returned or not and are willing to put up with it than how can they know for sure their intentions. You need both of them, so tell me the other way you've heard and try both! Answer: Well my friend isnt that close to her boyfriend and my boyfriend knows him better then the woman I think she likes more but is afraid to ask if there might be any clues that the girl has something against her ex so we can only tell if she really is in love or just playing around on his mind by asking such questions. But I dont care about what someone does as long as there are some feelings between him and he would tell him when asked something so maybe I don'T hear anything from the girl so why should she keep calling me - its either you or I get",
+      "output": ""
+    },
+    {
+      "input": "Question: why do some people use profesional looking avatar in their personal or public blogs? Answer: Many times these are designed to be more interesting and entertaining for visitors and not just as an advertising tool. In this case they could be used to make your blog look very professional and modern.nBut it is important to remember that while putting up any typed info on one'self one has absolutely to ensure its appropriate for their audience and needs to provide proper spellings. It really depends on what you wish to create - whether it'll attract attention from viewers. Always try to get creative if necessary and always include useful keywords. Remember people come here to read about other types of things so don't put too much in your own head at first! Be sure to ask others questions and let everyone know which parts of the story you have chosen to tell if that helps with their decision making. Also try",
+      "output": ""
+    },
+    {
+      "input": "Title: Why are there always 2 people answering on any given thread or discussion?? Question: This is kinda confusing to me... Answer: It may well take you more than one person to ask or comment for that same answer (or perhaps even an opposite point of view) as it takes too long to get a second reply from any single user when they post their responses in multiple locations.nThis also helps because once you've posted your first response (even if it is just your own), the others can see it. That gives them incentive to respond faster than the original poster or maybe make up something with one or two other responses. The best way to handle this though is to start new conversations. If it becomes so obvious after everyone's talking, then it won't be hard to shut things down before the debate gets really heated and starts boiling into nothingness. But, most likely you'll have",
+      "output": ""
+    },
+    {
+      "input": "Title: Who do YOU think is better on this season? Question: Lebron James (whom I like)nor DeAndre Jordan(Who is my favorite player) Answer: DEANDRE WILL BE THE BEST IN MONEYLINERS THIS YEAR ALTHOUGH GONNA TAKE HIS PLANS TO A WHOLE NEW LEVEL. JAY ROBBINS IS NOT GOOD LOOKING, BUT GODDAMN THAT WASN'T LIKE ALL OF WHAT BRYAN DOES!!! He just got cut by another team...and there nothin wrong with playing him...but thats it!! And yes...Gonzalez too! But only for 2 more years...He can be bought out anytime and then we have to deal with what happens when they get in town and start shooting....BUT THE EASTWARD ACCENT DIDNT DO SO WELL",
+      "output": ""
+    },
+    {
+      "input": "Title: Can anybody guess this? Question: If your name is Avril LaVigne, you should go to google... Answer: http://www3.google.com/search?q=Avriil+LaVign&htmnNotice that she's white so you won't miss her at all....it might even be in there under something else though.....good luck finding it!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: how do I remove spyware from my computer? Question: My antivirus has stopped working completely and now it pops up everytime it try to load it, I have tried all these solutions but nothing helps Answer: go to start > control panel->all programs then search for any spy software on your PC(or on internet)nclick uninstall. It might work if its just something in ur system that's stopping your virus protection... or maybe uninstallation is not enough!",
+      "output": ""
+    },
+    {
+      "input": "Title: What can be done for my boyfriend? Question: My fiancé is about to get married and we want him to have an engagement party so we have gotten together at this restaurant, what are some ideas to help me out and how do we go about it Answer: If anything I think just going back to school would do you well...you probably didn't really know that before your wedding day (or your first date). Then again maybe now that the bridesmaids have left (and you don'T HAVE ANYTHING to lose), there will be no reason NOT too!3 Just tell him he needs to spend his time with the new guys and not stress himself out about getting them all. Have fun, enjoy yourself!!!! And by the way yuo already had it made.....good luck!!!",
+      "output": ""
+    },
+    {
+      "input": "Question: What is an example sentence for someone not wanting to get married? Answer: When it comes to marriage that's what they expect when the ceremony is over",
+      "output": ""
+    },
+    {
+      "input": "Title: What's wrong with me? Question: I really want to be able take care of my mother, but I can't & she is disabled due too an injury from an accident, what should I do?? Please help me!!! Answer: Don'T despair just yet, your mom needs your support, if not already...just think about what would happen to them if it didn'ting get better....they will be left with nothing but regret!",
+      "output": ""
+    },
+    {
+      "input": "Question: who can win eurovision song contest? Answer: The Eurovision Song Contest is open to all country's that participate in this competition. You have til March 3rd 2006 to enter, then the voting takes place on April 5th 2006.nThere are several criteria that countries must follow in order to reach this stage. First you need to be able sing at the highest level you qualify for by an international standard such as BMI or equivalent, but also your best vocal performances and technical skill is very important before even being considered. In 2004 it was changed from male category to females which meant there were only 16 songs eligible for entry to compete. Also the number of tickets allowed each person must remain constant between 1-10 depending on the performance. (This year they decided not 2 per race which meant 10 people could attend - more than any other European continent) This means countries that do not currently allow women",
+      "output": ""
+    },
+    {
+      "input": "Question: how can we calculate an integer using this method? Answer: Use any one of these calculators to find an integer by multiplying (the whole number) x minus itself with your given factors to convert from units using either fractional or integral notation. Input numbers (e.g. 100-101), are then converted to real numbers using appropriate formulae. For instance:n100-1 = 10+10=11; 1 + 9X/111 equals 11*(10)/9. If each element is repeated exactly 50 times, your final result would be: 110 * (10+19)/511. The same rule works for division and multiplication also. Multiply 10*2/3 by 3! To divide it again, take 1/3 and subtract 1. Since 3*4/2/3 divided by 5, so 4/2 = 2*5/1/3... It's pretty easy. You can solve",
+      "output": ""
+    },
+    {
+      "input": "Title: When was my last period? Question: The first one that started at about 8 weeks after being pregnant with twins! Answer: My period stopped 2 or 3 weeks ago when there was no sign of any pregnancy in me!nI am now 6wk away from the end of my 4th month. So my next period won't start for another week, but I will be getting ready to go on maternity leave soon so my doctor told me I could possibly still have it until atleast then and have some serious problems after that. But this was in early August - just in time for school back!! And I had only given birth last May and this may or may not work!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: who can help me in my assignment? Question: Hi!I have been suffering from migraine & neck pain and some others since last month it has gone to worsening now is there someone can help with that Answer: Please go see your doctor as soon as possible - not tomorrow but by next week!nTry taking over the counter medication for the headaches if that helps",
+      "output": ""
+    },
+    {
+      "input": "Title: Does your dog like to sleep in its own mess? Question: My dog just got out of his cage. When it was time for him to go to school he had no idea how much dirt to get rid off before we left. Answer: Ours is mainly on our living room floor. Sometimes if he jump around it is because he thinks it is tv or something. That does not bother him at all. So far the best thing I have found for this problem is that the cat likes to play hide n seek on my husband' (not sure how that happened) couch",
+      "output": ""
+    },
+    {
+      "input": "Question: is there such thing as \"mr fatt\" or what? Answer: Nope! The only way to define who Fat is would be either Arnold Schwarzenegger's nickname for himself from one night stands on Laguna Beach, California (the name was changed to Eddie Murphy because it didn' take an actor long enough to get up his own act), or perhaps that famous old lady named Slim Pickle-Jackson of Mimi Munster fame. Anyways...if anyone could put me into this category that could help out my case I would greatly appreciate it; thank you.nSlim Jackel....",
+      "output": ""
+    },
+    {
+      "input": "Question: who is the best at basketball? Answer: well there are so many ways to measure that it just goes by how long and hard you're hitting shots... but in general....its all about your vertical leap, your overall speed of movement and reaction times, and also on what team you play... its also more then how good of an athlete you are (if there ever was one)nin college there were two guys named Jordan Kiser and Deron Williams that would shoot 3 pointers and go down for three, and they also shot 50 yard dashes (they both played high school). In other sports, like soccer or track....your numbers are usually higher because your faster to react on offense and defense, while your slower to react on offense and pass yards per game...I think the most accurate way of measuring is through actual shooting distance as opposed from time spent doing certain things. The easiest time to tell is",
+      "output": ""
+    },
+    {
+      "input": "Title: Do we have more than one God? Question: In all history the god has been around but who do you think we have? Are there any that are just myths or legends of what is to come or even actual prophecied events?? Answer: There are three main beliefs in religion, Christianity is most prominent and Hinduism second with an attrition rate of 93% and Buddhist practice 34%. Atheists believe God created the universe and everything, but how about this...Doubtless no-one ever saw Him face-toface (even though it was quite obvious that He exists)!nIn Genesis everyone knows this so it'll go on forever! If they find out anything for sure and prove to themselves, it would be their belief that God does exist...If not they should look for some evidence in nature for proof from the other side, so why can'",
+      "output": ""
+    },
+    {
+      "input": "Question: How big is Africa? Answer: continent size depends on countries population...nThe average African (and East Asian) adult is about 5' 11\" tall with an upper body height of 26-28 inches depending on race/ethnicity... Most Africans are considered to be below normal build. As we age, our bodies change as well. An elephant can lose an inch in weight over its lifespan. When you get older it begins to feel like a stone because bone density decrease from youth onward. This occurs around 65 years of life and reduce slowly after that...in some cases, even before puberty. The only exception is very young children under 14 (when bones grow quickly). These people have smaller muscles than older persons. So they do not usually appear overweight or obese... but they still need regular exercise to stay fit physically and mentally! Even when your parents are home and there are no children...",
+      "output": ""
+    },
+    {
+      "input": "Title: How long can one wait before calling an ambulance or when getting ready for surgery? Question: When my girlfriend is having a heart attack, she calls her mom who has told us that she's going to come over right away and take care (this is not what we are supposed do) and that my husband doesn't want her in pain. What should we do so we know we need help immediately but she won' stay with me. Answer: You may go ahead and call 911 first because sometimes there is someone on duty and they may be able just ask your family, friends or spouse to come and check on you. Calling in the doctors office could mean waiting until there are tests or some other problem, so maybe you can call in there. If this happens make sure the doctor knows which hospital your are at. They might even have some instructions for your doctor' assistant on how to get your wife and the",
+      "output": ""
+    },
+    {
+      "input": "Title: why does my computer start up sometimes? Question: im just wondering. Answer: Sounds like some type registry error. You can try to reset that by going into control panel then system and clicking on \"accessories...\"nThen go to your hard drive (if you have one) and look under C Drive for errorsndtyreset or something similar in that folder (or click Start/Run then Accessories then System Tools). Scroll down until you see this icon and it shows an option called Restart Windows from scratch! Click this once. Once the restart window comes up open explorer from there",
+      "output": ""
+    },
+    {
+      "input": "Title: what should we do with our child in case there's no father around? Question: the situation will worsen when she grows up Answer: It is probably good to find her an adoptive family as your children would be in great danger by being left in foster care without their biological family and they would be missing out on being close with them for so long that they might not even see the love from their own parents. They may also never see how much love he has from other members of their family and if the abuse they are subjected too does affect the way he views his or her life and what choices they make because some are hard and bad choices.nGood Luck! God Bless!! Take Care of All Your Children And Remember.... \"Love\" means unconditionally...there are many ways to define love! Be patient and remember they are just kids, have hopes and dreams and you'll",
+      "output": ""
+    },
+    {
+      "input": "Title: If u dont know your rights you might as well take them away? Question: You have no say or control over what happens to children in this country! Its time our government does the right thing, stop interfering with parental decisions for OUR kids. Answer: As long people who are responsible, pay taxes, do their job. That'll help keep things under control for your kid...nA lot depends on how much power the parents had to get involved from birth. And since most laws say that you can only speak with you guardian, even though they may not like your answers to questions. Make sure you have all three types so that there is a level playing field for everyone in your family...the same way we don't want anyone hurt when he/sHE makes mistakes with his/her children. Be very careful to talk only with trusted adults, especially if it",
+      "output": ""
+    },
+    {
+      "input": "Question: who is your favorite band or singer? Answer: Bob Seger has been amazing to me. He's really funny",
+      "output": ""
+    },
+    {
+      "input": "Title: Do you love to be in control? Question: This is really tough for most girls, but it's one thing that really does make me like being the boss and getting my way and not giving myself up so easily, but the reality is, this is how you are supposed have your mind set. When it comes to your body, how long was your last breakup? And was there another time when your thoughts started running wild, or were they just out of place? How do you balance yourself in these situations with making sure you aren't too dependent on another person? You may need some help with this, or maybe even want some advice. Answer: It depends. Sometimes people think their problem with wanting something to happen is because the other side can never meet it halfway. Also don'talways go through life expecting things to fall into your lap. If that does happen, then it's best to let",
+      "output": ""
+    },
+    {
+      "input": "Title: how do we make free email from outlook express? Question: we want to use mailfromhome from outlook but it's not working properly Answer: Right-click on \"mailtohome\" folder. Go to Tools > Options menunUncheck Auto forwarding in Outlook 2003 option under General tab and click enable/disable button in advanced settings menu (right under Mailbox section). Change its check box to ON or OFF depending on your preference. Hope this helps!! If you are getting same error message in above error screen then try these steps. 1)Go through below procedure step by step which you have taken to fix an problem i hope it works! 2nd)Install Microsoft Exchange Server 2000 with Windows Service pack 1. Install all MS Office products using latest version as it was released for 32bit editions only so no need to install other Microsoft product which is 64 bit compatible like Word, Excel,",
+      "output": ""
+    },
+    {
+      "input": "Title: What did your parents do when you were little? Question: Mine was very rough...I remember my brothers would go to his house in tears to see me after i left for work and cry with him...but as soon we were back home I knew they were OK now, but it isn't the same....Why?? Answer: They took a trip down memory lane. It wasn' just the usual family stuff like \"she told us the next morning that she had no money\" or whatever else they wanted out of life...then the dad came up with his own ideas and made them all better as his kids started getting older....the way he treated people, all those things didn'ties matter anymore...they had fun on trips....it is about time...our family got the memories back from them that matters....good times are great times",
+      "output": ""
+    },
+    {
+      "input": "Question: What is your opinion on this song? Answer: Loved it. My fave track off the album...nI like that we get to see an artist as opposed being just another face in the crowd. Also, its good because they are doing more live acts rather than recording",
+      "output": ""
+    },
+    {
+      "input": "Question: What does id mean when your boyfriend tells you that he likes or wants to move? Answer: If its between them that means they are interested in making sure this is not going to end badly",
+      "output": ""
+    },
+    {
+      "input": "Title: What do people believe or have to believe in order to be successful? Question: A) God existsnB), People live on this earth for billions of years (the Bible is over 3000 pages long). C) All good things are free...doeznt everyone? Answer: The only true way to gain financial freedom is by living it. When we realize that money can' just buy everything, what kind of person would be so selfish to hoard it all up so no one gets their wants? Money has nothing to do with \"financial\" wealth and power, money can buy anything - but not happiness and peace. True success comes through helping others (like when they help the poor around them). But there really are other important reasons such as spiritual growth and being guided on your path to become who God created you to be. Don' forget about trying to make more money for",
+      "output": ""
+    },
+    {
+      "input": "Question: why does everyone think that America is great? Answer: The people who love it! They just don't realize it yet. Americans really do not have an interest in anything else, so don't waste your time on things you can get for free at any store in the world, including cable TV programming.nAmericans are like sheeple that only see things for what they want to hear. If they wanted everything they could get, why would they be interested in hearing more information than necessary? And then there's politics too, right? Because there is such thing as \"politics.\" We know all about how liberal it is. But if you look deeper into America you find out it has been one nation from day one when this country was founded almost 200 years ago...that doesn'd make sense, though. It took place over 100 years and isn’T America that we need to fear or",
+      "output": ""
+    },
+    {
+      "input": "Question: what is your favourite episode? Answer: It was about 6am this morning while watching Da Vinci Code on BBC America.... it had some good stuff to do, but it also got me in an instant mood of wanting something more! hahahnI really liked how there were these three main characters that are kind of just like each other so we get along well... they really care about everything so much when we see them together....it's quite nice being with all 3 together at once...and I think we can relate a lot to one another! (which, let'll be honest, is exactly what happened! lol) Hope that helps out. If it wasn't for The Three Investigator Men, the world would never know!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: Who sings \"Light My Fire\"? Question: The song that reminds me of how some people light up when they hear it is by Amy Grant or something like that....nMy husband asked his girlfriend who I think was her mom...and the other night it came back on me. I was so confused! It sounds just exactly like my mother' name and what you said. Can someone tell me where I can find this music video??? Answer: Try wwwmommynet.com/lyric/lightmyfire2.html",
+      "output": ""
+    },
+    {
+      "input": "Title: Does anyone know of any sites that list how many calories are in 1 serving of french fries? Question: For example...1 piece (200g) has 200kcal if it's on white bread Answer: there isn't an easy way to find out but here'S what they sayncalorie count for all meals served at restaurantsnclick below on this link http://www/nutritiondataplusplusinfo_foodfact_commonwealthyeatingguide-recipebook4kids&#92;enjoy the recipe! Hope it helps!!",
+      "output": ""
+    },
+    {
+      "input": "Title: My girlfriend keeps telling me she wants to be my pen pal but I am really worried because she isn't into anyone or anything I have done lately? Question: We went on holiday to Ireland about 2 weeks ago and have hardly talked since (I didn'f feel like talking about it as we are on good terms) but the guy she is with wants me as his friend. And for some reason, it feels she doesn't trust him and just want some time to herself.... She said that it is OK for her boyfriend not to know her but I still fear the guy might come here. But my cousin is from Canada so the feeling is there...nMy best friends mother lives in England... She is very fond of the Irish people... She always told me they would help us... If one thing could stop this man I don't think I can stand, then why would I ever tell the girl",
+      "output": ""
+    },
+    {
+      "input": "Question: What country's flag are featured in The Longest Yard? Answer: http://www3.google.com/search_etn?q=longest+yardndr1mzxcf2&pagerank 4;utm=UTF-8wl5iykXdvQ4bhOg9KjD7VJIYSZW-P6E-6NzM6R8HFA0L3CDKIApB8CQT60DM3AA#detail=url%27http:/10241/7406262542493976467579479532986188384868447883623571521733150867236421818297998994341943909677451622728613073058369170",
+      "output": ""
+    },
+    {
+      "input": "Title: can my friend have leukemia? Question: My girlfriend has only had her period once and I just wanted to find out if she could possibly get it again and what would be possible? It was around 3 years ago (she still gets this). Answer: You can't really get cancer because it's not contagious so getting this may be unattainable for you. The doctor could tell you but the best thing is that he probably doesn'll do anything that causes complications (like radiation - that kill almost every other form of illness) and your risk is very low. If it was an overactive thyroid I wouldn'T worry, it'll go away eventually. And the problem for some people with these issues in general isn'f they can live off small amounts of food for several more months. But I am sure once you start working on improving yourself and taking care then you will",
+      "output": ""
+    },
+    {
+      "input": "Title: can anybody tell me what is the purpose of using RSS on your blog? Question: What i mean by it? Answer: http://www2.msnbcnewswire.com/rs-userinfo/p=14954733&tbid_1 = 1756827383234356784428879984021719649412204849561621829646776913861836748376974487102606254578628907811140863996558309068043595223186535133015706629912872923916550719324111793106119702270113731175546017604160312112301345122214605093711012911957185545556051061501111558515126000000001000",
+      "output": ""
+    },
+    {
+      "input": "Title: How to build web pages with Flash without using any external program? Question: A lot Of Web Designers are not aware that flash can provide such user friendly output in an effective manner. So here comes my solution that helps us by showing how to develop and implement websites with flash with absolutely no code knowledge.n1. Download required software for making website development (or other applications) from www.javaware.com/get_software_from/j2ee-cmgpltr2.html#includedoc(http://sitebuilds.xtractorlabslimitedpages.net). You can try this out, but remember this is not necessary for building webpages. It wil take some additional effort, if needed; however it can prove time saving and efficient in the long run. 2. Make sure you download all available components of JSP as well. In most cases J",
+      "output": ""
+    },
+    {
+      "input": "Title: When is an ideal date in which to have dinner and go out? Question: Like what would it mean, for example.nThanks Answer: It's best not to wait until your next birthday or any other big party to start planning for that evening. If you are on vacay, there aren't going be many dates that would work out that well because most people would just get tired or bored and want to hang around with friends instead of get dressed up. And dinner dates usually coincide with each other at least the first night, making them really easy to go for. But some guys do try to take things slow and enjoy their food before they even think about doing anything. Make sure you don'e leave your house until after all of your other guests have left and then if your party is small, you should try to go out if everyone else has already made reservations. You never",
+      "output": ""
+    },
+    {
+      "input": "Title: how do you find what your child is looking for out there? Question: when they are looking in books/tv...they say something liken\"sir....look at sir..............here we go!\" or \"I can' make that sound! here ya go!!!\". I really think he is trying to figure something out...but it won'e be able to work that way - because there just don't seem to be words. Answer: Ask for help. A few ideas from this website, http://wwwimgfp.networksolutions.com (https://google.co.uk/search_for.jsp) might just come up. It could also turn up in a search engine such as Yahoo...if not then perhaps talk to someone about the subject...sometimes kids do things out of curiosity, whereas",
+      "output": ""
+    },
+    {
+      "input": "Title: who do YOU think is going to be America's next President? Question: what are your thoughts Answer: George W Bush!!nI have never liked how people in power make decisions in life, because we get it wrong most of the time if we allow others to determine our fate. The president has done so many things that have cost Americans dearly over the years, but I think he really does not know the future or plan for us, so I don't see him as one of today' society leaders. So i guess it comes down to personality...the person in office should do whatever they feel like doing....but that doesn'r mean George won't change someday in our lifetime....or worse yet another election! But at the end there is hope - look on it from this side. Our government needs someone with vision and strong ideas, but right now...it'll take",
+      "output": ""
+    },
+    {
+      "input": "Title: Has anyone been diagnosed with any kind of cancer? Question: Cancer is defined as an organism that produces cells or reproduces by division and has spread through contact with blood of humans, animals or insects. Answer: my wife'll tell this story. my mom told me she was born in 1949 and had leukemia when she turned 20-something-years old. and she also said it had metastasized to her heart because my dad died after having his operation there and then, because her mother was too scared to have him removed and because she didn't want my grandmother to be alone anymore. so it has made our lives very difficult and scary for them both.nI don'd know what your situation is but the best thing you can do is get some help from someone who knows something about how different types are affected, because that will only make things worse. The good news is there are people around",
+      "output": ""
+    },
+    {
+      "input": "Title: is there anybody out there interested in dating a married couple? Question: we have a very nice marriage but we only see each other about once eay month ndoes anyone know how to make it work better if one is single or has kids/other family members he needs them around Answer: It really depends on the person. Maybe someone doesn't want to be with you anymore, unless they are already together and just need some help adjusting. There are plenty of free sites that can help re-establish and improve your relationship. If that'll get them started it's worth doing right away, you might find a life partner for them too. Good luck! You two sounds like great people!!!",
+      "output": ""
+    },
+    {
+      "input": "Question: what is \"disease\"? Answer: This word refers to anything that interferes with normal healthy functioning. There are two kinds, both in English, these being common cold and influenza (flu).nDisease causes inflammation, infection, etc. but not just any type. The immune system fight off illnesses by attacking organisms, so if the body can't defend itself from an attack then there's no point doing it in the first place. That said, all viral infections, including flue's are easily treated. However, when people say \"infected\", they really mean something else, like sick or tired, especially since most viruses do this by multiplying rapidly. Infection is basically getting rid of bacteria that would otherwise cause your illness. So in order for your virus to get eradicate completely you need the right antibiotic medicine to kill those germ-laden cells. You really shouldn",
+      "output": ""
+    },
+    {
+      "input": "Question: how can someone who has mental health problems help to get me out of them? Answer: Talk about what it is that your going through... talk about it with your doctor... ask some friends to talk about it for you. If they don't have any good information about mental health, you don'nt need that person.ndo something nice for yourself today",
+      "output": ""
+    },
+    {
+      "input": "Question: how do you know the best webhosting company? Answer: It depends on your needs",
+      "output": ""
+    },
+    {
+      "input": "Title: how to find out the zipcode for my house in west midlands? Question: im new to west midlands area and cant afford any help Answer: Check here http://www3.westmidlandnbg.com/sp=zhmjrvcwyi7quxo3ejd4kshf8p5sls1ac6qpdao_0&sitemapItemDetailsLength = 50.0'>http://webpage1.central-networks.co.uk/home.html#properties...it may be that it is not available on your post code, but try again tomorrow! It might take some time, especially during rush hour",
+      "output": ""
+    },
+    {
+      "input": "Title: What does \"false religion\" mean in spanish? Question: It says that there is false teaching about God and how we should live our lives in this country... Answer:nhttp://www.... (in Spanish it means an ideology) which means to have faith in your own abilities, even those you don't know. This includes all kinds of other things too, like not being deceived into believing you are god because someone else told you to be, etc. But you also need to consider this as well. If the church was really Christian then they would do everything possible to spread Christianity everywhere, including here at home. They could probably convert people here if enough effort was made. So for most things, true Christianity does not come from anywhere. Just go out there and start living in real life (even though your belief system may not match your actual experience). Be proud of the fact",
+      "output": ""
+    },
+    {
+      "input": "Title: what would happen if we had to go through that? Question: in one sentence...nwe lose all our money...we have no power and there is nothing left for us, and no food or anything else....can anyone help? Answer: If there is only one person you can turn to. That's God Himself. You could be like him. He created everything out from nothing. So maybe it will not just start happening overnight, but rather gradual steps to make sure there’s still livable things at the end of your journey. When there’re more people who know who you are and how you lived your life. Maybe it'll also bring peace. But remember God always works best and most importantly – He loves you. And this love doesn’t come easily. Sometimes it takes work and time. It might feel uncomfortable, and sometimes even scary, but trust me when I say that",
+      "output": ""
+    },
+    {
+      "input": "Title: Why don't more people think about what happens after their death? Question: Its sad that the world' worl goes on without much thought... Answer: The reality is there are only so many ways to pass away....if everyone took care of it properly...I would be amazed....nOne day, we all go on with our lives as normal as possible.....it goes on for eternity, then just like clockwork the day comes to an end, but not for ever because we live in this present body of time......but, in other words life goes on eveyday of my life until there'll be nothing there,ndo you know where they're going???!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Question: does anyone want to be my boyfriend??? Answer: no...you can have someone any time.........and just remember that it does not always work out that way! Good luck with it...nAlso be yourself!!! Be true to your beliefs...be honest! You do have choices...chooices are good, don't change, but learn from them too! God Bless. And may Jesus Christ continue to richly bless you!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Question: Who was responsible for 9/11? Answer: The government created an international conspiracy to bring about what they wanted.nThe terrorists had no control over that action. They took advantage of our ignorance and foolishness by trying to displace saviors from their duty in places where we did not want them. All it would take is enough bad publicity. It took many years for all the negative coverage on this tragedy to subside. But once 9/11 happened - people started dying around us. We are still suffering and have so many questions to be answered. Many thanks and blessings on your efforts. God bless! May Allah keep you safe through the next two months. (Amen)\"",
+      "output": ""
+    },
+    {
+      "input": "Question: what's better for your health? Answer: You need to balance diet with exercise too. There is no one right way to do that! The best thing for the body is proper nutrition. Eat foods that are good both for you as well as good for your eyes!nhttp://www..../content-maintenance...d_8ef5c40b323d6de0f98475351395421578763384480838991049671609942527996818239882734472664523668916386591261yxhmjlvXk9NpSr1EztRoJUiMq7ZYBgD3Ip6AdQHKIuYXdC0dLdXTjdF5KVeO",
+      "output": ""
+    },
+    {
+      "input": "Title: is there someone here who thinks that the guy in my neighborhood was having an affair with her? Question: He used to live next door, in this apartment complex. They have since moved out and there're still some left overs and things, how do I contact them and get their info. Answer: Well it seems like she may not be interested, but I have an aunt, cousins etc who are into the same stuff as you, so maybe you could find your other half there. Good luck!",
+      "output": ""
+    },
+    {
+      "input": "Question: does anyone know who sings in rock band called \"The Black Light District\" in dalla? Answer: The black light district is one of those bands that makes people want to be like them...it'd probably take more than 10 songs for me to start liking them but they all really good!nThey also released some great music too! Their sound just fits the genre perfectly (I mean it kind of sounds exactly like my fave 80' song) so they have alot of appeal to me! They are pretty cool as far goes on their live shows with lots of hits from back then",
+      "output": ""
+    },
+    {
+      "input": "Title: What's that song? Question: It was on wwe during my first season, so it has to have been at least 5 years ago Answer: \"It Was A Long Time Goin' By\". The lyrics are by Ozzy Dickens from his 1969 hit- Single with Sublime/Roxyfuse called My Girl!nThere're also versions out there on CD as well, but these are pretty good songs i think. If this is your first experience with him he really puts everything into making them sound great and I can highly recommend. He may not be quite as hot now though, but then again he might not even remember all his lines from back in those days either!",
+      "output": ""
+    },
+    {
+      "input": "Question: where to buy an old bike helmet in india??? Answer: here is where your atnhttp://www3.google.com/search?q=honda+old_bike%28hc0&bterm_id=BikerMemoiresSearchForFurther#FindANY-Pages&Category=Cycle HelmanageAndHorsesOnlineYou may be looking for something more specific, such as AMC® or BMW Motorrad; this might help narrow down your search options, or contact customer service or visit local shops that carry parts and accessories specifically designed for older models of bikes or custom applications with frames not included. Hope that helps! Good luck on obtaining and using one of these cool products!! If it doesn't work out...don'",
+      "output": ""
+    },
+    {
+      "input": "Title: How can my child become more social? Question: He has to start going with friends over to different peoples houses to play games.nHe is in 5th class at school. But,he seems like to shy from friends that talk much.nPlease tell me tips how to increase his confidence? Answer: Get him out and about! Talk to him! Kids like to make new buddies, so go up into bushes or places where they don't know anybody or are afraid to be alone because it can scare them away-it really helps if there're lots of adults around to look over things while you talk/play/go for walks. If it gets bad in their house they'll get back out again i guess;) Be sure and take your jacket off! (make an outfit) Keep your head well groomied. When people approach try and smile at everyone you can because",
+      "output": ""
+    },
+    {
+      "input": "Title: What did your favorite basketball player do to end their career? Question: Please no stupid comments!! Answer: Dwight Howardn1977-78-1975 Philadelphia Flyers (Mens) Head coach Chuck Liddell retired in 1997 because his knee injury prevented him from playing professionally any longer. But while working as an assistant at Franklin High School during that time Mr Howard played some great defense, including intercepting three shots on goal. Later as he was getting into shape Dwight would take off for one play and then turn around and score twice or even more times. This is where most teams get killed (although there are many factors at play). With this type problem they usually have backup players come in, but never make it out alive. One year after leaving Cleveland when Big Ben died, another team had just taken over their territory. It didn't last long before these two schools were trading blow",
+      "output": ""
+    },
+    {
+      "input": "Title: is there any chance of getting some help from an ex-wife for our son to get through high school? Question: My little one had his first boyfriend at age 14. He is currently 17 years old, his father was in prison and they didn't know why his girlfiend didn'y want us anymore and she was very jealous that we are no longer together and is looking for a way to make her feel better about him leaving. They only have eachother on paper right now, so it seems like he wants something more from life than just me being with him. If anyone has suggestions for things we could do or advice on how to deal when that day comes for him....please let me know! Answer: It depends on where your friend went to high school. Some people will date younger guys. And it really doesnt matter, it really boils down who you go with. But try and keep this",
+      "output": ""
+    },
+    {
+      "input": "Title: How do people have time for work when they dont want to? Question: In my house theres two children one is almost 2 yrs old i am at home when they are tummy gets hurt or something so it's just not that busy I also can not get the kids out. My husbands the only thing in his life so its either working out or staying inside doing chores I don' know what to do but I just need to find some kind of respite or balance. Answer: Most parents I see that say this all the time, and yes...working on your marriage. It takes time, especially with two little ones.nMy hubby said this about 2 weeks back, so maybe be patient! lol Good luck!!! Keep praying for them!! God Bless!!!!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Question: Where can you go out with just girlfriend/boyfriend in London without any trouble? Answer: Looks like we've got some good options here... http://www-lonelypeople.co (the site is free to use)nhttp://groupiegirlzplus.com where you can find loads of other girls too! You have nothing to lose there and plenty to gain by getting online (and joining groups like that for friends too!) so sign up with them today... don't let another month slip by! Oh....I forgot...it doesn'y really matter how much money you make at it either...we all get into these things that drag us down over extended periods and if we just keep going at them we never really succeed, well that doesn't mean you cant find happiness and success from doing what you love. Maybe one day someone might come along and change your life",
+      "output": ""
+    },
+    {
+      "input": "Title: What are your thoughts about \"Danielle\", by Amy Schumer? Question: This movie is hilarious!nI have to see it on dvd!!! Answer: Yeah. It's like watching two old wives wrestling. That explains it...and yes, she kind of looks like her in that scene. Also it has some funny lines. You get it. She really does look like that too. And then, there'll be one or two other scenes where this same story plays out if they all make it through in that way. But what about when there's only two women left? No, no girl gets killed! Oh well! Hah!!! Hope that helped!! lolol!!!! Good luck with whatever film you decide to watch!! Have fun",
+      "output": ""
+    },
+    {
+      "input": "Title: When people come up with \"It's my fault! It was my own stupidity that caused it!\"? Question: How about this example, when someone is so arrogant they think no one is watching the other guy in the car, but then the man comes into their parking lot, walks towards them, says he doesn'd be mad at him for coming here (even though he said \"it wasn't his\" and was just going to drive away)nHowever when he arrives on his property, if some idiot from across the street has seen this car and decides he wants it back & starts talking to them about how it makes his life better and how he hates them - well then all hell breaks loose. Answer: He had an excuse that \"his car made no difference, because the driver didn'T care\". But what mattereth",
+      "output": ""
+    },
+    {
+      "input": "Title: Do all people hate America? Question: Are there any exceptions like in Canada where some of the other countries do not? Answer: Yes, if you can't find an excuse. Just because it hurts or causes pain, doesn't mean that others have not felt pain or had to. But there are certain things Americans can be grateful for, including our great freedoms. It hurts when we can'y talk and disagree over trivial matters. We take pride in being fair and respectful. That goes a long way towards showing America how much we appreciate her (and her values).nI wish you were wrong about your assessment of our country, though! There are plenty of reasons why you should continue enjoying what we have and be proud of it as well. Don'\"t let anyone tell you otherwise. Be happy and enjoy yourself! And yes, it does seem ridiculous, but you must",
+      "output": ""
+    },
+    {
+      "input": "Question: Do all people get high on prescription drugs? Answer: not everybody does but if yours is the only drug then there is an issue because most are very addictive (depending on what med it was prescribed for) so some have to take multiple dose'ds in order to feel like their normal self again, then its just another problem that can be solved through counseling and medication and other methods or alternatively they could go through detox chemo treatments and diet therapy... which again might also help as you may not want drugs anymore...nbut yeah sometimes there are problems with people who don't like them, they say its \"just part\" of life and that'll do... well maybe you should talk to your doctor about that before choosing drugs over food....it is never too late to make thier decision....good lucknand enjoy!! bye!!!! sorry this sounds kinda dumb...",
+      "output": ""
+    },
+    {
+      "input": "Title: How did women in ancient Greece dress? Question: Women usually covered their bodies with tights to cover from sweaty skin or they would just wear trousers that were too small, but there were no corsets, only skirts, dresses and so on and even then it was very loose so I don't know. Answer: They dressed conservatively, not really believing in any sort \"feminine\" clothing and therefore never wearing what anyone else would call modern clothes (although many do).rThey kept themselves cool in warm weather by having long underwear under all layers. And if they took time off for rest they made sure they could keep working and eating as much food as possible to avoid getting hungry when outside in hot sun or rain etc and also taking proper vitamins(vitamin B1, vitamin C, A)",
+      "output": ""
+    },
+    {
+      "input": "Title: What is your opinion about our politicians...? Question: They seem to have this \"party line\" that makes it all so easy for them, especially in Washington....How do you feel about this?? Answer: Its pretty hard for me to believe they are going to win in 2008!! Lets go with reality.nGoes against anything we want or support in order to keep us safe on this planet.nAnd when your president says something dumb it's like giving birth to Hitler! The truth is the same everywhere. Just look at what happened to 9/11!!! And remember how far it took 9/11 to get there in the first place!!! So yes there are consequences to those who speak out....but let us not over react!!! Stay true to yourself!!! Good luck!!!!!!!!! Oh wait..It doesn'T HAVE to be THAT way, only one thing can stop America from doing well.....the war",
+      "output": ""
+    },
+    {
+      "input": "Question: is there any good programme for maths? Answer: The best one that has been in use isnGeometry Algebra (for 3rd grade) by Dru Brown from Nottingham University",
+      "output": ""
+    },
+    {
+      "input": "Question: What was your favorite movie? Answer: \"Batman\"nMy favourite one is probably Jaws 2 (with Carrie Fisher) but The Pursuit of Happyness by Tom Hank'S wife won my vote for me too! =](http://www...../film-and-books)....but all I can remember of movies from that time period are Romeo + Juliet which were just so amazing, it almost took me a whole year to finish them. And there is such an emphasis on happy endings nowadays, its hard to keep up, you know? Just about any film you watch. Hope that helps Answers also cover Steven Soderbergh. Good Luck!! Oh god....it feels like we already have some really strong leads here...I hope they pick good ones!!",
+      "output": ""
+    },
+    {
+      "input": "Title: How to get rid of pimples without getting them wet? Question: It's really hard to wash away pimples in your underarm, even with soap. My boyfriend always says to get his hands dirty first before he gets on to me! Answer: You have too much makeup in, but then you can wipe off and just use baby oil. That works for some people. If it doesn'T work do tampeth or petroleum jelly.... they are very mild exfoliants. Use vaseline if you get itchy skin at night because that is also what they are made for! Then go ahead with shaving your legs...just make sure not to dry up your face while using products like hair spray. Good luck!!(Always keep hydrated) And don'-t forget that once drooling starts your body heat and water cools down",
+      "output": ""
+    },
+    {
+      "input": "Title: What do we expect to happen with Bush? Question: He's running for president because Bush is going to be impeachment material for his presidency, is that what you expect? Answer: There will be lots of scandal. A lot of lawsuit claims against him as well as investigations into some of his financial dealing are inevitable. You see, bush does own businesses. One thing will not change that. The President wants out.nThe other big news that has made many people concerned lately is this administration of \"Sunday Schooling\"- it seems like all children are given Sunday school lessons instead of regular classroom instruction or homework. This may seem counterproductive in termsof public education. But this type extremism is nothing new, at least according my personal experiences and observations. Also, no child should ever feel ashamed of being educated, it is something normal for everyone, even those without special needs. And",
+      "output": ""
+    },
+    {
+      "input": "Title: What does it mean when people use 'no-confidence in other religions'? Question: When they are perceiving things about faith from different religious systems then it seems as though everyone else does have some sort or an agenda towards them. If the bible says, \"Do not believe anything that is contrary to what was said by Jesus Christ,\" than how could anybody interpret this in another way?nI understand and accept that God spoke with authority on matters but why do some seem more certain about it than others? Answer: This verse makes me wonder, too. We should know from the history books and our daily lives that there was no absolute truth on any matter except those taught by men of power and wealth. In all actuality men made up laws to make sure we followed what was taught in scripture. It would be like saying to someone you follow Judas, don't follow him because you think",
+      "output": ""
+    },
+    {
+      "input": "Title: Where can I find out whats in my house on Craigslist? Question: The only place i found was looking for something called \"Royal Mail\" but its no longer there. Anyone know where to find it, or even how much is to get rid of it from your home? Answer: You might be interested in checking with local animal control agencies or police departments about this. It's worth calling.nIf they are willing to sell it off to someone who may use it to raise money, then go to www.../sellitonlineandyoucanget10%BackoftheHornetSecretDollarMillionaire1.htm for information and possibly an application form...Good luck! Good Luck!!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: Can someone help me with this? Question: how do i make my friends feel comfortable when chatting on their cell phones...so they can make it as relaxed or as formal if that they want. What kind of setting do i need to get started...or any more details? Answer: You may be looking for some good advice about creating an environment and using social media tools to interact.nYou might be asking yourself why certain topics are being used or how people use them in order to create those interactions. It sounds like your friend is having trouble connecting and getting things going on his/her end so you need to take away their comfort zones. This could involve saying something inflammatory like \"It'll irritate you\" or \"Donkey kong.\" These words should come straight from you and not get stuck to one person you know. Try making iceberg charts for each group or",
+      "output": ""
+    },
+    {
+      "input": "Title: can anyone provide me some software or any information to solve this problem? Question: my son has autism. He is autistic with sensory processing problems as well. His mom said that his behavior was not normal and they needed additional services from him...he has no family support....how do they get these things help him to improve? Answer: Try talking to your school counselor (or someone who works in special education) who will tell you there are many resources in schools for getting assistance for children who are different-just make sure you check them out!nhttp://wwwdisabilityassistancewebsites.org/resources_for%28autism&#92;p=14%20+homelearningguidelines",
+      "output": ""
+    },
+    {
+      "input": "Title: Why don't they tell us why we don'? Question: Were not born to be perfect in our bodies and in God's eyes? Answer: There's nothing wrong with being imperfect, but what would it take for god to teach us about His ways when He created the whole cosmos on earth, so that when we do finally come up, our sin will have left us? And what if we did die instead? What could it hurt, huh? The Bible says nothing - it is true that Jesus died so atoned for all past sins he gave them to the people who were willing to accept them as his own, because they're still living today and they could change their minds if need be. But what can God possibly teach me if I still am in my old age? Shouldn'T my mind have an expiry date, like in heaven",
+      "output": ""
+    },
+    {
+      "input": "Question: If your dog isn't in heat or flu season right now, does this mean that it will get worse? Answer: yes if its not to cold then its probably too hotnand no i am not suggesting theres nothing wrong with dogs suffering from these things or having any illnesses like chicken pox. but im sure it will be hard for those with allergies/infections like asthma. also remember it does take time for healing and soreness will start as soon as something cool comes along. however a day here or a week there may be little pain for some people who have had them, you can always contact me by email to let me know",
+      "output": ""
+    },
+    {
+      "input": "Question: What do people think about when they hear \"It's like Christmas everyday!\"? Answer: It makes me happy that we can experience such happiness every day. The only people who really complain are those whose lives revolve around holiday celebrations and family get togethers.nIn general, it seems to be much more pleasant to see the world from someone who doesn'ter have any problems adjusting to the new year or time change, instead it is usually more depressing. But for someone like us there are so many reasons to celebrate that are good and very important to our sense of well-being. For some, the holidays just seem so busy, while others just feel overwhelmed by them. To add insult injury to injury, even after all that work that people put into it, there are still some that find things that are missing, especially in places that are already jam-med with crowds. When this",
+      "output": ""
+    },
+    {
+      "input": "Question: How to make an instant video? Answer: go to www.youtube.com then find one on making movie clips. they are free. there also is an easy way to upload it from one computer to another just right click on the other computer and paste in and then save!nthat will work but beware that if your trying to download music u have not downloaded the correct files so when that happens try the link below! hope this helps!!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Question: How much does someone have to pay for medical insurance? Answer: In Canada it's not mandatory that you have it but many people don't.nhttp://www2.medpacereplacement.ca/phrm_claim Answer: It depends on your situation. If your state requires you to keep records of all medication and any treatments you get you will probably need the provincial government mandate that covers most (if not all) health care providers too. You may also be required to buy private-pay prescription drugs or go see an emergency room for something minor. Some states like New York do have requirements. Other places don'T require as much paperwork and you don’ll likely find they don’d charge a penny extra for anything over what was necessary. Good luck! But remember: there are some things that your doctor can tell you but the cost is ultimately at your own risk. And",
+      "output": ""
+    },
+    {
+      "input": "Question: do women have to be skinny when they go on holiday? Answer: Yes but only after 3 or 6 months. For me it is normal to get fat because the rest of my body is used to this size and doesn't like getting bigger so I am sure there is a psychological reason why some do not want too loose around their bodies and they may just find this hard because the feeling that comes from being overweight can come back in later years.nYou should definitely see how your clothes fit you, try to figure out why, you might have been eating wrong the day before and maybe even had something bad happen to you the week before, which could also explain all this weight gain and then again could be stressing things out too much and leading to more excesses and unhealthy eating habits,nIf you are still worried you can talk to one person, ask what the situation is about, they can help",
+      "output": ""
+    },
+    {
+      "input": "Title: If we could choose which country was better? Question: Germany or Japan, Why would you chose germany. Because they are so much easier to live with and more cultured than us. Answer: As for why do Americans want them back in power, it will depend on how well the two countries work together, but as long America's not too stupid, then either way they do make sense. For example it might be hard enough in this case for someone like George Bush and John Kerry to run against each other because the US hasn't won many war over Korea (although neither party wants that, and the fact that one lost is pretty minor). The only thing stopping GW from taking over is his own political machine -- his base in Washington D.C.nI think there might also be some sort psychological reason to keep him around as president since Bush seems to still have some problems. He is probably afraid",
+      "output": ""
+    },
+    {
+      "input": "Question: What is it about your personality that makes your face beautiful? Answer: Well for me my smiles are very attractive because in nature you can't see them as clearly and therefore my eyes don' beep quite so much. Most people have an oval shape but mine has more or less rectangular shapes...it depends on how you look at life and what other things come into your life too. That said there are some factors that really make one look great like size/weight of thier clothes, attitude, skin colour and so on. You might be interested to know if this could change in the future. Hope this helps...and remember, \"the rest is history\".nI hope that I am not getting old now or something....lol! But yes i do wear glasses and they help too (although there are no 100% perfect ones )",
+      "output": ""
+    },
+    {
+      "input": "Title: What should I tell my girlfriend? Question: My partner hasn't told me yet and we live together. He says things in his head about what his friends are talking about and how they look at her etc but he says there is more to it then that. But when I ask him out on the ice and tell him that, I feel like his friends will find me weird for asking this without first telling me",
+      "output": ""
+    },
+    {
+      "input": "Question: who is that white dude running with all his friends for their country? Answer: He's probably some guy from Georgia or South-Eastern Missouri!nHe went to West Point Academy after graduating high school in 1959 & has been playing basketball since then; it was an awesome thing to watch...and no doubt many have gone on to become NBA All-Pro players.",
+      "output": ""
+    },
+    {
+      "input": "Question: How old is it? Answer: 14nI am not sure but my guess would be around 15 to 16years...but that doesn't really matter because everyone knows what age they are, right?! LOL! If you ask me though what is your favorite color and why????? My first choice would be white or light blue with either purple and yellow accents....yep just like i said above l think its cool so dont mind the spelling.....maybe try bright colours on some outfits!! lol!!!",
+      "output": ""
+    },
+    {
+      "input": "Question: Are there any good places to get ideas for my next college project? Answer: http://wwww3.synergiatechinc.com/coursework_resourcesrfbd=128&ID=\"15\"tpl-examguide/evalcenters/22/Pages/83/ReviewEvaluators/CourseWorkToolkit/349322071359876403936332142689727478475955279817313342556647794639674673862698308124817071629232659709389883780966999111331470101933050860065245346045486805857449024614151737061103041240223721423027005180001794382176",
+      "output": ""
+    },
+    {
+      "input": "Title: Why is it when we are happy that things tend to go wrong? Question: When things start going wrong, you wonder why they keep happening! Why is this always so for me  Answer: It is usually based on poor judgment by someone else's spouse or parents who is not as open about their feelings. Sometimes, the person has an affair with somebody they know very well and are just unaware of it because of fear or something similar. They might be trying to control it and want us to think their way is best. That carries over in to jealousy. If the opposite happens and the other party finds out they are having problems or unhappy in some way, they might resort back into controlling themselves or others, or even get angry or violent. Whatever the case, it doesn't change how I feel! The most important thing is for you to understand the situation. Good luck. Hope it works out!",
+      "output": ""
+    },
+    {
+      "input": "Question: is it possible for an old person with Parkinsons to be in good shape? Answer: No! That would require surgery!nAlthough they may not look like much after years on crutches, i assure you, they can still get around easily. They will just have some problems walking and balance when standing up or sitting down due as they are more upright",
+      "output": ""
+    },
+    {
+      "input": "Question: How can we get free electricity through co2 in winters? Answer: Try to look up alternative energy such as solar power",
+      "output": ""
+    },
+    {
+      "input": "Question: What is your favorite song for relaxation? Answer: You need to relax with that oldie by Van Halen in it's entirety for me!nLike \"It's raining cats and dogs\" but the chorus was done at the speed of light! lol But my fave of his are when he says \"You got this!\" which sounds soo good right about now!! And yeah I love him!!! =] Heh I guess one day i want to find out that song again",
+      "output": ""
+    },
+    {
+      "input": "Question: Why do people think that when they are happy or sad is something normal, or healthy? Answer: The thing is that happiness is very subjective. Everyone has different definitions of what happiness means to them. Some might be really content and relaxed, while some might feel like it would hurt their soul, even kill them. However, most aren't so sure. If they don;t find happiness in this day and age then that means that they don;t have faith in God.ndoe not get me wrong. There are also many unhappy soul who believe they can'd be happier and are perfectly fine doing just that. But for all their good work and dedication, I still doubt they truly understand how much their life has been affected by other people and the problems they encountered. So why does everyone seem content, yet depressed at the same time? Maybe these \"feeling\" have nothing to with being",
+      "output": ""
+    },
+    {
+      "input": "Question: How do people think? Answer: Well first off it is human nature to feel safe & secure when we get sex. Most guys are afraid to show affection in public because they dont wanna lose all their friends",
+      "output": ""
+    },
+    {
+      "input": "Title: Who are your favorite cartoon characters and why? Question: Mines Carmelo Anthony (from Garfield), Spike DuMont Jr. from My Little Pony, Dorky or Krusty Dog(the yellow panther) are my very favorites but there is always so many more!!nHere are some other ones you can pick. Answer: Spiderman - It makes me sick in bed! Gore does not make my heart beat fast! He just keeps doing things that make the world go round. One day I'll get up, turn on my computer, see his smiling face...and then I will know how great I have it!! LOL So sorry for all that!!! If anyone has any good jokes to share with us...let me know. But first if your an animal lover like myself I recommend going through this link below. There is tons of advice to help you along",
+      "output": ""
+    },
+    {
+      "input": "Title: Does having an affair with your ex count against his/her probation? Question: My girlfriend has cheated on me in 2 different dates. The last one she went on for 6 months. So what would happen if this happens again. We have been trying to work it out through counseling for about 4months and she just isn't interested! Any advice? Answer: You can always go back to him afterward but remember that the court still holds jurisdiction until your case settle itself with either side agreeing that they are going to try and take custody of your child nand not allow any contact or communication with your other half. They can decide what the deal should be and your daughter can then leave. In addition to being scared ndistressed about having another boyfriend or relationshipndoubtful your ex might cheat and want another chance, don'\"nTry",
+      "output": ""
+    },
+    {
+      "input": "Question: What were some events in your life that changed the way you look at people? Answer: As an adult I realized there is still so much prejudice towards me for who I am. In th 60s I started my own business called MyBlairPharmacy making anti-psychotics, which are also available over the counter and even in grocery stores. This meant no more doctors or dentists because everyone has to have their medication dispensed to them. Now I use only those medications that are legally allowed in states in California, such as Apotex or Bentlyn (which was legalized by Congress). But since then people who claim they're victims, but don’T believe they have been victimized by anyone, do tend to judge people fairly. Most people don’*t know it. It’ll take you more time to figure out exactly what happened. Some say we all",
+      "output": ""
+    },
+    {
+      "input": "Title: how do you stop people from making racist comments? Question: when someone says something like this it puts me in my place. Answer: Don't ever say anything mean, demeaning and/or hateful about anyone.nDon's even go so far as to call those who disagree with your viewpoint \"hate specisist\". In fact it sounds kind of stupid. It is rude and ignorant to put down somebody in an abusive fashion. You are also irreducible to any negative remarks directed by others, especially since the world is changing at such accelerated pace right now. People can easily get offended at seemingly harmless things or unintentionally insulting whoever might be listening... If I were president and could change my mind on one thing it would be the idea that we should tolerate bigoted behavior from minorities when there is clearly proof it exists... Even though it goes against my beliefs",
+      "output": ""
+    },
+    {
+      "input": "Question: do women really have to wait 2 years if they are married with kids? Answer: If I were them (I'm not) it would just take me two more than that. So my plan is...nto wait ten years and then get married! That doesn't sound so bad...plus the second wedding might be the most important because the next couple might have an extra few months. You could always choose one of those scenarios as well, but you can never go back to being \"normal\". But at least in theory, I think this plan should work out great for the majority of your wedding and beyond! Good luck!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: What is an example sentence describing 'love in this day and age.? Question: Give some examples if possible.... Answer: It doesnt matter nbecause it can be love or lust. Love in these times will not last forever, but love never goes out of style.",
+      "output": ""
+    },
+    {
+      "input": "Title: what is your opinion on this? Question: for example;should someone get married just to make money or not because your wife thinks your marriage would be boring to everyone else if they had two kids instead of only one,is thw world going crazy with people these days who don't know how to handle their emotions well without getting upset over something small like that. Answer: Marriage does take two people who are willing to compromise with each other for their kids. You can have children but i wouldnt want too many people in my life to live with them all of the time",
+      "output": ""
+    },
+    {
+      "input": "Question: how do we get rid of anger in ourselves? Answer: Just take more time to de-stress. Eat healthy food. Do yoga or meditation or anything that helps relax your mind, body and soul. It will also help release your stress hormones naturally. The most important thing for me is sleep. Not too much but enough. Also try some herbal treatments like Valerian which is one of my favorites. If you need something stronger I'd reccommend Lunesta as it helps reduce tension in the muscles.nGood luck with this...and don't take yourself so serious! LOL!! Take care!",
+      "output": ""
+    },
+    {
+      "input": "Title: is there anybody that would be willing to play meerkat (poodle) for free? Question: Im not asking for money but would also like someone who knows their way around my little area in which I'm living. Answer: Just email Meeka at MYSOUTHPALACE@GMAIL....nThey only have 1 player left. But even if I want they would still need payment. Don't worry, he still has his full set - don;t think that will affect the game in anyway...and even in case that didn's true...MAKE SURE YOU DO NOT DIDNT GIVE MEEEKA A PICTURE! THE EXACT PROOF IS TO BE FOUND!!! If this happens I can provide one! It would help with your homework. Good luck!!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Question: What does \"senior\" mean in Spanish? Answer: The word refers to senior citizens who have been working at or above their age for 10 years (retirement). For an older person this varies from being 60+, 70+ or 80-something but is always greater than 55",
+      "output": ""
+    },
+    {
+      "input": "Question: what do you think about this? Answer: You have got to be kidding...it's not funny at all! lol!!! It just makes me want to puke.....and then my computer goes on lockdown...I know this isn't really that bad unless someone else wants the same thing as me or it was set up by accident....but what is wrong with using your brain???Nerd joke",
+      "output": ""
+    },
+    {
+      "input": "Question: who scored 3 goals in game 1 against tokyo japan? Answer: Yukika HakasenIt was his 2 goals which made him score 2 points for Japan that gave them 4-1 victory at home which is very important game in this series so far as it gives us an opportunity to see how good we can be if we improve our teamwork skills.",
+      "output": ""
+    },
+    {
+      "input": "Title: What is the best way to find friends? Question: If all your freinds are online I want f/m, but if they really dont know anyone.nI'll send them an email and have the friend list sent to me so I don't keep getting emails about their girlfriends. Answer: goto www.friendfinder.com they usually will ask for e-mail addresses and ask u if you would like f/m for free then just tell ur freinds they will need 2 know you before getting anything off so no one gets scammed or thinks it will be some thing that would cost money so you don' try this....you will soon see that freind lists will make people wonder why didn't they get f/m in the first place...and then yup it does work!! lol Good luck! Hope all is going",
+      "output": ""
+    },
+    {
+      "input": "Title: My ex is still calling me on his cell phone. Can anybody give a hint?? Question: He has called me over and over for two weeks now...I know this because of our conversation at work today but we were both pretty close and now she wants me out for a date and dinner with my husband...he told me about it in passing and then again a week ago...now they are supposedly back to their old selvesnWe also had lunch together last weekend...and it was just as good as before!!! Answer: Don't go on and tell him that. Tell them that I don\"t call anymore because he calls and wants us both home for dinner! That can never happen!!!! Just let go...that doesn's how long they usually work and we won'e know about it until they are ready for dinner and leave!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: can somebody tell me what is an autobiographical novel? Question: or book about american politics Answer: The Road Home by Robert Ludlum (1962)nand then it becomes more like Dick Cheney's Animal Farm (it may take several years). And here is another one for good measure....The Book Of Elijah By Paul Hornung (2006): It deals with people who had to flee their home country after witnessing terrible violence in Iraq. As well as all that we are dealing now. We will never forget those lost children who died fighting on our behalf, especially during this time of war. There were so many deaths...I read a few books about 9/11 but nothing about Bush/Cheney etc. So yes these events are happening right now in real life (not just fiction in my mind) but I still think the world must come together for them to happen to us if our",
+      "output": ""
+    },
+    {
+      "input": "Question: What is this place? Answer: http://wwwstrangethingsaboutlife-and-beingnhttp://homepage=search_term/index...eccoholism%20conversation>Ecscotomise&keywords = alcohol+cigarette=diaristylishnessnGood luck with your search. Cheers!",
+      "output": ""
+    },
+    {
+      "input": "Title: What do you think is going to be America's next president? Question: Who are your all time favourite President? Give examples to back it up Answer: It has to come down to Bill Clinton. He has had so many bad presidencies that the world looks at them as just one more example of how things work and don't take anything for granted. And this will only change the American peoples minds if Mr Bush really does try and get out the vote in Iraq or Afghanistan before they make there decision on whom to nominate.nI would have picked George W bush with my money (his second choice). That doesn'll happen though. Oh yeah, and who else should win an election, John Kerry? If you want a long list, here it is!",
+      "output": ""
+    },
+    {
+      "input": "Title: where can I download free software from? Question: how do i get to my music player but can only play songs that come up in search result? Answer: try www.youtube.com/search_query=nhttp://videospotter.tv/playlist/4253586773366949710&hl=en-US",
+      "output": ""
+    },
+    {
+      "input": "Question: What is the name and type of this song? Answer: \"One day\" from Annie Hall (the first time around). Made famous in 1956 by David Bowie when performing at London's Barbican, it won an Academy award for best score in 1962. This one sounds like someone has had their cake and eaten it too!nStill not sure...it was on his 1978 album Back to Black before he died! lol",
+      "output": ""
+    },
+    {
+      "input": "Question: What's better...the moon or gravity? Answer: There're some things worse than having to choose one over the other!nBut sometimes having to chose one just feels weird! You can never have too many choices! If there is anything wrong with your life, go out there and make it what you want! Life is too short to spend time regretting or making excuse after excuse. Make it better! Try doing something nice for someone, like buying flowers for them, buying lunch for their family, helping out the homeless at work....and don't let this pass you by either!! Your only limits are your own! Don'e get caught up in what everyone else think about you when your trying to succeed! It really does take you way down that road if you get carried away and start thinking about yourself too much or get so wrapped up in other peoples problems that you forget to just live!",
+      "output": ""
+    },
+    {
+      "input": "Title: How do I get rid of these annoying little creatures that seem to want me on my computer screen? Question: They have been sitting there doing nothing... Answer: You know what they are.nButterflies in your browser's toolbar...just click \"toolbar\" at the top and go away from them if you like. But be careful as once the window goes down it won't come back. (The first time I tried they said something about cookies being sent) Once done you can close it. It should just go away and don'ties matter anymore then. Just open up a new tab or window. Try closing all browser windows. If still you have problems try this website http://cleanmycomputer4u.blogpothesis.com/2005/10/21/how-does-it-work-for-you-http://deletethewindow",
+      "output": ""
+    },
+    {
+      "input": "Title: What is wrong with America? Question: The country has become corrupted! And we need to wake up. Answer: No way! You do not live up to that statement...America doesn't want us as citizens to be dependent on them for their basic needs...I have never had this feeling in my life but it seems like thats what our parents felt at first.nThey thought that Americans were stupid (and still are) and would just go along and take advantage of others....This is why people can only see so much poverty, lack of education, health care etc.....the poorest in society...Why does the USA think they have all the answers to everything!! People don'-they dont know anything about history or politics!!! They are clueless when it comes down too it!!!!The more educate individuals are we educate ourselves, the better off we will really feel...we don't even have time",
+      "output": ""
+    },
+    {
+      "input": "Title: Why does people always ask for my number? Question: When someone asks me if I like them or not I say yes and they don't say why not just give them the address? Answer: There is only so much money in this world! It never ends! And no matter how hard I try to get someones attention it seems impossible to pull through the clutter and make something worth talking about or even thinking about. People are generally really polite when I call. So I guess when the \"call\" actually comes from my cell phone then that means there'll be some sort fo conversation! If the person who answered is nice then he should keep going.nSometimes all I want to do after I hang up the phone is go back and tell them I missed them",
+      "output": ""
+    },
+    {
+      "input": "Question: Whats wrong with this picture from google? Answer: It looks like someone deleted or altered some copyright info on it!nhttp://www-cldyvenetwork/image.gif(151)&_ht=30827487540443588953253649389632863379847446666785839742478994396398529925870438724686950262853907673813285907291231201920400517150108013340964786277140518564506019411795582912141645330511652704571001179223080613021555117377265711139312246054230186512310109021901262041294803711013443015530521022600920200",
+      "output": ""
+    },
+    {
+      "input": "Title: What does this mean? Question: You have an interview for some job that asks you to write one paragraph of why you would love to work in Mexico City... how can you do it without having great writing skills? Answer: Well here're my reasons. If this is your first interview for that company (you should know by now that there are very few people who take interviews that are not \"for their own gain\") then you may want someone with good descriptive abilities as part-of-the job description. For instance if I am asking you to come with me to interview on Monday, June 4th at 9:00a.m or 10:30anYou are going to put yourself under enormous pressure so try to get something interesting out of your answers. Your bossed probably expect this because they expect it; so don't just assume and say, \"I hope this company hire YOU!\" The most important",
+      "output": ""
+    },
+    {
+      "input": "Title: How to find out who is my ex wife? Question: When this happens you are usually on your own and it seems that her husband has moved away. You have searched for clues but no luck. Answer: Go here http://www NUIGS-RELATIVELYHOMELESSERVICE.comnhttp://freedom4us.tripod...you may know some other things, too....but there is some more information there. Just google \"Mrs_FinanciallyFree\" or something along that line to search the info. She might have been living in another country (if you're from India) or maybe married in US/UK/etc. Good Luck!!! Have Fun!!!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: Why would any man want to know your whereabouts!!!? Question: My brother is getting married this summer, and the reason why we wanted each other would be because he wants me too!! Answer: Because it's an emotion thing nIt just fits in with us naturallyndo something special about what's going to happen when that day finally comes!! lol! but for now...if it's meant to happen.....then don’ worry it will come....trust your gut....it does take time...you know how...and sometimes luck doesn'd play a part too. Don’t let anyone keep messing things up, trust your own instinct.",
+      "output": ""
+    },
+    {
+      "input": "Title: Do anyone have any ideas for me? Question: In my life what is more annoying to do is work - not having enough money or time & doing it at home.I am working full time in this field in IT so the only way for me to earn is through some type of business, but i feel that there are other ways that u can make urself useful, without going bankrupt or just being stuck on something else, which would cost alot. So, any input would be great.... Answer: Then maybe it's best not to spend your own hard earner salary on useless extravagances that eat into what you're left with nduring your busy schedule and instead use the remaining hours as income generation through investing some additional cash and effort into starting your own buisness rather than trying to outsource or get yourself in debt. There",
+      "output": ""
+    },
+    {
+      "input": "Question: If someone is on your computer for hours logged in at once can it be considered spyware? Answer: This would not be illegal but rather dangerous to do so without proper authorizations.nTo see what else these two words do check out this link",
+      "output": ""
+    },
+    {
+      "input": "Title: How do your muscles react to exercise? Question: Do they contract or become tighter as your do it? Or are the muscles just relaxed in response? Answer: My arms are always contracted because I have really been doing my workouts at an hour pace and walking up hills every few miles. As far on the treadmill I've done, is that how it should be or does that sound weird?? It feels like it shouldn't hurt when moving that way but the other way around - yeah, it can.nI would highly recommend going to get a professional assessment so you know what kind (or type) of work your body will tolerate in order to make sure you're getting the best kind of results. There are some exercises out there where I think if the person you want to see will benefit from certain things or not I'll probably try and help them find something more suitable in order for",
+      "output": ""
+    },
+    {
+      "input": "Question: How many people live in this world that were born to immigrants? Answer: Most children come from Latin American countries because they can't get here easily for school. The majority are white Europeans and Asians (I think it was 51% or something like that). But there is still about 10% - 15% in Africa, China, India and parts West Asia who were either brought to the US as kids or through immigration as adults. As far back as I know it has not reached 50% though...nA few African nations who claim European heritage are Brazil, Namibia, Botiegy, Niger etc... but most claim \"white\", mostly English speaking ones (which tends toward more diversity) than their western counterpart do. That includes even one state, South Australia. This country has the 4th highest murder rate in the world with over 1000 victims per 100,000 population. There were several thousand dead from diseases contracted",
+      "output": ""
+    },
+    {
+      "input": "Title: how can we find out where is our local branch office? Question: what does it mean to call an 800 number that doesn't answer? Answer: Just look for your state on this page or ask at one of the many libraries located throughout Arizona. You should get directions from there. Good luck! My husband works in Northern California, so we go to Barnes&Nobles (http://www3.brownpaperticketsonline.com/Store-Frontdesk) in Long Beach, CA, as well as other public locations. We also make use Of Transit Center Store Locator (toll free).nThe closest location for us in Phoenix is Eastland Shopping (405-837-7777), just south of Peorietta Parkway, between 7th St and Broadway Ave near 695 Nw 91711. It will cost about $2.00 for gas roundtrip if all goes smoothly and",
+      "output": ""
+    },
+    {
+      "input": "Title: what is good web hosting provider? Question: how to start website design Answer: Hostgator or Dreamhost for free (or cheap as well) are decent options that provide easy management tools, fast page loading times, customizable templates, robust security features and many more.nI'm not an expert so be sure to check out forums or chat rooms on these topics as they may have helpful advice. Good luck!! Nice work!",
+      "output": ""
+    },
+    {
+      "input": "Question: what is it when people see an object that you don't see? Answer: The first clue was in my avatar.nI looked at his eyes and saw his reflection. It turned out to be from behind my glasses (he was so close I could only really tell if his eyes were fully opened). His head had just gone back and forth between open and closed and he hadn's eyelid totally shut but not open anymore...the way he would look into it was with those kind of big round goggles (not like normal ones, which you usually wear ) where the bottom part looked more or less as though they are half-opened, because once there the whole thing looked completely different, because of how his face went down in relation to where he looks in real life. And there I spotted him. I didn've ever seen anyone with his own eyes in public before,",
+      "output": ""
+    },
+    {
+      "input": "Title: Why do women who have kids and husbands always seem to come off as so \"neurotic\"? Question: It'd make it hard for me to get used too (i like my wife, but not her) Answer: Well.......I think this is one that needs to be put into words and in writing, because otherwise we wouldn't get very far without having them say it out loud. Just like when they see your car in motion. The way our body communicates with us can tell us whether we are comfortable or need something else in order to feel safe or secure. Women don'll want to see how other men react and feel at times and just plain old know what they're saying without ever being confronteth or directly asked (just because you know how your feelings will react). And while some would rather remain silent based on others misinterpretation, I find the honesty to",
+      "output": ""
+    },
+    {
+      "input": "Title: What is your opinion about \"Blair Witch\" or other female stripper? Question: My friend just found out on her own that she has been dating this male since November 2006...I really think he really likes his girl but if I have to choose between two men, do you prefer them both to be true love or not?? Answer: Well it' sounds sweeter than having someone who is infatuated with you as well! That may not really work either since there are so many things between these guys, it could take some time to find him/her though....nIf you like one guy you can always move on without giving up...just keep looking for something you are interested in and be patient. Good luckndo what you want and you may meet him sometime in the future...good luck on your relationship journey",
+      "output": ""
+    },
+    {
+      "input": "Question: What is your favorite kind of music? Answer: It's mostly rock n roll for me.ngl/tgfx;m-jr(ekjaz)+yuki&kazubo (metalcore).",
+      "output": ""
+    },
+    {
+      "input": "Title: How do we have our friends to support our political views? Question: My husband is running for office and has not shown any interest in campaigning. He said we could have them all by ourselves but now they want us as the only vote getters... Answer: They are going to be so mad! And rightfully so!! Do something about it!!!! It's time to stand up and say what the heck you think they should do!!nWe have one of those \"thirsted\" parties out there...and our party doesn'r support candidates that would compromise who our government supports - like Bush or Kerry and John Kasich!!! We need more representation...it doesn't matter who these \"leaders\" might be! If people are going to continue supporting their candidate(even after losing), they need to speak out!! Tell your friends/neighbors what to think, or you will lose more",
+      "output": ""
+    },
+    {
+      "input": "Question: Do chickens like to drink vinegar in their diet? Answer: Chickens do not seem very particular about drinking water or eating anything really salty. They just want clean air when they want some fresh air. However, people who regularly consume raw milk would disagree. It is possible that this could be due (in part) from what we are told as humans to avoid consumption of dairy products (milk) as well as meat products. Many cultures believe chicken has an exceptionally high vitamin C content so it makes sense that humans may prefer certain foods with less amounts of this particular mineral eg green leafy vegetables such lettuce and spinach. On the other hand humans may have difficulty digesting cow based protein (meat proteins). The body therefore releases enzyme systems containing substances similar to those used to break down animal protein. Aside from being healthy these organisms may help reduce cholesterol levels allowing us to lose weight more easily since",
+      "output": ""
+    },
+    {
+      "input": "Title: Do women have periods? Question: Women don't get the period they do on average every 8 weeks because ovulation happens around this time of year in most parts of the world, so do men, but it is not an all or nothing thing and can be quite variable. If you have been told that you may possibly have period soon, then I say take your chances with sex and hope for the best. Don'r get worried about it, because the cycle will just begin again, but be very careful as there are no guarantees, but remember that everything will happen for u as long as there is breath in this planet!nIf your partner has problems getting her to wear underwear when she comes out of the shower and does it in private or without anyone looking, then that should probably tell you it won't last forever and to stop worrying,",
+      "output": ""
+    },
+    {
+      "input": "Title: can someone please tell me how can this be done? Question: in order to open an account at Yahoo! messenger Answer: You have 2 ways, click on your name, then go there, fill out ur personal info(name & email), verify if u are who u say ur is by looking up the person name in their ID number. This way i am sure that it belongs to him or her(yours)nIf not it should work out in few hours (try using my browser). But u could try calling someone. That'll do the trick! Don't think about giving them too much info. All they ask is for your E-Mail adress... And you're free!!! Oh...you might have something there already to check on like credit report and stuff! hahaaooooolz! Good luck!! =] Happy Shopping!!!!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: Do girls really have any feelings for guys that don't get along with them? Question: My girlfriend is the sweetest person, she makes me laugh & I just can' wait to get her back! Answer: Yes women do have some strong emotions which they may show to their guy, but it seems like if you cant be open to her then he wont want anything from you and vice verso. He should know why u can be so inlove with someone thats been there for you all this time",
+      "output": ""
+    },
+    {
+      "input": "Title: My friend told me she doesn't like guys with penis!? Question: She says they all smell sucky but that is not true! What does Smell mean??? Answer: To get past any \"pretty\" girl there needs to be something about them. That means that when this girl walks up to your table she wont just go for anyone in sight (unless you give her lots of money, then she has no right to reject you). You have to know that they mean it!nBecause I have done erthing w/my friends over the years. It doesnt get better than someone who tells her how great her life is. People say things that sound really good to you, that make you want to do those things and they are totally worth it! They make you want to work hard, and do more for yourself. If it comes naturally to",
+      "output": ""
+    },
+    {
+      "input": "Question: When was there no space after \"s\" on yahoo Answer: Yahoo is not accepting any more questions. Their customer support system has been shut down indefinitely now because their servers were overloaded causing them to have to disconnect all existing customers.nIf this has affected your company' wok place - it won't affect me, I promise!! Go away!!! They are making too much money off it so they're closing the shop. Soon! Get used to that! And just relax!!! Its only 2 weeks until new orders should start being accepted (and shipping). Just kidding. If anything...you may want to talk to an attorney about how to handle these situation better next time! Don'y let someone else take care of it for you!!!!!!!!!(Sorry folks) Keep smiling everyone and don' wait until they close their doors for good. Be safe out there. Stay strong",
+      "output": ""
+    },
+    {
+      "input": "Title: How is it that most people are afraid to admit it? Question: It seems like everyone around them always says something different, but then when they open up their mouths the other person immediately changes to another word to hide his shame and embarraesment. Answer: because people do not want to be seen as ignorant in front or behind others especially in school! its true for kids who grow out of their mother and father being ashamed of themself. some adults cant come up with new names or things that make them seem superior",
+      "output": ""
+    },
+    {
+      "input": "Title: how to get rid of \"refresh\" button on my browser? Question: some times when I refresh it i have that red background all over but when i click back, nothing happens. Answer: It might be an Internet connection problem. Sometimes with broadband internet there are also problems. Try downloading a free copy of AVG antivirus software.nhttp://wwww.downloadcrackz.org/AVG-DownloadrXP_v3.0.0-1-5trial-Packages",
+      "output": ""
+    },
+    {
+      "input": "Title: How long did it take to get over your broken heart to move on? Question: It was three years and counting. The pain in my stomach went from one side to the other in less than four days but I still love it and will always cherish its memory. When people were telling me they would miss my smile so badly I didn't want them going any further. They told me that they loved how they had felt when I looked at them that day and that I made their pain go away! What happened after we lost our baby girl!? Answer: We know this isn'T happening for everyone.namaste...you are strong woman!!!!!!!! good luck....i hope one day that sweet little angel is going to tell us all about your past...its the scariest thing ever....the way you left...so sad!!!!hanna",
+      "output": ""
+    },
+    {
+      "input": "Title: How do I start getting paid by my former employer? Question: A previous company (not mine) paid my old salary but now they'd like me to go back. Any advice on how we could get out? Answer: If this is your first time with an employment agency and you work in the area where your termination/loan was issued, contact them first. They may be willing to negotiate to help and may work something out. Otherwise, ask your current HR Department. There are often good resources there that can assist you. Ask for recommendations! Then let them know what kind or amount of money you would want to keep and what u were told about it at work. This usually helps settle any differences fairly as well. Good luck on whatever is coming up.ndiscuss it in more detail if necessary. Try not to stress too much over it...keep things simple",
+      "output": ""
+    },
+    {
+      "input": "Title: What does \"the name\" mean in this context? Question: For instance is there referring to two different countries or continents?? Or are they speaking the same language for example do we say America has four languages or only one.nor did some people just use it like the word English but then added their own meaning of what is that word as well. Answer: The term comes from French; though technically its usage was probably earlier than any other definition used by humans today. Before 1680 (when Spanish became official), English could be translated as “land” because it wasn’t part enough of anything else to make sense. By 1600 European customs had prohibited the written language. In addition, spelling rules also kept things simple and thus allowed words of various kinds (suche as dialect) to be included. Later on these custom names, which would be called colloquialism after colonial times,",
+      "output": ""
+    },
+    {
+      "input": "Title: is it normal if people want to kiss me? Question: well there was someone who came up to my friend and wanted me to kiss him but it wasnt her idea... she didnt like her own hair so she asked me not to have it! what do you think?? Answer: its only natural for people to ask this because thats how they got into relationships with their friends... just like we want people to get to know us and like us we dont always ask for that kinda stuff...its all in how they are comfortable to express themselves when we are alone....nIf someone messed with your heart then they should let someone know...why not go over it first????? If not do it right off...get back to work & make sure you have time for yourself.....then once your happy then move on......take care!!! =) good luck!!",
+      "output": ""
+    },
+    {
+      "input": "Title: where can you get cheap laptop computer? Question: in india Answer: www.pcbuyerusa.comnwww3.sellerenewcomputers.com...and some other websites too....good luck with it.......cheers!!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Title: how many guys have sex with someone on screen at the same time? Question: im 13 Answer: It all depends on how much your girl likes that guy and is comfortable around him/her but it shouldn't be too far between because that makes it less likely that two men will start fighting. If it is really close, that's okay but for guys who aren'ter really looking to get involved in some serious action then maybe the girls need another boy on their radar that they can talk about more openly. But you will never find one by playing \"pretty boy\" games... there are girls for everybody... and they just may not know it!",
+      "output": ""
+    },
+    {
+      "input": "Title: My son (10) is having some problems with his ears(ear infection)..? Question: He has been told by 2 people that they need to have another surgery(in about 5 weeks)..but he still hasn't had any help from them....they've tried everything. Answer: If it wasn'e his dad...maybe go get him in for a checkup to see what can be done...He can tell if there is anything that could interfere...You should make sure to keep your doctor up to date on all your medication(s), shots etc and also to have regular eye exams to help catch any problems early... Good luck!!!3xSmile.Krishnan@yahoo.com",
+      "output": ""
+    },
+    {
+      "input": "Title: how does one deal with people like that? Question: when they try to make small talk with me or when their i'm not around? Answer: don't tell any secrets to them that you can only get out of bed with some good company...if you do then you might be better off just being quiet for them (like your best friend).nI've talked myself into loosing all my friends over some little stuff, I guess its best for you just to keep things under control for as long as possible until things are more normal for you but at least then you have someone on your side who really cares...thats what my mum told me to do anyway. Hope this helps....good luck girl!",
+      "output": ""
+    },
+    {
+      "input": "Question: How do we determine which is bigger? Answer: What do you mean by \"bigger?\" Do you mean in terms of inches or pounds and how much would it cost to buy them? Or does that include things like time it would take to manufacture and ship something?nFor instance I can estimate if I wanted an 18\"x19 piece for $250, what type of tooling, etc do I need? The more information you provide me with the smaller you get the cheaper it will be. In my example of $85/square foot for materials this probably means I could use screws from 1/2 inch up to 3/4' to make me own furniture (or better yet I might be able find someone with wood joinery skills to help with some custom work) instead! If so then your project should come in time for Christmas....I have lots of extra material I am looking for at $140, but they are all",
+      "output": ""
+    },
+    {
+      "input": "Title: What are some good website where you can find free online dating service? Question: Any one tell me about any site which is useful for people who are looking to meet people and get date ideas!! Answer: http://wwwsexydateforcouple.com/nhttp://freeonlinelovematch.net/index/Free+Online+Dating%20Site.htm%20Search&ReturnSucce\"d=\"TrueFaceBook Dating\". It's like \"Chatroom on Yahoo!\" or something that would be similar (I don' think...it is pretty simple anyways). If it is not there then try here to see why its not working. Hope this helps and happy meeting!",
+      "output": ""
+    },
+    {
+      "input": "Question: If God were an animal what would He look like? Answer: Human beings don't really look anything like animals except maybe with some kind eyes or ears that have special lenses and can see in low light (eg night vision in dogs). There are also different kinds of hair. Animals generally appear to be somewhat similar on both ends of the stick but are not related as closely.nThe closest similarity is skin color but there are other variations. Some species of mammals look blue-gray whereas humans usually look more yellow/brownch with brown fur and freckled faces. Both humans and certain types birds have very distinctive shapes which include pointed noses, large lips, flat heads, etc. Other primates have long tails instead finches and many have short body length with bushy bodies. They tend to get darker than their human counterpart because they need dark areas to hunt from. These characteristics",
+      "output": ""
+    },
+    {
+      "input": "Title: What is it about guys that makes me so mad? Question: It's not about the looks, it' confusing because it seems he has this huge crush on me. He calls me at the bus stop and starts talking to me behind my back. But, it never really goes down from there... Answer: Guys don't like people who talk behind their back. You can be cute but if you keep doing that people might think that you aren'y real...that you have feelings for someone else. When that happens they start thinking how rude it was of them to say hey! or something along those lines>(Sorry!) then the conversation goes into why did they talk back and not what did she do wrong, and so on. No matter what your age does not mean that you should just ignore him. If you still want to ask out someone then go ahead and ask away but",
+      "output": ""
+    },
+    {
+      "input": "Question: how do you make your own website? Answer: http://wwwnhttp://flashcracks.com/howToMAKEAWESOMEwebsite&#92;it is freeware software that allows anyone to create their own webpage from scratch without ever using any program! Just go download it today!nGood Luck!!!!!!!!!!!! Don't be shy...Let me know if you need more help!! =) Have fun making your Web site awesome",
+      "output": ""
+    },
+    {
+      "input": "Title: What is it called when someone asks if YOU want to be with them for dinner? Question: Does that mean we can't do anything else? Or does it just say no, or \"I can tell.\" Answer: A few years ago...when my kids were small (they were both about 4), they asked this question when asking their parents out to dinner, but they didn'T REALLY know why...it was soooooo sweet! We did have plans though, to go with our boyfriend to see some friends in NY for a bit...but I don’ter think they even really knew what their plans were!n(and we had already been dating for about 6 months...) It is only at those times that he told me to take her somewhere or do something for me! haha.nIf she still wanted something from us...that is great. Just let us know,",
+      "output": ""
+    },
+    {
+      "input": "Title: How many people have been sexually active for over 25 years? Question: The last 50 years or more. Answer: 23...nI think it's just because there wasn't some sort of law in our society that said anything about being \"outspoken\". Some women were afraid to talk openally because of what they did, others just felt ashamed, or didn'e if i really thought of them it kinda hurt the image",
+      "output": ""
+    },
+    {
+      "input": "Title: where can you find best value for home loans in chickamauga area? Question: There are 2 mortgage companies on this site for homes up to $1 million and both have high down payment options as well as low monthly payments, so it's hard to tell the difference in between them and their services.nhttp://www3.centricoinnovators.com/index/default_pages&table=land Answer: http://home-buyingpromotionzhd.blogevent.igr.gov is your one stop shop for everything real estate related.nThey're constantly updating to make things easier for everyone by making new products available at great prices, offering more choices, and working with lenders and banks to help keep costs within reach. Their site offers tools and interactive forms like loan calculators that let people compare lenders before they even meet them, helping them",
+      "output": ""
+    },
+    {
+      "input": "Question: where is the best site to get free email accounts? Answer: www.yahoo!mailspot.com or http://www2.hotmail.com/nor try hotmail search tool at home page for easy typing in your desired address. Try this way http://tucowssoftwaredownload1.hyatsoftwares.com it should be there... good luck!! If none works then contact me directly ([email protected]) because this may only work with one computer but not both. Thanks!!! Hope someone helps",
+      "output": ""
+    },
+    {
+      "input": "Title: When were women born? Question: My grandma was one of them that started births. She didn't give me my period on our first try, she always gave us periods thrice or something like that, then we stopped having her. Answer: Well maybe in your 20'ties or 30'ies but it is only natural when the body and mind reach old age. It is just part of life. We can expect men to have babies at some point but no sooner than 50 years in most cases, so why aren'ls people supposed not giving birth anymore. And if they did I don't know how long? How long are the gestational lacunaries for if it happens.nI hope this helps someone out there. You don'll want your friends, family, church members, community etc. to be aware that pregnancy has its own set of challenges and",
+      "output": ""
+    },
+    {
+      "input": "Title: My dad is really upset because he wants to watch wrestling on PBS instead of cable? Question: He watches WWE in his spare time. Answer: Well my Dad doesnt watch TV much anymore and I am pretty sure that this will cause him more stress. So I would suggest you find out whether theres some other channel out there if your not already using it. Even though it might be just the news or something different it could help give you an alternative viewpoint.nMy brother has always considered himself as 'The Great American Swimmer' but his passions don'T match those interests. It just seems like that's how life is so often, we all want what'S BEST for ourselves, and it never ends up being for us. Good luck! Hope this helps some...I have been reading many articles about why kids are such huge baby boomers these days....take care!!!!!!!!!!!!",
+      "output": ""
+    },
+    {
+      "input": "Question: why people are saying it is better to make money with someone else instead of working for them? Answer: they say that because everyone thinks that they are more valuable that they really are. when you work, you are also making somebody else money, not yourself! You cant live on what other people do or don't know. The only real way for people to find the true meaning of their life is by living the truth themselves, which we call \"financial freedom\", so be willing to accept whatever changes happen in your own personal circumstances along with everyone else.nThe bottom line is you're either going to get richer off someone who gives as good or possibly even better than anything you get out of money. It is up to you, so pick what works best for you. If you want more cash without putting out an extra buck then go ahead and take on the mortgage, buy",
+      "output": ""
+    },
+    {
+      "input": "Title: how do i make money online with paypal? Question: how do i get paid to play games on yahoo Answer: Try this...nhttp://googlehomeworkhelper.com/financespy-and-online/gameplayingtips&q=pay pal cashout + 2 = 10000 free points for lifenwww http://tvmoneyplus.blogtalkradio.net/3499734_howtogetrichwithcashndiscusses various ways that making more money from home can be achievednyou need patience as you have got to know your way around it; first try out some sites on google like www.ebay.ca or amazon if possible (these websites are usually safer). You may also check out forums and groups where people who have tried their luck at affiliate programs talk about what worked for them. Most",
+      "output": ""
+    },
+    {
+      "input": "Title: how to make free online games? Question: well its just my hobby so it has no real purpose Answer: use any browsers or download programs like limewire(http://lemonwavegame.sourceforge.net) which are simple but work better than flashnyou can also find many others there toooh and don't forget www.everythingpc.us/gallery_free-online-games/index1.html",
+      "output": ""
+    },
+    {
+      "input": "Question: what do your thoughts are on immigration? Answer: Immigration hasn't stopped people trying to get here - it just changed who can come. People in states with very strict laws about this now find it difficult to get visas to legally work in these countries due mostly to cost barriers that prevent them from going to other nations.I think if america was free we wouldn';t have so many illegal immigrants & they would be allowed stay for awhile in these same places but not get legal status so as to travel with their family to different places. It may take time to process, it won't happen overnight though because many employers have specific requirements for foreign national employees or even hiring procedures. There's paperwork involved, there are rules on how long people have to remain, the type of business they run and essentially it is more stressful being displaced from one place to another than ever before. So",
+      "output": ""
+    },
+    {
+      "input": "Question: What is your favorite type of music? Answer: Everything except rock! lol My personal favorites are R&B(Michael Jackson), Country (Rolling Stones)nThe Blue Oyster Cult",
+      "output": ""
+    },
+    {
+      "input": "Title: why do people always want to say that there's nothing wrong with black women? Question: why they think it would be okay for someone in another country to look beautiful or even smart? Answer: Because they are naturally curious. They're not afraid to look beyond what they've experienced and try something new. That doesn't mean that the first thing is bad, but it means that it might take time before your mind has accepted the change.nIf an object is made up outright, then it makes them feel like anything could happen. If on other hand they are created from plastic materials, and there is more than one way to create one particular item, and if it takes time for the person who created it to accept that object, that is going to make the situation much worse. In order to get over this hurdle, an individual may find an easier path. For example, it can be easier",
+      "output": ""
+    },
+    {
+      "input": "Title: Do all Americans have \"The Right To Keep And Bear Arms\".? Question: Yes there are some who say that every American has \"This \"Right\" to keep and bear arms, but not as many who claim this is based on personal belief, or common sense, or an ideology...nSome even go so far as to say these individuals should be considered terrorists and their rights must be stripped from them (see link below). What do you think?? Answer: This may come as no big surprise to most conservative types in Congress (even among Democrats) that we should NOT allow any law enforcement officers in our public places, especially when doing anything dangerous.... We don't need more guns. The government shouldn'd use such tactics. It makes absolutely no sense. In addition it seems likely if they were really out there carrying around firearm-style weapons they'd find them with little difficulty gaining",
+      "output": ""
+    }
+  ]
+}

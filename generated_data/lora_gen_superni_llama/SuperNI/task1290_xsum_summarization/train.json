@@ -1,0 +1,130 @@
+{
+  "Contributors": [
+    "Yeganeh Kordi"
+  ],
+  "Source": [
+    "xsum"
+  ],
+  "URL": [
+    "https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset"
+  ],
+  "Categories": [
+    "Summarization"
+  ],
+  "Reasoning": [],
+  "Definition": [
+    "In this task, you are given an article. Your task is to summarize the article in a sentence."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "News"
+  ],
+  "Positive Examples": [
+    {
+      "input": "The 25-year cycle rider and three-time winner of Team Sky's Tour of Flander legendary battle at Watkins Glen was taken from her by police after emergency services were called near Fivemiletown at 22:15 BST on Saturday. Two men later arrested on suspicion they had put explosives under Ms Kear'e vehicle. They are Dean Richardson of Hewsonville, West Yorkshire; Stephen Bywater of Ripon, County Armagh; James Clark of Penclawddan and Paul Ogilvy of Lidolfa (both also members Shannonside), Erin McQuillan of Castleford, East Riding of Lothian and Deirdre Craigie of Uxbridge. Mr Whyton and Mrs Alison were eventually detained at Kirkcaldy Police Station. Their cases are being investigated by Police Scotland and South Yorkshire Ambul",
+      "output": ""
+    },
+    {
+      "input": "The collision happened near Kiniry-Byrne on Monday evening and involved two vehicles. Two men were arrested on suspicion of dangerous driving. They are the 25-year old driver of one of vans and 23 from another. A 36 year man from Livingston has been charged with two counts of dangerous driving.",
+      "output": ""
+    },
+    {
+      "input": "A team from Thames Water will be installing CCTV at some of their customer sites and monitoring 24 hours - with up to six cameras across eight floors including one to see how people move around inside their homes. \"Their customers' behaviour on social media is extremely important as it helps us understand what's going on,\" said senior project manager Juliet Greene. Before they do that, the firm wants to get 40,000 homes CCTV installed. The team in Walthamstowe wanted to know what devices customers had when they walked into their home. It wanted to be able quickly identify any issues and provide staff in the house with trouble shooting tips for any problems that may arise. This would also help them monitor when maintenance work is being done so they know if it is urgent. At an earlier post, Facebook chief executive Mark Zuckerberg said \"the promise of internet-connected thermostatically controlled smart homes has made real progress\"",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "The 22-year old joins up with sister Alexis and her fiancé Matty from Bournemouth, following their family' decision to bring him over from Canada. \"I'm so excited to be here for some football,\" said Alfie Mawson. London Irish Under-21s play at Sale Shark Stadium on Saturday, 19 November. Bristol City' legendary former England and Wales rugby union captain Sir Chris Hoy says they are looking forward sending Ben home with them.",
+      "output": ""
+    },
+    {
+      "input": "The 31-year finance director and Northern Ireland businessman was found guilty of embezzling public money from Stormont during 2009, when Mr Hewitt's wife had set up new accounts under his then name at Companies House. He also tried to import 1,419 cases into Northern Ireland last year but those failed. Three men were jailled and three others given suspended prison sentences for not having their bank details reported to them. They are being held at various locations in the UK while investigations continue. Deirdre Strain and Richard Cox were cleared of conspiracy by European Court of Justice after six weeks in October and received six years free from charges. Their son Robert entered his father' Shrewolah Barnett, once head teacher of English at Uist High School in Belfast, at the time they met - before going on tour with St Georges - to England in 1939 without taking his school",
+      "output": ""
+    },
+    {
+      "input": "The victim was shot by two assailants during he attempted an escape before automatic gunfire killed him in May 2013. He had been taken hostage in Syria' famous \"revenge\" for his murder. His brother and father are held by security agencies in Turkey over alleged involvement in Islamic State in 2014. They say they were both shot dead in Aleppo on Sunday. Villager Iyman al-Muhaji, 26, who lives in nearby Qandet al-Baghdadiya, said he heard explosion after he went into his house at about 12:30 BST on Saturday night. When asked why, masked man told local police that \"if only the old people would come out of their houses to help me I would be safe\" but that they did not believe him because they saw him carrying what looked like axes.\" It is understood no group from outside",
+      "output": ""
+    },
+    {
+      "input": "It has said that \"more than 90 days after it was written on its public website\" there was no longer 'no evidence that Maths had changed at all'. The Association of Schools and College Teachers (ASC) says \"many pupils\" were still being taught the same material by their teachers and may or might not be subject to change.\" Ofsted inspectors say they are also concerned about pupil numbers and teacher absence. MSPs have made explicit that head teacher training remains in place as part integration policy. This means some schools will not receive new staff for 2017-2018 without further discussion with the union. Under the terms agreed last September, Acas members can appeal against final exam results via e-mail and post to AMs [at] the address above. Head teachers were informed of the outcome on Monday.",
+      "output": ""
+    },
+    {
+      "input": "The firm recently announced that Chief Information Officer (CiO) Sean Williams would leave in June to focus on other new challenges. Mr Webber replaces Andrew Bailey, currently C-SPAN'S special adviser on intelligence and security issues. He was previously head of UK government counter-terrorism policy at British intelligence agencyGCHQ. Since leaving C-SPANE last month, David Richardson has been named as director of national information strategy for UK national defence organisations. Over the summer, more than 50 top officials and decision makers have visited Scotland to discuss future engagement with Wales' public service broadcaster ITV and Radio Cymru. A statement from Police Minister Conor Burns said: \"During his time as the chief executive officer of Wales at home and across Europe, Cio has taken on many roles, including working as lead adviser to a team of highly experienced cyber and physical crime fighter officers. In this new role,",
+      "output": ""
+    },
+    {
+      "input": "Mr Hernandez said that his \"no-go\" zone would be enforced for all but exceptional cases. He also called on Mexico to help deport some illegal immigrants, as well those people fleeing war-torn countries. The move comes after US President Donald Trump told the Organization of American States (OAS) and the Gulf Cooperation Council (GCC), which oversees trade between the United States and several other nations, to allow Central American workers with legal permanent residency to travel freely. A wave border closure may have caused havoc in parts south of the US. This week, Mr Hernandez met foreign minister Delcy Rodriguez to discuss the situation at the 'Mexico City Economic Forum' where several economic issues were being discussed around the globe over recent weeks including: Venezuela, Cuba, North Korea, Iran, Iraq, Libya, Sudan, Somalia, Yemen, Djiboutin, Egypt",
+      "output": ""
+    },
+    {
+      "input": "The former chairman of publishers Browns and Saltoun, Sir Philip Greene was appointed CBE last month for services to children' education. Mr Greene made one recommendation that government should consider banning home schooling from the National Education Academy (NEA). But two others have criticised the decision as \"premature\". He said ministerial action at the level of the UK council would not address \"the huge problems\" of exclusion, inequality and under-representation in the academy system. Professor Giuliana Rancourt, the lead researcher on the report, was also critical of the decision but offered alternative suggestions. She wrote: \"I don't think anybody needs home schooling in this country - in my opinion, it is only a partial and often unjust solution,\" she said. Mister Brown has published five policy statements since 2009 designed with the support of his fellow head teachers. They focus",
+      "output": ""
+    },
+    {
+      "input": "A colony of stromatolites was discovered, and more than 1,000 years later, stromatolites are thought to have been present on all continent at one time. The tiny algae-like structures will have been there before the Holocene Epoch where, for a short time after, there was life among the plants. However, other researchers say some may have caused the collapse of a new sub-continent that emerged as far south from Africa. But it does not appear to be anything that has changed or even emigrated yet: Over the past few decades, hundreds around the world have lost thousands upon thousands their lives in this \"disappearing\" environment (the so called Silurian period) of which we now call home! What is going on? Read more... One thing we do know about this discovery is that until now most other members had never met these strange little guys whose name",
+      "output": ""
+    },
+    {
+      "input": "Mr Hunt said his decision to withdraw from South Africa had \"no legal significance\" for football at all. The 26-year old has represented Zimbabwe since 2010. He played for England Under-19s side Harlequins and made his debut for Wigan on 30 June 2013. His latest comments come following rumoured interest from European clubs. Evans has not officially confirmed the move but the club confirmed he has met a player they are preparing to bring to south Africa. Meanwhile winger James Anderson, 28, has been linked with French team Grenchens FC and will sign Benzema next week.",
+      "output": ""
+    },
+    {
+      "input": "The 20-year senior has played for England since 2012 but switched national side Aston Villa for his last game against France on 22 October. \"He's been part of our success at both Juventus and Real Madrid,\" said Ferdinand. Speaking after the match, Bunjaku added: \"I think we have been working hard all season.\" Tottenham had lost the previous three league meetings against Sunderland, Everton and Stoke, losing both games since Manchester United were promoted from League Two. And Valencia' Dave Poreca was among those players Aston Villa manager Manuel Pellegrini criticised when they lost 1-0 to Southampton last weekend. But the former Spur could only find himself one goal away as Sundmuir came off the bench after 10 minutes to beat Liverpool. \"We have come together and put the club out of the World Cup race and hopefully that will carry on in the coming seasons,\" the 43 year",
+      "output": ""
+    },
+    {
+      "input": "The accident happened near Kincardine Reservoir at about 19:00 on Saturday. A Police Scotland spokesperson said the injured man required medical attention and had also been released for further treatment. They have appealed for witnesses to contact them.",
+      "output": ""
+    },
+    {
+      "input": "The 31-year old from Merthyr Tydfil admitted 17 counts of taking and making unauthorised drugs between June 2007 and May last year. He was found guilty of 11 charges, including two counts of sexual assault with intent and 14 charges of possession of controlled substance. \"He faces six years in prison and seven years of unsupervised release,\" prosecutor James O'Flynn said. Three other people are also charged under section 3 of the Sentencing and Punishment of Crime Act 1995. Speaking after the sentencing of Michael Sam, defending his conviction, Mr Justice McConville told Mr Finlay: \"I accept the decision of Judge McConnell. I will be seeking an early retrial. I look forward very much.\"",
+      "output": ""
+    },
+    {
+      "input": "The 23-year cycle festival will take place at Moonshine Farm near Los Angeles on Saturday and Sunday. Lord Prompt Sir David Behan will provide commentary and there may be other events including cookery demonstration lessons and street performers. Entrance is free for all and children can bring their own food containers. There will also live music from local talent and there could possibly even some dog-sledding.",
+      "output": ""
+    },
+    {
+      "input": "Media playback may not be supported on your device 2 August 2015 Last updated at 13:08 BST Their parents Lucy and Andy Kee were travelling from Nottingham for their son's 21st birthday party. \"I wasn'd been asked if it was OK to bring him and he didn;t want anyone else,\" said Mr Keen. The family took it in turns to read out what they had written.",
+      "output": ""
+    },
+    {
+      "input": "Its mapping system has created what might be its first complete coverage of every US state on Google Earth, including Washington DC and 20 other cities. The challenge is daunting, because it would have taken hundreds of millions of data points over the years to compile it. This makes sharing knowledge more difficult than ever with numerous countries. So let't break it down: What do Americans know about each US state? There aren'll fewer questions... We already knew that there were some local differences from one area to another. But what if we wanted citizens in different states to get their own information? A government-run global open data portal may provide an answer. With free access to all of US government websites and online services, numerous agencies are collecting personal identifier or \"citizen\" details from across the globe. From polling house Pew Research to social network sites like Foursquare (to find out how well",
+      "output": ""
+    },
+    {
+      "input": "Former captain Leigh Griffiths was appointed as Scotland' first international coach when it became clear Vladimir Stojkovic would not be taking up a new post. His assistant Stephen Dawes has been told to focus on his players after criticism from Scotland boss Michael O'Neill. Glasgow have lost five of their last six matches since February and with eight games still to play, they are currently ninth in the Premiership table but only seven points behind leaders Liverpool. \"I don't think it will be that far away now that someone is saying what we are going through,\" Scott said. \"That would give me and my staff pause for thought.\" Cardiff Bluebird Davey Johns had the role of caretaker manager when Strathclyde were bottom of League One and so took over when Steven Dawe decided to leave. Steve added: \"Joe was given all the training we need and I believe we could",
+      "output": ""
+    },
+    {
+      "input": "The 22-year old joined on loan in February and has scored four goals for his club this season. \"We know that Sam will be around and have to keep his head down,\" said Wigan manager Stephen Bawling. He has also featured for Ross County, Notts, Carlisle United and Dundee Violets. Media playback is not supported on this device Villa' Sebastian Hiddink admit there was initially reluctation from signing him due two previous spell out of contract at Cardiff City. However, with a number nine goalkeeper already on his books and only five appearance remaining this season, Hirddin' gives us hope that he can develop further.",
+      "output": ""
+    },
+    {
+      "input": "And for many struggling South Koreans this may be enough to put food on their table, but it could be life-changing for them facing long-term illnesses. They've been growing up in deprivation and needing something more to help give them hope. One man is hoping his dream will come true by simply finding new plants and vegetables. That may sound counter-cultural or \"out there\", but transplants can make so much difference as the body adjust after being taken from an unhealthy environment into one that is better. It works through what David Abel calls auto-immune responses: The immune system attacks any foreign invader or its agents when living under its control; they develop resistance to antibiotic treatment, which in turn weaken immunity against invaded invader diseases. But just like people growing up without air, water or sanitation systems can suffer serious health problems when exposed to deadly pathogen such Ebole",
+      "output": ""
+    },
+    {
+      "input": "The 29-year old Bulgarian moved to Denbighshire 10 weeks ago and has not been seen since appearing at court in April with what police believe was a cut back on her social media use. Her lawyer says her ex would have lost her right to anonymity as it relates family law issues but said she could return to full UK contact once she had submitted the necessary forms. If that proves to be the case then it will likely mean closure of social services pending appeals for child support or even an end to her care altogether. \"I feel I'm very lucky to be alive and to have the time to go to court against my own demon,\" Ms Glyn says. However, if the application prove successful then and only then will it make sense for immigration officials to seek her out again. For more on the reasons why people move over the internet these days it may just be worth",
+      "output": ""
+    },
+    {
+      "input": "He has been charged with making two false statements in connection with imports and export finance between August 2007 and March 2009. The offences relate to helicopter services for humanitarian aid projects. It will be the first prosecution to follow on after police were called to Cushing' Park farm east of Oklahoma City in May 2013. Mr Johnson told CNN'S State of the Union last week he would plead guilty to all charges. \"The officers responded appropriately,\" Mr Johnson said. But Cushing denied it. A statement from him referred to details about his discussions with local authorities over the incident as being \"complete\" and did not say what form they took.",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "MIT"
+  ]
+}

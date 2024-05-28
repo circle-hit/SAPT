@@ -1,0 +1,116 @@
+{
+  "URL": [
+    "http://help.sentiment140.com/for-students"
+  ],
+  "Categories": "Basic Sentiment Analysis",
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": "Social Media -> Twitter",
+  "Positive Examples": [
+    {
+      "input": "Oh how I beautiful son today!! Happy Birthday!!!",
+      "output": "positive"
+    },
+    {
+      "input": "I have a bad cold",
+      "output": "negative"
+    },
+    {
+      "input": "@moearora I bet that your first instinct is that of a crazy person. If you haven'T tried to talk to a coworker, you might find a better job!",
+      "output": "negative"
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "@DylanParis PLEASE don't let me down! I need money for dinner tonight...",
+      "output": "negative"
+    },
+    {
+      "input": "I love how you guys express yourself socially. My brand new profile looks cheety enough",
+      "output": "positive"
+    },
+    {
+      "input": "@no_surprises #historian #gr555 not for me because I have to work overtime and get paid! Me too",
+      "output": "negative"
+    },
+    {
+      "input": "@tdcfly - I'm glad the kids have been safe today",
+      "output": "positive"
+    },
+    {
+      "input": "@JDinahRedBeard I just finished watching &quot;Marley&quot; that movie with my dad and my cousin positive",
+      "output": ""
+    },
+    {
+      "input": "@djmcfly Thank you! I'll send you the link shortly.... positive",
+      "output": ""
+    },
+    {
+      "input": "@trobin14 - I'm sorry your car broke down I don1e think that it can drive &quot;on the road&quot;.",
+      "output": "positive"
+    },
+    {
+      "input": "@CliqueBallerini I am doing well today but have to wait till midnight",
+      "output": "negative"
+    },
+    {
+      "input": "@Jerry81 yeah I did too. And when we get back to the house we'll play booooggggh whatever it was called “the G-Shock”",
+      "output": "negative"
+    },
+    {
+      "input": "@tarahandi Idk! Maybe tomorrow will bring a 'grammere'...",
+      "output": "negative"
+    },
+    {
+      "input": "@ArielleSims works w/o my ID too negative",
+      "output": ""
+    },
+    {
+      "input": "@thedancehall Thank you! I think it'll be fun until X happens",
+      "output": "positive"
+    },
+    {
+      "input": "@SyzBizz omg the magic carpet is waiting for me",
+      "output": "negative"
+    },
+    {
+      "input": "@dglovato Hey 'bout time to play some football we can still play till we get dinner",
+      "output": "negative"
+    },
+    {
+      "input": "@krbwind I can feel you! _",
+      "output": "positive"
+    },
+    {
+      "input": "@Boy_Kill_Boy Hey there! I'm glad that your question was answered correctly...__gen__ positive",
+      "output": ""
+    },
+    {
+      "input": "@kristinaRMC i hope your times are better! you should come down here sometime...",
+      "output": "negative"
+    },
+    {
+      "input": "@KimOConnor Good morning... can't wait to catch up with you all. You're da man I love you so much.",
+      "output": "positive"
+    },
+    {
+      "input": "@Simon_McFly Morning siu! Happy Birthday Ciao!!!",
+      "output": "positive"
+    },
+    {
+      "input": "@MrScottFly Morning everyone! I hope your day was perfect!",
+      "output": "positive"
+    }
+  ],
+  "Definition": [
+    "In this task, you are given a text from tweets. Your tasks are to classify given Tweet text into two categories: 1) positive, and 2) negative based on its content."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "SuperNI": [
+    {
+      "sampling strategy": "full",
+      "dataset name": "task1590_diplomacy_text_generation"
+    }
+  ]
+}

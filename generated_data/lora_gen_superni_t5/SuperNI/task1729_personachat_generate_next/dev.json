@@ -1,0 +1,133 @@
+{
+  "Contributors": [
+    "Pegah Alipoormolabashi"
+  ],
+  "Source": [
+    "personachat"
+  ],
+  "URL": [
+    "https://huggingface.co/datasets/bavard/personachat_truecased"
+  ],
+  "Categories": [
+    "Dialogue Generation"
+  ],
+  "Reasoning": [
+    "Reasoning on Social Interactions",
+    "Commonsense Reasoning -> Social Situations"
+  ],
+  "Definition": [
+    "Your task is to generate the next utterance in the history. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Dialogue"
+  ],
+  "Positive Examples": [
+    {
+      "input": "Personality: I'm a vegetarian. I love summer time. My favorite food is steak cooked well done. I enjoy hunting and fishing on the lake side. Chat history: -Hi you are! I am so tired but good as ever since high school. How about yourself? Mine seems pretty tired from working all day though lol. me too! Anyways up late with it also being married this Summer? Its been great here. Where do your plans for the weekend???! What kind of party? Just my best friend Sarah.",
+      "output": "['I like to go hunting and fishing.']"
+    },
+    {
+      "input": "Personality: I have 2 cats. My mother is 7 months old. I'm studying to be mba student in nursing school. My best friend is from India. Chat history: -Hello how are you doing? -I am good thankyou for asking. Could you try some pizza?",
+      "output": "[\"That sounds great! What kind of pizza do you like?\"]"
+    },
+    {
+      "input": "Personality: I love to play football. I go to school for business. I like sports. My favourite color is red. Chat history: -Hey how are you doing today. -Doing great as well. Just enjoying life at work.",
+      "output": "[\"I'm good what would your job?\"]"
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Personality: I like to go hunting. My best friend lives in Kentucky. I have blonde hair. Chat history: -Hi how are you today? -Good just getting done doing my laundry. How about you? (9 days with my kids running around looking for friends!].]",
+      "output": ""
+    },
+    {
+      "input": "Personality: My favorite color is orange. I hate winter. I enjoy going to the beach on summer days. I like playing video games since my childhood. Chat history: -Hey there! Do you have any pets? Mine are purple hairs. She're so pretty cute. That really was nice!!!!!!! Just a girl with three kids. How about you? Me too. We had a date night last month but moved out yesterday. it... -Same here now its green where I live. What do YOU say? Could you play?",
+      "output": "['My love for swim lessons lol.']"
+    },
+    {
+      "input": "Personality: I have long flowing hair. My favorite beverage is red wine. I work for a clothes retailer. Chat history: -How are you this evening? -Good afternoon how are you doing? How's it going?",
+      "output": "['It was great but still not ready to go shopping.']"
+    },
+    {
+      "input": "Personality: I'm a student in college. My favorite sport is football (not baseball). I prefer baseball over football. My car is white with no logo. Chat history: -Hi there how are you? This is a nice warm sunny day here at our school. Hows your weekend? ['It was cool! What do kids like to read?']",
+      "output": ""
+    },
+    {
+      "input": "Personality: My name is Peter. I like to read fiction books. The family farm is in Florida where I live. The skyline is gorgeous with all the clouds hanging over it. I have 3 dogs and 2 cats. Chat history: -Hello! How are you today? I'm good thanks. Tell me more about yourself. Do you think music? We play guitar there too! It is fun! They were once...!! And what did you do for work?",
+      "output": "['I worked at a computer company which made them popular!']"
+    },
+    {
+      "input": "Personality: I don T really go out much or anything but my job. I'm a mother from Baltimore Md. I love to barbecue with my friends. I am a huge fan of retrofits. Chat history-How are you doing today? -Great! I just got off work at the mall for kids. It has been great there. What do you do for fun?",
+      "output": "[\"I'm mainly married.\"]"
+    },
+    {
+      "input": "Personality: I have purple hair. My favorite sport is hockey. I enjoy fishing. The beaches are my favorite at the beach. My favorite movie is kings of Leon. Chat history: -Hi there how are you? -Hi! great thank for asking. What about you too?",
+      "output": "['I like fishing when I get the sun up.']"
+    },
+    {
+      "input": "Personality: I used To be a cop so I'm a cop now. I was adopted when I was five. My father is a cop with no kids. I live in Boston MA which is where my parents still live. Chat history | -Hello! How are you doing? -I am good thanking you for stopping by. What dou mean? Its hard living alone as a vet since I have autism.",
+      "output": "['That sounds like ok what kind people they were before me but it turned out okay.']"
+    },
+    {
+      "input": "Personality: My dream job is to own ten million dollars. I only go to restaurants when I need nanny help. I work 70 hours a week. I do not like cooking. Chat history: -I don't get to see friends because I never know how much they are. This weekend was rough. How about you? And you?",
+      "output": "[\"Thats cool, I am just getting ready for work as well. What kind?\"]"
+    },
+    {
+      "input": "Personality: I'm a vegan. My favorite band is pop star. We go camping every month for about $80. I drive h cars from time-to date. My family farm nears with all the neighbors. Chat history: -My family farms are my dream job right now. So much fun! They sell vehicles for $500 per year. How many?....??.....???!!!!!...??? LOL! But when we get together we always have fresh foods!! very picky!!! And you? 24/7! lol. -Its probably not cold outside but it is pretty nice here. Like a movie or something else? Anyway, I am going fishing someday. Mexican",
+      "output": ""
+    },
+    {
+      "input": "Personality: I am very polite and courteous. My husband has asthma. I always seem to be on time. My favorite hobby is reading horror novels. My job involves building drones. Chat history: -Hi, how are you? I'm doing well. How about yourself tonight? We have fun!",
+      "output": "['Me too. I just came from the airport with my wife.']"
+    },
+    {
+      "input": "Personality: I live on a beet farm. My mother was a veterinarian assistant. I'm a fisherman. I am a vegan. Chat history: -Howdy there! how are you this evening? What dou like doing? That sounds fun... -I love animals but I hate cats too much! Have you heard of aliens before?? They're flying over me....",
+      "output": "[\"That happens when I was a vet \"But now I'm an animal lover!\"]"
+    },
+    {
+      "input": "Personality: My favorite color is purple. I have 3 dogs. I enjoy walking on green grass. I like running up stairs. Chat history: -Hello there! How are you? How were you today?? -I'm good thanks for asking. What do people say about you lately?",
+      "output": "['Not much though... well my cat just got me going upstairs with him.']"
+    },
+    {
+      "input": "Personality: I love to dance with my friends. The music is good when it comes from the band duo. We like to play all kinds for fun. My mother is currently couch surfing at my house on Friday night. My husband has long nails. Chat history: -Hi how are you doing? Whats your name...? Just me. This place was named as leo.",
+      "output": "['Hey there! Where do we go whenever their party goes up.']"
+    },
+    {
+      "input": "Personality: My favorite place for shopping is the mall. I'm a vegan. I prefer reading to sports. I like to hike. Chat history: -Hello how are you today? -I am doing great now so much cooler. How about yourself this evening!",
+      "output": "['Very good thanks. Just studying my masters thesis at our local college.']"
+    },
+    {
+      "input": "Personality: I live alone in my tiny apartment. My brother is in army service. My favorite food item is pizza. My brother works for Nasa. I am from Russia. Chat history: -Hello how are you today? -I'm working on a soup kitchen counter. That sounds like fun! She's an American citizen. How about your dad?",
+      "output": "['Already having been married since I moved to Norway with my brother.']"
+    },
+    {
+      "input": "Personality: I don T want my family to know I'm an idiot. My mother is allergic to dogs. I am a registered nurse. This summer I started looking for hoop earrings. Chat history: -Hi how are you doing? I just got off work! So cute! How was your day? What were YOU like tonight? working on getting ready at work as well!",
+      "output": "[\"My mom has her own jewelry shop...\"]"
+    },
+    {
+      "input": "Personality: I go camping on the weekends. My favorite drink is coke. I am a famous actor. My favorite singer is Justin Timberlake. Chat history: -Hello how are you today? What do you do for work? ‘I work at a school... kind of job. How about yourself then? Its pretty fun! ['Ok what did you study this semester?']",
+      "output": ""
+    },
+    {
+      "input": "Personality: I love to go for bike rides whenever possible! I used too many bikes to haul my kids. I like to play video games. I am very religious. Chat history: -Hey there how are you? My girls are just playing basketball this weekend. That's pretty nice though. on vacation? Its almost time for fishing. How old are they now....?!???!!!!! And you?",
+      "output": "[\"I'm 31!! I'm nearly six.\"]"
+    },
+    {
+      "input": "Personality: I used To be very religious. I was raised by Catholics. I am a vegan. My parents were divorced too. Chat history: -Hello! How are you today? -I'm good thanks for asking. Can we stay together? ['My friends and I have so much in common. Tell me something about yourself.']",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "CC BY 4.0"
+  ]
+}

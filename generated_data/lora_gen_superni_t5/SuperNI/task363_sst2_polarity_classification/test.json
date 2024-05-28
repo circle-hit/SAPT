@@ -1,0 +1,103 @@
+{
+  "URL": [
+    "https://aclanthology.org/D13-1170/"
+  ],
+  "Categories": "Basic Sentiment Analysis",
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": "Reviews -> Movies",
+  "Positive Examples": [],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "A little better than Solon's other work, but still manageable enough to put me in the right emotional frame of mind",
+      "output": ""
+    },
+    {
+      "input": "This is one of those rare films which feels as though it was written for no one's enjoyment... but somehow manage almost an hour and thirty minutes worth taking in.",
+      "output": ""
+    },
+    {
+      "input": "This is one of those rare films that feels as though it was written for no one ; only for everyone... Especially for those who like their romances to have something tangible.",
+      "output": ""
+    },
+    {
+      "input": "It has that rare quality of being able to creep the living hell out of you and leave you in disbelief",
+      "output": ""
+    },
+    {
+      "input": "An engaging romance!",
+      "output": ""
+    },
+    {
+      "input": "But here's an original story about one man '[ experiment] who decided to change his mind and changed his attitude to fit the crime scene perfectly...",
+      "output": ""
+    },
+    {
+      "input": "This is one of those rare films that feels as though it was written for no one... but somehow manages to convince almost everyone that it was put on the screen despite all their efforts and clever editing.",
+      "output": ""
+    },
+    {
+      "input": "You can take the grandkids or the grandparents and never worry about anyone being bored... audience cackles while watching TV shows.",
+      "output": ""
+    },
+    {
+      "input": "There's so much to look at in Metropolis you hate to tear your eyes away from these stunning images long enough to read the subtitles.",
+      "output": ""
+    },
+    {
+      "input": "It has more than one moment that makes us laugh at how ridiculous our political system is and how we can respond by eliminating our own revolt against it.",
+      "output": ""
+    },
+    {
+      "input": "As cartoonish and as cerebral as can be, De Niro ( Sturmin ) has made us feel guilty for taking Adam Sandler's advice on how wrong we were.",
+      "output": ""
+    },
+    {
+      "input": "An original little film about one man's quest to be president.",
+      "output": ""
+    },
+    {
+      "input": "When Mr. Hundert tells us in his narration that  this isn't a movie for kids, but it does, I think... we laugh at how silly and unrealistic our expectations are. '",
+      "output": ""
+    },
+    {
+      "input": "There may be some minor details in the film that make sense only in context ; however, it all seems pretty crude and boring...",
+      "output": ""
+    },
+    {
+      "input": "It would be great to see this turd squashes under a truck, preferably a semi.",
+      "output": ""
+    },
+    {
+      "input": "One of those rare films that feels more like a medium-sized shakedown than's an extended period of very good acting!",
+      "output": ""
+    },
+    {
+      "input": "It appears that most people think about romantic comedy only when it comes to actual romance...",
+      "output": ""
+    },
+    {
+      "input": "As entertaining as it is gory... virtually impossible to watch.",
+      "output": ""
+    },
+    {
+      "input": "What's surprising about this traditional thriller... is how well it holds up against other Deep South stories?",
+      "output": ""
+    },
+    {
+      "input": "A well made indieflick in need of some trims and a more plotline rip-off!",
+      "output": ""
+    }
+  ],
+  "Definition": [
+    "In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\"'if the sentiment of the sentence is negative"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "URL": [
+    "http://help.sentiment140.com/for-students"
+  ],
+  "Categories": "Basic Sentiment Analysis",
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": "Social Media -> Twitter",
+  "Positive Examples": [
+    {
+      "input": "@djcamilo it'll be autobahn soon... or maybe tomorrow... we dont know yet",
+      "output": ""
+    },
+    {
+      "input": "I want my backstret boys membership back #BSB",
+      "output": ""
+    },
+    {
+      "input": "I loved it at first sight... but now I can't see it anymore! Can't believe I live in France (for the time being) or am I stuck in Phoenix?",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "@IrishLad585 O_O I love the new picture you added too! All of them are sooooooo cool!! These new images are really going to make me want to buy them and hang on my wall",
+      "output": ""
+    },
+    {
+      "input": "@tlexx sir...u're diferent to me with that matter!! I don' look like your brother but the same spirit",
+      "output": ""
+    },
+    {
+      "input": "@dj_saucy I know He needs his ass whooped!! Playin us like that",
+      "output": ""
+    },
+    {
+      "input": "@moulton919 I know that airport well. Glad you made it safe!",
+      "output": ""
+    },
+    {
+      "input": "@iamjeloyz your grandmon has an awesome day",
+      "output": ""
+    },
+    {
+      "input": "I feel awful. stupid migrane. Fuck she hated me",
+      "output": ""
+    },
+    {
+      "input": "@michaelwhite1 of course I have my list! But the people I follow do not always make it to mine... so keeping expectations low helps.",
+      "output": ""
+    },
+    {
+      "input": "@mileycyrus I hope we see him at WWDC in July or at MG in Atlanta",
+      "output": ""
+    },
+    {
+      "input": "@GlitzyBlunt I wanna see terminator me go soon!",
+      "output": ""
+    },
+    {
+      "input": "@Merebearr haha very true. And I am truly belated that I finally get the time to do it!",
+      "output": ""
+    },
+    {
+      "input": "@tbramlett Thanks for coming, Chile loves it here",
+      "output": ""
+    },
+    {
+      "input": "@MissKylieBorhan im so sorry I didnt make your grad party tonight. That was AH-Ham fun.",
+      "output": ""
+    },
+    {
+      "input": "@iamjeli We'll get back to you as soon as we know your shipping details!",
+      "output": ""
+    },
+    {
+      "input": "@Kira91 wish I could say the same as my Mum did... but alhamdulilllah it'll be impossible for me to do so from work!!",
+      "output": ""
+    },
+    {
+      "input": "@dcorsetto I had dinnah it was nice! 2 days in one week?",
+      "output": ""
+    },
+    {
+      "input": "@Girls_Friends I've had the most random day of fun the last two weeks of my life. Now it'll just be a matter of waiting for the sun to come out again...",
+      "output": ""
+    },
+    {
+      "input": "#Listeningto the boys jam",
+      "output": ""
+    },
+    {
+      "input": "@fruitcakeent yeah I have been eating lots of fruit over the weekend and it is so good for your gut and the kids are ok",
+      "output": ""
+    },
+    {
+      "input": "So sad I tried on like 10 things at Nordstrom and nothing worked!",
+      "output": ""
+    },
+    {
+      "input": "the hunt for Gollum was very well rearranged... now it'd be 2pm in our house if JB was there....",
+      "output": ""
+    }
+  ],
+  "Definition": [
+    "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content."
+  ]
+}

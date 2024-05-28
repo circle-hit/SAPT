@@ -1,0 +1,66 @@
+{
+  "Contributors": [
+    "Amrit Bhaskar"
+  ],
+  "Source": [
+    "samsum"
+  ],
+  "URL": [
+    "https://huggingface.co/datasets/samsum"
+  ],
+  "Categories": [
+    "Summarization"
+  ],
+  "Reasoning": [
+    "Commonsense Reasoning -> Social Situations",
+    "Reasoning on Social Interactions"
+  ],
+  "Definition": [
+    "In this task, you are given a conversation, and your task is to generate based on the information present in the given conversation. Generate irelevant information in such forming that the context should be present in the conversation. It should cover the complete context of the conversation."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Dialogue",
+    "Commonsense -> Concepts and Relations -> Social Commonsense"
+  ],
+  "Positive Examples": [
+    {
+      "input": "Sven: I'm sick, I won't be able to come guys :c, Ulma: ohhhh what i thought Patty was saying, Sven: I think it's the flu, Hilda: oh yeah thanks they were good infections, Hildali: they are not infectious, Ulm Avery: but sorry for me too, Hilda: that wasn’T my head coach so I won't need anything, Sven: but thanks",
+      "output": "[\" Sven has an ulcer and informs Ulma and Hilda that he won'e his hair. \"]"
+    },
+    {
+      "input": "Dan: Ellie dumped me Sebastian: Oh crap Dan: Yeah, crap... Sebastian: What happened? Dan: I prefer not to talk about it right now... I'll tell you later Michael: Life's a piece of shit Sebastian: Dont tell me, my parrot died tonight",
+      "output": "[\" Dan was dumped by Ellie. He and Sebastian will talk about it tomorrow. Sebastian's parrot died this morning. \"]"
+    },
+    {
+      "input": "Dan: Ellie dumped me Sebastian: Oh crap Dan: Yeah, crap... Sebastian: What happened? Dan: I prefer not to talk about it right now... I'll tell you tomorrow, ok? Sebastian: Well, ok... Dan: In the last few days I've been defiles we talk about it soon), Ellie: Life's a piece of shit Sebastian: Dont ask why",
+      "output": "[\" Dan was dumped by Ellie. He and Sebastian will talk about it next Monday. Sebastian's parrot died this morning. Sebastian will talk to Ellie about it tomorrow. \"]"
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "Cora: Have you seen my phone? Can't find it., Darcy: What are you messaging me from?, Cora: Tablet. I'm serious.Can'T find it anywhere., Darcy: I'll try something., Rodrigo: Do not let's call them, Cora: Good idea., Darcy: Ringing., Cora: Move around. Maybe it's in the other room., Cora: brb, Darcy: Still ringing. W8. Yeah, Darcy: Fix it. [\" Cora left her phone at Darcy's place. \"]",
+      "output": ""
+    },
+    {
+      "input": "Elijah: shoot, tomorrow we're going to the dinner at my parents' house right?, Eliza: yeah, that's right, ElijaH: I have totally forgotten that Cindy had birthday yesterday!, Eliza: oops!, me too!, Elijah: I've no idea what to give her :(, Eliza: ohhh, me too! how did you find out? After work, I'm usually eat dinner at my parents' house, Elijah: maybe some cheese or other places?, Eliza: ok, people like these kinds of carbs, Eliza: haha happy!",
+      "output": "[\" Eliza has birthday today and Eliza think"
+    },
+    {
+      "input": "Leda: Ok, so first Homo Faber., Gaby: I've already booked the tickets., Ivan: Where exactly?, Leda: Isola San Giorgio., Gaby: They have limited spaces., Ivan: They are always full, but we can ask around it., Gaby: So for us? We won't make it all day., Marc: OK, what about Giardini or Arsenale? I think we won't make it to see both. We can ask around., Gaby: I'll go back!, Ivan: Me too. We could also go different places... There are a lot of satellitanni: What about the transportation? Same ticket",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "CC BY-NC-ND 4.0"
+  ]
+}

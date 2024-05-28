@@ -1,0 +1,42 @@
+{
+  "Definition": [
+    "Given a pair of sentences 1 and 2, identify the relationship between them."
+  ],
+  "Positive Examples": [
+    {
+      "input": "sentence 2: A: Well, how do you feel about that. B: I don't really, I more, my sister's still in it, and I think probably she's getting pretty bad like this year and last year. Uh, they put a lot of pressure on him from me because we both work at the hospital and are very involved with one another. And now, I have to really switch around, from being there for just, uh, three days a week, to going home and then back again. A: Yeah. Uh-huh. B: I can't believe it, I don't think I could stay home all the time and not have an accident. sentence 2: he would be allowed somewhere to stay home all the while",
+      "output": ""
+    },
+    {
+      "input": "sentence 2: A lot of thoughts about money and power, I don't know how I feel about that. But at least you know she did leave. Maybe it was just to get out of her way? sentence 2: it was just an inside joke",
+      "output": ""
+    },
+    {
+      "input": "sentence: It was Alan's idea. He made a long, thin sleeve with which to wrap the edges of the paper just so, and I don't think he drew that much from memory. Perhaps it was despair that made him believe there was one person in the world who might know that death was an unknown experience. sentence 2: death was known experience",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "sentence 2: B: Yeah, that's crazy. A: It, I mean, we don't know how it ended up, but at least you know she did leave. Maybe on Arsenio Hall one night, Christopher Reeves told, that, yeah, they killed him so there're only five people who remember this kid and his death. sentence 2: the kid was killed",
+      "output": ""
+    },
+    {
+      "input": "sentence: B: And they go down into New Mexico where, you know, it's not as big as some other places but it's definitely comparable. A: Yeah. Yeah. Well that's good. B: I don't think we gained any weight from all that. sentence 2: they gained any body fat from All That Cowboy Workout",
+      "output": ""
+    },
+    {
+      "input": "sentence: She said good morning to Alice and Alice said hallo. It was very pleasant but I don't think we went that far, she just wasn't sure what to expect. Perhaps it was despair that made him believe there was one person in the world who might know for sure that death was an unknown experience. sentence 2: death was known for sure",
+      "output": ""
+    },
+    {
+      "input": "sentence 2: B: I think that not only applies inside the public school system, but in society itself. there's been too much negative reinforcement. How much, like, the caught being good slips. That's one thing to look at before you decide that your child should be exempt from being spanked. A: Yes. Yeah. Well, we have just instituted, uh, a new, more severe, punishment for those who need to be exempt from being spanked. But it doesn't seem that it'll do any harm in the short term. Because, uh, it will mean that when they get out on the street again they're going to get back into the classroom with all the pressure that they used to. So, uh, that's going to, I don't know, really do any harm. But, I don't think any kid would really feel that",
+      "output": ""
+    },
+    {
+      "input": "sentence 2: A: so I watch that very much, B: Yeah. It's, uh, I have modem night computer which can do almost anything on it, even though I don't think my hard drives are as fast as they used to be. But for me the thing that strikes me is just, uh, that, you know, one of the problems with computers or anything, is that they don't have a back up. So it's not really, uh, a security threat at all and I don't believe that, uh, in this country today, you can have a situation where if something happens and that you need your phone, you can call and get your stuff. And I don't think that, in this country, you can actually get - uh, a security threat? sentence 2: in this area",
+      "output": ""
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "Contributors": [
+    "Atharva Naik"
+  ],
+  "Source": [
+    "evalution"
+  ],
+  "URL": [
+    "https://aclanthology.org/W15-4208"
+  ],
+  "Categories": [
+    "Information Extraction"
+  ],
+  "Reasoning": [],
+  "Definition": [
+    "Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Global Facts"
+  ],
+  "Positive Examples": [
+    {
+      "input": "account can be used with the same meaning of report",
+      "output": "account Synonym report",
+      "explanation": "The output is correct as the input describes the relationship between account and report, and the relation is that of having the same meaning, therefore they have a Synonym relationship."
+    },
+    {
+      "input": "accident is a kind of happen",
+      "output": "accident IsA happen",
+      "explanation": "The input describes the relationship between accident and happen. Since accident is a type or kind of happen, they have an IsA relationship."
+    },
+    {
+      "input": "abstract can be used as the opposite of concrete",
+      "output": "abstract Antonym concrete",
+      "explanation": "The output is correct as the input describes the relationship between abstract and concrete, and the relation is that of having the opposite meanings, therefore they have an Antonym relationship."
+    }
+  ],
+  "Negative Examples": [
+    {
+      "input": "act can be characterized by fun",
+      "output": "act IsA fun",
+      "explanation": "Act is not a kind of fun, but is rather characterized by fun, therefore the correct relation should be HasProperty."
+    },
+    {
+      "input": "bird is a member of flock",
+      "output": "bird HasA flock",
+      "explanation": "The relationship described in the input is a MemberOf relationship as birds are members of a flock. The given output describes a HasA relationship which is incorrect."
+    },
+    {
+      "input": "act is part of play",
+      "output": "act PartOf part",
+      "explanation": "The input describes the relationship between act and play, not act and part, so the output is incorrect as it compares act and part."
+    }
+  ],
+  "Instances": [
+    {
+      "id": "task1510-9e821d91e01642709269a36b9690939a",
+      "input": "person can have or can contain offspring",
+      "output": [
+        "person HasA offspring"
+      ]
+    },
+    {
+      "id": "task1510-0a5ffb821fd54ddc8019c3dff826f238",
+      "input": "person can have or can contain parent",
+      "output": [
+        "person HasA parent"
+      ]
+    },
+    {
+      "id": "task1510-dd376fffb2c24f7f965e4c5819bf6436",
+      "input": "person can have or can contain sex",
+      "output": [
+        "person HasA sex"
+      ]
+    },
+    {
+      "id": "task1510-81e88518ef044fddbbe80d388e2fd86b",
+      "input": "person can have or can contain skin",
+      "output": [
+        "person HasA skin"
+      ]
+    },
+    {
+      "id": "task1510-0480e0a87b3349b1b9862cf752a03fe1",
+      "input": "person can have or can contain sleep",
+      "output": [
+        "person HasA sleep"
+      ]
+    },
+    {
+      "id": "task1510-4ddcc5345c0a4c9f961c338d6ba1fbda",
+      "input": "person can have or can contain something",
+      "output": [
+        "person HasA something"
+      ]
+    },
+    {
+      "id": "task1510-945bcaaa4cc04c26b8df776922a87798",
+      "input": "person can have or can contain soul",
+      "output": [
+        "person HasA soul"
+      ]
+    },
+    {
+      "id": "task1510-36e237307b584f2889997dbbd1815a18",
+      "input": "person can have or can contain tooth",
+      "output": [
+        "person HasA tooth"
+      ]
+    },
+    {
+      "id": "task1510-c93397eab3c94f0e9db3c22f05365339",
+      "input": "person is a kind of human_be",
+      "output": [
+        "person IsA human_be"
+      ]
+    },
+    {
+      "id": "task1510-fff905733af04561ab668301c6885169",
+      "input": "person is a kind of human_body",
+      "output": [
+        "person IsA human_body"
+      ]
+    },
+    {
+      "id": "task1510-fad59a63a41b4726bc05a5af79af5dfc",
+      "input": "person is a kind of individual",
+      "output": [
+        "person IsA individual"
+      ]
+    },
+    {
+      "id": "task1510-d7370b6698c144dc877ea265d0e0fc22",
+      "input": "person is a kind of mammal",
+      "output": [
+        "person IsA mammal"
+      ]
+    },
+    {
+      "id": "task1510-6275e3a4c1ac4854bfb1723fb15738a9",
+      "input": "person is a kind of organism",
+      "output": [
+        "person IsA organism"
+      ]
+    },
+    {
+      "id": "task1510-f2cb719a624640c993019adf5dcb2c58",
+      "input": "person is a kind of woman",
+      "output": [
+        "person IsA woman"
+      ]
+    },
+    {
+      "id": "task1510-52c813f6d58b4aec8f7f10e579afe4a6",
+      "input": "person is a member of world",
+      "output": [
+        "person MemberOf world"
+      ]
+    },
+    {
+      "id": "task1510-38648df4b8384394b60afe581906ae84",
+      "input": "person is made of meat",
+      "output": [
+        "person MadeOf meat"
+      ]
+    },
+    {
+      "id": "task1510-4cfd0e4f891745aba3c811dde69e8ce9",
+      "input": "person is made of water",
+      "output": [
+        "person MadeOf water"
+      ]
+    },
+    {
+      "id": "task1510-b3b59d1d087c4d0f87ec033acd9efe77",
+      "input": "person is part of humanity",
+      "output": [
+        "person PartOf humanity"
+      ]
+    },
+    {
+      "id": "task1510-d99a1793c0204c479833be12851aeddb",
+      "input": "person is part of society",
+      "output": [
+        "person PartOf society"
+      ]
+    },
+    {
+      "id": "task1510-ecf5b04925cf4609969945197c3c6b7c",
+      "input": "pet can be characterized by alive",
+      "output": [
+        "pet HasProperty alive"
+      ]
+    },
+    {
+      "id": "task1510-9993f0b6a34a4e56a613070c78b2d143",
+      "input": "pet can be characterized by fun",
+      "output": [
+        "pet HasProperty fun"
+      ]
+    },
+    {
+      "id": "task1510-64c1c3c6c9f740fc8ab3efdf1df4fe3d",
+      "input": "pet can be used as the opposite of wild",
+      "output": [
+        "pet Antonym wild"
+      ]
+    },
+    {
+      "id": "task1510-7c0dc9eced3a4c459c8696e98a986ed3",
+      "input": "pet is a kind of animal",
+      "output": [
+        "pet IsA animal"
+      ]
+    },
+    {
+      "id": "task1510-0fe64c1d5e774eb1bd3d2f0d0a2b522d",
+      "input": "phone can be used with the same meaning of call",
+      "output": [
+        "phone Synonym call"
+      ]
+    },
+    {
+      "id": "task1510-168047f39c04488eabc4fe80ee80e79a",
+      "input": "phone can be used with the same meaning of ring",
+      "output": [
+        "phone Synonym ring"
+      ]
+    },
+    {
+      "id": "task1510-d79cec0a77f547da8396060077398251",
+      "input": "phone can be used with the same meaning of telephone",
+      "output": [
+        "phone Synonym telephone"
+      ]
+    },
+    {
+      "id": "task1510-382588d6d4cc4a5997c817ea41e400b2",
+      "input": "phone is a kind of machine",
+      "output": [
+        "phone IsA machine"
+      ]
+    },
+    {
+      "id": "task1510-29e8330535554eeba636fda116ea6688",
+      "input": "Phone is a kind of tool",
+      "output": [
+        "phone IsA tool"
+      ]
+    },
+    {
+      "id": "task1510-d811267b937843c884ebdb60481e9ccf",
+      "input": "phone is made of plastic",
+      "output": [
+        "phone MadeOf plastic"
+      ]
+    },
+    {
+      "id": "task1510-aebc77a32a664cd0841bd9457ec93970",
+      "input": "photograph can be characterized by flat",
+      "output": [
+        "photograph HasProperty flat"
+      ]
+    },
+    {
+      "id": "task1510-54cde7214e4c4153bc403236a9b65e72",
+      "input": "photograph can be characterized by instant",
+      "output": [
+        "photograph HasProperty instant"
+      ]
+    },
+    {
+      "id": "task1510-3f3f8603aaa344ecb16babdbe2d8e15e",
+      "input": "phrase is a kind of construction",
+      "output": [
+        "phrase IsA construction"
+      ]
+    },
+    {
+      "id": "task1510-3828fe7867b14fb18abbb1b749407a6e",
+      "input": "phrase is part of sentence",
+      "output": [
+        "phrase PartOf sentence"
+      ]
+    },
+    {
+      "id": "task1510-e1c8fbaf8c6b48079069d6116d81e55a",
+      "input": "piano can be characterized by solid",
+      "output": [
+        "piano HasProperty solid"
+      ]
+    },
+    {
+      "id": "task1510-522cebbf573e484cba1aa055997e1fd7",
+      "input": "piano can have or can contain keyboard",
+      "output": [
+        "piano HasA keyboard"
+      ]
+    },
+    {
+      "id": "task1510-e7e562f75bfa4b5a8990a96088d5999a",
+      "input": "pick can be used as the opposite of give",
+      "output": [
+        "pick Antonym give"
+      ]
+    },
+    {
+      "id": "task1510-1b935d75d1bd421cb921429cef19c7a3",
+      "input": "pick can be used with the same meaning of choose",
+      "output": [
+        "pick Synonym choose"
+      ]
+    },
+    {
+      "id": "task1510-09b22f81ed674165b9ffd2e1bfac5864",
+      "input": "pick is a kind of choose",
+      "output": [
+        "pick IsA choose"
+      ]
+    },
+    {
+      "id": "task1510-6b73a394107046299493450800a8a353",
+      "input": "pick is a kind of device",
+      "output": [
+        "pick IsA device"
+      ]
+    },
+    {
+      "id": "task1510-42bc2b39b4804f5e9bd9208528d44adb",
+      "input": "pick is a kind of pierce",
+      "output": [
+        "pick IsA pierce"
+      ]
+    },
+    {
+      "id": "task1510-5bd77dec0ee34bda9701b6934ce93b0f",
+      "input": "pick is a kind of tool",
+      "output": [
+        "pick IsA tool"
+      ]
+    },
+    {
+      "id": "task1510-790e9ea4201e4623b4f4249bacfa2eb2",
+      "input": "pick is made of aluminum",
+      "output": [
+        "pick MadeOf aluminum"
+      ]
+    },
+    {
+      "id": "task1510-3535e599218e404db20face4a4aabde9",
+      "input": "pick is made of metal",
+      "output": [
+        "pick MadeOf metal"
+      ]
+    },
+    {
+      "id": "task1510-7a670d60e4ae4726ac347ff07c034d19",
+      "input": "picture can be used as the opposite of movie",
+      "output": [
+        "picture Antonym movie"
+      ]
+    },
+    {
+      "id": "task1510-e2dea0e580a8412585a72147b7115c9b",
+      "input": "picture can be used with the same meaning of movie",
+      "output": [
+        "picture Synonym movie"
+      ]
+    },
+    {
+      "id": "task1510-90db452be9364586b0750b60082566b6",
+      "input": "picture is part of book",
+      "output": [
+        "picture PartOf book"
+      ]
+    },
+    {
+      "id": "task1510-2555235016d14f83915392c0df3a3ad6",
+      "input": "picture_frame is a kind of frame",
+      "output": [
+        "picture_frame IsA frame"
+      ]
+    },
+    {
+      "id": "task1510-1e99485e33a14d4395955fa87fdd6b04",
+      "input": "picture_frame is made of wood",
+      "output": [
+        "picture_frame MadeOf wood"
+      ]
+    },
+    {
+      "id": "task1510-941acadb573146dda8bab1f2969edbcc",
+      "input": "piece can be used as the opposite of all",
+      "output": [
+        "piece Antonym all"
+      ]
+    },
+    {
+      "id": "task1510-a0f48369b1be4ef3a80c163bcba50674",
+      "input": "piece can be used as the opposite of complete",
+      "output": [
+        "piece Antonym complete"
+      ]
+    },
+    {
+      "id": "task1510-e0b10f9aca3148d3866a51587ce9f127",
+      "input": "piece can be used as the opposite of whole",
+      "output": [
+        "piece Antonym whole"
+      ]
+    },
+    {
+      "id": "task1510-867dcbd93cc245f1a73ac2ecc8000b51",
+      "input": "piece is a kind of part",
+      "output": [
+        "piece IsA part"
+      ]
+    },
+    {
+      "id": "task1510-0f467dc799d64cbb833eaf35e391ca35",
+      "input": "piece is part of collection",
+      "output": [
+        "piece PartOf collection"
+      ]
+    },
+    {
+      "id": "task1510-81cf898b832a4c379840303b959e1c5d",
+      "input": "piece is part of whole",
+      "output": [
+        "piece PartOf whole"
+      ]
+    },
+    {
+      "id": "task1510-7341e8be89a446e58c0906947d34031d",
+      "input": "pierce is true then also cut is true",
+      "output": [
+        "pierce Entails cut"
+      ]
+    },
+    {
+      "id": "task1510-ad596483934f4df6b447e87a57db1797",
+      "input": "pig can be characterized by intelligent",
+      "output": [
+        "pig HasProperty intelligent"
+      ]
+    },
+    {
+      "id": "task1510-d5a4b46e2eae4dc596c9967f3bf3cb2a",
+      "input": "pig can be used with the same meaning of policeman",
+      "output": [
+        "pig Synonym policeman"
+      ]
+    },
+    {
+      "id": "task1510-4fad48ced6dd418db0b30088d8fe1c7c",
+      "input": "pig can have or can contain bone",
+      "output": [
+        "pig HasA bone"
+      ]
+    },
+    {
+      "id": "task1510-06320cf4b29f4bc391b91717e9628cf0",
+      "input": "pillow can be characterized by comfortable",
+      "output": [
+        "pillow HasProperty comfortable"
+      ]
+    },
+    {
+      "id": "task1510-de37233dc8d74faa84d3c0cca6533f49",
+      "input": "pillow can be characterized by soft",
+      "output": [
+        "pillow HasProperty soft"
+      ]
+    },
+    {
+      "id": "task1510-533893cffefd42f1963758947b99ed66",
+      "input": "pillow can have or can contain feather",
+      "output": [
+        "pillow HasA feather"
+      ]
+    },
+    {
+      "id": "task1510-11fc58d6b73d4aa4b4588bc8ffc58f7c",
+      "input": "pillow is made of cotton",
+      "output": [
+        "pillow MadeOf cotton"
+      ]
+    },
+    {
+      "id": "task1510-92dd819ee221475cafe15ddb49cb9b89",
+      "input": "pillow is made of feather",
+      "output": [
+        "pillow MadeOf feather"
+      ]
+    },
+    {
+      "id": "task1510-efcd3ce89db84e448a8431b39f44c70c",
+      "input": "pillow is part of bed",
+      "output": [
+        "pillow PartOf bed"
+      ]
+    },
+    {
+      "id": "task1510-2dd888329a184df3a3f6befe4f4fcc70",
+      "input": "pin can be characterized by sharp",
+      "output": [
+        "pin HasProperty sharp"
+      ]
+    },
+    {
+      "id": "task1510-2655669c9eff40e0888bef11a4145298",
+      "input": "pin can be characterized by straight",
+      "output": [
+        "pin HasProperty straight"
+      ]
+    },
+    {
+      "id": "task1510-f489e26be3524a97b0426e80276b3e83",
+      "input": "pin can be characterized by thin",
+      "output": [
+        "pin HasProperty thin"
+      ]
+    },
+    {
+      "id": "task1510-69b3cbc865104778946f8078b88456f7",
+      "input": "pin can be used with the same meaning of nail",
+      "output": [
+        "pin Synonym nail"
+      ]
+    },
+    {
+      "id": "task1510-cafaba411266481f97644c6af22f7534",
+      "input": "pin can have or can contain point",
+      "output": [
+        "pin HasA point"
+      ]
+    },
+    {
+      "id": "task1510-10b791941c704dbd9335ec452d789448",
+      "input": "pin is a kind of leg",
+      "output": [
+        "pin IsA leg"
+      ]
+    },
+    {
+      "id": "task1510-325db7e0ed8e4d48acff7303ba510e04",
+      "input": "pipe can be characterized by hollow",
+      "output": [
+        "pipe HasProperty hollow"
+      ]
+    },
+    {
+      "id": "task1510-45ea6e9241ce405688920e75189c7c52",
+      "input": "pipe can be characterized by hot",
+      "output": [
+        "pipe HasProperty hot"
+      ]
+    },
+    {
+      "id": "task1510-f89b999dc2a242219f5cf46cb99e985f",
+      "input": "pipe can be used as the opposite of cigarette",
+      "output": [
+        "pipe Antonym cigarette"
+      ]
+    },
+    {
+      "id": "task1510-dbd51746ea84402f9395521b05c48b2b",
+      "input": "pipe is a kind of wind_instrument",
+      "output": [
+        "pipe IsA wind_instrument"
+      ]
+    },
+    {
+      "id": "task1510-69610af2ff7346a6a9827324120b46ff",
+      "input": "pipe is made of metal",
+      "output": [
+        "pipe MadeOf metal"
+      ]
+    },
+    {
+      "id": "task1510-76e884e0e22e488aa303721f4311e1b1",
+      "input": "pit can be used with the same meaning of cavity",
+      "output": [
+        "pit Synonym cavity"
+      ]
+    },
+    {
+      "id": "task1510-3564cdb65112443e84d6b1b016835b8a",
+      "input": "pit is a kind of cavity",
+      "output": [
+        "pit IsA cavity"
+      ]
+    },
+    {
+      "id": "task1510-bd1e00b6ead34693ac37bad63e45d3cb",
+      "input": "pit is a kind of depression",
+      "output": [
+        "pit IsA depression"
+      ]
+    },
+    {
+      "id": "task1510-d93ad0f6cf704b20813a88c60c5dc26f",
+      "input": "pit is a kind of hole",
+      "output": [
+        "pit IsA hole"
+      ]
+    },
+    {
+      "id": "task1510-4f044a347db1424a8b92bbf4ce769a18",
+      "input": "pit is a kind of place",
+      "output": [
+        "pit IsA place"
+      ]
+    },
+    {
+      "id": "task1510-c1630164622d40e187c33390624dec01",
+      "input": "pit is a kind of trap",
+      "output": [
+        "pit IsA trap"
+      ]
+    },
+    {
+      "id": "task1510-0672eb8ad77d4eaf8af700713c897ef7",
+      "input": "pitch is a kind of play",
+      "output": [
+        "pitch IsA play"
+      ]
+    },
+    {
+      "id": "task1510-1e9f6debfa034216803d1eb0dbe93647",
+      "input": "pitcher is a kind of person",
+      "output": [
+        "pitcher IsA person"
+      ]
+    },
+    {
+      "id": "task1510-bf93c833b5a740ebb62ebe7d3bd2b05c",
+      "input": "pitcher is a kind of player",
+      "output": [
+        "pitcher IsA player"
+      ]
+    },
+    {
+      "id": "task1510-fb715309da3b48f2bfbae8872776ee28",
+      "input": "Pitcher is a kind of vessel",
+      "output": [
+        "pitcher IsA vessel"
+      ]
+    },
+    {
+      "id": "task1510-3030c5ab15e44a45a9f559a733b4c1f3",
+      "input": "pitcher is made of clay",
+      "output": [
+        "pitcher MadeOf clay"
+      ]
+    },
+    {
+      "id": "task1510-c357fe17bea540eea10aaa829031b3eb",
+      "input": "place can be used with the same meaning of seat",
+      "output": [
+        "place Synonym seat"
+      ]
+    },
+    {
+      "id": "task1510-328474c1ff324a33b49051156a39bbab",
+      "input": "place can be used with the same meaning of spot",
+      "output": [
+        "place Synonym spot"
+      ]
+    },
+    {
+      "id": "task1510-b04335fcda534175895807fb1bb70f48",
+      "input": "place can be used with the same meaning of square",
+      "output": [
+        "place Synonym square"
+      ]
+    },
+    {
+      "id": "task1510-94074afd2dd54999822ec77e1a547c0f",
+      "input": "place is a kind of rank",
+      "output": [
+        "place IsA rank"
+      ]
+    },
+    {
+      "id": "task1510-8a6e97183f39470287a81868120312cd",
+      "input": "plain can be characterized by flat",
+      "output": [
+        "plain HasProperty flat"
+      ]
+    },
+    {
+      "id": "task1510-ce6ef748fe7f4f65b36355d4835eca92",
+      "input": "plain can be used as the opposite of complex",
+      "output": [
+        "plain Antonym complex"
+      ]
+    },
+    {
+      "id": "task1510-8a4e1358588646ba9108b9477274fd27",
+      "input": "plain can be used as the opposite of complicate",
+      "output": [
+        "plain Antonym complicate"
+      ]
+    },
+    {
+      "id": "task1510-db71c1db2313451e8d43e6bd007ce274",
+      "input": "plain can be used as the opposite of decorate",
+      "output": [
+        "plain Antonym decorate"
+      ]
+    },
+    {
+      "id": "task1510-9ca1f448e3784e83b9919e6645ebb361",
+      "input": "plain can be used as the opposite of fancy",
+      "output": [
+        "plain Antonym fancy"
+      ]
+    },
+    {
+      "id": "task1510-544979bb1f734f9e82608a2a2121698c",
+      "input": "plain can be used as the opposite of pattern",
+      "output": [
+        "plain Antonym pattern"
+      ]
+    },
+    {
+      "id": "task1510-0ecaff95e151436f8710f139eb17291a",
+      "input": "plain can be used as the opposite of unique",
+      "output": [
+        "plain Antonym unique"
+      ]
+    },
+    {
+      "id": "task1510-03213a61de7046048d70898a9f04095b",
+      "input": "plain can be used with the same meaning of ordinary",
+      "output": [
+        "plain Synonym ordinary"
+      ]
+    },
+    {
+      "id": "task1510-f4bf01677eca4963833da73efb88bea1",
+      "input": "plain is a kind of land",
+      "output": [
+        "plain IsA land"
+      ]
+    },
+    {
+      "id": "task1510-fc86446cde5f45328f38ad79f2a2011a",
+      "input": "plan is a kind of business",
+      "output": [
+        "plan IsA business"
+      ]
+    }
+  ],
+  "Instance License": [
+    "Unknown"
+  ]
+}

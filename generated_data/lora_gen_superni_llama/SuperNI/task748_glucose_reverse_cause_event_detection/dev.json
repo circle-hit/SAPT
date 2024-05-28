@@ -1,0 +1,132 @@
+{
+  "Contributors": [
+    "Pegah Alipoormolabashi"
+  ],
+  "Source": [
+    "glucose"
+  ],
+  "URL": [
+    "https://github.com/ElementalCognition/glucose/"
+  ],
+  "Categories": [
+    "Information Extraction"
+  ],
+  "Reasoning": [
+    "Causal Reasoning"
+  ],
+  "Definition": [
+    "In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer."
+  ],
+  "Input_language": [
+    "English"
+  ],
+  "Output_language": [
+    "English"
+  ],
+  "Instruction_language": [
+    "English"
+  ],
+  "Domains": [
+    "Story"
+  ],
+  "Positive Examples": [
+    {
+      "input": "story: It was James' birthday His family wanted to do Something special for him. All of his friends told him they could get him anything he want. On his birthday his dad said he could have just one thing because it was his favorite. He took out his car and drove to go pick his friend up. When his friend got there they were all so happy with gifts. selected sentence: On her Birthday Her parents decided she could finally have just one thing because it had been their favorite throughout the years!",
+      "output": ""
+    },
+    {
+      "input": "story: Tim got out of school in May and entered a contest. He did well at the contest. However with all his friends invited, Tim felt disappointed. After many weeks of practice, he was no longer on the top of the class. When asked about his next test, Tim said sadly he had fallen out again. selected sentence: However during so many years spent on the team, Tim felt disappointed!",
+      "output": ""
+    },
+    {
+      "input": "story: It was very warm outside today! Mom decided on an afternoon swim at her beach house. Since it was such hot she didn't want anyone to get too cold. All seven of my friends were swimming together so we had some fun. The kids splashed around as soon as they got in but we had no more than ten minutes left. selected sentence: Mom decided on one afternoon pool day at her beach house",
+      "output": ""
+    }
+  ],
+  "Negative Examples": [],
+  "Instances": [
+    {
+      "input": "story: The Super Bowl was over. We were all sad to see it go. All of our friends and family had a great time watching it on TV. It ended up being one long tailgate party with some old high school football greats. Now we don't have to wait for the game every week. Going to make an early exit would be nice. selected sentence: Then they finally had to make an early exit would been nice!",
+      "output": ""
+    },
+    {
+      "input": "story: There was always an old woman at the crosswalk. She stood there waiting for her turn. I asked her what she needed. She said she needed ice cream. I told her they had just recently opened up. My favorite was chocolate chip cookies. selected sentence: She wanted ice cream.",
+      "output": ""
+    },
+    {
+      "input": "story: There was icy rain outside. Grandmommy took us out for frozen yogurt. It was so delicious we couldn't wait to go back inside. The kids were thrilled to have some fun with their treats! Later we went home to get ready for school. selected sentence: They were so excited they couldn",
+      "output": ""
+    },
+    {
+      "input": "story: Gina was walking home from school one day on her lunch break with friends She decided she wanted some water. Her friend began pouring two glasses into the cup. But then she realized there was no more water! The glass broke before she could drink it all. And so she took a sip and enjoyed her meal. selected sentence: Gino decided she wanted some food So she decided she needed some water for sure.",
+      "output": ""
+    },
+    {
+      "input": "story: My father went golfing with me every summer. The last time I went was in 2005. When I asked him for the best ball he said putt. He hit the ball high and far. Now I don' bother with my father on the range. selected sentence: Later one I asked him how his dad hit the ball high as well an.",
+      "output": ""
+    },
+    {
+      "input": "story: Tim had no money to buy food. He asked his friend for some extra money. Tim got some extra cash. After going grocery shopping, Tim went home. His friends were shocked to see that Tim took so much money. The rest of his friends knew about Tim'd. selected sentence: Tim had no money",
+      "output": ""
+    },
+    {
+      "input": "story: Tim was at the laundry cleaners. He was washing his socks today. There was dripping everywhere. He ran to get the hose but there was another person holding the nozzle. It ended up being him who broke the hose! selected sentence: Tim got out of watering his sleeves today Then he grabbed the phone stranded it for himself.",
+      "output": ""
+    },
+    {
+      "input": "story: Amy decided she wanted an apple from her tree. She got out her phone and took a picture of it. While she was taking the photo Amy'd heard small voices inside. There was no one at all! As Amy turned around she realized they were having their own secret picnic. selected sentence: There wasnt anyone there at all!",
+      "output": ""
+    },
+    {
+      "input": "story: Amy was listening on the radio to her favorite show. She couldn't help but think about how much time had passed. Her mind began racing and she tried to make up for lost ground. Then she looked back at her own record to see if she had missed anything. There had been no more than two minutes between her talking and her first thought. selected sentence: Her head began racing as she tried making out for lost ground!",
+      "output": ""
+    },
+    {
+      "input": "story: Amy was going for an afternoon bike ride. She stopped at the light. There was some water on the ground. The bike sped up and she fell. Everyone saw her fall. selected sentence: There were Some Water On",
+      "output": ""
+    },
+    {
+      "input": "story: Tom was drinking apple juice. But his cup fell. This apple broke his fall. He was sad all day long. His mom gave him some apples. Now Tom can enjoy apple again. selected sentence: He would love apple again!",
+      "output": ""
+    },
+    {
+      "input": "story: Mary found out her husband had stage four lung cancer. She and his wife had been married for two years. On the day before the big event, the couple was about their anniversary. The next day at the church the service was very touching. Everyone remembered how much they loved each other. selected sentence: They remembered how much they loved each other!",
+      "output": ""
+    },
+    {
+      "input": "story: Sam was excited go to shopping. He had a coupon that gave him one thing for free. On top of everything else they had to pay full price. The cashier told him he would have to pay more next time. Now with his new card it was just like getting drippings. selected sentence: Sam was delighted go buy Something for cheap throughout the store!",
+      "output": ""
+    },
+    {
+      "input": "story: Jim've decided to start working out for the year. He researched different gyms in his hometown. When he found one he liked he signed up. The next day he went to the gym with Jim. They did some bench pressing but nothing too hard. selected sentence: Jim'd decided on starting over for him.",
+      "output": ""
+    },
+    {
+      "input": "story: John'd heard a noise. There was ice skating on the ice. He didnt know what it was. But then he remembered his friends told him there were slides at the ice. So he went with his friend to the ice. selected sentence:",
+      "output": ""
+    },
+    {
+      "input": "story: Amy rode her bicycle around town on her way home with her friends. She was trying so hard to ride up the sidewalk with all of them! But at the last minute she bumpped one of them - which gave her the idea to get out of their way. Everyone laughed as the woman hit three children in her front yard! Now Amy has learned never again how to ride a bicycle on a sidewalk. selected sentence: She was riding my bike around town doing laundry with me.",
+      "output": ""
+    },
+    {
+      "input": "story: Tim was going to put on new pants. He tried them out before school started. The legs didn't fit him anymore. After he left school his mom drove him home. They got into their old pants. selected sentence: After they left school",
+      "output": ""
+    },
+    {
+      "input": "story: The boy was playing outside in the rainy day. On his way home, the wind started to blow hard. His dad took him in for inspection. It turned out that there was an old tree right next door that had fallen down. He fixed it with some help from his father. selected sentence: On her way back",
+      "output": ""
+    },
+    {
+      "input": "story: Tom went out surfing one day. The water was cold so he took icy breaks. After a while Tom rested on the beach and felt much better! He thought the next day would be even colder. But then Tom got sick of staying out all day. selected sentence: Then Tom got sick off of staying out all day too.",
+      "output": ""
+    },
+    {
+      "input": "story: Tom went out surfing one day. All of a sudden it started hailing really hard. The whole surfboard was on the ground and Brian'd lost his surfboard. He looked everywhere for a while until he finally found one with ice on it. It took him 2 hours but was worth it! selected sentence: Tom went outside surfing one day",
+      "output": ""
+    }
+  ],
+  "Instance License": [
+    "CC BY-NC 4.0"
+  ]
+}
