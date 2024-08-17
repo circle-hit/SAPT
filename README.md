@@ -39,10 +39,11 @@ python score.py your_result_path single_result_path
 ## Citation
 If you find our work useful for your research, please kindly cite our paper as follows:
 ```
-@article{zhao2024sapt,
+@inproceedings{zhao2024sapt,
   title={Sapt: A shared attention framework for parameter-efficient continual learning of large language models},
   author={Zhao, Weixiang and Wang, Shilong and Hu, Yulin and Zhao, Yanyan and Qin, Bing and Zhang, Xuanyu and Yang, Qing and Xu, Dongliang and Che, Wanxiang},
-  journal={arXiv preprint arXiv:2401.08295},
+  booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={11641--11661},
   year={2024}
 }
 ```
