@@ -1,0 +1,8 @@
+{
+  "Ours_CL": [
+    {
+      "sampling strategy": "full",
+      "dataset name": "lookback_task1687_sentiment140_classification"
+    }
+  ]
+}
