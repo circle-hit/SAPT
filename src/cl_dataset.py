@@ -180,7 +180,7 @@ class CLInstructions(datasets.GeneratorBasedBuilder):
         
         return instances
     
-    def load_LongSeq_dataset(self, dataset_path, dataset_name, sampling_strategy, max_num_instances, subset):
+    def load_LongSeq_dataset(self, dataset_path,labels_path, dataset_name, sampling_strategy, max_num_instances, subset):
 
         data = self._load_dataset(dataset_path)
         print(list(data.keys()))
